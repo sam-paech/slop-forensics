@@ -144,6 +144,7 @@ python3 scripts/generate_dataset.py \
 ```
 - **Description**: Prompts each listed model for ~100 outputs.  
 - **Output**: `.jsonl` files in `results/datasets`, named like `generated_x-ai__grok-3-mini-beta.jsonl`, etc.
+- **Tip**: By default we are producing creative writing outputs. If you want to profile slop for a different use case, you can change the dataset and prompts in `slop_forensics/config.py`.
 
 ### 2. Analyze Outputs & Profile Slop
 
