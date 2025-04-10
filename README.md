@@ -16,6 +16,10 @@ Cluster models based on slop profile similarity using parsimony (PHYLIP) or hier
 
 --- 
 
+## Example Notebook
+
+https://colab.research.google.com/drive/1SQfnHs4wh87yR8FZQpsCOBL5h5MMs8E6?usp=sharing
+
 ![Slop Forensics Workflow Overview](./docs/workflow_diagram.png)  
 
 
@@ -52,10 +56,11 @@ Cluster models based on slop profile similarity using parsimony (PHYLIP) or hier
    - Make sure the `pars` and `consense` executables are in your `PATH` or specify `PHYLIP_PATH` in `.env`.
 
 4. **NLTK data** (recommended):  
-   We use `punkt`, `stopwords`, and `cmudict` for parts of the analysis. Download via:
+   We use `punkt`, `punkt_tab`, `stopwords`, and `cmudict` for parts of the analysis. Download via:
    ```python
    import nltk
    nltk.download('punkt')
+   nltk.download('punkt_tab')
    nltk.download('stopwords')
    nltk.download('cmudict')
    ```
@@ -230,12 +235,25 @@ Below is a quick reference to each major script:
 
 ## License
 
-*(Replace this with the license under which you’re distributing your code.)*
+MIT License
 
 ---
 
 ## Contact
 
 For questions or feedback:
-- **Maintainer**: [Your Name](mailto:your_email@example.com)  
-- Or create an [issue in this repo](https://github.com/username/slop-forensics/issues).
+- **Maintainer**: [Sam Paech](https://x.com/sam_paech)
+- Or create an [issue in this repo](https://github.com/sam-paech/slop-forensics/issues).
+
+
+## How to Cite
+
+If you use Slop Forensics in your research or work, please cite it as:
+
+```bibtex
+@software{paech2025slopforensics,
+  author = {Paech, Samuel J},
+  title = {Slop Forensics: A Toolkit for Generating \& Analyzing Lexical Patterns in LLM Outputs},
+  url = {https://github.com/sam-paech/slop-forensics},
+  year = {2025},
+}
