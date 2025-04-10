@@ -247,6 +247,11 @@ def _build_parsimony_tree(
             intree_path = os.path.join(temp_dir, "intree")
             shutil.copy(pars_outtree, intree_path)
 
+            if os.path.exists(os.path.join(temp_dir, "outfile")):
+                os.remove(os.path.join(temp_dir, "outfile"))
+            if os.path.exists(os.path.join(temp_dir, "outtree")):
+                os.remove(os.path.join(temp_dir, "outtree"))
+
             consense_input = "Y\n" # Accept defaults
             consense_result = _run_phylip_command(["consense"], consense_input, env=env, cwd=temp_dir)
 
