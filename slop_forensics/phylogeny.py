@@ -96,8 +96,10 @@ def _render_ete_tree_focus(ete_tree: Tree, focus_model_name: str, output_image: 
 
 
 def _run_phylip_command(command: List[str], input_text: str, env: Optional[Dict] = None, timeout: int = 300, cwd: Optional[str] = None) -> subprocess.CompletedProcess:
-    """Helper to run a PHYLIP command."""
     logger.debug(f"Running PHYLIP command: {' '.join(command)} in {cwd or os.getcwd()}")
+    logger.debug(f"Environment PATH: {env.get('PATH', 'Not set')}")
+    logger.debug(f"Files in working directory before command: {os.listdir(cwd or os.getcwd())}")
+    
     try:
         result = subprocess.run(
             command,
@@ -106,18 +108,20 @@ def _run_phylip_command(command: List[str], input_text: str, env: Optional[Dict]
             capture_output=True,
             env=env,
             timeout=timeout,
-            cwd=cwd, # Run in the specified directory (temp dir)
-            check=False # Don't raise exception on non-zero exit code, check manually
+            cwd=cwd,
+            check=False
         )
-        logger.debug(f"{command[0]} STDOUT (first 500 chars):\n{result.stdout[:500]}...")
+        
+        logger.debug(f"{command[0]} STDOUT FULL:\n{result.stdout}")
         if result.stderr:
-            logger.warning(f"{command[0]} STDERR:\n{result.stderr}")
+            logger.error(f"{command[0]} STDERR FULL:\n{result.stderr}")
+            
+        # Check files after command execution
+        logger.debug(f"Files in working directory after command: {os.listdir(cwd or os.getcwd())}")
+        
         if result.returncode != 0:
-            logger.error(
-                f"PHYLIP command '{command[0]}' failed with exit code {result.returncode}\n"
-                f"STDERR:\n{result.stderr}"
-            )
-
+            logger.error(f"PHYLIP command '{command[0]}' failed with exit code {result.returncode}")
+            
         return result
     except FileNotFoundError:
         logger.error(f"PHYLIP command '{command[0]}' not found. Is PHYLIP installed and in PATH or PHYLIP_PATH?")
