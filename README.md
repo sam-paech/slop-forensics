@@ -176,7 +176,9 @@ python3 scripts/create_slop_lists.py
 
 ### 4. Generate Phylogenetic Trees
 
-Combining stylometric analysis with bioinformatics, we use our generated slop profiles to infer relationships between models purely from their outputs. With the `generate_phylo_trees.py` script, we create a pseudo-phylogenetic tree (via PHYLIP parsimony or hierarchical clustering fallback). The parsimony algorithm is a little different to hierarchical clustering in that it tries to infer lineage from fewest number of mutations. Here we are representing mutations as presence/absence of a given word/phrase in the over-represented list for each model. For more info see the next section.
+Combining **stylometric analysis** with **bioinformatics**, we use our generated slop profiles to infer relationships between models purely from their outputs. With the `generate_phylo_trees.py` script, we create a pseudo-phylogenetic tree (via PHYLIP parsimony or hierarchical clustering fallback).
+
+The parsimony algorithm is a little different to hierarchical clustering in that it tries to infer lineage from **fewest number of mutations.** Here we are representing mutations as presence/absence of a given word/phrase in the over-represented list for each model. For more info see the next section.
 
 ```bash
 python3 scripts/generate_phylo_trees.py
