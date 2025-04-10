@@ -32,9 +32,10 @@ https://colab.research.google.com/drive/1SQfnHs4wh87yR8FZQpsCOBL5h5MMs8E6?usp=sh
    - [2. Analyze Outputs & Profile Slop](#2-analyze-outputs--profile-slop)  
    - [3. Create Slop Lists](#3-create-slop-lists)  
    - [4. Generate Phylogenetic Trees](#4-generate-phylogenetic-trees)  
-5. [Script Descriptions](#script-reference)  
-6. [License](#license)  
-7. [Contact](#contact)
+5. [Script Descriptions](#script-reference)
+6. [Analysis Pipeline Explanation](#analysis-pipeline)
+7. [License](#license)  
+8. [Contact](#contact)
 
 ---
 
@@ -229,6 +230,63 @@ Below is a quick reference to each major script:
    - **Outputs**:  
      - Tree files in `results/phylogeny/` (Newick, Nexus)  
      - PNG visualizations in `results/phylogeny/charts/`
+
+
+Below is a concise overview explaining how each part of the analysis works, from slop profiling and list creation to phylogenetic tree building.
+
+---
+
+## Analysis Pipeline
+
+### 1. Slop Profiling
+
+- **Goal**: Examine each model’s generated outputs to identify **over-represented** words, bigrams, and trigrams (“slop”).  
+- **Process**:  
+  1. **Token & Frequency Analysis**: We count word occurrences per model, filtering out stopwords, numerical tokens, etc.  
+  2. **Slop Scores**: We compute metrics like repetition score, average vocabulary complexity, and a slop index (based on shared “slop lists”) to quantify how often each model uses repetitive patterns.  
+  3. **N-gram Analysis**: We look at bigrams/trigrams for broader repetitive phrases, focusing on those appearing in multiple prompts.  
+
+**Outcome**: Per-model JSON files that summarize word/bigram/trigram usage, repetition scores, and other key metrics.
+
+---
+
+### 2. Slop List Creation
+
+- **Goal**: Combine findings across all models to create reference lists of frequently over-used words and phrases.  
+- **Process**:  
+  1. **Aggregation**: We merge each model’s top words, bigrams, and trigrams.  
+  2. **Filtering**: We remove high-frequency “normal” words (using external frequency data) so the final lists focus on genuinely over-represented (slop) items.  
+  3. **Phrase Extraction**: We also identify multi-word substrings from the original outputs for an additional “slop phrases” list.  
+
+**Outcome**:  
+- `slop_list.json` → Over-represented single words  
+- `slop_list_bigrams.json` / `slop_list_trigrams.json` → Over-represented bigrams & trigrams  
+- `slop_list_phrases.jsonl` → Extended multi-word slop phrases  
+
+---
+
+### 3. Phylogenetic Tree Building
+
+- **Goal**: Visualize how models cluster based on slop usage.  
+- **Process**:  
+  1. **Presence/Absence Vectors**: We take each model’s top slop words/phrases and record a ‘1’ if present or ‘0’ otherwise.  
+  2. **Parsimony (PHYLIP)**: We repurpose a bioinformatics tool (originally for DNA/protein sequences) to build a parsimony tree from these presence/absence patterns. Each model is treated like a “taxon,” and each slop feature is treated like a “mutation.”  
+  3. **Hierarchical Clustering Fallback**: If PHYLIP is unavailable, we perform standard hierarchical clustering (using Jaccard distance) to produce a similar tree.  
+
+**Example PHYLIP input**:
+```
+M0001      010000010001100010000...
+M0002      000100110000010100001...
+```
+
+**Outcome**:  
+- Newick/Nexus trees (`.nwk`, `.nex`)  
+- Circular and rectangular tree charts for each model, highlighting how they branch relative to others.
+
+---
+
+This end-to-end pipeline reveals which lexical patterns each model tends to repeat, aggregates them into global slop lists, and then visually clusters the models based on these patterns.
+
 
 ---
 
