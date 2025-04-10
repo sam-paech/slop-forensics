@@ -253,6 +253,8 @@ We analyze each model’s outputs to find words, phrases, and patterns that are 
 
 **Result**: We produce detailed profiles (saved as JSON files) showing which words and phrases each model repeats most, along with these metrics.
 
+![image](https://github.com/user-attachments/assets/38acad74-75c5-4044-b266-b6c12420c1b8)
+
 ---
 
 ### 2. **Slop List Creation**: Making a Reference of Frequently Over-Used Words
@@ -299,6 +301,8 @@ We infer a lineage tree based on similarity of each model's slop profile.
 
 **Result**:  
 We produce visual tree diagrams (both circular and rectangular), as well as data files (`.nwk` and `.nex`) showing relationships among models based on their repetitive language patterns.
+
+![image](https://github.com/user-attachments/assets/94f50045-a380-480c-a960-7343371a961a)
 
 ---
 
