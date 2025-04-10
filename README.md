@@ -20,8 +20,7 @@ Cluster models based on slop profile similarity using parsimony (PHYLIP) or hier
 
 https://colab.research.google.com/drive/1SQfnHs4wh87yR8FZQpsCOBL5h5MMs8E6?usp=sharing
 
-![Slop Forensics Workflow Overview](./docs/workflow_diagram.png)  
-
+![image](https://github.com/user-attachments/assets/29a81001-a611-4bf9-b472-ff3c4697cb49)
 
 ## Table of Contents
 
