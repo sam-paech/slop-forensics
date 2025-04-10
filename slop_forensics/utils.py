@@ -134,8 +134,6 @@ def sanitize_filename(name: str) -> str:
     sanitized = re.sub(r'[<>:"|?*\\ ]', '-', sanitized)
     # Remove leading/trailing hyphens/underscores
     sanitized = sanitized.strip('-_')
-    # Limit length (optional)
-    # max_len = 100
     # sanitized = sanitized[:max_len]
     return sanitized if sanitized else "invalid_name"
 

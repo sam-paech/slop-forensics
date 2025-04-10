@@ -127,8 +127,6 @@ def analyze_word_rarity(word_counts: TypingCounter[str]) -> Tuple[Dict[str, floa
 
     # Fetch wordfreq data (can be slow for large vocabularies)
     logger.debug(f"Fetching wordfreq data for {len(word_counts)} unique words...")
-    # Consider adding tqdm here if this step is slow in practice
-    # for word in tqdm(word_counts.keys(), desc="Fetching wordfreq", leave=False):
     for word in word_counts.keys():
         try:
             wordfreq_frequencies[word] = word_frequency(word, 'en')
@@ -152,9 +150,6 @@ def analyze_word_rarity(word_counts: TypingCounter[str]) -> Tuple[Dict[str, floa
 
         if len(valid_words) >= 2:
             try:
-                # Use ranks for potentially more robust correlation (Spearman)
-                # correlation = np.corrcoef(corpus_freq_list, wordfreq_freq_list)[0, 1]
-                
                 correlation, _ = spearmanr(corpus_freq_list, wordfreq_freq_list)
                 if np.isnan(correlation): correlation = 0.0 # Handle NaN result from spearmanr
             except Exception as e:

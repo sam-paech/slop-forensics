@@ -7,6 +7,7 @@ import logging
 from typing import Dict, Optional, List, Tuple, Set
 
 import os
+# set this env var so we can render images without a screen
 os.environ["QT_QPA_PLATFORM"] = "offscreen"
 
 import pandas as pd
@@ -217,8 +218,7 @@ def _build_parsimony_tree(
 
         # --- Run 'pars' ---
         logger.info("Running PHYLIP 'pars'...")
-        # Input 'Y\n' accepts defaults (no jumbling, etc.)
-        # Modify if jumbling or other options are needed: e.g., "J\n10\n1\nY\nY\n" for 10 jumbles
+        # Input 'Y\n' accepts defaults (no jumbling, etc.)        
         pars_input = "Y\n"
         pars_result = _run_phylip_command(["pars"], pars_input, env=env, cwd=temp_dir)
 
@@ -240,7 +240,7 @@ def _build_parsimony_tree(
         shutil.copy(pars_outtree, os.path.join(output_dir, "parsimony_outtree_raw"))
         final_tree_path = os.path.join(output_dir, "parsimony_outtree_raw") # Default if no consense
 
-        # --- Optionally run 'consense' ---
+        # --- Run 'consense' to merge multiple discovered trees ---
         if run_consense:
             logger.info("Running PHYLIP 'consense'...")
             # consense expects input tree(s) in 'intree'
@@ -425,6 +425,8 @@ def generate_phylogenetic_trees(
     logger.info("Extracting features (top words/ngrams) for tree building...")
     model_features = {}
     feature_counts = {
+        # the chosen counts of each feature will have an effect
+        # on the resulting inferred tree.
         "word": 1000, #top_n_features // 3,
         "bigram": 200, #top_n_features // 3,
         "trigram": 200, #top_n_features // 3

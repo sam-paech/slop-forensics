@@ -1,13 +1,11 @@
 import nltk
 from nltk.corpus import cmudict
 import string
-import numpy as np
 import logging
 import json
 import re
 import os
-from joblib import Parallel, delayed
-from typing import Dict, Optional, List, Tuple, Set
+from typing import  Set
 
 # Attempt to load NLTK resources, warn if missing
 try:
@@ -24,10 +22,6 @@ except ImportError:
      logging.warning("NLTK not installed. Complexity calculation will be basic.")
      pronunciation_dict = {}
      NLTK_AVAILABLE = False
-
-
-from . import config
-from .utils import load_json_file
 
 logger = logging.getLogger(__name__)
 
@@ -86,9 +80,6 @@ def calculate_complexity_index(text: str) -> float:
 
     complexity_index = (fk_normalized + complex_normalized) / 2
     return round(complexity_index, 4)
-
-
-# --- Slop Index (New Method - based on separate word/ngram lists) ---
 
 # Global cache for slop lists to avoid reloading repeatedly within a script run
 _slop_list_cache = {}
