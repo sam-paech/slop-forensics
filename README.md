@@ -161,7 +161,7 @@ python3 scripts/slop_profile.py
 
 ### 3. Create Slop Lists
 
-Use `create_slop_lists.py` to combine analysis results from multiple models and generate final “slop lists” of suspicious words and phrases.
+Use `create_slop_lists.py` to combine analysis results from multiple models and generate final “slop lists” of over-represented words and phrases.
 
 ```bash
 python3 scripts/create_slop_lists.py
@@ -169,9 +169,9 @@ python3 scripts/create_slop_lists.py
 
 - **Description**: Loads all per-model `.json` files from `results/analysis/`, re-reads the corresponding model `.jsonl` files, and creates aggregated slop lists.  
 - **Outputs**:  
-  - `results/slop_lists/slop_list.json` → top suspicious single words  
-  - `results/slop_lists/slop_list_bigrams.json` → suspicious bigrams  
-  - `results/slop_lists/slop_list_trigrams.json` → suspicious trigrams  
+  - `results/slop_lists/slop_list.json` → top over-represented single words  
+  - `results/slop_lists/slop_list_bigrams.json` → over-represented bigrams  
+  - `results/slop_lists/slop_list_trigrams.json` → over-represented trigrams  
   - `results/slop_lists/slop_list_phrases.jsonl` → top multi-word substrings actually extracted from text
 
 ### 4. Generate Phylogenetic Trees
