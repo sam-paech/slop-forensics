@@ -1,0 +1,12 @@
+requests
+datasets
+tqdm
+python-dotenv
+nltk
+wordfreq
+numpy
+pandas
+scipy
+ete3
+joblib
+PyQt5

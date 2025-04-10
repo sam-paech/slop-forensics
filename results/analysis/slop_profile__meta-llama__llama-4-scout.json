@@ -1,0 +1,7619 @@
+{
+  "model_name": "meta-llama/llama-4-scout",
+  "num_texts_analyzed": 100,
+  "num_unique_prompts": 100,
+  "avg_length": 4928.08,
+  "vocab_complexity": 40.0659,
+  "slop_score": 55.946,
+  "total_unique_words_after_filters": 1482,
+  "avg_corpus_rarity": 3.4022,
+  "avg_wordfreq_rarity": 4.3112,
+  "rarity_correlation": 0.4704,
+  "top_repetitive_words": [
+    {
+      "word": "zorvath",
+      "score": 979561580.0063539,
+      "corpus_freq": 0.0009795615800063538,
+      "wordfreq_freq": 0.0
+    },
+    {
+      "word": "zha'thik",
+      "score": 211797098.3797522,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 0.0
+    },
+    {
+      "word": "elara",
+      "score": 39145.37810520712,
+      "corpus_freq": 0.001006036217303823,
+      "wordfreq_freq": 2.57e-08
+    },
+    {
+      "word": "kaelin",
+      "score": 22540.32587245815,
+      "corpus_freq": 0.0014561050513607963,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "kael",
+      "score": 5933.970428743058,
+      "corpus_freq": 0.001032510854601292,
+      "wordfreq_freq": 1.74e-07
+    },
+    {
+      "word": "elian",
+      "score": 5191.105352444907,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "azrael",
+      "score": 3114.663211466944,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "flickered",
+      "score": 1957.2689052603562,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "stammered",
+      "score": 1928.61596206728,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.51e-07
+    },
+    {
+      "word": "glinting",
+      "score": 1609.9441599812246,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "sparkled",
+      "score": 1583.952658822933,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "unease",
+      "score": 1185.431520782195,
+      "corpus_freq": 0.0007148152070316637,
+      "wordfreq_freq": 6.03e-07
+    },
+    {
+      "word": "nodded",
+      "score": 999.2372832118659,
+      "corpus_freq": 0.0025680398178544953,
+      "wordfreq_freq": 2.57e-06
+    },
+    {
+      "word": "beeped",
+      "score": 934.3989634400833,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "shiver",
+      "score": 874.6085535771016,
+      "corpus_freq": 0.0009795615800063538,
+      "wordfreq_freq": 1.12e-06
+    },
+    {
+      "word": "trepidation",
+      "score": 806.8460890657227,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 5.25e-07
+    },
+    {
+      "word": "chuckled",
+      "score": 709.1420704679202,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 1.12e-06
+    },
+    {
+      "word": "gazed",
+      "score": 704.9459635420747,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 6.76e-07
+    },
+    {
+      "word": "swirled",
+      "score": 678.836853781257,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "eyebrow",
+      "score": 656.2089586552152,
+      "corpus_freq": 0.0015355289632532035,
+      "wordfreq_freq": 2.34e-06
+    },
+    {
+      "word": "sneered",
+      "score": 648.3584644278129,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "quickened",
+      "score": 643.4807676468166,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "dimly",
+      "score": 600.7211056151805,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.17e-07
+    },
+    {
+      "word": "stuttered",
+      "score": 590.512356077376,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.69e-07
+    },
+    {
+      "word": "reeled",
+      "score": 585.4342399931726,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "otherworldly",
+      "score": 573.8721957543863,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "glances",
+      "score": 553.5605980379887,
+      "corpus_freq": 0.0006089166578417876,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "glint",
+      "score": 533.0463885396448,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "unreadable",
+      "score": 507.906710742811,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.17e-07
+    },
+    {
+      "word": "darting",
+      "score": 497.43577385641174,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.79e-07
+    },
+    {
+      "word": "snorted",
+      "score": 486.1162215636968,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "suitor",
+      "score": 471.27626602824444,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "hesitated",
+      "score": 463.3061527057079,
+      "corpus_freq": 0.0005559673832468495,
+      "wordfreq_freq": 1.2e-06
+    },
+    {
+      "word": "whiskers",
+      "score": 433.5662198152553,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "lingered",
+      "score": 433.4638348452107,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "glanced",
+      "score": 429.31844266165984,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 1.48e-06
+    },
+    {
+      "word": "lyra",
+      "score": 411.32911055389724,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "nonchalant",
+      "score": 385.08563341773123,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "grinned",
+      "score": 357.28255462171427,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 7.41e-07
+    },
+    {
+      "word": "muttered",
+      "score": 352.4729817710373,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.76e-07
+    },
+    {
+      "word": "hourglass",
+      "score": 350.02525273096063,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "shrugged",
+      "score": 346.3971235182863,
+      "corpus_freq": 0.0007412898443291327,
+      "wordfreq_freq": 2.14e-06
+    },
+    {
+      "word": "whispered",
+      "score": 327.3227884050716,
+      "corpus_freq": 0.0009001376681139468,
+      "wordfreq_freq": 2.75e-06
+    },
+    {
+      "word": "scribbled",
+      "score": 322.2999323170142,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 5.75e-07
+    },
+    {
+      "word": "cobwebs",
+      "score": 309.64488067215234,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 5.13e-07
+    },
+    {
+      "word": "newfound",
+      "score": 306.9523164923945,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 1.38e-06
+    },
+    {
+      "word": "stared",
+      "score": 305.9882702722551,
+      "corpus_freq": 0.0012178333156835752,
+      "wordfreq_freq": 3.98e-06
+    },
+    {
+      "word": "leaned",
+      "score": 288.4396281436314,
+      "corpus_freq": 0.0007412898443291327,
+      "wordfreq_freq": 2.57e-06
+    },
+    {
+      "word": "pang",
+      "score": 287.3216450888111,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "smiled",
+      "score": 285.2239929837823,
+      "corpus_freq": 0.002065021709202584,
+      "wordfreq_freq": 7.24e-06
+    },
+    {
+      "word": "flicker",
+      "score": 273.1510197357915,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "ortega",
+      "score": 272.16916847865355,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.07e-06
+    },
+    {
+      "word": "navigated",
+      "score": 257.4519024065059,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 6.17e-07
+    },
+    {
+      "word": "bustling",
+      "score": 255.6171876997009,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "jolt",
+      "score": 252.13940283303836,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "flickering",
+      "score": 243.8809986460811,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "burly",
+      "score": 240.31440814646618,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 6.61e-07
+    },
+    {
+      "word": "gaze",
+      "score": 237.79614339044033,
+      "corpus_freq": 0.0011913586783861062,
+      "wordfreq_freq": 5.01e-06
+    },
+    {
+      "word": "desolate",
+      "score": 232.54748977506577,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 1.48e-06
+    },
+    {
+      "word": "flicked",
+      "score": 227.9489066202745,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "multiverse",
+      "score": 224.3613330293985,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "murmur",
+      "score": 222.74334264697495,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "laced",
+      "score": 217.22779321000223,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 1.95e-06
+    },
+    {
+      "word": "reeling",
+      "score": 215.24095363795954,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 1.23e-06
+    },
+    {
+      "word": "somber",
+      "score": 212.7426211403761,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.12e-06
+    },
+    {
+      "word": "mischievous",
+      "score": 206.53972359727607,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "intently",
+      "score": 198.6307192736154,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 9.33e-07
+    },
+    {
+      "word": "shimmer",
+      "score": 194.0549330704536,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "aback",
+      "score": 189.68522116917418,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "etched",
+      "score": 189.10455212477876,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 1.82e-06
+    },
+    {
+      "word": "widened",
+      "score": 189.10455212477873,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 2.24e-06
+    },
+    {
+      "word": "blinked",
+      "score": 185.32246108228318,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "whisper",
+      "score": 182.91567587342237,
+      "corpus_freq": 0.001006036217303823,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "huddled",
+      "score": 176.49758198312685,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "curiosity",
+      "score": 164.5797388267099,
+      "corpus_freq": 0.0015355289632532035,
+      "wordfreq_freq": 9.33e-06
+    },
+    {
+      "word": "scanning",
+      "score": 161.36921781314453,
+      "corpus_freq": 0.0008471883935190087,
+      "wordfreq_freq": 5.25e-06
+    },
+    {
+      "word": "vibrate",
+      "score": 161.1499661585071,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "exchanged",
+      "score": 158.84782378481415,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "dripping",
+      "score": 157.79585144186836,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "trembling",
+      "score": 156.57043563019315,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "lifeless",
+      "score": 155.7331605733472,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 1.7e-06
+    },
+    {
+      "word": "comms",
+      "score": 154.43538423523597,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.2e-06
+    },
+    {
+      "word": "aria",
+      "score": 151.283641699823,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 2.45e-06
+    },
+    {
+      "word": "emily",
+      "score": 145.8023503338874,
+      "corpus_freq": 0.002012072434607646,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "glimmer",
+      "score": 143.66082254440556,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "piercing",
+      "score": 142.33675966381196,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 3.72e-06
+    },
+    {
+      "word": "makeshift",
+      "score": 140.26297905943855,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.51e-06
+    },
+    {
+      "word": "spine",
+      "score": 139.99514434619346,
+      "corpus_freq": 0.0011913586783861062,
+      "wordfreq_freq": 8.51e-06
+    },
+    {
+      "word": "ticked",
+      "score": 138.12854242157752,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "grin",
+      "score": 136.11638713351684,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 3.89e-06
+    },
+    {
+      "word": "unsettling",
+      "score": 135.7673707562514,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 1.95e-06
+    },
+    {
+      "word": "intrigued",
+      "score": 134.6167998176391,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 2.95e-06
+    },
+    {
+      "word": "drifted",
+      "score": 133.91839878097173,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.57e-06
+    },
+    {
+      "word": "scanned",
+      "score": 132.76366786341399,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 3.39e-06
+    },
+    {
+      "word": "sipping",
+      "score": 132.37318648734512,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2e-06
+    },
+    {
+      "word": "tinged",
+      "score": 132.37318648734512,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.2e-06
+    },
+    {
+      "word": "erupted",
+      "score": 129.67169288556258,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 2.45e-06
+    },
+    {
+      "word": "blur",
+      "score": 126.77995325548547,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 3.55e-06
+    },
+    {
+      "word": "bewildered",
+      "score": 126.06970141651917,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "echoing",
+      "score": 124.45342319323045,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.34e-06
+    },
+    {
+      "word": "warden",
+      "score": 124.00298499985493,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 4.27e-06
+    },
+    {
+      "word": "eerie",
+      "score": 123.71325839938798,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.14e-06
+    },
+    {
+      "word": "sprawling",
+      "score": 119.56287811760204,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.55e-06
+    },
+    {
+      "word": "narrowed",
+      "score": 118.10247121547519,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 2.69e-06
+    },
+    {
+      "word": "unsure",
+      "score": 117.76973886774475,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 5.62e-06
+    },
+    {
+      "word": "sighed",
+      "score": 117.66505465541789,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "sparkling",
+      "score": 116.69261618719129,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 3.63e-06
+    },
+    {
+      "word": "swung",
+      "score": 116.66789317528723,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.95e-06
+    },
+    {
+      "word": "echoed",
+      "score": 116.02430688133833,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.51e-06
+    },
+    {
+      "word": "glow",
+      "score": 113.97445331013725,
+      "corpus_freq": 0.0009266123054114158,
+      "wordfreq_freq": 8.13e-06
+    },
+    {
+      "word": "fascination",
+      "score": 113.96367048579383,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "whispering",
+      "score": 113.31556819928376,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.57e-06
+    },
+    {
+      "word": "cramped",
+      "score": 110.88853318311634,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.91e-06
+    },
+    {
+      "word": "wandered",
+      "score": 110.31098873945427,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 2.88e-06
+    },
+    {
+      "word": "stumbled",
+      "score": 110.06960802011191,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "cryptic",
+      "score": 109.01321240134304,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.7e-06
+    },
+    {
+      "word": "sleek",
+      "score": 108.79987930466721,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "excitement",
+      "score": 104.19050807391035,
+      "corpus_freq": 0.0016149528751456105,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "narrowing",
+      "score": 104.11374218105796,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.78e-06
+    },
+    {
+      "word": "afterlife",
+      "score": 104.04879287214901,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.29e-06
+    },
+    {
+      "word": "shook",
+      "score": 101.64369676706858,
+      "corpus_freq": 0.001138409403791168,
+      "wordfreq_freq": 1.12e-05
+    },
+    {
+      "word": "fleeting",
+      "score": 101.33832458361348,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "sensed",
+      "score": 101.33832458361348,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "whispers",
+      "score": 99.63573176466836,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 3.72e-06
+    },
+    {
+      "word": "kiddo",
+      "score": 95.69146011133383,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "seemed",
+      "score": 95.3247152314316,
+      "corpus_freq": 0.006300963676797628,
+      "wordfreq_freq": 6.61e-05
+    },
+    {
+      "word": "husky",
+      "score": 95.03715952937598,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.95e-06
+    },
+    {
+      "word": "skepticism",
+      "score": 94.92897835745866,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.51e-06
+    },
+    {
+      "word": "ponder",
+      "score": 94.55227606238937,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.24e-06
+    },
+    {
+      "word": "humming",
+      "score": 93.43989634400832,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.7e-06
+    },
+    {
+      "word": "mischief",
+      "score": 92.48781588635467,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.29e-06
+    },
+    {
+      "word": "accustomed",
+      "score": 90.87404106682733,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 4.37e-06
+    },
+    {
+      "word": "oblivious",
+      "score": 90.84434366778586,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "mundane",
+      "score": 88.57685341160641,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.69e-06
+    },
+    {
+      "word": "mortal",
+      "score": 87.76122861039455,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 7.24e-06
+    },
+    {
+      "word": "anticipation",
+      "score": 86.64426751898954,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "stood",
+      "score": 86.11373959660624,
+      "corpus_freq": 0.003203431112993752,
+      "wordfreq_freq": 3.72e-05
+    },
+    {
+      "word": "raven",
+      "score": 85.81730080216863,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 6.17e-06
+    },
+    {
+      "word": "elijah",
+      "score": 83.925363190824,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 3.47e-06
+    },
+    {
+      "word": "stung",
+      "score": 83.16639988733725,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.91e-06
+    },
+    {
+      "word": "emma",
+      "score": 82.53857510387402,
+      "corpus_freq": 0.0014031557767658583,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "sophia",
+      "score": 79.26538113014678,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 5.01e-06
+    },
+    {
+      "word": "exchanging",
+      "score": 79.19763294114665,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.34e-06
+    },
+    {
+      "word": "cheered",
+      "score": 77.21769211761799,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.4e-06
+    },
+    {
+      "word": "antics",
+      "score": 77.21769211761799,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.4e-06
+    },
+    {
+      "word": "patel",
+      "score": 77.11059407029813,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 3.09e-06
+    },
+    {
+      "word": "ledger",
+      "score": 77.11059407029813,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 3.09e-06
+    },
+    {
+      "word": "glowing",
+      "score": 75.37263287535664,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 5.62e-06
+    },
+    {
+      "word": "oppressive",
+      "score": 75.10535403537311,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.82e-06
+    },
+    {
+      "word": "approached",
+      "score": 73.03348219991456,
+      "corpus_freq": 0.001058985491898761,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "lingering",
+      "score": 68.89310820902719,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.69e-06
+    },
+    {
+      "word": "dipped",
+      "score": 68.66620624703782,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 3.47e-06
+    },
+    {
+      "word": "radiant",
+      "score": 68.54275028470944,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.09e-06
+    },
+    {
+      "word": "surge",
+      "score": 68.08908230816542,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "slender",
+      "score": 68.05819356675842,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 3.89e-06
+    },
+    {
+      "word": "creeping",
+      "score": 67.11879878231584,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 3.55e-06
+    },
+    {
+      "word": "shadows",
+      "score": 66.7621288370958,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "sadness",
+      "score": 66.27379560631245,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 7.59e-06
+    },
+    {
+      "word": "faint",
+      "score": 65.85730671012196,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 6.03e-06
+    },
+    {
+      "word": "crafted",
+      "score": 65.15011415484547,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.47e-06
+    },
+    {
+      "word": "faded",
+      "score": 64.09130072012985,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 5.37e-06
+    },
+    {
+      "word": "greeted",
+      "score": 63.724509906380575,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "walked",
+      "score": 63.358106352917325,
+      "corpus_freq": 0.0029651593773165306,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "sensation",
+      "score": 63.35240663122311,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 7.94e-06
+    },
+    {
+      "word": "breath",
+      "score": 62.38736281578804,
+      "corpus_freq": 0.002065021709202584,
+      "wordfreq_freq": 3.31e-05
+    },
+    {
+      "word": "peculiar",
+      "score": 62.226711596615225,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "dusty",
+      "score": 62.226711596615225,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "casting",
+      "score": 61.961917079182825,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 1.41e-05
+    },
+    {
+      "word": "aliens",
+      "score": 61.856629199693984,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 1.07e-05
+    },
+    {
+      "word": "mixture",
+      "score": 61.36505333850436,
+      "corpus_freq": 0.0009266123054114158,
+      "wordfreq_freq": 1.51e-05
+    },
+    {
+      "word": "inmate",
+      "score": 61.03662777514472,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.47e-06
+    },
+    {
+      "word": "sensing",
+      "score": 60.58269404455155,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.37e-06
+    },
+    {
+      "word": "stepped",
+      "score": 60.32195839929651,
+      "corpus_freq": 0.0009530869427088849,
+      "wordfreq_freq": 1.58e-05
+    },
+    {
+      "word": "intricate",
+      "score": 59.66115447316963,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.55e-06
+    },
+    {
+      "word": "eyes",
+      "score": 58.832527327708945,
+      "corpus_freq": 0.00953086942708885,
+      "wordfreq_freq": 0.000162
+    },
+    {
+      "word": "eternity",
+      "score": 58.73929035888531,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.31e-06
+    },
+    {
+      "word": "warmth",
+      "score": 58.73929035888531,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.31e-06
+    },
+    {
+      "word": "scar",
+      "score": 58.43298554619649,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 5.89e-06
+    },
+    {
+      "word": "realm",
+      "score": 57.553559342323965,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "glimpse",
+      "score": 57.37537494807528,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.46e-06
+    },
+    {
+      "word": "pounding",
+      "score": 56.93470386552478,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.72e-06
+    },
+    {
+      "word": "unfold",
+      "score": 56.32901552652984,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.82e-06
+    },
+    {
+      "word": "scrambled",
+      "score": 56.32901552652984,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.82e-06
+    },
+    {
+      "word": "typed",
+      "score": 55.98865893724567,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.31e-06
+    },
+    {
+      "word": "thrill",
+      "score": 55.47066862326843,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 5.25e-06
+    },
+    {
+      "word": "gentle",
+      "score": 55.45363217713106,
+      "corpus_freq": 0.0008207137562215397,
+      "wordfreq_freq": 1.48e-05
+    },
+    {
+      "word": "operatives",
+      "score": 55.15549436972714,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.88e-06
+    },
+    {
+      "word": "impending",
+      "score": 54.66739264964105,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.39e-06
+    },
+    {
+      "word": "horizon",
+      "score": 54.306948302500565,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "hint",
+      "score": 54.306948302500565,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "blurred",
+      "score": 53.84671992705564,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.95e-06
+    },
+    {
+      "word": "restless",
+      "score": 53.215351351696526,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.98e-06
+    },
+    {
+      "word": "fascinated",
+      "score": 53.215351351696526,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.98e-06
+    },
+    {
+      "word": "shaking",
+      "score": 52.949274594938046,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "amusement",
+      "score": 52.949274594938046,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "uncover",
+      "score": 52.59861714728945,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "desperation",
+      "score": 52.20351016402343,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.55e-06
+    },
+    {
+      "word": "scent",
+      "score": 52.06812176506767,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "voice",
+      "score": 51.365321936115116,
+      "corpus_freq": 0.006009742666525469,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "outskirts",
+      "score": 51.05301958189619,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.63e-06
+    },
+    {
+      "word": "shake",
+      "score": 50.72243594374907,
+      "corpus_freq": 0.00108546012919623,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "longing",
+      "score": 50.268298666080426,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "reminder",
+      "score": 50.14135851793375,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 1.32e-05
+    },
+    {
+      "word": "glance",
+      "score": 48.84619427577311,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 8.13e-06
+    },
+    {
+      "word": "maze",
+      "score": 47.381901203523974,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.47e-06
+    },
+    {
+      "word": "disappearing",
+      "score": 46.563432432734466,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.98e-06
+    },
+    {
+      "word": "countless",
+      "score": 46.44673210082284,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 9.12e-06
+    },
+    {
+      "word": "skipped",
+      "score": 46.34509811373133,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "darkness",
+      "score": 46.33061527057079,
+      "corpus_freq": 0.0009266123054114158,
+      "wordfreq_freq": 2e-05
+    },
+    {
+      "word": "realized",
+      "score": 46.279571625395725,
+      "corpus_freq": 0.0018002753362278937,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "weaving",
+      "score": 45.77747083135855,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.47e-06
+    },
+    {
+      "word": "laughed",
+      "score": 45.6459263749466,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 1.74e-05
+    },
+    {
+      "word": "vanished",
+      "score": 45.3850925099469,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 5.25e-06
+    },
+    {
+      "word": "sarcasm",
+      "score": 44.441837189995965,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.17e-06
+    },
+    {
+      "word": "unpredictable",
+      "score": 44.21651323168104,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "displaying",
+      "score": 44.21651323168104,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "amidst",
+      "score": 43.759731070196736,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.63e-06
+    },
+    {
+      "word": "spark",
+      "score": 43.35662198152553,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 9.77e-06
+    },
+    {
+      "word": "rubbed",
+      "score": 42.70102789914359,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.72e-06
+    },
+    {
+      "word": "calculating",
+      "score": 42.70102789914359,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.72e-06
+    },
+    {
+      "word": "comprehend",
+      "score": 42.274869936078275,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 5.01e-06
+    },
+    {
+      "word": "smile",
+      "score": 41.80205889074057,
+      "corpus_freq": 0.0018267499735253627,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "goddess",
+      "score": 41.52884281955925,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "scars",
+      "score": 41.43856272647326,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 5.75e-06
+    },
+    {
+      "word": "felt",
+      "score": 40.79055228054487,
+      "corpus_freq": 0.005506724557873557,
+      "wordfreq_freq": 0.000135
+    },
+    {
+      "word": "immortal",
+      "score": 40.45360537813603,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 5.89e-06
+    },
+    {
+      "word": "curly",
+      "score": 39.9115135137724,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.98e-06
+    },
+    {
+      "word": "chaos",
+      "score": 39.854292705867344,
+      "corpus_freq": 0.0007412898443291327,
+      "wordfreq_freq": 1.86e-05
+    },
+    {
+      "word": "fabric",
+      "score": 39.71195594620354,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "unseen",
+      "score": 39.02894933287817,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.07e-06
+    },
+    {
+      "word": "rumors",
+      "score": 38.9332901433368,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "danced",
+      "score": 38.689449077720916,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "navigate",
+      "score": 38.689449077720916,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "inmates",
+      "score": 38.25814638362576,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 6.92e-06
+    },
+    {
+      "word": "who'd",
+      "score": 37.200895499956474,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.27e-06
+    },
+    {
+      "word": "sank",
+      "score": 36.990511194068496,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 5.01e-06
+    },
+    {
+      "word": "sunlight",
+      "score": 36.5671785876644,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 7.24e-06
+    },
+    {
+      "word": "staring",
+      "score": 36.45058758347185,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "strange",
+      "score": 36.349616426730925,
+      "corpus_freq": 0.0015884782378481415,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "swallowed",
+      "score": 36.349616426730925,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.37e-06
+    },
+    {
+      "word": "dread",
+      "score": 36.349616426730925,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.37e-06
+    },
+    {
+      "word": "louder",
+      "score": 36.04716122196993,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "poured",
+      "score": 36.04716122196993,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "barely",
+      "score": 35.98494389947246,
+      "corpus_freq": 0.001111934766493699,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "deception",
+      "score": 35.53642590264298,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.47e-06
+    },
+    {
+      "word": "ritual",
+      "score": 35.299516396625364,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.05e-05
+    },
+    {
+      "word": "she'd",
+      "score": 35.06574476485964,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 1.51e-05
+    },
+    {
+      "word": "expression",
+      "score": 35.050928252987156,
+      "corpus_freq": 0.0012443079529810442,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "possibilities",
+      "score": 34.88905690364135,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 1.29e-05
+    },
+    {
+      "word": "veil",
+      "score": 34.7588235852985,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "jenkins",
+      "score": 34.432331745263184,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.92e-06
+    },
+    {
+      "word": "frozen",
+      "score": 34.20168454696955,
+      "corpus_freq": 0.0007148152070316637,
+      "wordfreq_freq": 2.09e-05
+    },
+    {
+      "word": "spun",
+      "score": 33.94184268906285,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "mist",
+      "score": 33.94184268906285,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "descended",
+      "score": 33.69499292405148,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "twisted",
+      "score": 33.2665599549349,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 9.55e-06
+    },
+    {
+      "word": "racing",
+      "score": 32.67439413295228,
+      "corpus_freq": 0.001032510854601292,
+      "wordfreq_freq": 3.16e-05
+    },
+    {
+      "word": "alien",
+      "score": 32.58416898150034,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 1.95e-05
+    },
+    {
+      "word": "looked",
+      "score": 32.426299945737256,
+      "corpus_freq": 0.004182992693000106,
+      "wordfreq_freq": 0.000129
+    },
+    {
+      "word": "footsteps",
+      "score": 32.417923221390645,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.9e-06
+    },
+    {
+      "word": "intriguing",
+      "score": 32.417923221390645,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.9e-06
+    },
+    {
+      "word": "polished",
+      "score": 32.22999323170142,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 5.75e-06
+    },
+    {
+      "word": "began",
+      "score": 31.452774225198244,
+      "corpus_freq": 0.0036799745843481943,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "winding",
+      "score": 30.964488067215232,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 5.13e-06
+    },
+    {
+      "word": "grandma",
+      "score": 30.784461973801193,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 1.29e-05
+    },
+    {
+      "word": "couldn't",
+      "score": 30.779456370228214,
+      "corpus_freq": 0.0037858731335380707,
+      "wordfreq_freq": 0.000123
+    },
+    {
+      "word": "wash",
+      "score": 30.335521903349928,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "hallway",
+      "score": 30.2567283399646,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 5.25e-06
+    },
+    {
+      "word": "landscape",
+      "score": 30.058540163065267,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "feeling",
+      "score": 30.00458893713156,
+      "corpus_freq": 0.004050619506512761,
+      "wordfreq_freq": 0.000135
+    },
+    {
+      "word": "mysteries",
+      "score": 29.580600332367624,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 5.37e-06
+    },
+    {
+      "word": "breeze",
+      "score": 29.253742870131518,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 7.24e-06
+    },
+    {
+      "word": "fragile",
+      "score": 29.253742870131518,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 7.24e-06
+    },
+    {
+      "word": "beings",
+      "score": 29.03669897141764,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "pale",
+      "score": 28.68085707225811,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "gratitude",
+      "score": 28.63842976889678,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 8.32e-06
+    },
+    {
+      "word": "haunted",
+      "score": 28.582604369737137,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 7.41e-06
+    },
+    {
+      "word": "locked",
+      "score": 28.541430543739843,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "observing",
+      "score": 28.264737328258743,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 5.62e-06
+    },
+    {
+      "word": "whoa",
+      "score": 28.036680950421054,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "infinity",
+      "score": 28.036680950421054,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "alex",
+      "score": 27.934869090854605,
+      "corpus_freq": 0.001164884041088637,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "crowded",
+      "score": 27.722133295779084,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 9.55e-06
+    },
+    {
+      "word": "shining",
+      "score": 27.722133295779084,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 9.55e-06
+    },
+    {
+      "word": "shifting",
+      "score": 27.722133295779084,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 9.55e-06
+    },
+    {
+      "word": "veins",
+      "score": 27.625708484315503,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 5.75e-06
+    },
+    {
+      "word": "silence",
+      "score": 27.57774718486357,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "guilt",
+      "score": 27.455179419597506,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.35e-05
+    },
+    {
+      "word": "punched",
+      "score": 27.41456524885846,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 6.76e-06
+    },
+    {
+      "word": "chapter",
+      "score": 27.24459319202629,
+      "corpus_freq": 0.0012178333156835752,
+      "wordfreq_freq": 4.47e-05
+    },
+    {
+      "word": "grabbed",
+      "score": 27.153474151250283,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "chatting",
+      "score": 26.969070252090685,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 5.89e-06
+    },
+    {
+      "word": "sticks",
+      "score": 26.858327693084515,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "sights",
+      "score": 26.78070246853803,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 6.92e-06
+    },
+    {
+      "word": "consumed",
+      "score": 26.742057876231343,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 8.91e-06
+    },
+    {
+      "word": "penguin",
+      "score": 26.34292268404878,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 6.03e-06
+    },
+    {
+      "word": "replied",
+      "score": 26.33602663099013,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "sense",
+      "score": 26.303833185872453,
+      "corpus_freq": 0.00407709414381023,
+      "wordfreq_freq": 0.000155
+    },
+    {
+      "word": "creatures",
+      "score": 26.147789923426195,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "rode",
+      "score": 26.051303613745656,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 8.13e-06
+    },
+    {
+      "word": "steady",
+      "score": 25.955526762224533,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "wore",
+      "score": 25.79580044368777,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 1.95e-05
+    },
+    {
+      "word": "raised",
+      "score": 25.632958077029258,
+      "corpus_freq": 0.0017738006989304247,
+      "wordfreq_freq": 6.92e-05
+    },
+    {
+      "word": "armor",
+      "score": 25.538235335179124,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 9.33e-06
+    },
+    {
+      "word": "cracking",
+      "score": 25.45638201679714,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 8.32e-06
+    },
+    {
+      "word": "searching",
+      "score": 25.43414936874753,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "sarah",
+      "score": 25.42266495452324,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 3.02e-05
+    },
+    {
+      "word": "mysterious",
+      "score": 25.043575821930155,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.48e-05
+    },
+    {
+      "word": "couch",
+      "score": 25.043575821930155,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.48e-05
+    },
+    {
+      "word": "thick",
+      "score": 24.819972466377212,
+      "corpus_freq": 0.0007148152070316637,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "waited",
+      "score": 24.72905681631722,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 1.82e-05
+    },
+    {
+      "word": "doom",
+      "score": 24.58944640631798,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 6.46e-06
+    },
+    {
+      "word": "hung",
+      "score": 24.51355305321206,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "faces",
+      "score": 24.500949684033035,
+      "corpus_freq": 0.0009530869427088849,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "overwhelmed",
+      "score": 24.41666153916774,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 7.59e-06
+    },
+    {
+      "word": "rachel",
+      "score": 24.409240061496263,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 1.41e-05
+    },
+    {
+      "word": "bread",
+      "score": 24.296344355272208,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 3.16e-05
+    },
+    {
+      "word": "gently",
+      "score": 24.268417522679936,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "gathered",
+      "score": 24.19724914284803,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 1.86e-05
+    },
+    {
+      "word": "distant",
+      "score": 23.912575623520407,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "turned",
+      "score": 23.891745853813507,
+      "corpus_freq": 0.0029386847400190617,
+      "wordfreq_freq": 0.000123
+    },
+    {
+      "word": "pause",
+      "score": 23.82717356772212,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1e-05
+    },
+    {
+      "word": "repeated",
+      "score": 23.56381330141222,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "delicate",
+      "score": 23.35997408600208,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "secrets",
+      "score": 23.35997408600208,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "sworn",
+      "score": 23.34036033781904,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 7.94e-06
+    },
+    {
+      "word": "crowd",
+      "score": 23.251178464843054,
+      "corpus_freq": 0.001164884041088637,
+      "wordfreq_freq": 5.01e-05
+    },
+    {
+      "word": "gods",
+      "score": 23.20486137626767,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 2.51e-05
+    },
+    {
+      "word": "laughter",
+      "score": 23.112778593028512,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.26e-05
+    },
+    {
+      "word": "guards",
+      "score": 22.801123031313036,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 2.09e-05
+    },
+    {
+      "word": "spoke",
+      "score": 22.766887110845598,
+      "corpus_freq": 0.0009266123054114158,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "deep",
+      "score": 22.69254625497345,
+      "corpus_freq": 0.0025415651805570263,
+      "wordfreq_freq": 0.000112
+    },
+    {
+      "word": "burst",
+      "score": 22.531606210611933,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 1.41e-05
+    },
+    {
+      "word": "threads",
+      "score": 22.43613330293985,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 7.08e-06
+    },
+    {
+      "word": "jack",
+      "score": 22.429344760336846,
+      "corpus_freq": 0.0014825796886582653,
+      "wordfreq_freq": 6.61e-05
+    },
+    {
+      "word": "eager",
+      "score": 22.268386511889837,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.07e-05
+    },
+    {
+      "word": "confusion",
+      "score": 22.204534507554666,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "shifted",
+      "score": 22.177706636623267,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 9.55e-06
+    },
+    {
+      "word": "emerged",
+      "score": 21.910044659974364,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "determination",
+      "score": 21.910044659974364,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "darker",
+      "score": 21.77702245385231,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 8.51e-06
+    },
+    {
+      "word": "marcus",
+      "score": 21.524095363795954,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 1.23e-05
+    },
+    {
+      "word": "unaware",
+      "score": 21.43695327730285,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 7.41e-06
+    },
+    {
+      "word": "knew",
+      "score": 21.28024643530738,
+      "corpus_freq": 0.003362278936778566,
+      "wordfreq_freq": 0.000158
+    },
+    {
+      "word": "dash",
+      "score": 21.179709837975217,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1e-05
+    },
+    {
+      "word": "kindness",
+      "score": 21.179709837975217,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1e-05
+    },
+    {
+      "word": "existence",
+      "score": 20.88140406560937,
+      "corpus_freq": 0.0007412898443291327,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "familiar",
+      "score": 20.81543964420169,
+      "corpus_freq": 0.0008471883935190087,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "tension",
+      "score": 20.733149690788995,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 1.66e-05
+    },
+    {
+      "word": "blessing",
+      "score": 20.71928136323663,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "password",
+      "score": 20.71928136323663,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "mirror",
+      "score": 20.641242638704664,
+      "corpus_freq": 0.0006089166578417876,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "spreading",
+      "score": 20.49649339158892,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "imagined",
+      "score": 20.365105613437713,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "streets",
+      "score": 20.275980424757456,
+      "corpus_freq": 0.0009266123054114158,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "humanity",
+      "score": 20.267664916722698,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 2.09e-05
+    },
+    {
+      "word": "watched",
+      "score": 20.171152226643066,
+      "corpus_freq": 0.001058985491898761,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "stern",
+      "score": 20.006023146702034,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 7.94e-06
+    },
+    {
+      "word": "lungs",
+      "score": 19.86307192736154,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 9.33e-06
+    },
+    {
+      "word": "noticed",
+      "score": 19.840477599976786,
+      "corpus_freq": 0.0008471883935190087,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "calm",
+      "score": 19.836904026922035,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "uncertainty",
+      "score": 19.794121343902074,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.07e-05
+    },
+    {
+      "word": "surrounded",
+      "score": 19.653660875850367,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "stare",
+      "score": 19.53847771030924,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 8.13e-06
+    },
+    {
+      "word": "fury",
+      "score": 19.53847771030924,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 8.13e-06
+    },
+    {
+      "word": "grew",
+      "score": 19.450753932834388,
+      "corpus_freq": 0.0009530869427088849,
+      "wordfreq_freq": 4.9e-05
+    },
+    {
+      "word": "recalled",
+      "score": 19.405493307045358,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 9.55e-06
+    },
+    {
+      "word": "stranger",
+      "score": 19.405493307045358,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "tall",
+      "score": 19.196111635627087,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 3.31e-05
+    },
+    {
+      "word": "senses",
+      "score": 19.092286512597855,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 8.32e-06
+    },
+    {
+      "word": "careful",
+      "score": 19.056294198692356,
+      "corpus_freq": 0.0007412898443291327,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "implications",
+      "score": 18.910455212477878,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.26e-05
+    },
+    {
+      "word": "worn",
+      "score": 18.910455212477878,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 1.82e-05
+    },
+    {
+      "word": "tone",
+      "score": 18.8492563282951,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "presence",
+      "score": 18.7343802104995,
+      "corpus_freq": 0.001006036217303823,
+      "wordfreq_freq": 5.37e-05
+    },
+    {
+      "word": "battlefield",
+      "score": 18.666019246159124,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 8.51e-06
+    },
+    {
+      "word": "kindly",
+      "score": 18.532246108228314,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1e-05
+    },
+    {
+      "word": "ears",
+      "score": 18.497563177270933,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "throne",
+      "score": 18.470677184280717,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.29e-05
+    },
+    {
+      "word": "wrap",
+      "score": 18.43170951089615,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.58e-05
+    },
+    {
+      "word": "smartphone",
+      "score": 18.41713898954367,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "observe",
+      "score": 18.41713898954367,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "universe",
+      "score": 18.375712263024774,
+      "corpus_freq": 0.0007148152070316637,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "beneath",
+      "score": 18.25837054997864,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 1.74e-05
+    },
+    {
+      "word": "symbol",
+      "score": 18.168868733557172,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "disappointment",
+      "score": 18.168868733557172,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "sheer",
+      "score": 18.168868733557172,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "ease",
+      "score": 18.133313217444538,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 2.19e-05
+    },
+    {
+      "word": "emotions",
+      "score": 18.10231610083352,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 2.34e-05
+    },
+    {
+      "word": "beard",
+      "score": 18.10231610083352,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "cookie",
+      "score": 18.10231610083352,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "basket",
+      "score": 18.10231610083352,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "onto",
+      "score": 17.97938016806046,
+      "corpus_freq": 0.001058985491898761,
+      "wordfreq_freq": 5.89e-05
+    },
+    {
+      "word": "forming",
+      "score": 17.97660557235551,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "filled",
+      "score": 17.96681972283327,
+      "corpus_freq": 0.0009001376681139468,
+      "wordfreq_freq": 5.01e-05
+    },
+    {
+      "word": "blend",
+      "score": 17.828038584154225,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 8.91e-06
+    },
+    {
+      "word": "lips",
+      "score": 17.728551761698007,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 2.24e-05
+    },
+    {
+      "word": "enthusiasm",
+      "score": 17.649758198312682,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.05e-05
+    },
+    {
+      "word": "warn",
+      "score": 17.649758198312682,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.05e-05
+    },
+    {
+      "word": "goat",
+      "score": 17.649758198312682,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.05e-05
+    },
+    {
+      "word": "fixed",
+      "score": 17.43838384863229,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 5.01e-05
+    },
+    {
+      "word": "dressed",
+      "score": 17.112883424219522,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "beside",
+      "score": 17.080411159657434,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "warm",
+      "score": 17.03046843696838,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 5.13e-05
+    },
+    {
+      "word": "revealing",
+      "score": 17.02549022345275,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 9.33e-06
+    },
+    {
+      "word": "crew",
+      "score": 16.90994797443131,
+      "corpus_freq": 0.0008471883935190087,
+      "wordfreq_freq": 5.01e-05
+    },
+    {
+      "word": "silent",
+      "score": 16.89870465795895,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 2.82e-05
+    },
+    {
+      "word": "washed",
+      "score": 16.809293522202555,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.26e-05
+    },
+    {
+      "word": "soldier",
+      "score": 16.54664831091814,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "grown",
+      "score": 16.40522396638038,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "slipped",
+      "score": 16.258733243072072,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 9.77e-06
+    },
+    {
+      "word": "terror",
+      "score": 16.0011544105582,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 1.82e-05
+    },
+    {
+      "word": "companion",
+      "score": 15.688673954055718,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.35e-05
+    },
+    {
+      "word": "struggled",
+      "score": 15.573316057334718,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "precision",
+      "score": 15.573316057334718,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "wrist",
+      "score": 15.573316057334718,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "subtle",
+      "score": 15.443538423523597,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "torn",
+      "score": 15.443538423523597,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "smell",
+      "score": 15.422118814059628,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "emotion",
+      "score": 15.372370043691692,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "wonder",
+      "score": 15.243915717696618,
+      "corpus_freq": 0.0012972572275759822,
+      "wordfreq_freq": 8.51e-05
+    },
+    {
+      "word": "stomach",
+      "score": 15.099603021370168,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "wondered",
+      "score": 15.080489599824128,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.58e-05
+    },
+    {
+      "word": "destruction",
+      "score": 15.029270081532633,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "smiling",
+      "score": 15.021070807074622,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.41e-05
+    },
+    {
+      "word": "tricks",
+      "score": 15.021070807074622,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.41e-05
+    },
+    {
+      "word": "humans",
+      "score": 14.961097244269965,
+      "corpus_freq": 0.0006089166578417876,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "essence",
+      "score": 14.845591007926556,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.07e-05
+    },
+    {
+      "word": "souls",
+      "score": 14.708131831927236,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "creature",
+      "score": 14.60669643998291,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "thoughts",
+      "score": 14.603447619600352,
+      "corpus_freq": 0.0008207137562215397,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "trying",
+      "score": 14.359125313881504,
+      "corpus_freq": 0.004235941967595044,
+      "wordfreq_freq": 0.000295
+    },
+    {
+      "word": "moment",
+      "score": 14.150237176233444,
+      "corpus_freq": 0.0024621412686646194,
+      "wordfreq_freq": 0.000174
+    },
+    {
+      "word": "unusual",
+      "score": 14.08225388163246,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 2.82e-05
+    },
+    {
+      "word": "occasional",
+      "score": 14.039580385021452,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.32e-05
+    },
+    {
+      "word": "endless",
+      "score": 14.026297905943855,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.51e-05
+    },
+    {
+      "word": "invasion",
+      "score": 14.015984451601248,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "fear",
+      "score": 13.965296890920811,
+      "corpus_freq": 0.0012443079529810442,
+      "wordfreq_freq": 8.91e-05
+    },
+    {
+      "word": "forever",
+      "score": 13.959354211392759,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 5.5e-05
+    },
+    {
+      "word": "fate",
+      "score": 13.8731723829532,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "soft",
+      "score": 13.817660384900325,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "corners",
+      "score": 13.812854242157751,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "trapped",
+      "score": 13.664328927725947,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "chosen",
+      "score": 13.66013226650736,
+      "corpus_freq": 0.0005559673832468495,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "remembered",
+      "score": 13.608458423932676,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "struggling",
+      "score": 13.608458423932676,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "inhabitants",
+      "score": 13.576737075625141,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "standing",
+      "score": 13.529856077435827,
+      "corpus_freq": 0.0009795615800063538,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "intensity",
+      "score": 13.429163846542258,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "grandmother",
+      "score": 13.429163846542258,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "nearby",
+      "score": 13.423759756463166,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "fingers",
+      "score": 13.404879644288112,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 3.16e-05
+    },
+    {
+      "word": "prisoner",
+      "score": 13.404879644288112,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.58e-05
+    },
+    {
+      "word": "caught",
+      "score": 13.337348764468022,
+      "corpus_freq": 0.001058985491898761,
+      "wordfreq_freq": 7.94e-05
+    },
+    {
+      "word": "wondering",
+      "score": 13.2763667863414,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 3.39e-05
+    },
+    {
+      "word": "hidden",
+      "score": 13.2763667863414,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 3.39e-05
+    },
+    {
+      "word": "conversations",
+      "score": 13.237318648734512,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2e-05
+    },
+    {
+      "word": "throat",
+      "score": 13.237318648734512,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2e-05
+    },
+    {
+      "word": "grief",
+      "score": 13.237318648734512,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "poison",
+      "score": 13.237318648734512,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "urgent",
+      "score": 13.143436956190294,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.41e-05
+    },
+    {
+      "word": "curious",
+      "score": 13.143436956190294,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 2.82e-05
+    },
+    {
+      "word": "counter",
+      "score": 13.12791932105902,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 3.63e-05
+    },
+    {
+      "word": "disappeared",
+      "score": 13.09185360863853,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 1.82e-05
+    },
+    {
+      "word": "alright",
+      "score": 13.086322618520812,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "handed",
+      "score": 13.086322618520812,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "anger",
+      "score": 13.086322618520812,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "skill",
+      "score": 13.086322618520812,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "constant",
+      "score": 12.970283402218254,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "jeans",
+      "score": 12.914457218277573,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.23e-05
+    },
+    {
+      "word": "surprisingly",
+      "score": 12.914457218277573,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.23e-05
+    },
+    {
+      "word": "he'd",
+      "score": 12.810308369743076,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 3.72e-05
+    },
+    {
+      "word": "clock",
+      "score": 12.794434381676481,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "reveal",
+      "score": 12.794434381676481,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "begun",
+      "score": 12.717074684373765,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "centuries",
+      "score": 12.667290572951687,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.09e-05
+    },
+    {
+      "word": "seemingly",
+      "score": 12.606970141651917,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.26e-05
+    },
+    {
+      "word": "shoulder",
+      "score": 12.567074666520107,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 3.16e-05
+    },
+    {
+      "word": "unknown",
+      "score": 12.49540403420367,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 3.39e-05
+    },
+    {
+      "word": "routine",
+      "score": 12.445342319323045,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.34e-05
+    },
+    {
+      "word": "quiet",
+      "score": 12.437749065925043,
+      "corpus_freq": 0.0005559673832468495,
+      "wordfreq_freq": 4.47e-05
+    },
+    {
+      "word": "alert",
+      "score": 12.371325839938798,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "room",
+      "score": 12.318810824128445,
+      "corpus_freq": 0.0030181086519114686,
+      "wordfreq_freq": 0.000245
+    },
+    {
+      "word": "grip",
+      "score": 12.313784789520476,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.29e-05
+    },
+    {
+      "word": "surprise",
+      "score": 12.248052842245457,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "habit",
+      "score": 12.172247033319092,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.74e-05
+    },
+    {
+      "word": "absence",
+      "score": 12.088875478296359,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.19e-05
+    },
+    {
+      "word": "expecting",
+      "score": 12.079682417096134,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "studying",
+      "score": 12.079682417096134,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "pressed",
+      "score": 12.033926044304101,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.32e-05
+    },
+    {
+      "word": "sounded",
+      "score": 12.033926044304101,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.32e-05
+    },
+    {
+      "word": "spotted",
+      "score": 11.956287811760204,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "shield",
+      "score": 11.91358678386106,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2e-05
+    },
+    {
+      "word": "spider",
+      "score": 11.89871339212091,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.78e-05
+    },
+    {
+      "word": "they'd",
+      "score": 11.886571847843236,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.45e-05
+    },
+    {
+      "word": "kitchen",
+      "score": 11.845475300880995,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 4.47e-05
+    },
+    {
+      "word": "heart",
+      "score": 11.809764676812163,
+      "corpus_freq": 0.0024091919940696814,
+      "wordfreq_freq": 0.000204
+    },
+    {
+      "word": "figure",
+      "score": 11.76650546554179,
+      "corpus_freq": 0.0013766811394683894,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "took",
+      "score": 11.766505465541789,
+      "corpus_freq": 0.0038123477708355397,
+      "wordfreq_freq": 0.000324
+    },
+    {
+      "word": "skilled",
+      "score": 11.766505465541789,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.35e-05
+    },
+    {
+      "word": "consequences",
+      "score": 11.666789317528723,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "panic",
+      "score": 11.637203207678693,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.82e-05
+    },
+    {
+      "word": "edge",
+      "score": 11.552569002531937,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 5.5e-05
+    },
+    {
+      "word": "blank",
+      "score": 11.510711868464794,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "harsh",
+      "score": 11.510711868464794,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "invitation",
+      "score": 11.510711868464794,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "bitter",
+      "score": 11.439658091498961,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "desperate",
+      "score": 11.400561515656518,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.09e-05
+    },
+    {
+      "word": "continued",
+      "score": 11.321390949575571,
+      "corpus_freq": 0.001032510854601292,
+      "wordfreq_freq": 9.12e-05
+    },
+    {
+      "word": "tried",
+      "score": 11.320189740986756,
+      "corpus_freq": 0.0016414275124430795,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "pulled",
+      "score": 11.313947563020951,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "sword",
+      "score": 11.313947563020951,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.34e-05
+    },
+    {
+      "word": "reality",
+      "score": 11.258544211552548,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 7.76e-05
+    },
+    {
+      "word": "journey",
+      "score": 11.253201535836945,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 4.47e-05
+    },
+    {
+      "word": "chest",
+      "score": 11.197731787449134,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 3.31e-05
+    },
+    {
+      "word": "ordinary",
+      "score": 11.073042215671455,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "ghost",
+      "score": 11.073042215671455,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "bright",
+      "score": 11.058202310982148,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "carefully",
+      "score": 11.031098873945428,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "door",
+      "score": 11.031098873945426,
+      "corpus_freq": 0.0013237318648734512,
+      "wordfreq_freq": 0.00012
+    },
+    {
+      "word": "drawn",
+      "score": 10.93347852992821,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 3.39e-05
+    },
+    {
+      "word": "determined",
+      "score": 10.904884928019278,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "memories",
+      "score": 10.891464710984092,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 3.16e-05
+    },
+    {
+      "word": "instant",
+      "score": 10.879987930466722,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.19e-05
+    },
+    {
+      "word": "existed",
+      "score": 10.861389660500112,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 1.95e-05
+    },
+    {
+      "word": "conversation",
+      "score": 10.83481597583252,
+      "corpus_freq": 0.0006089166578417876,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "pushed",
+      "score": 10.826059861418559,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "reflection",
+      "score": 10.732961066541495,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.48e-05
+    },
+    {
+      "word": "defeated",
+      "score": 10.732961066541495,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.48e-05
+    },
+    {
+      "word": "sound",
+      "score": 10.702512950040669,
+      "corpus_freq": 0.0015090543259557343,
+      "wordfreq_freq": 0.000141
+    },
+    {
+      "word": "landed",
+      "score": 10.650716154154205,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.74e-05
+    },
+    {
+      "word": "ambassador",
+      "score": 10.637131057018806,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.24e-05
+    },
+    {
+      "word": "coffee",
+      "score": 10.604481790422676,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "watching",
+      "score": 10.589854918987609,
+      "corpus_freq": 0.001111934766493699,
+      "wordfreq_freq": 0.000105
+    },
+    {
+      "word": "devil",
+      "score": 10.589854918987609,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2e-05
+    },
+    {
+      "word": "settled",
+      "score": 10.589854918987609,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.75e-05
+    },
+    {
+      "word": "smooth",
+      "score": 10.54766426193985,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.51e-05
+    },
+    {
+      "word": "forgotten",
+      "score": 10.54766426193985,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.51e-05
+    },
+    {
+      "word": "lived",
+      "score": 10.464283516786177,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 7.59e-05
+    },
+    {
+      "word": "asked",
+      "score": 10.457481732500264,
+      "corpus_freq": 0.002091496346500053,
+      "wordfreq_freq": 0.0002
+    },
+    {
+      "word": "gathering",
+      "score": 10.411374218105797,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.78e-05
+    },
+    {
+      "word": "coat",
+      "score": 10.4048792872149,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "drove",
+      "score": 10.4048792872149,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "anxiety",
+      "score": 10.326986179863802,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.82e-05
+    },
+    {
+      "word": "mind",
+      "score": 10.301415290843977,
+      "corpus_freq": 0.0026474637297469023,
+      "wordfreq_freq": 0.000257
+    },
+    {
+      "word": "wasn't",
+      "score": 10.25718931943826,
+      "corpus_freq": 0.0019591231600127076,
+      "wordfreq_freq": 0.000191
+    },
+    {
+      "word": "merely",
+      "score": 10.182552806718856,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.34e-05
+    },
+    {
+      "word": "respond",
+      "score": 10.152515777790482,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 3.39e-05
+    },
+    {
+      "word": "waiting",
+      "score": 10.129426444249017,
+      "corpus_freq": 0.001164884041088637,
+      "wordfreq_freq": 0.000115
+    },
+    {
+      "word": "shock",
+      "score": 10.111840634449974,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "package",
+      "score": 10.111840634449974,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "species",
+      "score": 10.096259986322933,
+      "corpus_freq": 0.0007148152070316637,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "happening",
+      "score": 10.069592632951768,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 6.31e-05
+    },
+    {
+      "word": "nervous",
+      "score": 10.066402014246778,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "face",
+      "score": 10.045341102231154,
+      "corpus_freq": 0.0028327861908291857,
+      "wordfreq_freq": 0.000282
+    },
+    {
+      "word": "sight",
+      "score": 9.918452013461017,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "driven",
+      "score": 9.918452013461017,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "gotten",
+      "score": 9.871898653293535,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "thin",
+      "score": 9.871898653293535,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "confident",
+      "score": 9.8418726012896,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "horror",
+      "score": 9.8418726012896,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "abilities",
+      "score": 9.805421221284824,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "listened",
+      "score": 9.805421221284824,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "skin",
+      "score": 9.769238855154622,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "screen",
+      "score": 9.722324431273936,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "opened",
+      "score": 9.722324431273936,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "revenge",
+      "score": 9.702746653522679,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "lightning",
+      "score": 9.569146011133382,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.66e-05
+    },
+    {
+      "word": "magical",
+      "score": 9.569146011133382,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.66e-05
+    },
+    {
+      "word": "danger",
+      "score": 9.528147099346178,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "walls",
+      "score": 9.523250826427708,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "hadn't",
+      "score": 9.492897835745866,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.51e-05
+    },
+    {
+      "word": "stretch",
+      "score": 9.455227606238937,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.24e-05
+    },
+    {
+      "word": "luck",
+      "score": 9.443597559982802,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "arrived",
+      "score": 9.43990308823855,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 6.17e-05
+    },
+    {
+      "word": "pride",
+      "score": 9.42462816414755,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "we've",
+      "score": 9.3864623145572,
+      "corpus_freq": 0.001032510854601292,
+      "wordfreq_freq": 0.00011
+    },
+    {
+      "word": "across",
+      "score": 9.370236796295217,
+      "corpus_freq": 0.0016679021497405485,
+      "wordfreq_freq": 0.000178
+    },
+    {
+      "word": "myself",
+      "score": 9.343989634400833,
+      "corpus_freq": 0.0019061738854177699,
+      "wordfreq_freq": 0.000204
+    },
+    {
+      "word": "casual",
+      "score": 9.343989634400833,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "ranks",
+      "score": 9.343989634400833,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "comfort",
+      "score": 9.27127376175958,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.57e-05
+    },
+    {
+      "word": "dust",
+      "score": 9.27127376175958,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.57e-05
+    },
+    {
+      "word": "message",
+      "score": 9.266123054114157,
+      "corpus_freq": 0.0009266123054114158,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "collective",
+      "score": 9.266123054114157,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2e-05
+    },
+    {
+      "word": "lights",
+      "score": 9.087404106682731,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "database",
+      "score": 9.084434366778586,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "struck",
+      "score": 9.059761812822101,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "golden",
+      "score": 9.05115805041676,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "enemy",
+      "score": 8.983409861416636,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 5.01e-05
+    },
+    {
+      "word": "woman",
+      "score": 8.982466225926991,
+      "corpus_freq": 0.002012072434607646,
+      "wordfreq_freq": 0.000224
+    },
+    {
+      "word": "corner",
+      "score": 8.950500153948603,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "camera",
+      "score": 8.932063865542855,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 7.41e-05
+    },
+    {
+      "word": "desk",
+      "score": 8.857685341160641,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "grass",
+      "score": 8.824879099156341,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.4e-05
+    },
+    {
+      "word": "pace",
+      "score": 8.824879099156341,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.4e-05
+    },
+    {
+      "word": "connection",
+      "score": 8.748141020033243,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 5.75e-05
+    },
+    {
+      "word": "coins",
+      "score": 8.72790240575902,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.82e-05
+    },
+    {
+      "word": "concern",
+      "score": 8.689705896324625,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "slowly",
+      "score": 8.680208949989844,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "worried",
+      "score": 8.680208949989844,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "dark",
+      "score": 8.664426751898954,
+      "corpus_freq": 0.0009530869427088849,
+      "wordfreq_freq": 0.00011
+    },
+    {
+      "word": "preparing",
+      "score": 8.659928087957159,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "jokes",
+      "score": 8.659928087957159,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "assumed",
+      "score": 8.644779525704172,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.45e-05
+    },
+    {
+      "word": "reached",
+      "score": 8.600517766126943,
+      "corpus_freq": 0.0006089166578417876,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "somehow",
+      "score": 8.590590273515023,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 3.39e-05
+    },
+    {
+      "word": "cold",
+      "score": 8.572739696323303,
+      "corpus_freq": 0.0009001376681139468,
+      "wordfreq_freq": 0.000105
+    },
+    {
+      "word": "challenges",
+      "score": 8.567843785588682,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "above",
+      "score": 8.545610773233674,
+      "corpus_freq": 0.0013502065021709204,
+      "wordfreq_freq": 0.000158
+    },
+    {
+      "word": "tune",
+      "score": 8.540205579828717,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.86e-05
+    },
+    {
+      "word": "captain",
+      "score": 8.529200160267083,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 7.76e-05
+    },
+    {
+      "word": "earth",
+      "score": 8.517926782663945,
+      "corpus_freq": 0.0009795615800063538,
+      "wordfreq_freq": 0.000115
+    },
+    {
+      "word": "slightly",
+      "score": 8.479421198477624,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "words",
+      "score": 8.477833291886148,
+      "corpus_freq": 0.0015090543259557343,
+      "wordfreq_freq": 0.000178
+    },
+    {
+      "word": "nowhere",
+      "score": 8.43813140955188,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.51e-05
+    },
+    {
+      "word": "forward",
+      "score": 8.42374823101287,
+      "corpus_freq": 0.001111934766493699,
+      "wordfreq_freq": 0.000132
+    },
+    {
+      "word": "peaceful",
+      "score": 8.316639988733725,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "leaving",
+      "score": 8.316639988733725,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 9.55e-05
+    },
+    {
+      "word": "magic",
+      "score": 8.287712545294651,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 5.75e-05
+    },
+    {
+      "word": "pulling",
+      "score": 8.27332415545907,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.24e-05
+    },
+    {
+      "word": "bound",
+      "score": 8.27332415545907,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "movements",
+      "score": 8.27332415545907,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.24e-05
+    },
+    {
+      "word": "bear",
+      "score": 8.257196817924061,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 5.13e-05
+    },
+    {
+      "word": "remained",
+      "score": 8.25348404957068,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "tiny",
+      "score": 8.25348404957068,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "what's",
+      "score": 8.21048878212647,
+      "corpus_freq": 0.0012972572275759822,
+      "wordfreq_freq": 0.000158
+    },
+    {
+      "word": "i'd",
+      "score": 8.208293659913977,
+      "corpus_freq": 0.0018796992481203006,
+      "wordfreq_freq": 0.000229
+    },
+    {
+      "word": "remarkable",
+      "score": 8.146042245375085,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 1.95e-05
+    },
+    {
+      "word": "suddenly",
+      "score": 8.104480805347661,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 4.9e-05
+    },
+    {
+      "word": "skills",
+      "score": 8.090721075627206,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 5.89e-05
+    },
+    {
+      "word": "reputation",
+      "score": 8.077007989058346,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "passing",
+      "score": 8.06019402499057,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "ceremony",
+      "score": 8.053121611397422,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "suppose",
+      "score": 8.0226173628694,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 3.63e-05
+    },
+    {
+      "word": "head",
+      "score": 8.007760664049272,
+      "corpus_freq": 0.0025945144551519643,
+      "wordfreq_freq": 0.000324
+    },
+    {
+      "word": "closed",
+      "score": 8.002409258680812,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 7.94e-05
+    },
+    {
+      "word": "secret",
+      "score": 7.955119380249105,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 8.32e-05
+    },
+    {
+      "word": "mine",
+      "score": 7.942391189240707,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 0.00011
+    },
+    {
+      "word": "hunter",
+      "score": 7.919763294114666,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.34e-05
+    },
+    {
+      "word": "pocket",
+      "score": 7.889792572093419,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 3.02e-05
+    },
+    {
+      "word": "closer",
+      "score": 7.888160088631366,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 5.37e-05
+    },
+    {
+      "word": "fell",
+      "score": 7.852646656028948,
+      "corpus_freq": 0.0005559673832468495,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "step",
+      "score": 7.844336977027859,
+      "corpus_freq": 0.001058985491898761,
+      "wordfreq_freq": 0.000135
+    },
+    {
+      "word": "score",
+      "score": 7.832732928245274,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 6.76e-05
+    },
+    {
+      "word": "categories",
+      "score": 7.786658028667359,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "unlikely",
+      "score": 7.786658028667359,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "arrive",
+      "score": 7.721769211761798,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.4e-05
+    },
+    {
+      "word": "faced",
+      "score": 7.711059407029814,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "studied",
+      "score": 7.711059407029814,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "happiness",
+      "score": 7.701712668354625,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.75e-05
+    },
+    {
+      "word": "something",
+      "score": 7.66371079663577,
+      "corpus_freq": 0.004950757174626707,
+      "wordfreq_freq": 0.000646
+    },
+    {
+      "word": "sentence",
+      "score": 7.663710796635769,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 3.8e-05
+    },
+    {
+      "word": "passed",
+      "score": 7.636914605039141,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 8.32e-05
+    },
+    {
+      "word": "jacket",
+      "score": 7.600374343771012,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.09e-05
+    },
+    {
+      "word": "walks",
+      "score": 7.600374343771012,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.09e-05
+    },
+    {
+      "word": "weight",
+      "score": 7.56418208499115,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 0.000105
+    },
+    {
+      "word": "spent",
+      "score": 7.56418208499115,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 0.000105
+    },
+    {
+      "word": "massive",
+      "score": 7.56418208499115,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "pack",
+      "score": 7.531078443481342,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "ahead",
+      "score": 7.527102761045115,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 0.000102
+    },
+    {
+      "word": "finally",
+      "score": 7.513072746579048,
+      "corpus_freq": 0.001111934766493699,
+      "wordfreq_freq": 0.000148
+    },
+    {
+      "word": "bird",
+      "score": 7.440179099991295,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "transmission",
+      "score": 7.422795503963278,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "substantial",
+      "score": 7.422795503963278,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "around",
+      "score": 7.41649431932494,
+      "corpus_freq": 0.004368315154082389,
+      "wordfreq_freq": 0.000589
+    },
+    {
+      "word": "abandoned",
+      "score": 7.383364983357895,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.51e-05
+    },
+    {
+      "word": "ridiculous",
+      "score": 7.354065915963618,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "drew",
+      "score": 7.354065915963618,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "growing",
+      "score": 7.2949632048135085,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 8.71e-05
+    },
+    {
+      "word": "impressed",
+      "score": 7.253325286977815,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.19e-05
+    },
+    {
+      "word": "tail",
+      "score": 7.253325286977815,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.19e-05
+    },
+    {
+      "word": "producers",
+      "score": 7.253325286977815,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.19e-05
+    },
+    {
+      "word": "stuck",
+      "score": 7.18518340014817,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "ancient",
+      "score": 7.18518340014817,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "tears",
+      "score": 7.179562656940752,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "confused",
+      "score": 7.179562656940752,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "recognition",
+      "score": 7.179562656940752,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "capable",
+      "score": 7.155307377694331,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "laughing",
+      "score": 7.155307377694331,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "small",
+      "score": 7.1089303854314965,
+      "corpus_freq": 0.002303293444879805,
+      "wordfreq_freq": 0.000324
+    },
+    {
+      "word": "leather",
+      "score": 7.091420704679203,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.24e-05
+    },
+    {
+      "word": "crossed",
+      "score": 7.091420704679203,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.24e-05
+    },
+    {
+      "word": "purpose",
+      "score": 6.976189011190784,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 7.59e-05
+    },
+    {
+      "word": "wide",
+      "score": 6.967009815123428,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 9.12e-05
+    },
+    {
+      "word": "alone",
+      "score": 6.938180808991883,
+      "corpus_freq": 0.001006036217303823,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "script",
+      "score": 6.9365861914766,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "loved",
+      "score": 6.883405697341947,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "kept",
+      "score": 6.883405697341947,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "thought",
+      "score": 6.873877550242599,
+      "corpus_freq": 0.0026739383670443713,
+      "wordfreq_freq": 0.000389
+    },
+    {
+      "word": "simple",
+      "score": 6.839281301846165,
+      "corpus_freq": 0.0008207137562215397,
+      "wordfreq_freq": 0.00012
+    },
+    {
+      "word": "bond",
+      "score": 6.805819356675842,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "empty",
+      "score": 6.805819356675842,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "aside",
+      "score": 6.805819356675842,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "said",
+      "score": 6.800348011702828,
+      "corpus_freq": 0.006936354971936885,
+      "wordfreq_freq": 0.00102
+    },
+    {
+      "word": "regret",
+      "score": 6.788368537812571,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.34e-05
+    },
+    {
+      "word": "device",
+      "score": 6.788368537812571,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "welcome",
+      "score": 6.774472184613363,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 9.77e-05
+    },
+    {
+      "word": "questions",
+      "score": 6.759481863183581,
+      "corpus_freq": 0.0009530869427088849,
+      "wordfreq_freq": 0.000141
+    },
+    {
+      "word": "hand",
+      "score": 6.695919939048586,
+      "corpus_freq": 0.0017208514243354867,
+      "wordfreq_freq": 0.000257
+    },
+    {
+      "word": "floor",
+      "score": 6.687049604412382,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 8.71e-05
+    },
+    {
+      "word": "friendly",
+      "score": 6.66409634490067,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "appeared",
+      "score": 6.657822989008483,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 6.76e-05
+    },
+    {
+      "word": "planet",
+      "score": 6.632476984752157,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "restaurant",
+      "score": 6.632476984752157,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "despite",
+      "score": 6.618659324367256,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "unique",
+      "score": 6.5951053765937075,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "evening",
+      "score": 6.582092145779592,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "spoken",
+      "score": 6.571718478095147,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.82e-05
+    },
+    {
+      "word": "soul",
+      "score": 6.557185708351461,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 6.46e-05
+    },
+    {
+      "word": "commander",
+      "score": 6.536947480856549,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.24e-05
+    },
+    {
+      "word": "apartment",
+      "score": 6.515011415484547,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.47e-05
+    },
+    {
+      "word": "carrying",
+      "score": 6.504824888813029,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "feet",
+      "score": 6.503493297228829,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 9.77e-05
+    },
+    {
+      "word": "lifetime",
+      "score": 6.483584644278128,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.45e-05
+    },
+    {
+      "word": "life",
+      "score": 6.448075321161914,
+      "corpus_freq": 0.005003706449221645,
+      "wordfreq_freq": 0.000776
+    },
+    {
+      "word": "closing",
+      "score": 6.434807676468166,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "truly",
+      "score": 6.431085983190856,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 7.41e-05
+    },
+    {
+      "word": "guard",
+      "score": 6.409130072012986,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 5.37e-05
+    },
+    {
+      "word": "seat",
+      "score": 6.408384217239099,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 6.61e-05
+    },
+    {
+      "word": "hair",
+      "score": 6.398037346888348,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 0.00012
+    },
+    {
+      "word": "behind",
+      "score": 6.381066425543817,
+      "corpus_freq": 0.0012443079529810442,
+      "wordfreq_freq": 0.000195
+    },
+    {
+      "word": "started",
+      "score": 6.375524900206827,
+      "corpus_freq": 0.0015620036005506725,
+      "wordfreq_freq": 0.000245
+    },
+    {
+      "word": "glass",
+      "score": 6.356904435832958,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "usual",
+      "score": 6.348833884285138,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "orange",
+      "score": 6.348833884285138,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "allowing",
+      "score": 6.348833884285138,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "rolling",
+      "score": 6.282117324823158,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "teeth",
+      "score": 6.270308833611085,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 3.8e-05
+    },
+    {
+      "word": "loud",
+      "score": 6.247702017101835,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.39e-05
+    },
+    {
+      "word": "stories",
+      "score": 6.239813504453979,
+      "corpus_freq": 0.0005559673832468495,
+      "wordfreq_freq": 8.91e-05
+    },
+    {
+      "word": "legs",
+      "score": 6.222671159661522,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "light",
+      "score": 6.185662919969398,
+      "corpus_freq": 0.0013237318648734512,
+      "wordfreq_freq": 0.000214
+    },
+    {
+      "word": "herself",
+      "score": 6.1466819596113815,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.03e-05
+    },
+    {
+      "word": "table",
+      "score": 6.14589794405531,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 0.000112
+    },
+    {
+      "word": "rush",
+      "score": 6.136505333850436,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.02e-05
+    },
+    {
+      "word": "heard",
+      "score": 6.120480665543914,
+      "corpus_freq": 0.001138409403791168,
+      "wordfreq_freq": 0.000186
+    },
+    {
+      "word": "ready",
+      "score": 6.098869325071398,
+      "corpus_freq": 0.001164884041088637,
+      "wordfreq_freq": 0.000191
+    },
+    {
+      "word": "mixed",
+      "score": 6.058269404455155,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "judges",
+      "score": 6.039841208548067,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "hands",
+      "score": 6.02526228149295,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "firm",
+      "score": 6.007211056151805,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.17e-05
+    },
+    {
+      "word": "notice",
+      "score": 6.00180694401061,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 7.94e-05
+    },
+    {
+      "word": "alive",
+      "score": 5.985570171601693,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 5.75e-05
+    },
+    {
+      "word": "relief",
+      "score": 5.966115447316962,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "supposed",
+      "score": 5.861543313092773,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "desire",
+      "score": 5.854342399931726,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "complex",
+      "score": 5.850748574026303,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "quickly",
+      "score": 5.824420205443184,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "inside",
+      "score": 5.807339794283528,
+      "corpus_freq": 0.0009001376681139468,
+      "wordfreq_freq": 0.000155
+    },
+    {
+      "word": "letters",
+      "score": 5.793137264216417,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "arrival",
+      "score": 5.776284501265969,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.75e-05
+    },
+    {
+      "word": "lieutenant",
+      "score": 5.776284501265969,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.75e-05
+    },
+    {
+      "word": "thread",
+      "score": 5.776284501265969,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.75e-05
+    },
+    {
+      "word": "sand",
+      "score": 5.776284501265969,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.75e-05
+    },
+    {
+      "word": "weird",
+      "score": 5.737537494807529,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.46e-05
+    },
+    {
+      "word": "kind",
+      "score": 5.7267832451972,
+      "corpus_freq": 0.0016149528751456105,
+      "wordfreq_freq": 0.000282
+    },
+    {
+      "word": "swear",
+      "score": 5.7198290457494805,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.24e-05
+    },
+    {
+      "word": "through",
+      "score": 5.716520873947427,
+      "corpus_freq": 0.004235941967595044,
+      "wordfreq_freq": 0.000741
+    },
+    {
+      "word": "wave",
+      "score": 5.713950495856625,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "bunch",
+      "score": 5.693470386552478,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.72e-05
+    },
+    {
+      "word": "tank",
+      "score": 5.693470386552478,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.72e-05
+    },
+    {
+      "word": "steel",
+      "score": 5.676822812322793,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 5.13e-05
+    },
+    {
+      "word": "itself",
+      "score": 5.673136563743363,
+      "corpus_freq": 0.0007148152070316637,
+      "wordfreq_freq": 0.000126
+    },
+    {
+      "word": "busy",
+      "score": 5.652947465651749,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "farm",
+      "score": 5.652947465651749,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "named",
+      "score": 5.645545551648839,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 8.91e-05
+    },
+    {
+      "word": "flash",
+      "score": 5.632901552652983,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.82e-05
+    },
+    {
+      "word": "mystery",
+      "score": 5.632901552652983,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.82e-05
+    },
+    {
+      "word": "learned",
+      "score": 5.609033325734963,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "understanding",
+      "score": 5.607336190084212,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.61e-05
+    },
+    {
+      "word": "survive",
+      "score": 5.598865893724567,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.31e-05
+    },
+    {
+      "word": "display",
+      "score": 5.580134324993471,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "bowl",
+      "score": 5.580134324993471,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "beginning",
+      "score": 5.559673832468495,
+      "corpus_freq": 0.0005559673832468495,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "emergency",
+      "score": 5.547066862326843,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "numbers",
+      "score": 5.544426659155817,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 9.55e-05
+    },
+    {
+      "word": "attention",
+      "score": 5.541203155284215,
+      "corpus_freq": 0.0007148152070316637,
+      "wordfreq_freq": 0.000129
+    },
+    {
+      "word": "connected",
+      "score": 5.527064153960131,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "managed",
+      "score": 5.5251416968631,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 5.75e-05
+    },
+    {
+      "word": "adventure",
+      "score": 5.515549436972714,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "machines",
+      "score": 5.515549436972714,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "pointed",
+      "score": 5.515549436972714,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "into",
+      "score": 5.500157205985813,
+      "corpus_freq": 0.007095202795721699,
+      "wordfreq_freq": 0.00129
+    },
+    {
+      "word": "claimed",
+      "score": 5.452442464009639,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "escape",
+      "score": 5.452442464009639,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "motion",
+      "score": 5.4446554853406735,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "trees",
+      "score": 5.402987203565107,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.9e-05
+    },
+    {
+      "word": "buildings",
+      "score": 5.402987203565107,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.9e-05
+    },
+    {
+      "word": "chair",
+      "score": 5.402987203565107,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 4.9e-05
+    },
+    {
+      "word": "harm",
+      "score": 5.384671992705565,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "defend",
+      "score": 5.384671992705565,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "nights",
+      "score": 5.384671992705565,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "stopped",
+      "score": 5.356140493707606,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.92e-05
+    },
+    {
+      "word": "worry",
+      "score": 5.356140493707606,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 6.92e-05
+    },
+    {
+      "word": "bathroom",
+      "score": 5.340704930325162,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "doors",
+      "score": 5.340704930325162,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "confidence",
+      "score": 5.330463885396448,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.47e-05
+    },
+    {
+      "word": "spread",
+      "score": 5.327713388035563,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 6.46e-05
+    },
+    {
+      "word": "ways",
+      "score": 5.294927459493805,
+      "corpus_freq": 0.0006089166578417876,
+      "wordfreq_freq": 0.000115
+    },
+    {
+      "word": "afraid",
+      "score": 5.284358742009785,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 5.01e-05
+    },
+    {
+      "word": "dinner",
+      "score": 5.2685845368097555,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 6.03e-05
+    },
+    {
+      "word": "meal",
+      "score": 5.259861714728945,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.02e-05
+    },
+    {
+      "word": "distance",
+      "score": 5.235097770685965,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "circle",
+      "score": 5.220351016402343,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "headed",
+      "score": 5.220351016402343,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "earned",
+      "score": 5.220351016402343,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "listening",
+      "score": 5.2138235377947755,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "actions",
+      "score": 5.206812176506768,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 6.61e-05
+    },
+    {
+      "word": "sending",
+      "score": 5.203859911050422,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "followed",
+      "score": 5.200375183431415,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 0.000112
+    },
+    {
+      "word": "vast",
+      "score": 5.140706271353209,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "monster",
+      "score": 5.140706271353209,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "sought",
+      "score": 5.140706271353209,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "fought",
+      "score": 5.140706271353209,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "points",
+      "score": 5.139194298920457,
+      "corpus_freq": 0.0008736630308164778,
+      "wordfreq_freq": 0.00017
+    },
+    {
+      "word": "stars",
+      "score": 5.119405002273016,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "world",
+      "score": 5.11752009616025,
+      "corpus_freq": 0.003971195594620354,
+      "wordfreq_freq": 0.000776
+    },
+    {
+      "word": "holding",
+      "score": 5.117520096160249,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 7.76e-05
+    },
+    {
+      "word": "smoke",
+      "score": 5.091276403359428,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "realize",
+      "score": 5.091276403359428,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 6.76e-05
+    },
+    {
+      "word": "champion",
+      "score": 5.07906710742811,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "knowing",
+      "score": 5.064713222124508,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 5.75e-05
+    },
+    {
+      "word": "picked",
+      "score": 5.042788056660767,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "shape",
+      "score": 5.042788056660767,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "network",
+      "score": 5.042788056660767,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 0.000105
+    },
+    {
+      "word": "willing",
+      "score": 5.042788056660767,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "catch",
+      "score": 5.001955764703999,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 7.41e-05
+    },
+    {
+      "word": "shift",
+      "score": 4.981786588233418,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.72e-05
+    },
+    {
+      "word": "changed",
+      "score": 4.978136927729218,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "joke",
+      "score": 4.974357738564118,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "wind",
+      "score": 4.973559029871349,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 6.92e-05
+    },
+    {
+      "word": "idea",
+      "score": 4.971220103891563,
+      "corpus_freq": 0.001138409403791168,
+      "wordfreq_freq": 0.000229
+    },
+    {
+      "word": "heavy",
+      "score": 4.934965285712428,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 9.12e-05
+    },
+    {
+      "word": "expected",
+      "score": 4.934965285712428,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 9.12e-05
+    },
+    {
+      "word": "others",
+      "score": 4.932536986980921,
+      "corpus_freq": 0.0012972572275759822,
+      "wordfreq_freq": 0.000263
+    },
+    {
+      "word": "sent",
+      "score": 4.9297600484942325,
+      "corpus_freq": 0.0007148152070316637,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "memory",
+      "score": 4.917889281263596,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 6.46e-05
+    },
+    {
+      "word": "happened",
+      "score": 4.859268871054442,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 0.000158
+    },
+    {
+      "word": "thousand",
+      "score": 4.8466155235641235,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "sounds",
+      "score": 4.823888896644945,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 9.33e-05
+    },
+    {
+      "word": "prepared",
+      "score": 4.813570417721641,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 5.5e-05
+    },
+    {
+      "word": "grab",
+      "score": 4.799027908906772,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.31e-05
+    },
+    {
+      "word": "together",
+      "score": 4.780142845376352,
+      "corpus_freq": 0.0013766811394683894,
+      "wordfreq_freq": 0.000288
+    },
+    {
+      "word": "down",
+      "score": 4.778689472665687,
+      "corpus_freq": 0.0036270253097532563,
+      "wordfreq_freq": 0.000759
+    },
+    {
+      "word": "boyfriend",
+      "score": 4.764073549673089,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "explained",
+      "score": 4.764073549673089,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "himself",
+      "score": 4.759485356848364,
+      "corpus_freq": 0.0008471883935190087,
+      "wordfreq_freq": 0.000178
+    },
+    {
+      "word": "always",
+      "score": 4.742413289807495,
+      "corpus_freq": 0.0027268876416393097,
+      "wordfreq_freq": 0.000575
+    },
+    {
+      "word": "focused",
+      "score": 4.738190120352398,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.47e-05
+    },
+    {
+      "word": "task",
+      "score": 4.738190120352398,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.47e-05
+    },
+    {
+      "word": "beyond",
+      "score": 4.712762660282444,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 9.55e-05
+    },
+    {
+      "word": "mouth",
+      "score": 4.699639756947164,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 6.76e-05
+    },
+    {
+      "word": "exactly",
+      "score": 4.694084627210819,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 0.000141
+    },
+    {
+      "word": "closely",
+      "score": 4.685776512826377,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.39e-05
+    },
+    {
+      "word": "been",
+      "score": 4.682879392939413,
+      "corpus_freq": 0.008710155670867309,
+      "wordfreq_freq": 0.00186
+    },
+    {
+      "word": "beat",
+      "score": 4.671994817200416,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 0.000102
+    },
+    {
+      "word": "energy",
+      "score": 4.6719948172004155,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 0.00017
+    },
+    {
+      "word": "offering",
+      "score": 4.656343243273446,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.98e-05
+    },
+    {
+      "word": "answers",
+      "score": 4.656343243273446,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 3.98e-05
+    },
+    {
+      "word": "laugh",
+      "score": 4.634509811373134,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "prison",
+      "score": 4.61522995676956,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 6.31e-05
+    },
+    {
+      "word": "upon",
+      "score": 4.613004983649906,
+      "corpus_freq": 0.0006089166578417876,
+      "wordfreq_freq": 0.000132
+    },
+    {
+      "word": "okay",
+      "score": 4.604284747385917,
+      "corpus_freq": 0.0005294927459493805,
+      "wordfreq_freq": 0.000115
+    },
+    {
+      "word": "checked",
+      "score": 4.577747083135854,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "messages",
+      "score": 4.577747083135854,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "taken",
+      "score": 4.577390560777355,
+      "corpus_freq": 0.0009795615800063538,
+      "wordfreq_freq": 0.000214
+    },
+    {
+      "word": "let's",
+      "score": 4.564592637494659,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "entered",
+      "score": 4.53850925099469,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "mistake",
+      "score": 4.52557902520838,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "decided",
+      "score": 4.52006002639715,
+      "corpus_freq": 0.0005559673832468495,
+      "wordfreq_freq": 0.000123
+    },
+    {
+      "word": "silver",
+      "score": 4.508065174491629,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 6.46e-05
+    },
+    {
+      "word": "individuals",
+      "score": 4.508065174491629,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 6.46e-05
+    },
+    {
+      "word": "you're",
+      "score": 4.501760188233599,
+      "corpus_freq": 0.003335804299481097,
+      "wordfreq_freq": 0.000741
+    },
+    {
+      "word": "replaced",
+      "score": 4.474586585487722,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "clear",
+      "score": 4.4620175220453415,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 0.000178
+    },
+    {
+      "word": "mean",
+      "score": 4.451487687185057,
+      "corpus_freq": 0.0015090543259557343,
+      "wordfreq_freq": 0.000339
+    },
+    {
+      "word": "pages",
+      "score": 4.4441837189995965,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "nature",
+      "score": 4.435541327324653,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 9.55e-05
+    },
+    {
+      "word": "town",
+      "score": 4.412439549578171,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 0.000174
+    },
+    {
+      "word": "sitting",
+      "score": 4.388061430519728,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "crying",
+      "score": 4.375973107019673,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.63e-05
+    },
+    {
+      "word": "process",
+      "score": 4.36395120287951,
+      "corpus_freq": 0.0007942391189240708,
+      "wordfreq_freq": 0.000182
+    },
+    {
+      "word": "designed",
+      "score": 4.354381134452143,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 9.12e-05
+    },
+    {
+      "word": "neck",
+      "score": 4.340104474994922,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "drink",
+      "score": 4.334638348452107,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 7.94e-05
+    },
+    {
+      "word": "iron",
+      "score": 4.332213375949477,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 5.5e-05
+    },
+    {
+      "word": "wine",
+      "score": 4.332213375949477,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 5.5e-05
+    },
+    {
+      "word": "we're",
+      "score": 4.324542347395339,
+      "corpus_freq": 0.00108546012919623,
+      "wordfreq_freq": 0.000251
+    },
+    {
+      "word": "surface",
+      "score": 4.3080031105349,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 6.76e-05
+    },
+    {
+      "word": "handle",
+      "score": 4.290865040108432,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 6.17e-05
+    },
+    {
+      "word": "cell",
+      "score": 4.2873906554605705,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 7.41e-05
+    },
+    {
+      "word": "help",
+      "score": 4.239710599238812,
+      "corpus_freq": 0.0023827173567722124,
+      "wordfreq_freq": 0.000562
+    },
+    {
+      "word": "beauty",
+      "score": 4.239710599238812,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "phone",
+      "score": 4.235941967595044,
+      "corpus_freq": 0.0008471883935190087,
+      "wordfreq_freq": 0.0002
+    },
+    {
+      "word": "grand",
+      "score": 4.2333368372336695,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "young",
+      "score": 4.232005218554528,
+      "corpus_freq": 0.001138409403791168,
+      "wordfreq_freq": 0.000269
+    },
+    {
+      "word": "suit",
+      "score": 4.227486993607828,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 5.01e-05
+    },
+    {
+      "word": "maybe",
+      "score": 4.224676164489738,
+      "corpus_freq": 0.0011913586783861062,
+      "wordfreq_freq": 0.000282
+    },
+    {
+      "word": "window",
+      "score": 4.195663597063237,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 6.31e-05
+    },
+    {
+      "word": "choice",
+      "score": 4.1918175720992625,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 0.00012
+    },
+    {
+      "word": "challenge",
+      "score": 4.18571340671447,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 7.59e-05
+    },
+    {
+      "word": "drawing",
+      "score": 4.180205889074056,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.8e-05
+    },
+    {
+      "word": "brown",
+      "score": 4.1528842819559255,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 0.000102
+    },
+    {
+      "word": "ended",
+      "score": 4.136662077729535,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 8.32e-05
+    },
+    {
+      "word": "away",
+      "score": 4.12674202478534,
+      "corpus_freq": 0.0017208514243354867,
+      "wordfreq_freq": 0.000417
+    },
+    {
+      "word": "taking",
+      "score": 4.106270274709482,
+      "corpus_freq": 0.001006036217303823,
+      "wordfreq_freq": 0.000245
+    },
+    {
+      "word": "night",
+      "score": 4.098039679952207,
+      "corpus_freq": 0.0016679021497405485,
+      "wordfreq_freq": 0.000407
+    },
+    {
+      "word": "armed",
+      "score": 4.0834916140055055,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "wars",
+      "score": 4.0834916140055055,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "folks",
+      "score": 4.0834916140055055,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "daughter",
+      "score": 4.073021122687543,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "chance",
+      "score": 4.073021122687542,
+      "corpus_freq": 0.0007412898443291327,
+      "wordfreq_freq": 0.000182
+    },
+    {
+      "word": "once",
+      "score": 4.061006311116193,
+      "corpus_freq": 0.0013766811394683894,
+      "wordfreq_freq": 0.000339
+    },
+    {
+      "word": "sharing",
+      "score": 4.055196084951492,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "everywhere",
+      "score": 4.055196084951492,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "lucky",
+      "score": 4.045360537813603,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 5.89e-05
+    },
+    {
+      "word": "dance",
+      "score": 4.044304170001144,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 8.51e-05
+    },
+    {
+      "word": "didn't",
+      "score": 4.0347568323908956,
+      "corpus_freq": 0.0019326485227152388,
+      "wordfreq_freq": 0.000479
+    },
+    {
+      "word": "windows",
+      "score": 4.034230445328613,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "their",
+      "score": 4.033052223820048,
+      "corpus_freq": 0.008630731758974903,
+      "wordfreq_freq": 0.00214
+    },
+    {
+      "word": "lives",
+      "score": 4.028749153962678,
+      "corpus_freq": 0.0005559673832468495,
+      "wordfreq_freq": 0.000138
+    },
+    {
+      "word": "interview",
+      "score": 4.022389644643083,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "showed",
+      "score": 4.022389644643083,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "returned",
+      "score": 4.005240135774437,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 6.61e-05
+    },
+    {
+      "word": "almost",
+      "score": 3.998210530638179,
+      "corpus_freq": 0.0009795615800063538,
+      "wordfreq_freq": 0.000245
+    },
+    {
+      "word": "what",
+      "score": 3.9822266934942996,
+      "corpus_freq": 0.009557344064386318,
+      "wordfreq_freq": 0.0024
+    },
+    {
+      "word": "sign",
+      "score": 3.9711955946203537,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 0.00012
+    },
+    {
+      "word": "change",
+      "score": 3.9673808053844075,
+      "corpus_freq": 0.0013766811394683894,
+      "wordfreq_freq": 0.000347
+    },
+    {
+      "word": "impossible",
+      "score": 3.9514384026073173,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.03e-05
+    },
+    {
+      "word": "gift",
+      "score": 3.9514384026073173,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.03e-05
+    },
+    {
+      "word": "quite",
+      "score": 3.937253751931291,
+      "corpus_freq": 0.0007677644816266018,
+      "wordfreq_freq": 0.000195
+    },
+    {
+      "word": "would",
+      "score": 3.9142608907548286,
+      "corpus_freq": 0.007280525256803982,
+      "wordfreq_freq": 0.00186
+    },
+    {
+      "word": "potential",
+      "score": 3.89332901433368,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 0.000102
+    },
+    {
+      "word": "fine",
+      "score": 3.8933290143336796,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 0.00017
+    },
+    {
+      "word": "front",
+      "score": 3.8810986614090712,
+      "corpus_freq": 0.0007412898443291327,
+      "wordfreq_freq": 0.000191
+    },
+    {
+      "word": "hero",
+      "score": 3.868944907772091,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "over",
+      "score": 3.8608846058808997,
+      "corpus_freq": 0.004633061527057079,
+      "wordfreq_freq": 0.0012
+    },
+    {
+      "word": "moments",
+      "score": 3.809300330571083,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "ourselves",
+      "score": 3.809300330571083,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "giant",
+      "score": 3.809300330571083,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "talked",
+      "score": 3.809300330571083,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.17e-05
+    },
+    {
+      "word": "just",
+      "score": 3.789120951496496,
+      "corpus_freq": 0.010192735359525574,
+      "wordfreq_freq": 0.00269
+    },
+    {
+      "word": "tech",
+      "score": 3.782091042495575,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 4.9e-05
+    },
+    {
+      "word": "wild",
+      "score": 3.7760972373569133,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.31e-05
+    },
+    {
+      "word": "seen",
+      "score": 3.7592385286436376,
+      "corpus_freq": 0.0012443079529810442,
+      "wordfreq_freq": 0.000331
+    },
+    {
+      "word": "we'll",
+      "score": 3.752848070517516,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 7.76e-05
+    },
+    {
+      "word": "inspired",
+      "score": 3.7200895499956474,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "outside",
+      "score": 3.718347935037784,
+      "corpus_freq": 0.0006618659324367256,
+      "wordfreq_freq": 0.000178
+    },
+    {
+      "word": "intelligence",
+      "score": 3.6990511194068496,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 5.01e-05
+    },
+    {
+      "word": "movement",
+      "score": 3.688856215081429,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 9.33e-05
+    },
+    {
+      "word": "towards",
+      "score": 3.6834277979087338,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 0.000115
+    },
+    {
+      "word": "could",
+      "score": 3.6604063741718043,
+      "corpus_freq": 0.004209467330297575,
+      "wordfreq_freq": 0.00115
+    },
+    {
+      "word": "meant",
+      "score": 3.6474816024067542,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 8.71e-05
+    },
+    {
+      "word": "physical",
+      "score": 3.6474816024067542,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 8.71e-05
+    },
+    {
+      "word": "like",
+      "score": 3.6467010129587685,
+      "corpus_freq": 0.009372021603304035,
+      "wordfreq_freq": 0.00257
+    },
+    {
+      "word": "friends",
+      "score": 3.641492862477152,
+      "corpus_freq": 0.0009795615800063538,
+      "wordfreq_freq": 0.000269
+    },
+    {
+      "word": "faster",
+      "score": 3.6349616426730926,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "truck",
+      "score": 3.6349616426730926,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "moved",
+      "score": 3.6337737467114346,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 0.000102
+    },
+    {
+      "word": "little",
+      "score": 3.6273079571265394,
+      "corpus_freq": 0.002038547071905115,
+      "wordfreq_freq": 0.000562
+    },
+    {
+      "word": "feel",
+      "score": 3.620463220166704,
+      "corpus_freq": 0.0016943767870380175,
+      "wordfreq_freq": 0.000468
+    },
+    {
+      "word": "promise",
+      "score": 3.6125236078417773,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 5.13e-05
+    },
+    {
+      "word": "path",
+      "score": 3.6125236078417773,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 5.13e-05
+    },
+    {
+      "word": "arms",
+      "score": 3.6047161221969932,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.61e-05
+    },
+    {
+      "word": "minute",
+      "score": 3.603877328451281,
+      "corpus_freq": 0.00034417028486709734,
+      "wordfreq_freq": 9.55e-05
+    },
+    {
+      "word": "with",
+      "score": 3.600999395121846,
+      "corpus_freq": 0.02549507571746267,
+      "wordfreq_freq": 0.00708
+    },
+    {
+      "word": "setting",
+      "score": 3.5958760336120914,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 5.89e-05
+    },
+    {
+      "word": "concept",
+      "score": 3.5958760336120914,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 5.89e-05
+    },
+    {
+      "word": "tell",
+      "score": 3.5924286598335553,
+      "corpus_freq": 0.0012178333156835752,
+      "wordfreq_freq": 0.000339
+    },
+    {
+      "word": "sweet",
+      "score": 3.582054246890028,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "hall",
+      "score": 3.5728255462171425,
+      "corpus_freq": 0.00026474637297469025,
+      "wordfreq_freq": 7.41e-05
+    },
+    {
+      "word": "language",
+      "score": 3.571974873468043,
+      "corpus_freq": 0.0004500688340569734,
+      "wordfreq_freq": 0.000126
+    },
+    {
+      "word": "leader",
+      "score": 3.5656077168308453,
+      "corpus_freq": 0.0003176956475696283,
+      "wordfreq_freq": 8.91e-05
+    },
+    {
+      "word": "green",
+      "score": 3.5299516396625368,
+      "corpus_freq": 0.00047654347135444246,
+      "wordfreq_freq": 0.000135
+    },
+    {
+      "word": "peace",
+      "score": 3.5299516396625363,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 0.000105
+    },
+    {
+      "word": "afternoon",
+      "score": 3.5299516396625363,
+      "corpus_freq": 0.00018532246108228317,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "apart",
+      "score": 3.512389691206504,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 6.03e-05
+    },
+    {
+      "word": "nothing",
+      "score": 3.505092825298716,
+      "corpus_freq": 0.0012443079529810442,
+      "wordfreq_freq": 0.000355
+    },
+    {
+      "word": "given",
+      "score": 3.5024811988869526,
+      "corpus_freq": 0.0009001376681139468,
+      "wordfreq_freq": 0.000257
+    },
+    {
+      "word": "telling",
+      "score": 3.5002525273096063,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 8.32e-05
+    },
+    {
+      "word": "imagine",
+      "score": 3.5002525273096063,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 8.32e-05
+    },
+    {
+      "word": "comfortable",
+      "score": 3.47588235852985,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "worked",
+      "score": 3.4690904044959416,
+      "corpus_freq": 0.0005030181086519115,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "response",
+      "score": 3.463971235182863,
+      "corpus_freq": 0.00037064492216456633,
+      "wordfreq_freq": 0.000107
+    },
+    {
+      "word": "lost",
+      "score": 3.4579118102816686,
+      "corpus_freq": 0.0008471883935190087,
+      "wordfreq_freq": 0.000245
+    },
+    {
+      "word": "perhaps",
+      "score": 3.4438552582073525,
+      "corpus_freq": 0.00042359419675950437,
+      "wordfreq_freq": 0.000123
+    },
+    {
+      "word": "notes",
+      "score": 3.4432331745263185,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.92e-05
+    },
+    {
+      "word": "square",
+      "score": 3.4432331745263185,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 6.92e-05
+    },
+    {
+      "word": "living",
+      "score": 3.4417028486709733,
+      "corpus_freq": 0.0006883405697341947,
+      "wordfreq_freq": 0.0002
+    },
+    {
+      "word": "cast",
+      "score": 3.4326920320867456,
+      "corpus_freq": 0.00021179709837975219,
+      "wordfreq_freq": 6.17e-05
+    },
+    {
+      "word": "before",
+      "score": 3.422103528462506,
+      "corpus_freq": 0.0029122101027215927,
+      "wordfreq_freq": 0.000851
+    },
+    {
+      "word": "ship",
+      "score": 3.422103528462506,
+      "corpus_freq": 0.00029122101027215924,
+      "wordfreq_freq": 8.51e-05
+    },
+    {
+      "word": "bring",
+      "score": 3.416082231931487,
+      "corpus_freq": 0.0006353912951392566,
+      "wordfreq_freq": 0.000186
+    },
+    {
+      "word": "heads",
+      "score": 3.3941842689062853,
+      "corpus_freq": 0.00015884782378481415,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "safe",
+      "score": 3.3941842689062853,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "paper",
+      "score": 3.3941842689062853,
+      "corpus_freq": 0.0003971195594620354,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "appear",
+      "score": 3.365419995440978,
+      "corpus_freq": 0.00023827173567722123,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "side",
+      "score": 3.351219911072029,
+      "corpus_freq": 0.001058985491898761,
+      "wordfreq_freq": 0.000316
+    },
+    {
+      "word": "held",
+      "score": 3.34736793416275,
+      "corpus_freq": 0.0005824420205443185,
+      "wordfreq_freq": 0.000174
+    }
+  ],
+  "repetition_score": 4.9534,
+  "top_bigrams": [
+    {
+      "ngram": "said voice",
+      "frequency": 82
+    },
+    {
+      "ngram": "could help",
+      "frequency": 63
+    },
+    {
+      "ngram": "deep breath",
+      "frequency": 61
+    },
+    {
+      "ngram": "raised eyebrow",
+      "frequency": 52
+    },
+    {
+      "ngram": "took deep",
+      "frequency": 52
+    },
+    {
+      "ngram": "felt like",
+      "frequency": 50
+    },
+    {
+      "ngram": "shook head",
+      "frequency": 37
+    },
+    {
+      "ngram": "voice barely",
+      "frequency": 35
+    },
+    {
+      "ngram": "could shake",
+      "frequency": 34
+    },
+    {
+      "ngram": "shake feeling",
+      "frequency": 33
+    },
+    {
+      "ngram": "barely whisper",
+      "frequency": 30
+    },
+    {
+      "ngram": "voice low",
+      "frequency": 29
+    },
+    {
+      "ngram": "eyes scanning",
+      "frequency": 28
+    },
+    {
+      "ngram": "felt sense",
+      "frequency": 28
+    },
+    {
+      "ngram": "looked like",
+      "frequency": 27
+    },
+    {
+      "ngram": "trying keep",
+      "frequency": 26
+    },
+    {
+      "ngram": "eyes fixed",
+      "frequency": 24
+    },
+    {
+      "ngram": "asked voice",
+      "frequency": 24
+    },
+    {
+      "ngram": "run spine",
+      "frequency": 23
+    },
+    {
+      "ngram": "shiver run",
+      "frequency": 22
+    },
+    {
+      "ngram": "eyes locked",
+      "frequency": 21
+    },
+    {
+      "ngram": "felt shiver",
+      "frequency": 20
+    },
+    {
+      "ngram": "said trying",
+      "frequency": 20
+    },
+    {
+      "ngram": "help wonder",
+      "frequency": 19
+    },
+    {
+      "ngram": "old man",
+      "frequency": 19
+    },
+    {
+      "ngram": "looked around",
+      "frequency": 18
+    },
+    {
+      "ngram": "made way",
+      "frequency": 18
+    },
+    {
+      "ngram": "mind racing",
+      "frequency": 18
+    },
+    {
+      "ngram": "lay ahead",
+      "frequency": 18
+    },
+    {
+      "ngram": "took step",
+      "frequency": 18
+    },
+    {
+      "ngram": "could see",
+      "frequency": 17
+    },
+    {
+      "ngram": "keep voice",
+      "frequency": 17
+    },
+    {
+      "ngram": "air thick",
+      "frequency": 17
+    },
+    {
+      "ngram": "feeling sense",
+      "frequency": 16
+    },
+    {
+      "ngram": "could feel",
+      "frequency": 16
+    },
+    {
+      "ngram": "step back",
+      "frequency": 16
+    },
+    {
+      "ngram": "one thing",
+      "frequency": 16
+    },
+    {
+      "ngram": "voice dripping",
+      "frequency": 15
+    },
+    {
+      "ngram": "felt surge",
+      "frequency": 15
+    },
+    {
+      "ngram": "eyes widened",
+      "frequency": 15
+    },
+    {
+      "ngram": "locked onto",
+      "frequency": 15
+    },
+    {
+      "ngram": "feel like",
+      "frequency": 15
+    },
+    {
+      "ngram": "trying sound",
+      "frequency": 15
+    },
+    {
+      "ngram": "knew would",
+      "frequency": 15
+    },
+    {
+      "ngram": "stood frozen",
+      "frequency": 14
+    },
+    {
+      "ngram": "eyes sparkled",
+      "frequency": 14
+    },
+    {
+      "ngram": "sense unease",
+      "frequency": 14
+    },
+    {
+      "ngram": "eyes seemed",
+      "frequency": 14
+    },
+    {
+      "ngram": "casting warm",
+      "frequency": 14
+    },
+    {
+      "ngram": "looked eyes",
+      "frequency": 14
+    },
+    {
+      "ngram": "voice steady",
+      "frequency": 14
+    },
+    {
+      "ngram": "dimly lit",
+      "frequency": 14
+    },
+    {
+      "ngram": "feeling little",
+      "frequency": 14
+    },
+    {
+      "ngram": "years ago",
+      "frequency": 14
+    },
+    {
+      "ngram": "grown accustomed",
+      "frequency": 13
+    },
+    {
+      "ngram": "help feel",
+      "frequency": 13
+    },
+    {
+      "ngram": "trying process",
+      "frequency": 13
+    },
+    {
+      "ngram": "heart racing",
+      "frequency": 13
+    },
+    {
+      "ngram": "asked trying",
+      "frequency": 13
+    },
+    {
+      "ngram": "fabric reality",
+      "frequency": 13
+    },
+    {
+      "ngram": "forward eyes",
+      "frequency": 13
+    },
+    {
+      "ngram": "young woman",
+      "frequency": 13
+    },
+    {
+      "ngram": "voice laced",
+      "frequency": 13
+    },
+    {
+      "ngram": "help think",
+      "frequency": 13
+    },
+    {
+      "ngram": "walked away",
+      "frequency": 13
+    },
+    {
+      "ngram": "knew better",
+      "frequency": 12
+    },
+    {
+      "ngram": "closed eyes",
+      "frequency": 12
+    },
+    {
+      "ngram": "stepped forward",
+      "frequency": 12
+    },
+    {
+      "ngram": "eyes wide",
+      "frequency": 12
+    },
+    {
+      "ngram": "eyes sparkling",
+      "frequency": 12
+    },
+    {
+      "ngram": "felt strange",
+      "frequency": 12
+    },
+    {
+      "ngram": "would never",
+      "frequency": 12
+    },
+    {
+      "ngram": "glanced around",
+      "frequency": 11
+    },
+    {
+      "ngram": "caught glimpse",
+      "frequency": 11
+    },
+    {
+      "ngram": "like eternity",
+      "frequency": 11
+    },
+    {
+      "ngram": "one would",
+      "frequency": 11
+    },
+    {
+      "ngram": "high school",
+      "frequency": 11
+    },
+    {
+      "ngram": "living room",
+      "frequency": 11
+    },
+    {
+      "ngram": "felt pang",
+      "frequency": 11
+    },
+    {
+      "ngram": "would change",
+      "frequency": 11
+    },
+    {
+      "ngram": "eyes narrowed",
+      "frequency": 11
+    },
+    {
+      "ngram": "hesitated unsure",
+      "frequency": 11
+    },
+    {
+      "ngram": "swung open",
+      "frequency": 11
+    },
+    {
+      "ngram": "orange glow",
+      "frequency": 10
+    },
+    {
+      "ngram": "otherworldly energy",
+      "frequency": 10
+    },
+    {
+      "ngram": "could sense",
+      "frequency": 10
+    },
+    {
+      "ngram": "fell silent",
+      "frequency": 10
+    },
+    {
+      "ngram": "life change",
+      "frequency": 10
+    },
+    {
+      "ngram": "could quite",
+      "frequency": 10
+    },
+    {
+      "ngram": "felt jolt",
+      "frequency": 10
+    },
+    {
+      "ngram": "piercing green",
+      "frequency": 10
+    },
+    {
+      "ngram": "green eyes",
+      "frequency": 10
+    },
+    {
+      "ngram": "little know",
+      "frequency": 10
+    },
+    {
+      "ngram": "young man",
+      "frequency": 10
+    },
+    {
+      "ngram": "stumbled upon",
+      "frequency": 9
+    },
+    {
+      "ngram": "began realize",
+      "frequency": 9
+    },
+    {
+      "ngram": "began feel",
+      "frequency": 9
+    },
+    {
+      "ngram": "growing sense",
+      "frequency": 9
+    },
+    {
+      "ngram": "change ways",
+      "frequency": 9
+    },
+    {
+      "ngram": "ways could",
+      "frequency": 9
+    },
+    {
+      "ngram": "sense wonder",
+      "frequency": 9
+    },
+    {
+      "ngram": "world around",
+      "frequency": 9
+    },
+    {
+      "ngram": "leaned forward",
+      "frequency": 9
+    },
+    {
+      "ngram": "sun dipped",
+      "frequency": 9
+    },
+    {
+      "ngram": "warm glow",
+      "frequency": 9
+    },
+    {
+      "ngram": "mind reeling",
+      "frequency": 9
+    },
+    {
+      "ngram": "voice firm",
+      "frequency": 9
+    },
+    {
+      "ngram": "something could",
+      "frequency": 9
+    },
+    {
+      "ngram": "shaking head",
+      "frequency": 9
+    },
+    {
+      "ngram": "mind reeled",
+      "frequency": 9
+    },
+    {
+      "ngram": "need talk",
+      "frequency": 9
+    },
+    {
+      "ngram": "took another",
+      "frequency": 9
+    },
+    {
+      "ngram": "sense trepidation",
+      "frequency": 9
+    },
+    {
+      "ngram": "saw something",
+      "frequency": 9
+    },
+    {
+      "ngram": "people would",
+      "frequency": 9
+    },
+    {
+      "ngram": "across face",
+      "frequency": 9
+    },
+    {
+      "ngram": "eyes glinting",
+      "frequency": 9
+    },
+    {
+      "ngram": "sense calm",
+      "frequency": 9
+    },
+    {
+      "ngram": "sent shiver",
+      "frequency": 9
+    },
+    {
+      "ngram": "shiver spine",
+      "frequency": 9
+    },
+    {
+      "ngram": "would often",
+      "frequency": 9
+    },
+    {
+      "ngram": "night wore",
+      "frequency": 9
+    },
+    {
+      "ngram": "door swung",
+      "frequency": 9
+    },
+    {
+      "ngram": "knew careful",
+      "frequency": 9
+    },
+    {
+      "ngram": "heart skipped",
+      "frequency": 8
+    },
+    {
+      "ngram": "skipped beat",
+      "frequency": 8
+    },
+    {
+      "ngram": "breath trying",
+      "frequency": 8
+    },
+    {
+      "ngram": "spine realized",
+      "frequency": 8
+    },
+    {
+      "ngram": "warm orange",
+      "frequency": 8
+    },
+    {
+      "ngram": "eyes saw",
+      "frequency": 8
+    },
+    {
+      "ngram": "something wrong",
+      "frequency": 8
+    },
+    {
+      "ngram": "maybe maybe",
+      "frequency": 8
+    },
+    {
+      "ngram": "hung air",
+      "frequency": 8
+    },
+    {
+      "ngram": "could tell",
+      "frequency": 8
+    },
+    {
+      "ngram": "around seemed",
+      "frequency": 8
+    },
+    {
+      "ngram": "strange sense",
+      "frequency": 8
+    },
+    {
+      "ngram": "back time",
+      "frequency": 8
+    },
+    {
+      "ngram": "saw flicker",
+      "frequency": 8
+    },
+    {
+      "ngram": "began notice",
+      "frequency": 8
+    },
+    {
+      "ngram": "stood edge",
+      "frequency": 8
+    },
+    {
+      "ngram": "think time",
+      "frequency": 8
+    },
+    {
+      "ngram": "mixture curiosity",
+      "frequency": 8
+    },
+    {
+      "ngram": "every day",
+      "frequency": 8
+    },
+    {
+      "ngram": "took seat",
+      "frequency": 8
+    },
+    {
+      "ngram": "thought sent",
+      "frequency": 8
+    },
+    {
+      "ngram": "could sworn",
+      "frequency": 7
+    },
+    {
+      "ngram": "going long",
+      "frequency": 7
+    },
+    {
+      "ngram": "across room",
+      "frequency": 7
+    },
+    {
+      "ngram": "worried glances",
+      "frequency": 7
+    },
+    {
+      "ngram": "heard rumors",
+      "frequency": 7
+    },
+    {
+      "ngram": "sense purpose",
+      "frequency": 7
+    },
+    {
+      "ngram": "spent years",
+      "frequency": 7
+    },
+    {
+      "ngram": "feeling like",
+      "frequency": 7
+    },
+    {
+      "ngram": "opened eyes",
+      "frequency": 7
+    },
+    {
+      "ngram": "process happening",
+      "frequency": 7
+    },
+    {
+      "ngram": "mind like",
+      "frequency": 7
+    },
+    {
+      "ngram": "one said",
+      "frequency": 7
+    },
+    {
+      "ngram": "voice like",
+      "frequency": 7
+    },
+    {
+      "ngram": "would take",
+      "frequency": 7
+    },
+    {
+      "ngram": "scanning horizon",
+      "frequency": 7
+    },
+    {
+      "ngram": "dipped horizon",
+      "frequency": 7
+    },
+    {
+      "ngram": "room fell",
+      "frequency": 7
+    },
+    {
+      "ngram": "ready take",
+      "frequency": 7
+    },
+    {
+      "ngram": "taken aback",
+      "frequency": 7
+    },
+    {
+      "ngram": "need get",
+      "frequency": 7
+    },
+    {
+      "ngram": "desolate landscape",
+      "frequency": 7
+    },
+    {
+      "ngram": "caught eye",
+      "frequency": 7
+    },
+    {
+      "ngram": "drew close",
+      "frequency": 7
+    },
+    {
+      "ngram": "exchanged look",
+      "frequency": 7
+    },
+    {
+      "ngram": "small smile",
+      "frequency": 7
+    },
+    {
+      "ngram": "know said",
+      "frequency": 7
+    },
+    {
+      "ngram": "heart sank",
+      "frequency": 7
+    },
+    {
+      "ngram": "like punched",
+      "frequency": 7
+    },
+    {
+      "ngram": "punched gut",
+      "frequency": 7
+    },
+    {
+      "ngram": "constant reminder",
+      "frequency": 7
+    },
+    {
+      "ngram": "lost thought",
+      "frequency": 7
+    },
+    {
+      "ngram": "spreading across",
+      "frequency": 7
+    },
+    {
+      "ngram": "seemed vibrate",
+      "frequency": 7
+    },
+    {
+      "ngram": "head trying",
+      "frequency": 7
+    },
+    {
+      "ngram": "thing certain",
+      "frequency": 7
+    },
+    {
+      "ngram": "kept coming",
+      "frequency": 7
+    },
+    {
+      "ngram": "like living",
+      "frequency": 7
+    },
+    {
+      "ngram": "nodded feeling",
+      "frequency": 7
+    },
+    {
+      "ngram": "back eyes",
+      "frequency": 7
+    },
+    {
+      "ngram": "replied voice",
+      "frequency": 7
+    },
+    {
+      "ngram": "one day",
+      "frequency": 7
+    },
+    {
+      "ngram": "brown hair",
+      "frequency": 7
+    },
+    {
+      "ngram": "trying make",
+      "frequency": 7
+    },
+    {
+      "ngram": "make sense",
+      "frequency": 7
+    },
+    {
+      "ngram": "one could",
+      "frequency": 7
+    },
+    {
+      "ngram": "something strange",
+      "frequency": 7
+    },
+    {
+      "ngram": "eyes darting",
+      "frequency": 7
+    },
+    {
+      "ngram": "think need",
+      "frequency": 7
+    },
+    {
+      "ngram": "eyes met",
+      "frequency": 7
+    },
+    {
+      "ngram": "turned leave",
+      "frequency": 7
+    },
+    {
+      "ngram": "like one",
+      "frequency": 7
+    },
+    {
+      "ngram": "one left",
+      "frequency": 7
+    },
+    {
+      "ngram": "camera crew",
+      "frequency": 7
+    },
+    {
+      "ngram": "ran spine",
+      "frequency": 6
+    },
+    {
+      "ngram": "first thought",
+      "frequency": 6
+    }
+  ],
+  "top_trigrams": [
+    {
+      "ngram": "took deep breath",
+      "frequency": 52
+    },
+    {
+      "ngram": "voice barely whisper",
+      "frequency": 30
+    },
+    {
+      "ngram": "could shake feeling",
+      "frequency": 30
+    },
+    {
+      "ngram": "shiver run spine",
+      "frequency": 22
+    },
+    {
+      "ngram": "felt shiver run",
+      "frequency": 20
+    },
+    {
+      "ngram": "could help wonder",
+      "frequency": 19
+    },
+    {
+      "ngram": "trying keep voice",
+      "frequency": 17
+    },
+    {
+      "ngram": "said voice barely",
+      "frequency": 15
+    },
+    {
+      "ngram": "said voice low",
+      "frequency": 14
+    },
+    {
+      "ngram": "could help feel",
+      "frequency": 13
+    },
+    {
+      "ngram": "eyes locked onto",
+      "frequency": 13
+    },
+    {
+      "ngram": "could help think",
+      "frequency": 13
+    },
+    {
+      "ngram": "said voice dripping",
+      "frequency": 11
+    },
+    {
+      "ngram": "took step back",
+      "frequency": 11
+    },
+    {
+      "ngram": "felt like eternity",
+      "frequency": 10
+    },
+    {
+      "ngram": "asked trying keep",
+      "frequency": 10
+    },
+    {
+      "ngram": "piercing green eyes",
+      "frequency": 10
+    },
+    {
+      "ngram": "keep voice steady",
+      "frequency": 9
+    },
+    {
+      "ngram": "heart skipped beat",
+      "frequency": 8
+    },
+    {
+      "ngram": "change ways could",
+      "frequency": 8
+    },
+    {
+      "ngram": "deep breath trying",
+      "frequency": 8
+    },
+    {
+      "ngram": "casting warm orange",
+      "frequency": 8
+    },
+    {
+      "ngram": "warm orange glow",
+      "frequency": 8
+    },
+    {
+      "ngram": "said trying keep",
+      "frequency": 8
+    },
+    {
+      "ngram": "leaned forward eyes",
+      "frequency": 8
+    },
+    {
+      "ngram": "said trying sound",
+      "frequency": 8
+    },
+    {
+      "ngram": "sent shiver spine",
+      "frequency": 8
+    },
+    {
+      "ngram": "door swung open",
+      "frequency": 8
+    },
+    {
+      "ngram": "life change ways",
+      "frequency": 7
+    },
+    {
+      "ngram": "sun dipped horizon",
+      "frequency": 7
+    },
+    {
+      "ngram": "room fell silent",
+      "frequency": 7
+    },
+    {
+      "ngram": "felt like punched",
+      "frequency": 7
+    },
+    {
+      "ngram": "like punched gut",
+      "frequency": 7
+    },
+    {
+      "ngram": "spreading across face",
+      "frequency": 7
+    },
+    {
+      "ngram": "asked voice barely",
+      "frequency": 7
+    },
+    {
+      "ngram": "one thing certain",
+      "frequency": 7
+    },
+    {
+      "ngram": "run spine realized",
+      "frequency": 6
+    },
+    {
+      "ngram": "deep breath feeling",
+      "frequency": 6
+    },
+    {
+      "ngram": "said voice firm",
+      "frequency": 6
+    },
+    {
+      "ngram": "words hung air",
+      "frequency": 6
+    },
+    {
+      "ngram": "growing sense unease",
+      "frequency": 6
+    },
+    {
+      "ngram": "smile playing lips",
+      "frequency": 6
+    },
+    {
+      "ngram": "sense trepidation wash",
+      "frequency": 6
+    },
+    {
+      "ngram": "felt strange sense",
+      "frequency": 6
+    },
+    {
+      "ngram": "trying sound casual",
+      "frequency": 6
+    },
+    {
+      "ngram": "deep breath tried",
+      "frequency": 6
+    },
+    {
+      "ngram": "could sworn saw",
+      "frequency": 6
+    },
+    {
+      "ngram": "said voice laced",
+      "frequency": 6
+    },
+    {
+      "ngram": "shiver ran spine",
+      "frequency": 5
+    },
+    {
+      "ngram": "began take shape",
+      "frequency": 5
+    },
+    {
+      "ngram": "trying process happening",
+      "frequency": 5
+    },
+    {
+      "ngram": "still trying wrap",
+      "frequency": 5
+    },
+    {
+      "ngram": "wrap head around",
+      "frequency": 5
+    },
+    {
+      "ngram": "eyes scanning horizon",
+      "frequency": 5
+    },
+    {
+      "ngram": "dipped horizon casting",
+      "frequency": 5
+    },
+    {
+      "ngram": "casting warm glow",
+      "frequency": 5
+    },
+    {
+      "ngram": "eyes locked mine",
+      "frequency": 5
+    },
+    {
+      "ngram": "mind racing questions",
+      "frequency": 5
+    },
+    {
+      "ngram": "looked eyes saw",
+      "frequency": 5
+    },
+    {
+      "ngram": "time would tell",
+      "frequency": 5
+    },
+    {
+      "ngram": "exchanged worried glances",
+      "frequency": 5
+    },
+    {
+      "ngram": "eyes wide fear",
+      "frequency": 5
+    },
+    {
+      "ngram": "took step closer",
+      "frequency": 5
+    },
+    {
+      "ngram": "small smile playing",
+      "frequency": 5
+    },
+    {
+      "ngram": "woman piercing green",
+      "frequency": 5
+    },
+    {
+      "ngram": "seemed stretch forever",
+      "frequency": 5
+    },
+    {
+      "ngram": "stood lost thought",
+      "frequency": 5
+    },
+    {
+      "ngram": "smile spreading across",
+      "frequency": 5
+    },
+    {
+      "ngram": "shook head trying",
+      "frequency": 5
+    },
+    {
+      "ngram": "head trying clear",
+      "frequency": 5
+    },
+    {
+      "ngram": "trying sound nonchalant",
+      "frequency": 5
+    },
+    {
+      "ngram": "mischievous glint eye",
+      "frequency": 5
+    },
+    {
+      "ngram": "trying make sense",
+      "frequency": 5
+    },
+    {
+      "ngram": "raised eyebrow intrigued",
+      "frequency": 5
+    },
+    {
+      "ngram": "voice laced hint",
+      "frequency": 5
+    },
+    {
+      "ngram": "days turned weeks",
+      "frequency": 5
+    },
+    {
+      "ngram": "knew would never",
+      "frequency": 5
+    },
+    {
+      "ngram": "hesitated unsure much",
+      "frequency": 5
+    },
+    {
+      "ngram": "asked voice low",
+      "frequency": 5
+    },
+    {
+      "ngram": "saw something gave",
+      "frequency": 5
+    },
+    {
+      "ngram": "something gave pause",
+      "frequency": 5
+    },
+    {
+      "ngram": "sense calm wash",
+      "frequency": 5
+    },
+    {
+      "ngram": "said shaking head",
+      "frequency": 5
+    },
+    {
+      "ngram": "felt pang guilt",
+      "frequency": 5
+    },
+    {
+      "ngram": "help feel sense",
+      "frequency": 4
+    },
+    {
+      "ngram": "worried glances heard",
+      "frequency": 4
+    },
+    {
+      "ngram": "felt surge fear",
+      "frequency": 4
+    },
+    {
+      "ngram": "ways could even",
+      "frequency": 4
+    },
+    {
+      "ngram": "trying wrap head",
+      "frequency": 4
+    },
+    {
+      "ngram": "felt sense peace",
+      "frequency": 4
+    },
+    {
+      "ngram": "sense peace wash",
+      "frequency": 4
+    },
+    {
+      "ngram": "hung air like",
+      "frequency": 4
+    },
+    {
+      "ngram": "exchanged nervous glances",
+      "frequency": 4
+    },
+    {
+      "ngram": "voice low gravelly",
+      "frequency": 4
+    },
+    {
+      "ngram": "air thick smell",
+      "frequency": 4
+    },
+    {
+      "ngram": "heart skip beat",
+      "frequency": 4
+    },
+    {
+      "ngram": "said voice filled",
+      "frequency": 4
+    },
+    {
+      "ngram": "felt sense trepidation",
+      "frequency": 4
+    },
+    {
+      "ngram": "eyes saw something",
+      "frequency": 4
+    },
+    {
+      "ngram": "taking sights sounds",
+      "frequency": 4
+    },
+    {
+      "ngram": "trying clear cobwebs",
+      "frequency": 4
+    },
+    {
+      "ngram": "voice tinged hint",
+      "frequency": 4
+    },
+    {
+      "ngram": "breath trying process",
+      "frequency": 4
+    },
+    {
+      "ngram": "eyes sparkling mischief",
+      "frequency": 4
+    },
+    {
+      "ngram": "emily could shake",
+      "frequency": 4
+    },
+    {
+      "ngram": "shake feeling something",
+      "frequency": 4
+    },
+    {
+      "ngram": "thought saw flicker",
+      "frequency": 4
+    },
+    {
+      "ngram": "like living thing",
+      "frequency": 4
+    },
+    {
+      "ngram": "every cell body",
+      "frequency": 4
+    },
+    {
+      "ngram": "locked onto mine",
+      "frequency": 4
+    },
+    {
+      "ngram": "felt jolt fear",
+      "frequency": 4
+    },
+    {
+      "ngram": "something strange happened",
+      "frequency": 4
+    },
+    {
+      "ngram": "moment thought saw",
+      "frequency": 4
+    },
+    {
+      "ngram": "deep breath began",
+      "frequency": 4
+    },
+    {
+      "ngram": "scar left eyebrow",
+      "frequency": 4
+    },
+    {
+      "ngram": "voice barely audible",
+      "frequency": 4
+    },
+    {
+      "ngram": "unsure much reveal",
+      "frequency": 4
+    },
+    {
+      "ngram": "shake feeling watched",
+      "frequency": 4
+    },
+    {
+      "ngram": "curly brown hair",
+      "frequency": 4
+    },
+    {
+      "ngram": "step back eyes",
+      "frequency": 4
+    },
+    {
+      "ngram": "leaned back chair",
+      "frequency": 4
+    },
+    {
+      "ngram": "think need talk",
+      "frequency": 4
+    },
+    {
+      "ngram": "smiled feeling sense",
+      "frequency": 4
+    },
+    {
+      "ngram": "taking deep breath",
+      "frequency": 4
+    },
+    {
+      "ngram": "thought sent shiver",
+      "frequency": 4
+    },
+    {
+      "ngram": "turned weeks weeks",
+      "frequency": 4
+    },
+    {
+      "ngram": "would change course",
+      "frequency": 4
+    },
+    {
+      "ngram": "eyes scanning room",
+      "frequency": 4
+    },
+    {
+      "ngram": "smiled cold calculating",
+      "frequency": 4
+    },
+    {
+      "ngram": "cold calculating smile",
+      "frequency": 4
+    },
+    {
+      "ngram": "walked away leaving",
+      "frequency": 4
+    },
+    {
+      "ngram": "turned leave caught",
+      "frequency": 4
+    },
+    {
+      "ngram": "leave caught glimpse",
+      "frequency": 4
+    },
+    {
+      "ngram": "could even imagine",
+      "frequency": 4
+    },
+    {
+      "ngram": "one grown accustomed",
+      "frequency": 3
+    },
+    {
+      "ngram": "heart pounding chest",
+      "frequency": 3
+    },
+    {
+      "ngram": "friends family members",
+      "frequency": 3
+    },
+    {
+      "ngram": "sleek silver spaceship",
+      "frequency": 3
+    },
+    {
+      "ngram": "matter hard tried",
+      "frequency": 3
+    },
+    {
+      "ngram": "sun long since",
+      "frequency": 3
+    },
+    {
+      "ngram": "long since set",
+      "frequency": 3
+    },
+    {
+      "ngram": "moment felt like",
+      "frequency": 3
+    },
+    {
+      "ngram": "could feel tension",
+      "frequency": 3
+    },
+    {
+      "ngram": "glances heard rumors",
+      "frequency": 3
+    },
+    {
+      "ngram": "given second chance",
+      "frequency": 3
+    },
+    {
+      "ngram": "feeling growing sense",
+      "frequency": 3
+    },
+    {
+      "ngram": "questions swirled mind",
+      "frequency": 3
+    },
+    {
+      "ngram": "tried speak voice",
+      "frequency": 3
+    },
+    {
+      "ngram": "breath feeling cool",
+      "frequency": 3
+    },
+    {
+      "ngram": "could help laugh",
+      "frequency": 3
+    },
+    {
+      "ngram": "something much bigger",
+      "frequency": 3
+    },
+    {
+      "ngram": "scanning horizon sign",
+      "frequency": 3
+    },
+    {
+      "ngram": "heart racing anticipation",
+      "frequency": 3
+    },
+    {
+      "ngram": "felt jolt surprise",
+      "frequency": 3
+    },
+    {
+      "ngram": "eyes fixed intently",
+      "frequency": 3
+    },
+    {
+      "ngram": "need get inside",
+      "frequency": 3
+    },
+    {
+      "ngram": "right said voice",
+      "frequency": 3
+    },
+    {
+      "ngram": "deep breath preparing",
+      "frequency": 3
+    },
+    {
+      "ngram": "chest heaving exertion",
+      "frequency": 3
+    },
+    {
+      "ngram": "crowd began disperse",
+      "frequency": 3
+    },
+    {
+      "ngram": "mind reeling implications",
+      "frequency": 3
+    },
+    {
+      "ngram": "stepped forward eyes",
+      "frequency": 3
+    },
+    {
+      "ngram": "sure good idea",
+      "frequency": 3
+    },
+    {
+      "ngram": "challenges lay ahead",
+      "frequency": 3
+    },
+    {
+      "ngram": "dimly lit room",
+      "frequency": 3
+    },
+    {
+      "ngram": "vanished night leaving",
+      "frequency": 3
+    },
+    {
+      "ngram": "casting golden glow",
+      "frequency": 3
+    },
+    {
+      "ngram": "face another day",
+      "frequency": 3
+    },
+    {
+      "ngram": "need talk said",
+      "frequency": 3
+    },
+    {
+      "ngram": "air thick tension",
+      "frequency": 3
+    },
+    {
+      "ngram": "step closer eyes",
+      "frequency": 3
+    },
+    {
+      "ngram": "took another step",
+      "frequency": 3
+    },
+    {
+      "ngram": "eyes never leaving",
+      "frequency": 3
+    },
+    {
+      "ngram": "still clutched hand",
+      "frequency": 3
+    },
+    {
+      "ngram": "looked around taking",
+      "frequency": 3
+    },
+    {
+      "ngram": "seemed vibrate otherworldly",
+      "frequency": 3
+    },
+    {
+      "ngram": "vibrate otherworldly energy",
+      "frequency": 3
+    },
+    {
+      "ngram": "air seemed vibrate",
+      "frequency": 3
+    },
+    {
+      "ngram": "step back mind",
+      "frequency": 3
+    },
+    {
+      "ngram": "asked voice laced",
+      "frequency": 3
+    },
+    {
+      "ngram": "shook head still",
+      "frequency": 3
+    },
+    {
+      "ngram": "head still trying",
+      "frequency": 3
+    },
+    {
+      "ngram": "curiosity getting better",
+      "frequency": 3
+    },
+    {
+      "ngram": "forward eyes glinting",
+      "frequency": 3
+    },
+    {
+      "ngram": "felt sense wonder",
+      "frequency": 3
+    },
+    {
+      "ngram": "little know would",
+      "frequency": 3
+    },
+    {
+      "ngram": "man thick beard",
+      "frequency": 3
+    },
+    {
+      "ngram": "remembered countless times",
+      "frequency": 3
+    },
+    {
+      "ngram": "eyes sparkling curiosity",
+      "frequency": 3
+    },
+    {
+      "ngram": "asked trying sound",
+      "frequency": 3
+    },
+    {
+      "ngram": "tried play cool",
+      "frequency": 3
+    },
+    {
+      "ngram": "drifted sleep could",
+      "frequency": 3
+    },
+    {
+      "ngram": "make ends meet",
+      "frequency": 3
+    },
+    {
+      "ngram": "bustling market square",
+      "frequency": 3
+    },
+    {
+      "ngram": "woman eyes sparkled",
+      "frequency": 3
+    },
+    {
+      "ngram": "help wonder secrets",
+      "frequency": 3
+    },
+    {
+      "ngram": "could see fear",
+      "frequency": 3
+    },
+    {
+      "ngram": "air like promise",
+      "frequency": 3
+    },
+    {
+      "ngram": "another deep breath",
+      "frequency": 3
+    },
+    {
+      "ngram": "world seemed slow",
+      "frequency": 3
+    }
+  ]
+}
