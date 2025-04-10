@@ -32,8 +32,8 @@ https://colab.research.google.com/drive/1SQfnHs4wh87yR8FZQpsCOBL5h5MMs8E6?usp=sh
    - [2. Analyze Outputs & Profile Slop](#2-analyze-outputs--profile-slop)  
    - [3. Create Slop Lists](#3-create-slop-lists)  
    - [4. Generate Phylogenetic Trees](#4-generate-phylogenetic-trees)  
-5. [Script Descriptions](#script-reference)
-6. [Analysis Pipeline Explanation](#analysis-pipeline)
+5. [Detailed Script Usage](#script-reference)
+6. [How it Works](#how-the-analysis-works)
 7. [License](#license)  
 8. [Contact](#contact)
 
