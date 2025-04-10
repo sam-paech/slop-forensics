@@ -415,7 +415,11 @@ def generate_phylogenetic_trees(
     # --- 2. Extract features for each model ---
     logger.info("Extracting features (top words/ngrams) for tree building...")
     model_features = {}
-    feature_counts = {"word": top_n_features // 3, "bigram": top_n_features // 3, "trigram": top_n_features // 3}
+    feature_counts = {
+        "word": 1000, #top_n_features // 3,
+        "bigram": 200, #top_n_features // 3,
+        "trigram": 200, #top_n_features // 3
+    }
 
     for model_name, data in metrics_data.items():
         if model_name in models_to_ignore:
