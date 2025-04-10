@@ -32,10 +32,9 @@ https://colab.research.google.com/drive/1SQfnHs4wh87yR8FZQpsCOBL5h5MMs8E6?usp=sh
    - [2. Analyze Outputs & Profile Slop](#2-analyze-outputs--profile-slop)  
    - [3. Create Slop Lists](#3-create-slop-lists)  
    - [4. Generate Phylogenetic Trees](#4-generate-phylogenetic-trees)  
-5. [Detailed Script Usage](#script-reference)
-6. [How it Works](#how-the-analysis-works)
-7. [License](#license)  
-8. [Contact](#contact)
+5. [How it Works](#how-the-analysis-works)
+6. [License](#license)  
+7. [Contact](#contact)
 
 ---
 
@@ -192,44 +191,6 @@ python3 scripts/generate_phylo_trees.py
   - `.png` images (both circular & rectangular) per model highlighting that model on the tree.
 
 ---
-
-## Script Reference
-
-Below is a quick reference to each major script:
-
-1. **`scripts/generate_dataset.py`**  
-   - **Purpose**: Calls an OpenAI-compatible API to generate text outputs from specified models.  
-   - **Key Args**:  
-     - `--model-ids`: Comma-separated model IDs.  
-     - `--output-dir`: Where to write `.jsonl` dataset files.  
-     - `--generate-n`: Target number of outputs per model.  
-   - **Dependencies**:  
-     - Requires a valid `OPENAI_API_KEY` in your `.env`.
-
-2. **`scripts/slop_profile.py`**  
-   - **Purpose**: Analyzes each `.jsonl` file from `generate_dataset.py` for repetitive words, bigrams, trigrams, slop scores, etc.  
-   - **Key Args**:  
-     - `--input-dir`: Directory containing generated `.jsonl` files.  
-     - `--analysis-output-dir`: Directory to write per-model JSON analysis.  
-     - `--combined-output-file`: JSON file for combined results.  
-   - **Outputs**:  
-     - Per-model `.json` analysis in `results/analysis/`  
-     - Merged summary in `results/slop_profile_results.json`
-
-3. **`scripts/create_slop_lists.py`**  
-   - **Purpose**: Combines analysis from many models and re-reads the full text to build global slop lists (words, bigrams, trigrams, and multi-word phrases).  
-   - **Outputs**:  
-     - `slop_list.json`, `slop_list_bigrams.json`, `slop_list_trigrams.json`, and `slop_list_phrases.jsonl` in `results/slop_lists/`.
-
-4. **`scripts/generate_phylo_trees.py`**  
-   - **Purpose**: Uses the combined metrics file (slop_profile_results.json) to cluster or build parsimony trees across all models.  
-   - **Key Args**:  
-     - `--input-file`: Path to `slop_profile_results.json`.  
-     - `--output-dir`: Directory for final trees.  
-     - `--top-n-features`: Control how many top repeated terms (words+bigrams+trigrams) to use.  
-   - **Outputs**:  
-     - Tree files in `results/phylogeny/` (Newick, Nexus)  
-     - PNG visualizations in `results/phylogeny/charts/`
 
 ## How the Analysis Works
 
