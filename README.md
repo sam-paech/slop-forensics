@@ -276,7 +276,7 @@ This pipeline allows you to clearly see which words and phrases each language mo
 
 ## License
 
-MIT License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
