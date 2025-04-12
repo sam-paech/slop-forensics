@@ -34,6 +34,12 @@ def main():
         default=config.TARGET_RECORDS_PER_MODEL,
         help=f"Target number of records to generate per model (default: {config.TARGET_RECORDS_PER_MODEL})"
     )
+    parser.add_argument(
+        "--threads",
+        type=int,
+        default=config.MAX_WORKERS,
+        help=f"Number of worker threads to use (default: {config.MAX_WORKERS})"
+    )
     args = parser.parse_args()
 
     if not config.OPENAI_API_KEY:
@@ -50,12 +56,13 @@ def main():
     logger.info(f"Starting dataset generation for models: {', '.join(models_to_process)}")
     logger.info(f"Output directory: {args.output_dir}")
     logger.info(f"Target records per model: {args.generate_n}")
+    logger.info(f"Worker threads: {args.threads}")
 
     os.makedirs(args.output_dir, exist_ok=True)
 
     for model_name in models_to_process:
         try:
-            generate_for_model(model_name, args.output_dir, args.generate_n)
+            generate_for_model(model_name, args.output_dir, args.generate_n, args.threads)
         except Exception as e:
             logger.error(f"Critical error during generation for model {model_name}: {e}", exc_info=True)
             logger.error(f"Skipping remaining generation for {model_name} due to error.")

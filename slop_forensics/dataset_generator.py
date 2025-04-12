@@ -223,8 +223,17 @@ def _save_results_batch(results_batch: List[Dict], filename: str):
              logger.error(f"Data contains non-JSON serializable items for file {filename}: {e}", exc_info=True)
 
 
-def generate_for_model(model_name: str, output_dir: str = config.DATASET_OUTPUT_DIR, target_records: int = config.TARGET_RECORDS_PER_MODEL):
-    """Generates dataset for a single specified model."""
+def generate_for_model(model_name: str, output_dir: str = config.DATASET_OUTPUT_DIR, 
+                   target_records: int = config.TARGET_RECORDS_PER_MODEL,
+                   max_workers: int = config.MAX_WORKERS):
+    """Generates dataset for a single specified model.
+    
+    Args:
+        model_name: The name of the model to use for generation
+        output_dir: Directory to save the generated dataset
+        target_records: Target number of records to generate
+        max_workers: Number of worker threads to use
+    """
     logger.info(f"Starting generation process for model: {model_name}")
     sanitized_model_name = sanitize_filename(model_name)
     output_filename = os.path.join(output_dir, f"generated_{sanitized_model_name}.jsonl")
@@ -250,7 +259,7 @@ def generate_for_model(model_name: str, output_dir: str = config.DATASET_OUTPUT_
     logger.info(f"Need {prompts_needed} more records. Will process {num_tasks} available prompts.")
 
 
-    logger.info(f"Initializing ThreadPoolExecutor with {config.MAX_WORKERS} workers.")
+    logger.info(f"Initializing ThreadPoolExecutor with {max_workers} workers.")
     results_buffer = []
     futures = []
     processed_count_session = 0
@@ -258,7 +267,7 @@ def generate_for_model(model_name: str, output_dir: str = config.DATASET_OUTPUT_
     encountered_error = False
 
     # Use try-with-resources for the executor
-    with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as executor:
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
         try:
             # Submit tasks
             for prompt_detail in prompts_to_process:
