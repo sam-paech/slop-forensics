@@ -276,129 +276,128 @@ def get_ngrams(
 
 def analyze_texts(
     model_name: str,
-    texts_with_ids: List[Tuple[str, str]], # List of (text_content, prompt_id)
-    prompts_data: Dict[str, List[str]] # Dict of {prompt_id: [text1, text2]} for ngram analysis
+    texts_with_ids: List[Tuple[str, str]],          # (text, prompt_id)
+    prompts_data: Dict[str, List[str]]              # {prompt_id: [text1, …]}
 ) -> Dict[str, Any]:
     """
-    Performs comprehensive analysis on a list of texts for a single model.
-    Calculates metrics, finds repetitive words and n-grams.
+    Comprehensive one-model analysis.
+
+    Key change: we now split high-ratio words into
+        • top_repetitive_words  (wordfreq > 0)
+        • zero_frequency_words  (wordfreq == 0)
+    so that nonce tokens no longer swamp the preview list, while
+    later stages that recompute from raw text stay unaffected.
     """
     logger.info(f"Starting analysis for model: {model_name}")
     analysis_results = {"model_name": model_name}
+
+    # ---------- basic counts ----------
     num_texts = len(texts_with_ids)
     num_prompts = len(prompts_data)
-    analysis_results["num_texts_analyzed"] = num_texts
-    analysis_results["num_unique_prompts"] = num_prompts
-
+    analysis_results["num_texts_analyzed"]   = num_texts
+    analysis_results["num_unique_prompts"]  = num_prompts
     if num_texts == 0:
-        logger.warning(f"No texts provided for analysis of {model_name}. Returning empty results.")
+        logger.warning("No texts supplied; returning empty result.")
         return analysis_results
 
-    all_texts_flat = [text for text, _ in texts_with_ids]
-    all_text_combined = "\n\n".join(all_texts_flat)
+    all_texts_flat  = [t for t, _ in texts_with_ids]
+    all_text_concat = "\n\n".join(all_texts_flat)
 
-    # --- Calculate Basic Metrics ---
-    logger.debug("Calculating basic metrics (length, complexity, slop)...")
-    total_chars = sum(len(text) for text in all_texts_flat)
-    analysis_results["avg_length"] = round(total_chars / num_texts, 2) if num_texts > 0 else 0.0
+    # ---------- simple metrics ----------
+    total_chars = sum(len(t) for t in all_texts_flat)
+    analysis_results["avg_length"] = round(total_chars / num_texts, 2)
 
-    # Import metrics functions here to avoid circular dependency at module level
-    from .metrics import calculate_complexity_index, calculate_slop_index_new # Use new slop index
-    try:
-        analysis_results["vocab_complexity"] = calculate_complexity_index(all_text_combined)
-    except Exception as e:
-        logger.error(f"Error calculating complexity for {model_name}: {e}", exc_info=True)
-        analysis_results["vocab_complexity"] = "Error"
-    try:
-        analysis_results["slop_score"] = calculate_slop_index_new(all_text_combined)
-    except Exception as e:
-        logger.error(f"Error calculating slop score for {model_name}: {e}", exc_info=True)
-        analysis_results["slop_score"] = "Error"
+    from .metrics import calculate_complexity_index, calculate_slop_index_new
+    analysis_results["vocab_complexity"] = calculate_complexity_index(all_text_concat)
+    analysis_results["slop_score"]       = calculate_slop_index_new(all_text_concat)
 
-    # --- Word Frequency and Repetition Analysis ---
-    logger.debug("Performing word frequency and repetition analysis...")
-    # 1. Initial counts and filtering
-    raw_word_counts = get_word_counts(all_texts_flat)
-    filtered_numeric = filter_mostly_numeric(raw_word_counts)
+    # ---------- word counting & filters ----------
+    raw_counts          = get_word_counts(all_texts_flat)
+    counts_no_numbers   = filter_mostly_numeric(raw_counts)
+    counts_merged_s     = merge_plural_possessive_s(counts_no_numbers)
 
-    # We merge all incidence of trailing 's with the base word, except for common contractions like "it's"
-    merged_possessive = merge_plural_possessive_s(filtered_numeric)
-
-
-    # 2. Multi-prompt filtering (if applicable)
     if num_prompts >= config.WORD_MIN_PROMPT_IDS:
-        logger.debug(f"Filtering words by minimum prompt IDs ({config.WORD_MIN_PROMPT_IDS})...")
         word_prompt_map = get_word_prompt_map(texts_with_ids)
-        words = {
-            word for word, prompt_ids in word_prompt_map.items()
-            if len(prompt_ids) >= config.WORD_MIN_PROMPT_IDS
+        eligible_words  = {
+            w for w, ids in word_prompt_map.items()
+            if len(ids) >= config.WORD_MIN_PROMPT_IDS
         }
-        filtered_multi_prompt = Counter({
-            word: count for word, count in merged_possessive.items()
-            if word in words
+        counts_multi_prompt = Counter({
+            w: c for w, c in counts_merged_s.items() if w in eligible_words
         })
-        logger.debug(f"Kept {len(filtered_multi_prompt)} words appearing in >= {config.WORD_MIN_PROMPT_IDS} prompts.")
     else:
-        logger.debug(f"Skipping multi-prompt word filtering (only {num_prompts} prompts found).")
-        filtered_multi_prompt = merged_possessive # Use all words if not enough prompts
+        counts_multi_prompt = counts_merged_s
 
-    # 3. Filter forbidden words and by minimum count
-    filtered_forbidden = filter_forbidden_words(filtered_multi_prompt)
-    final_word_counts = filter_by_minimum_count(filtered_forbidden, config.WORD_MIN_REPETITION_COUNT)
-    logger.debug(f"Final word count after all filters: {len(final_word_counts)}")
-
+    counts_no_forbidden = filter_forbidden_words(counts_multi_prompt)
+    final_word_counts   = filter_by_minimum_count(
+        counts_no_forbidden, config.WORD_MIN_REPETITION_COUNT
+    )
     analysis_results["total_unique_words_after_filters"] = len(final_word_counts)
 
-    # 4. Rarity analysis on final counts
+    # ---------- rarity / over-rep split ----------
     if final_word_counts:
-        corpus_freqs, wordfreq_freqs, avg_corp_rarity, avg_wf_rarity, corr = analyze_word_rarity(final_word_counts)
-        analysis_results["avg_corpus_rarity"] = round(avg_corp_rarity, 4) if not np.isnan(avg_corp_rarity) else None
-        analysis_results["avg_wordfreq_rarity"] = round(avg_wf_rarity, 4) if not np.isnan(avg_wf_rarity) else None
-        analysis_results["rarity_correlation"] = round(corr, 4) if not np.isnan(corr) else None
+        (
+            corpus_freqs, wordfreq_freqs,
+            avg_corp_rarity, avg_wf_rarity, corr
+        ) = analyze_word_rarity(final_word_counts)
 
-        # 5. Find top over-represented words from the final filtered set
-        over_rep_words = find_over_represented_words(corpus_freqs, wordfreq_freqs, top_n=config.TOP_N_WORDS_REPETITION)
-        # Format for saving: list of dicts
-        analysis_results["top_repetitive_words"] = [
-            {"word": word, "score": score, "corpus_freq": cf, "wordfreq_freq": wf}
-            for word, score, cf, wf in over_rep_words
-        ]
-        logger.debug(f"Found {len(over_rep_words)} top over-represented words.")
+        analysis_results["avg_corpus_rarity"]  = round(avg_corp_rarity, 4) if avg_corp_rarity else None
+        analysis_results["avg_wordfreq_rarity"] = round(avg_wf_rarity, 4) if avg_wf_rarity else None
+        analysis_results["rarity_correlation"]  = round(corr, 4) if corr else None
 
-        # Calculate Repetition Score (sum of corpus frequencies of top N over-represented)
-        # Use a smaller N for the score calculation, e.g., 100
+        over_rep_words = find_over_represented_words(
+            corpus_freqs, wordfreq_freqs, top_n=config.TOP_N_WORDS_REPETITION * 3
+        )
+
+        top_nonzero : List[Dict[str, Any]] = []
+        zero_freq   : List[Dict[str, Any]] = []
+
+        for word, ratio, cf, wf in over_rep_words:
+            if wf == 0.0:
+                zero_freq.append(
+                    {"word": word, "corpus_freq": cf}
+                )
+            else:
+                top_nonzero.append(
+                    {
+                        "word":           word,
+                        "score":          ratio,
+                        "corpus_freq":    cf,
+                        "wordfreq_freq":  wf
+                    }
+                )
+
+        analysis_results["top_repetitive_words"] = top_nonzero[:config.TOP_N_WORDS_REPETITION]
+        analysis_results["zero_frequency_words"] = zero_freq[:config.SLOP_LIST_TOP_N_ZERO_FREQ]
+
+        # simple repetition score for logging consistency
         top_n_for_score = 100
-        repetition_score_val = sum(cf for _, _, cf, _ in over_rep_words[:top_n_for_score]) * 100 # As percentage
+        repetition_score_val = sum(
+            item["corpus_freq"] for item in top_nonzero[:top_n_for_score]
+        ) * 100
         analysis_results["repetition_score"] = round(repetition_score_val, 4)
 
     else:
-        logger.warning(f"No words remained after filtering for {model_name}. Skipping rarity and repetition analysis.")
-        analysis_results["avg_corpus_rarity"] = None
+        # nothing survived filtering
+        analysis_results["avg_corpus_rarity"]   = None
         analysis_results["avg_wordfreq_rarity"] = None
-        analysis_results["rarity_correlation"] = None
+        analysis_results["rarity_correlation"]  = None
         analysis_results["top_repetitive_words"] = []
-        analysis_results["repetition_score"] = 0.0
+        analysis_results["zero_frequency_words"] = []
+        analysis_results["repetition_score"]     = 0.0
 
-    # --- N-gram Analysis (Multi-prompt only) ---
+    # ---------- N-gram analysis (unchanged) ----------
     if num_prompts >= config.NGRAM_MIN_PROMPT_IDS:
-        logger.debug("Performing multi-prompt N-gram analysis...")
-        try:
-            top_bigrams = get_ngrams(prompts_data, n=2, top_k=config.TOP_N_BIGRAMS, min_prompt_ids=config.NGRAM_MIN_PROMPT_IDS)
-            analysis_results["top_bigrams"] = top_bigrams
-        except Exception as e:
-            logger.error(f"Error calculating bigrams for {model_name}: {e}", exc_info=True)
-            analysis_results["top_bigrams"] = []
-
-        try:
-            top_trigrams = get_ngrams(prompts_data, n=3, top_k=config.TOP_N_TRIGRAMS, min_prompt_ids=config.NGRAM_MIN_PROMPT_IDS)
-            analysis_results["top_trigrams"] = top_trigrams
-        except Exception as e:
-            logger.error(f"Error calculating trigrams for {model_name}: {e}", exc_info=True)
-            analysis_results["top_trigrams"] = []
+        analysis_results["top_bigrams"]  = get_ngrams(
+            prompts_data, 2, config.TOP_N_BIGRAMS, config.NGRAM_MIN_PROMPT_IDS
+        )
+        analysis_results["top_trigrams"] = get_ngrams(
+            prompts_data, 3, config.TOP_N_TRIGRAMS, config.NGRAM_MIN_PROMPT_IDS
+        )
     else:
-        logger.debug(f"Skipping multi-prompt N-gram analysis (only {num_prompts} prompts found).")
-        analysis_results["top_bigrams"] = []
+        analysis_results["top_bigrams"]  = []
         analysis_results["top_trigrams"] = []
 
     logger.info(f"Analysis complete for model: {model_name}")
     return analysis_results
+

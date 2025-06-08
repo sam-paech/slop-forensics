@@ -1,0 +1,3622 @@
+{
+  "human-authored": {
+    "model_name": "human-authored",
+    "num_texts_analyzed": 177477,
+    "num_unique_prompts": 177477,
+    "avg_length": 2913.89,
+    "vocab_complexity": 34.1507,
+    "slop_score": 12.2247,
+    "total_unique_words_after_filters": 68097,
+    "avg_corpus_rarity": 5.9511,
+    "avg_wordfreq_rarity": 6.1773,
+    "rarity_correlation": 0.7386,
+    "top_repetitive_words": [],
+    "repetition_score": 0,
+    "top_bigrams": [
+      {
+        "ngram": "could see",
+        "frequency": 20485
+      },
+      {
+        "ngram": "amp nbsp",
+        "frequency": 19555
+      },
+      {
+        "ngram": "first time",
+        "frequency": 16488
+      },
+      {
+        "ngram": "gon na",
+        "frequency": 15560
+      },
+      {
+        "ngram": "years ago",
+        "frequency": 12420
+      },
+      {
+        "ngram": "looked like",
+        "frequency": 11981
+      },
+      {
+        "ngram": "old man",
+        "frequency": 11768
+      },
+      {
+        "ngram": "one day",
+        "frequency": 11620
+      },
+      {
+        "ngram": "felt like",
+        "frequency": 11020
+      },
+      {
+        "ngram": "shook head",
+        "frequency": 10510
+      },
+      {
+        "ngram": "could feel",
+        "frequency": 9188
+      },
+      {
+        "ngram": "let go",
+        "frequency": 9181
+      },
+      {
+        "ngram": "could hear",
+        "frequency": 9070
+      },
+      {
+        "ngram": "nbsp amp",
+        "frequency": 9032
+      },
+      {
+        "ngram": "long time",
+        "frequency": 8815
+      },
+      {
+        "ngram": "last time",
+        "frequency": 8769
+      },
+      {
+        "ngram": "make sure",
+        "frequency": 8751
+      },
+      {
+        "ngram": "looked around",
+        "frequency": 8567
+      },
+      {
+        "ngram": "looks like",
+        "frequency": 8267
+      },
+      {
+        "ngram": "every day",
+        "frequency": 8170
+      },
+      {
+        "ngram": "even though",
+        "frequency": 7641
+      },
+      {
+        "ngram": "look like",
+        "frequency": 7384
+      },
+      {
+        "ngram": "go back",
+        "frequency": 7383
+      },
+      {
+        "ngram": "would never",
+        "frequency": 7310
+      },
+      {
+        "ngram": "one thing",
+        "frequency": 7019
+      },
+      {
+        "ngram": "every time",
+        "frequency": 6939
+      },
+      {
+        "ngram": "would like",
+        "frequency": 6930
+      },
+      {
+        "ngram": "come back",
+        "frequency": 6914
+      },
+      {
+        "ngram": "could tell",
+        "frequency": 6892
+      },
+      {
+        "ngram": "could get",
+        "frequency": 6847
+      },
+      {
+        "ngram": "made way",
+        "frequency": 6568
+      },
+      {
+        "ngram": "got ta",
+        "frequency": 6217
+      },
+      {
+        "ngram": "could help",
+        "frequency": 6184
+      },
+      {
+        "ngram": "feel like",
+        "frequency": 6172
+      },
+      {
+        "ngram": "turned around",
+        "frequency": 6092
+      },
+      {
+        "ngram": "one last",
+        "frequency": 6039
+      },
+      {
+        "ngram": "oh god",
+        "frequency": 5907
+      },
+      {
+        "ngram": "never seen",
+        "frequency": 5906
+      },
+      {
+        "ngram": "young man",
+        "frequency": 5892
+      },
+      {
+        "ngram": "deep breath",
+        "frequency": 5768
+      },
+      {
+        "ngram": "get back",
+        "frequency": 5537
+      },
+      {
+        "ngram": "closed eyes",
+        "frequency": 5487
+      },
+      {
+        "ngram": "could make",
+        "frequency": 5402
+      },
+      {
+        "ngram": "living room",
+        "frequency": 5335
+      },
+      {
+        "ngram": "front door",
+        "frequency": 5318
+      },
+      {
+        "ngram": "seemed like",
+        "frequency": 5288
+      },
+      {
+        "ngram": "looked back",
+        "frequency": 5271
+      },
+      {
+        "ngram": "knew would",
+        "frequency": 5128
+      },
+      {
+        "ngram": "everyone else",
+        "frequency": 4975
+      },
+      {
+        "ngram": "ever since",
+        "frequency": 4930
+      },
+      {
+        "ngram": "many times",
+        "frequency": 4922
+      },
+      {
+        "ngram": "would make",
+        "frequency": 4922
+      },
+      {
+        "ngram": "last night",
+        "frequency": 4918
+      },
+      {
+        "ngram": "ever seen",
+        "frequency": 4884
+      },
+      {
+        "ngram": "would take",
+        "frequency": 4833
+      },
+      {
+        "ngram": "came back",
+        "frequency": 4805
+      },
+      {
+        "ngram": "someone else",
+        "frequency": 4740
+      },
+      {
+        "ngram": "even know",
+        "frequency": 4719
+      },
+      {
+        "ngram": "could even",
+        "frequency": 4710
+      },
+      {
+        "ngram": "one one",
+        "frequency": 4607
+      },
+      {
+        "ngram": "thought would",
+        "frequency": 4595
+      },
+      {
+        "ngram": "one would",
+        "frequency": 4525
+      },
+      {
+        "ngram": "years old",
+        "frequency": 4515
+      },
+      {
+        "ngram": "would come",
+        "frequency": 4509
+      },
+      {
+        "ngram": "turned back",
+        "frequency": 4489
+      },
+      {
+        "ngram": "high school",
+        "frequency": 4483
+      },
+      {
+        "ngram": "something like",
+        "frequency": 4393
+      },
+      {
+        "ngram": "every single",
+        "frequency": 4386
+      },
+      {
+        "ngram": "year old",
+        "frequency": 4349
+      },
+      {
+        "ngram": "could find",
+        "frequency": 4345
+      },
+      {
+        "ngram": "many people",
+        "frequency": 4212
+      },
+      {
+        "ngram": "opened door",
+        "frequency": 4182
+      },
+      {
+        "ngram": "one another",
+        "frequency": 4132
+      },
+      {
+        "ngram": "went back",
+        "frequency": 4122
+      },
+      {
+        "ngram": "back home",
+        "frequency": 4083
+      },
+      {
+        "ngram": "little bit",
+        "frequency": 4036
+      },
+      {
+        "ngram": "next day",
+        "frequency": 4027
+      },
+      {
+        "ngram": "something else",
+        "frequency": 4020
+      },
+      {
+        "ngram": "opened eyes",
+        "frequency": 3961
+      },
+      {
+        "ngram": "one could",
+        "frequency": 3947
+      },
+      {
+        "ngram": "back forth",
+        "frequency": 3896
+      },
+      {
+        "ngram": "wan na",
+        "frequency": 3889
+      },
+      {
+        "ngram": "best friend",
+        "frequency": 3888
+      },
+      {
+        "ngram": "took deep",
+        "frequency": 3887
+      },
+      {
+        "ngram": "would get",
+        "frequency": 3885
+      },
+      {
+        "ngram": "one time",
+        "frequency": 3880
+      },
+      {
+        "ngram": "let get",
+        "frequency": 3851
+      },
+      {
+        "ngram": "would go",
+        "frequency": 3828
+      },
+      {
+        "ngram": "long ago",
+        "frequency": 3797
+      },
+      {
+        "ngram": "man said",
+        "frequency": 3759
+      },
+      {
+        "ngram": "little girl",
+        "frequency": 3702
+      },
+      {
+        "ngram": "last thing",
+        "frequency": 3634
+      },
+      {
+        "ngram": "one hand",
+        "frequency": 3633
+      },
+      {
+        "ngram": "could never",
+        "frequency": 3632
+      },
+      {
+        "ngram": "open door",
+        "frequency": 3609
+      },
+      {
+        "ngram": "anything else",
+        "frequency": 3564
+      },
+      {
+        "ngram": "know know",
+        "frequency": 3552
+      },
+      {
+        "ngram": "make sense",
+        "frequency": 3549
+      },
+      {
+        "ngram": "far away",
+        "frequency": 3540
+      },
+      {
+        "ngram": "around room",
+        "frequency": 3526
+      },
+      {
+        "ngram": "anyone else",
+        "frequency": 3474
+      },
+      {
+        "ngram": "could take",
+        "frequency": 3418
+      },
+      {
+        "ngram": "like one",
+        "frequency": 3351
+      },
+      {
+        "ngram": "new york",
+        "frequency": 3302
+      },
+      {
+        "ngram": "look around",
+        "frequency": 3295
+      },
+      {
+        "ngram": "would able",
+        "frequency": 3248
+      },
+      {
+        "ngram": "much time",
+        "frequency": 3248
+      },
+      {
+        "ngram": "long enough",
+        "frequency": 3229
+      },
+      {
+        "ngram": "people would",
+        "frequency": 3222
+      },
+      {
+        "ngram": "go home",
+        "frequency": 3219
+      },
+      {
+        "ngram": "many years",
+        "frequency": 3189
+      },
+      {
+        "ngram": "something wrong",
+        "frequency": 3186
+      },
+      {
+        "ngram": "could go",
+        "frequency": 3178
+      },
+      {
+        "ngram": "want know",
+        "frequency": 3177
+      },
+      {
+        "ngram": "united states",
+        "frequency": 3165
+      },
+      {
+        "ngram": "could say",
+        "frequency": 3153
+      },
+      {
+        "ngram": "would say",
+        "frequency": 3144
+      },
+      {
+        "ngram": "trying get",
+        "frequency": 3134
+      },
+      {
+        "ngram": "take care",
+        "frequency": 3114
+      },
+      {
+        "ngram": "two years",
+        "frequency": 3083
+      },
+      {
+        "ngram": "amp amp",
+        "frequency": 3083
+      },
+      {
+        "ngram": "rolled eyes",
+        "frequency": 3061
+      },
+      {
+        "ngram": "way back",
+        "frequency": 2986
+      },
+      {
+        "ngram": "could think",
+        "frequency": 2978
+      },
+      {
+        "ngram": "ten years",
+        "frequency": 2963
+      },
+      {
+        "ngram": "would happen",
+        "frequency": 2947
+      },
+      {
+        "ngram": "get away",
+        "frequency": 2920
+      },
+      {
+        "ngram": "let know",
+        "frequency": 2906
+      },
+      {
+        "ngram": "could remember",
+        "frequency": 2892
+      },
+      {
+        "ngram": "first place",
+        "frequency": 2889
+      },
+      {
+        "ngram": "going get",
+        "frequency": 2880
+      },
+      {
+        "ngram": "sounded like",
+        "frequency": 2879
+      },
+      {
+        "ngram": "next time",
+        "frequency": 2872
+      },
+      {
+        "ngram": "last week",
+        "frequency": 2864
+      },
+      {
+        "ngram": "time time",
+        "frequency": 2835
+      },
+      {
+        "ngram": "would know",
+        "frequency": 2828
+      },
+      {
+        "ngram": "five years",
+        "frequency": 2807
+      },
+      {
+        "ngram": "hundred years",
+        "frequency": 2798
+      },
+      {
+        "ngram": "could possibly",
+        "frequency": 2787
+      },
+      {
+        "ngram": "first thing",
+        "frequency": 2776
+      },
+      {
+        "ngram": "seems like",
+        "frequency": 2762
+      },
+      {
+        "ngram": "feels like",
+        "frequency": 2757
+      },
+      {
+        "ngram": "blue eyes",
+        "frequency": 2750
+      },
+      {
+        "ngram": "made sure",
+        "frequency": 2738
+      },
+      {
+        "ngram": "could believe",
+        "frequency": 2735
+      },
+      {
+        "ngram": "five minutes",
+        "frequency": 2731
+      },
+      {
+        "ngram": "another one",
+        "frequency": 2719
+      },
+      {
+        "ngram": "let see",
+        "frequency": 2709
+      },
+      {
+        "ngram": "door open",
+        "frequency": 2706
+      },
+      {
+        "ngram": "want go",
+        "frequency": 2703
+      },
+      {
+        "ngram": "thousand years",
+        "frequency": 2703
+      },
+      {
+        "ngram": "would want",
+        "frequency": 2694
+      },
+      {
+        "ngram": "say anything",
+        "frequency": 2693
+      },
+      {
+        "ngram": "could stop",
+        "frequency": 2692
+      },
+      {
+        "ngram": "across room",
+        "frequency": 2647
+      },
+      {
+        "ngram": "think would",
+        "frequency": 2645
+      },
+      {
+        "ngram": "much like",
+        "frequency": 2638
+      },
+      {
+        "ngram": "need get",
+        "frequency": 2621
+      },
+      {
+        "ngram": "find way",
+        "frequency": 2615
+      },
+      {
+        "ngram": "years since",
+        "frequency": 2593
+      },
+      {
+        "ngram": "two weeks",
+        "frequency": 2583
+      },
+      {
+        "ngram": "could still",
+        "frequency": 2561
+      },
+      {
+        "ngram": "years later",
+        "frequency": 2557
+      },
+      {
+        "ngram": "ca believe",
+        "frequency": 2553
+      },
+      {
+        "ngram": "ca even",
+        "frequency": 2544
+      },
+      {
+        "ngram": "might well",
+        "frequency": 2530
+      },
+      {
+        "ngram": "across face",
+        "frequency": 2528
+      },
+      {
+        "ngram": "three years",
+        "frequency": 2523
+      },
+      {
+        "ngram": "every night",
+        "frequency": 2507
+      },
+      {
+        "ngram": "knew could",
+        "frequency": 2501
+      },
+      {
+        "ngram": "sounds like",
+        "frequency": 2498
+      },
+      {
+        "ngram": "never really",
+        "frequency": 2497
+      },
+      {
+        "ngram": "door opened",
+        "frequency": 2495
+      },
+      {
+        "ngram": "people like",
+        "frequency": 2494
+      },
+      {
+        "ngram": "last one",
+        "frequency": 2487
+      },
+      {
+        "ngram": "two men",
+        "frequency": 2486
+      },
+      {
+        "ngram": "right hand",
+        "frequency": 2478
+      },
+      {
+        "ngram": "nothing could",
+        "frequency": 2459
+      },
+      {
+        "ngram": "turn around",
+        "frequency": 2443
+      },
+      {
+        "ngram": "like said",
+        "frequency": 2443
+      },
+      {
+        "ngram": "look face",
+        "frequency": 2440
+      },
+      {
+        "ngram": "thought could",
+        "frequency": 2432
+      },
+      {
+        "ngram": "know going",
+        "frequency": 2428
+      },
+      {
+        "ngram": "one else",
+        "frequency": 2412
+      },
+      {
+        "ngram": "wish could",
+        "frequency": 2406
+      },
+      {
+        "ngram": "looking around",
+        "frequency": 2404
+      },
+      {
+        "ngram": "whole thing",
+        "frequency": 2403
+      },
+      {
+        "ngram": "walked away",
+        "frequency": 2402
+      },
+      {
+        "ngram": "three days",
+        "frequency": 2401
+      },
+      {
+        "ngram": "would ever",
+        "frequency": 2396
+      },
+      {
+        "ngram": "gt gt",
+        "frequency": 2394
+      },
+      {
+        "ngram": "one two",
+        "frequency": 2392
+      },
+      {
+        "ngram": "ca see",
+        "frequency": 2391
+      },
+      {
+        "ngram": "dark lord",
+        "frequency": 2390
+      },
+      {
+        "ngram": "things like",
+        "frequency": 2383
+      },
+      {
+        "ngram": "could barely",
+        "frequency": 2378
+      },
+      {
+        "ngram": "men women",
+        "frequency": 2378
+      },
+      {
+        "ngram": "long since",
+        "frequency": 2378
+      },
+      {
+        "ngram": "back time",
+        "frequency": 2365
+      },
+      {
+        "ngram": "back head",
+        "frequency": 2364
+      }
+    ],
+    "top_trigrams": [
+      {
+        "ngram": "amp nbsp amp",
+        "frequency": 9032
+      },
+      {
+        "ngram": "nbsp amp nbsp",
+        "frequency": 9005
+      },
+      {
+        "ngram": "took deep breath",
+        "frequency": 3351
+      },
+      {
+        "ngram": "one last time",
+        "frequency": 1985
+      },
+      {
+        "ngram": "long time ago",
+        "frequency": 1397
+      },
+      {
+        "ngram": "amp amp amp",
+        "frequency": 872
+      },
+      {
+        "ngram": "gon na get",
+        "frequency": 858
+      },
+      {
+        "ngram": "every single one",
+        "frequency": 828
+      },
+      {
+        "ngram": "looked around room",
+        "frequency": 820
+      },
+      {
+        "ngram": "ding ding ding",
+        "frequency": 793
+      },
+      {
+        "ngram": "took step back",
+        "frequency": 765
+      },
+      {
+        "ngram": "take deep breath",
+        "frequency": 733
+      },
+      {
+        "ngram": "new york city",
+        "frequency": 720
+      },
+      {
+        "ngram": "first time since",
+        "frequency": 694
+      },
+      {
+        "ngram": "blink blink blink",
+        "frequency": 673
+      },
+      {
+        "ngram": "many years ago",
+        "frequency": 664
+      },
+      {
+        "ngram": "like everyone else",
+        "frequency": 638
+      },
+      {
+        "ngram": "https amp amp",
+        "frequency": 637
+      },
+      {
+        "ngram": "got ta go",
+        "frequency": 631
+      },
+      {
+        "ngram": "prompts every day",
+        "frequency": 624
+      },
+      {
+        "ngram": "got ta get",
+        "frequency": 617
+      },
+      {
+        "ngram": "leaned back chair",
+        "frequency": 614
+      },
+      {
+        "ngram": "first time life",
+        "frequency": 611
+      },
+      {
+        "ngram": "two years ago",
+        "frequency": 607
+      },
+      {
+        "ngram": "gon na go",
+        "frequency": 588
+      },
+      {
+        "ngram": "beep beep beep",
+        "frequency": 579
+      },
+      {
+        "ngram": "made way back",
+        "frequency": 564
+      },
+      {
+        "ngram": "first time ever",
+        "frequency": 553
+      },
+      {
+        "ngram": "president united states",
+        "frequency": 553
+      },
+      {
+        "ngram": "ten years ago",
+        "frequency": 538
+      },
+      {
+        "ngram": "next thing know",
+        "frequency": 533
+      },
+      {
+        "ngram": "one last look",
+        "frequency": 524
+      },
+      {
+        "ngram": "door swung open",
+        "frequency": 521
+      },
+      {
+        "ngram": "last thing remember",
+        "frequency": 517
+      },
+      {
+        "ngram": "felt like eternity",
+        "frequency": 514
+      },
+      {
+        "ngram": "fuck fuck fuck",
+        "frequency": 511
+      },
+      {
+        "ngram": "never thought would",
+        "frequency": 506
+      },
+      {
+        "ngram": "feel free check",
+        "frequency": 504
+      },
+      {
+        "ngram": "one two three",
+        "frequency": 504
+      },
+      {
+        "ngram": "could go back",
+        "frequency": 493
+      },
+      {
+        "ngram": "thank reading responding",
+        "frequency": 478
+      },
+      {
+        "ngram": "reading responding prompts",
+        "frequency": 478
+      },
+      {
+        "ngram": "responding prompts every",
+        "frequency": 478
+      },
+      {
+        "ngram": "eyes went wide",
+        "frequency": 474
+      },
+      {
+        "ngram": "one way another",
+        "frequency": 468
+      },
+      {
+        "ngram": "long time since",
+        "frequency": 464
+      },
+      {
+        "ngram": "united states america",
+        "frequency": 459
+      },
+      {
+        "ngram": "three years ago",
+        "frequency": 458
+      },
+      {
+        "ngram": "tears streaming face",
+        "frequency": 451
+      },
+      {
+        "ngram": "first time years",
+        "frequency": 450
+      },
+      {
+        "ngram": "hundred years ago",
+        "frequency": 449
+      },
+      {
+        "ngram": "oh god oh",
+        "frequency": 439
+      },
+      {
+        "ngram": "next thing knew",
+        "frequency": 439
+      },
+      {
+        "ngram": "taking deep breath",
+        "frequency": 438
+      },
+      {
+        "ngram": "two weeks ago",
+        "frequency": 437
+      },
+      {
+        "ngram": "last time saw",
+        "frequency": 431
+      },
+      {
+        "ngram": "shit shit shit",
+        "frequency": 428
+      },
+      {
+        "ngram": "could help feel",
+        "frequency": 425
+      },
+      {
+        "ngram": "gt gt gt",
+        "frequency": 425
+      },
+      {
+        "ngram": "remember last time",
+        "frequency": 424
+      },
+      {
+        "ngram": "everything went black",
+        "frequency": 424
+      },
+      {
+        "ngram": "gon na make",
+        "frequency": 424
+      },
+      {
+        "ngram": "could say anything",
+        "frequency": 422
+      },
+      {
+        "ngram": "made eye contact",
+        "frequency": 422
+      },
+      {
+        "ngram": "wrapped arms around",
+        "frequency": 421
+      },
+      {
+        "ngram": "every single day",
+        "frequency": 421
+      },
+      {
+        "ngram": "old man said",
+        "frequency": 410
+      },
+      {
+        "ngram": "never gon na",
+        "frequency": 406
+      },
+      {
+        "ngram": "put hand shoulder",
+        "frequency": 401
+      },
+      {
+        "ngram": "long story short",
+        "frequency": 399
+      },
+      {
+        "ngram": "go back time",
+        "frequency": 397
+      },
+      {
+        "ngram": "five years ago",
+        "frequency": 395
+      },
+      {
+        "ngram": "blah blah blah",
+        "frequency": 394
+      },
+      {
+        "ngram": "would come back",
+        "frequency": 393
+      },
+      {
+        "ngram": "god oh god",
+        "frequency": 392
+      },
+      {
+        "ngram": "eye could see",
+        "frequency": 392
+      },
+      {
+        "ngram": "two days ago",
+        "frequency": 390
+      },
+      {
+        "ngram": "turned around see",
+        "frequency": 387
+      },
+      {
+        "ngram": "get better look",
+        "frequency": 385
+      },
+      {
+        "ngram": "gon na need",
+        "frequency": 385
+      },
+      {
+        "ngram": "breathed sigh relief",
+        "frequency": 382
+      },
+      {
+        "ngram": "make eye contact",
+        "frequency": 381
+      },
+      {
+        "ngram": "never seen anything",
+        "frequency": 381
+      },
+      {
+        "ngram": "long long time",
+        "frequency": 375
+      },
+      {
+        "ngram": "could see eyes",
+        "frequency": 373
+      },
+      {
+        "ngram": "wan na go",
+        "frequency": 372
+      },
+      {
+        "ngram": "looked around saw",
+        "frequency": 372
+      },
+      {
+        "ngram": "gon na take",
+        "frequency": 371
+      },
+      {
+        "ngram": "first time long",
+        "frequency": 371
+      },
+      {
+        "ngram": "please refer sidebar",
+        "frequency": 371
+      },
+      {
+        "ngram": "human time go",
+        "frequency": 371
+      },
+      {
+        "ngram": "action automated moderator",
+        "frequency": 370
+      },
+      {
+        "ngram": "automated moderator human",
+        "frequency": 370
+      },
+      {
+        "ngram": "moderator human time",
+        "frequency": 370
+      },
+      {
+        "ngram": "time go human",
+        "frequency": 370
+      },
+      {
+        "ngram": "go human things",
+        "frequency": 370
+      },
+      {
+        "ngram": "gon na die",
+        "frequency": 368
+      },
+      {
+        "ngram": "hi submission removed",
+        "frequency": 368
+      },
+      {
+        "ngram": "first time saw",
+        "frequency": 367
+      },
+      {
+        "ngram": "us questions concerns",
+        "frequency": 367
+      },
+      {
+        "ngram": "questions concerns future",
+        "frequency": 367
+      },
+      {
+        "ngram": "concerns future please",
+        "frequency": 367
+      },
+      {
+        "ngram": "future please refer",
+        "frequency": 367
+      },
+      {
+        "ngram": "posting action automated",
+        "frequency": 367
+      },
+      {
+        "ngram": "refer sidebar https",
+        "frequency": 366
+      },
+      {
+        "ngram": "sidebar https posting",
+        "frequency": 366
+      },
+      {
+        "ngram": "one day would",
+        "frequency": 365
+      },
+      {
+        "ngram": "modmail https amp",
+        "frequency": 363
+      },
+      {
+        "ngram": "https posting action",
+        "frequency": 363
+      },
+      {
+        "ngram": "get back work",
+        "frequency": 359
+      },
+      {
+        "ngram": "every single time",
+        "frequency": 357
+      },
+      {
+        "ngram": "could see face",
+        "frequency": 357
+      },
+      {
+        "ngram": "felt like hours",
+        "frequency": 357
+      },
+      {
+        "ngram": "ha ha ha",
+        "frequency": 357
+      },
+      {
+        "ngram": "amp us questions",
+        "frequency": 356
+      },
+      {
+        "ngram": "matter many times",
+        "frequency": 354
+      },
+      {
+        "ngram": "first time writing",
+        "frequency": 354
+      },
+      {
+        "ngram": "amp amp us",
+        "frequency": 354
+      },
+      {
+        "ngram": "want go back",
+        "frequency": 353
+      },
+      {
+        "ngram": "took one last",
+        "frequency": 352
+      },
+      {
+        "ngram": "seemed like eternity",
+        "frequency": 351
+      },
+      {
+        "ngram": "seen anything like",
+        "frequency": 349
+      },
+      {
+        "ngram": "could see anything",
+        "frequency": 346
+      },
+      {
+        "ngram": "eyes could see",
+        "frequency": 345
+      },
+      {
+        "ngram": "tap tap tap",
+        "frequency": 345
+      },
+      {
+        "ngram": "could help smile",
+        "frequency": 344
+      },
+      {
+        "ngram": "closed door behind",
+        "frequency": 343
+      },
+      {
+        "ngram": "thousand years ago",
+        "frequency": 341
+      },
+      {
+        "ngram": "made way towards",
+        "frequency": 340
+      },
+      {
+        "ngram": "knock knock knock",
+        "frequency": 339
+      },
+      {
+        "ngram": "last thing saw",
+        "frequency": 338
+      },
+      {
+        "ngram": "could still see",
+        "frequency": 337
+      },
+      {
+        "ngram": "took step forward",
+        "frequency": 336
+      },
+      {
+        "ngram": "took another sip",
+        "frequency": 334
+      },
+      {
+        "ngram": "two hundred years",
+        "frequency": 333
+      },
+      {
+        "ngram": "think gon na",
+        "frequency": 330
+      },
+      {
+        "ngram": "go back sleep",
+        "frequency": 328
+      },
+      {
+        "ngram": "without second thought",
+        "frequency": 328
+      },
+      {
+        "ngram": "opened mouth speak",
+        "frequency": 328
+      },
+      {
+        "ngram": "would never see",
+        "frequency": 327
+      },
+      {
+        "ngram": "could still hear",
+        "frequency": 325
+      },
+      {
+        "ngram": "without another word",
+        "frequency": 324
+      },
+      {
+        "ngram": "time long time",
+        "frequency": 324
+      },
+      {
+        "ngram": "make look like",
+        "frequency": 320
+      },
+      {
+        "ngram": "knowing full well",
+        "frequency": 319
+      },
+      {
+        "ngram": "sat back chair",
+        "frequency": 319
+      },
+      {
+        "ngram": "world better place",
+        "frequency": 318
+      },
+      {
+        "ngram": "gon na kill",
+        "frequency": 318
+      },
+      {
+        "ngram": "want go home",
+        "frequency": 316
+      },
+      {
+        "ngram": "could care less",
+        "frequency": 316
+      },
+      {
+        "ngram": "twenty years ago",
+        "frequency": 311
+      },
+      {
+        "ngram": "maybe one day",
+        "frequency": 311
+      },
+      {
+        "ngram": "spent much time",
+        "frequency": 308
+      },
+      {
+        "ngram": "make feel better",
+        "frequency": 308
+      },
+      {
+        "ngram": "look around see",
+        "frequency": 306
+      },
+      {
+        "ngram": "turned around saw",
+        "frequency": 304
+      },
+      {
+        "ngram": "bang bang bang",
+        "frequency": 302
+      },
+      {
+        "ngram": "knew would happen",
+        "frequency": 300
+      },
+      {
+        "ngram": "would look like",
+        "frequency": 300
+      },
+      {
+        "ngram": "thanks reading enjoyed",
+        "frequency": 298
+      },
+      {
+        "ngram": "could believe eyes",
+        "frequency": 296
+      },
+      {
+        "ngram": "never come back",
+        "frequency": 295
+      },
+      {
+        "ngram": "much time left",
+        "frequency": 295
+      },
+      {
+        "ngram": "would never know",
+        "frequency": 295
+      },
+      {
+        "ngram": "spread across face",
+        "frequency": 294
+      },
+      {
+        "ngram": "mine mine mine",
+        "frequency": 292
+      },
+      {
+        "ngram": "trying make sense",
+        "frequency": 290
+      },
+      {
+        "ngram": "three days ago",
+        "frequency": 290
+      },
+      {
+        "ngram": "turned back around",
+        "frequency": 286
+      },
+      {
+        "ngram": "could take anymore",
+        "frequency": 285
+      },
+      {
+        "ngram": "every day story",
+        "frequency": 285
+      },
+      {
+        "ngram": "even though knew",
+        "frequency": 284
+      },
+      {
+        "ngram": "felt like could",
+        "frequency": 284
+      },
+      {
+        "ngram": "know gon na",
+        "frequency": 283
+      },
+      {
+        "ngram": "made look like",
+        "frequency": 282
+      },
+      {
+        "ngram": "day story row",
+        "frequency": 282
+      },
+      {
+        "ngram": "story row story",
+        "frequency": 282
+      },
+      {
+        "ngram": "row story year",
+        "frequency": 282
+      },
+      {
+        "ngram": "go back home",
+        "frequency": 281
+      },
+      {
+        "ngram": "could help notice",
+        "frequency": 277
+      },
+      {
+        "ngram": "slowly made way",
+        "frequency": 276
+      },
+      {
+        "ngram": "every single person",
+        "frequency": 276
+      },
+      {
+        "ngram": "men women children",
+        "frequency": 276
+      },
+      {
+        "ngram": "wan na know",
+        "frequency": 276
+      },
+      {
+        "ngram": "ai gon na",
+        "frequency": 275
+      },
+      {
+        "ngram": "made feel like",
+        "frequency": 274
+      },
+      {
+        "ngram": "two days later",
+        "frequency": 274
+      },
+      {
+        "ngram": "gon na give",
+        "frequency": 271
+      },
+      {
+        "ngram": "light years away",
+        "frequency": 271
+      },
+      {
+        "ngram": "day would come",
+        "frequency": 271
+      },
+      {
+        "ngram": "long black hair",
+        "frequency": 271
+      },
+      {
+        "ngram": "never came back",
+        "frequency": 269
+      },
+      {
+        "ngram": "make sure get",
+        "frequency": 269
+      },
+      {
+        "ngram": "knew would never",
+        "frequency": 268
+      },
+      {
+        "ngram": "let get straight",
+        "frequency": 267
+      },
+      {
+        "ngram": "wait wait wait",
+        "frequency": 267
+      },
+      {
+        "ngram": "put arm around",
+        "frequency": 267
+      },
+      {
+        "ngram": "far could tell",
+        "frequency": 266
+      },
+      {
+        "ngram": "bam bam bam",
+        "frequency": 264
+      },
+      {
+        "ngram": "seemed like hours",
+        "frequency": 263
+      }
+    ],
+    "zero_frequency_words": [
+      {
+        "word": "hugoverse",
+        "corpus_freq": 2.403010257032555e-05
+      },
+      {
+        "word": "apocalypseowl",
+        "corpus_freq": 8.326886808388126e-06
+      },
+      {
+        "word": "modmail",
+        "corpus_freq": 7.224239696775086e-06
+      },
+      {
+        "word": "matiwrites",
+        "corpus_freq": 4.505644231936041e-06
+      },
+      {
+        "word": "urrick",
+        "corpus_freq": 4.0113541474198506e-06
+      },
+      {
+        "word": "pmmeyabootysstories",
+        "corpus_freq": 3.859264890645638e-06
+      },
+      {
+        "word": "pmwiki",
+        "corpus_freq": 3.7642091051617555e-06
+      },
+      {
+        "word": "idreamofdragons",
+        "corpus_freq": 3.612119848387543e-06
+      },
+      {
+        "word": "dropcap",
+        "corpus_freq": 3.5550863770972132e-06
+      },
+      {
+        "word": "ballisea",
+        "corpus_freq": 3.4980529058068838e-06
+      },
+      {
+        "word": "youtu",
+        "corpus_freq": 2.908707035806811e-06
+      },
+      {
+        "word": "sadnesslaughs",
+        "corpus_freq": 2.7185954648390456e-06
+      },
+      {
+        "word": "bubblewriters",
+        "corpus_freq": 2.452439265484174e-06
+      },
+      {
+        "word": "storiesbycrystal",
+        "corpus_freq": 2.3573834800002912e-06
+      },
+      {
+        "word": "falcona",
+        "corpus_freq": 2.3573834800002912e-06
+      },
+      {
+        "word": "babyshoesalesman",
+        "corpus_freq": 2.243316537419632e-06
+      },
+      {
+        "word": "tokuhigh",
+        "corpus_freq": 2.243316537419632e-06
+      },
+      {
+        "word": "resonatingfury",
+        "corpus_freq": 2.1292495948389726e-06
+      },
+      {
+        "word": "elvari",
+        "corpus_freq": 1.9771603380647606e-06
+      },
+      {
+        "word": "remyxed",
+        "corpus_freq": 1.9581491809679838e-06
+      },
+      {
+        "word": "scottwritesstuff",
+        "corpus_freq": 1.9391380238712074e-06
+      },
+      {
+        "word": "blankpagesemptymugs",
+        "corpus_freq": 1.9011157096776543e-06
+      },
+      {
+        "word": "soulmage",
+        "corpus_freq": 1.825071081290548e-06
+      },
+      {
+        "word": "drowl",
+        "corpus_freq": 1.825071081290548e-06
+      },
+      {
+        "word": "hserratafun",
+        "corpus_freq": 1.825071081290548e-06
+      },
+      {
+        "word": "fluffles",
+        "corpus_freq": 1.8060599241937715e-06
+      },
+      {
+        "word": "inorai",
+        "corpus_freq": 1.7680376100002184e-06
+      },
+      {
+        "word": "cawed",
+        "corpus_freq": 1.6919929816131122e-06
+      },
+      {
+        "word": "gifv",
+        "corpus_freq": 1.6919929816131122e-06
+      },
+      {
+        "word": "brycebealwriter",
+        "corpus_freq": 1.6349595103227825e-06
+      },
+      {
+        "word": "longhandwriter",
+        "corpus_freq": 1.577926039032453e-06
+      },
+      {
+        "word": "redditserials",
+        "corpus_freq": 1.5399037248389e-06
+      },
+      {
+        "word": "doppelg",
+        "corpus_freq": 1.5208925677421234e-06
+      },
+      {
+        "word": "psalmsandstories",
+        "corpus_freq": 1.5018814106453469e-06
+      },
+      {
+        "word": "galokot",
+        "corpus_freq": 1.4638590964517938e-06
+      },
+      {
+        "word": "chittered",
+        "corpus_freq": 1.406825625161464e-06
+      },
+      {
+        "word": "nickkuvaas",
+        "corpus_freq": 1.406825625161464e-06
+      },
+      {
+        "word": "storiesofashes",
+        "corpus_freq": 1.3307809967743579e-06
+      },
+      {
+        "word": "fivenswrite",
+        "corpus_freq": 1.2737475254840284e-06
+      },
+      {
+        "word": "weeped",
+        "corpus_freq": 1.2547363683872518e-06
+      },
+      {
+        "word": "nogath",
+        "corpus_freq": 1.2547363683872518e-06
+      },
+      {
+        "word": "meloai",
+        "corpus_freq": 1.2357252112904753e-06
+      },
+      {
+        "word": "jraywang",
+        "corpus_freq": 1.2167140541936987e-06
+      },
+      {
+        "word": "tazbin",
+        "corpus_freq": 1.2167140541936987e-06
+      },
+      {
+        "word": "turningtowords",
+        "corpus_freq": 1.159680582903369e-06
+      },
+      {
+        "word": "fhtagn",
+        "corpus_freq": 1.159680582903369e-06
+      },
+      {
+        "word": "glorp",
+        "corpus_freq": 1.121658268709816e-06
+      },
+      {
+        "word": "alduin",
+        "corpus_freq": 1.121658268709816e-06
+      },
+      {
+        "word": "lilwa",
+        "corpus_freq": 1.1026471116130394e-06
+      },
+      {
+        "word": "yipped",
+        "corpus_freq": 1.1026471116130394e-06
+      },
+      {
+        "word": "pubby",
+        "corpus_freq": 1.0646247974194863e-06
+      },
+      {
+        "word": "bzzzt",
+        "corpus_freq": 1.0646247974194863e-06
+      },
+      {
+        "word": "panman",
+        "corpus_freq": 1.0456136403227097e-06
+      },
+      {
+        "word": "timesyncs",
+        "corpus_freq": 1.0456136403227097e-06
+      },
+      {
+        "word": "tsked",
+        "corpus_freq": 1.0456136403227097e-06
+      },
+      {
+        "word": "talesbyopheliacyanide",
+        "corpus_freq": 1.0456136403227097e-06
+      },
+      {
+        "word": "dovahkiin",
+        "corpus_freq": 1.0456136403227097e-06
+      },
+      {
+        "word": "temporarypatch",
+        "corpus_freq": 1.0266024832259334e-06
+      },
+      {
+        "word": "temporarypatchwrites",
+        "corpus_freq": 1.0266024832259334e-06
+      },
+      {
+        "word": "cryopod",
+        "corpus_freq": 1.0266024832259334e-06
+      },
+      {
+        "word": "naytar",
+        "corpus_freq": 1.0266024832259334e-06
+      },
+      {
+        "word": "nananana",
+        "corpus_freq": 1.0075913261291568e-06
+      },
+      {
+        "word": "supervillian",
+        "corpus_freq": 1.0075913261291568e-06
+      },
+      {
+        "word": "surinical",
+        "corpus_freq": 9.885801690323803e-07
+      },
+      {
+        "word": "holoscreen",
+        "corpus_freq": 9.695690119356037e-07
+      },
+      {
+        "word": "mglw'nafh",
+        "corpus_freq": 9.695690119356037e-07
+      },
+      {
+        "word": "chatterbot",
+        "corpus_freq": 9.505578548388272e-07
+      },
+      {
+        "word": "ph'nglui",
+        "corpus_freq": 9.505578548388272e-07
+      },
+      {
+        "word": "wtglls",
+        "corpus_freq": 9.505578548388272e-07
+      },
+      {
+        "word": "totesmessenger",
+        "corpus_freq": 9.505578548388272e-07
+      },
+      {
+        "word": "aury",
+        "corpus_freq": 9.505578548388272e-07
+      },
+      {
+        "word": "nickofstatic",
+        "corpus_freq": 9.315466977420506e-07
+      },
+      {
+        "word": "hydor",
+        "corpus_freq": 9.315466977420506e-07
+      },
+      {
+        "word": "hpcisco",
+        "corpus_freq": 9.12535540645274e-07
+      },
+      {
+        "word": "wgah'nagl",
+        "corpus_freq": 9.12535540645274e-07
+      },
+      {
+        "word": "survivortype",
+        "corpus_freq": 9.12535540645274e-07
+      },
+      {
+        "word": "intotheslushpile",
+        "corpus_freq": 8.935243835484975e-07
+      },
+      {
+        "word": "oneoff",
+        "corpus_freq": 8.935243835484975e-07
+      },
+      {
+        "word": "xcessivewriting",
+        "corpus_freq": 8.745132264517209e-07
+      },
+      {
+        "word": "dickbutt",
+        "corpus_freq": 8.745132264517209e-07
+      },
+      {
+        "word": "conlehwrites",
+        "corpus_freq": 8.555020693549444e-07
+      },
+      {
+        "word": "nickofnight",
+        "corpus_freq": 8.364909122581678e-07
+      },
+      {
+        "word": "zeekoeswriting",
+        "corpus_freq": 8.364909122581678e-07
+      },
+      {
+        "word": "ryankinder",
+        "corpus_freq": 8.364909122581678e-07
+      },
+      {
+        "word": "unidan",
+        "corpus_freq": 8.174797551613913e-07
+      },
+      {
+        "word": "blorp",
+        "corpus_freq": 8.174797551613913e-07
+      },
+      {
+        "word": "thebrzezinskicycle",
+        "corpus_freq": 8.174797551613913e-07
+      },
+      {
+        "word": "shittystorycreator",
+        "corpus_freq": 7.984685980646148e-07
+      },
+      {
+        "word": "lucet",
+        "corpus_freq": 7.984685980646148e-07
+      },
+      {
+        "word": "aranthur",
+        "corpus_freq": 7.984685980646148e-07
+      },
+      {
+        "word": "sarabelle",
+        "corpus_freq": 7.984685980646148e-07
+      },
+      {
+        "word": "zivian",
+        "corpus_freq": 7.984685980646148e-07
+      },
+      {
+        "word": "zubergoodstories",
+        "corpus_freq": 7.794574409678383e-07
+      },
+      {
+        "word": "unslung",
+        "corpus_freq": 7.794574409678383e-07
+      },
+      {
+        "word": "barthlemet",
+        "corpus_freq": 7.794574409678383e-07
+      },
+      {
+        "word": "firesoffordregha",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "billmurraymovies",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "dragonkin",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "mpqeg",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "inkfinger",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "badderlocks",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "blorg",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "puzzledrobot",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "bartop",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "fivens",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "mercel",
+        "corpus_freq": 7.604462838710617e-07
+      },
+      {
+        "word": "sheogorath",
+        "corpus_freq": 7.414351267742852e-07
+      },
+      {
+        "word": "sapients",
+        "corpus_freq": 7.414351267742852e-07
+      },
+      {
+        "word": "eldric",
+        "corpus_freq": 7.414351267742852e-07
+      },
+      {
+        "word": "syraphia",
+        "corpus_freq": 7.414351267742852e-07
+      },
+      {
+        "word": "grak",
+        "corpus_freq": 7.414351267742852e-07
+      },
+      {
+        "word": "shivio",
+        "corpus_freq": 7.224239696775086e-07
+      },
+      {
+        "word": "jittered",
+        "corpus_freq": 7.224239696775086e-07
+      },
+      {
+        "word": "alatar",
+        "corpus_freq": 7.224239696775086e-07
+      },
+      {
+        "word": "defeatedly",
+        "corpus_freq": 7.03412812580732e-07
+      },
+      {
+        "word": "galatic",
+        "corpus_freq": 7.03412812580732e-07
+      },
+      {
+        "word": "eldrich",
+        "corpus_freq": 7.03412812580732e-07
+      },
+      {
+        "word": "shortsword",
+        "corpus_freq": 7.03412812580732e-07
+      },
+      {
+        "word": "ronalde",
+        "corpus_freq": 7.03412812580732e-07
+      },
+      {
+        "word": "aeden",
+        "corpus_freq": 7.03412812580732e-07
+      },
+      {
+        "word": "nonsenselocker",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "smoothbaritone",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "plip",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "uberman",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "krenilin",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "murmered",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "klonk",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "mrme",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "zephyra",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "ngumo",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "battlemechs",
+        "corpus_freq": 6.844016554839555e-07
+      },
+      {
+        "word": "slackjawed",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "suprapstories",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "crescendoed",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "apparated",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "heroing",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "leylines",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "amnestics",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "ulfric",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "malessor",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "clovus",
+        "corpus_freq": 6.653904983871789e-07
+      },
+      {
+        "word": "orior",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "writingprompt",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "gallowboob",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "opiwrites",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "mewled",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "fryan",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "hellbringer",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "ahep",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "serrenhill",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "pinimg",
+        "corpus_freq": 6.463793412904025e-07
+      },
+      {
+        "word": "ryter",
+        "corpus_freq": 6.273681841936259e-07
+      },
+      {
+        "word": "abigor",
+        "corpus_freq": 6.273681841936259e-07
+      },
+      {
+        "word": "bearington",
+        "corpus_freq": 6.273681841936259e-07
+      },
+      {
+        "word": "mechnarch",
+        "corpus_freq": 6.273681841936259e-07
+      },
+      {
+        "word": "lavia",
+        "corpus_freq": 6.273681841936259e-07
+      },
+      {
+        "word": "thorg",
+        "corpus_freq": 6.273681841936259e-07
+      },
+      {
+        "word": "aerson",
+        "corpus_freq": 6.273681841936259e-07
+      },
+      {
+        "word": "tensingstories",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "labcoats",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "azif",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "stannistheamish",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "killbot",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "harrikan",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "aethir",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "pyromancers",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "tomess",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "cinderspark",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "techsuit",
+        "corpus_freq": 6.083570270968494e-07
+      },
+      {
+        "word": "uxmwe",
+        "corpus_freq": 5.893458700000728e-07
+      },
+      {
+        "word": "insectile",
+        "corpus_freq": 5.893458700000728e-07
+      },
+      {
+        "word": "malphas",
+        "corpus_freq": 5.893458700000728e-07
+      },
+      {
+        "word": "assistbot",
+        "corpus_freq": 5.893458700000728e-07
+      },
+      {
+        "word": "arella",
+        "corpus_freq": 5.893458700000728e-07
+      },
+      {
+        "word": "satchat",
+        "corpus_freq": 5.893458700000728e-07
+      },
+      {
+        "word": "cacophany",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "humie",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "steepling",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "scandalist",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "beeep",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "zekel",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "waternoose",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "muggleborns",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "urrie",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "tyboe",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "farrin",
+        "corpus_freq": 5.703347129032963e-07
+      },
+      {
+        "word": "thunked",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "jakethesnakebakecake",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "humorlessly",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "noncommittally",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "talesofatravellingsalesman",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "summonings",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "unpaused",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "cryopods",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "magicless",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "pyromancy",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "demonkind",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "gibbered",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "deathstroyer",
+        "corpus_freq": 5.513235558065197e-07
+      },
+      {
+        "word": "shoringupfragments",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "hiveminds",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "quailed",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "horrorhmdmusings",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "helshep",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "writingknightly",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "zorp",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "eliam",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "gorlax",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "gloryanna",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "zeed",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "blunitz",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "obligator",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "graxx",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "haythem",
+        "corpus_freq": 5.323123987097431e-07
+      },
+      {
+        "word": "scottbeckman",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "shadowsofclouds",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "alfric",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "battlemage",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "fluffypaws",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "bipedals",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "eminated",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "atlantians",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "quicksave",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "wyrmling",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "downvoting",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "trrh",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "commonfolk",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "ragnorak",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "muggleborn",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "tarran",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "berv",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "flarg",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "cianna",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "urek",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "aufidia",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "tappity",
+        "corpus_freq": 5.133012416129667e-07
+      },
+      {
+        "word": "evenasiwrite",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "slightlycoldstories",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "mrow",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "platemail",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "theballadsofirving",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "agares",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "wisped",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "drahar",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "powerlisting",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "bahhhh",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "tregonialwrites",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "fluffykins",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "jaalbzznk",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "feratu",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "waterskin",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "innkeep",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "holopad",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "rikar",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "nanshe",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "alliane",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "draconus",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "robort",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "yurik",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "raucus",
+        "corpus_freq": 4.942900845161901e-07
+      },
+      {
+        "word": "uncomprehendingly",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "picklestasteg",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "authorkurt",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "elementalists",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "reynauld",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "keetcha",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "mythril",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "susurration",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "fartface",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "bbeg",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "jinya",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "malg",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "hovercar",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "grognar",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "nastor",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "vulca",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "alune",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "mordnacht",
+        "corpus_freq": 4.752789274194136e-07
+      },
+      {
+        "word": "pshoffman",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "molag",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "kriggs",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "murmers",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "greenscale",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "thaum",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "manbeast",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "tmodal",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "twords",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "portarossa",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "jemmye",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "flittered",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "doofensmirtz",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "holovid",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "wanderinganonymous",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "centari",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "alathir",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "ragatode",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "wulver",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "hishama",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "tdwfan",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "battlemech",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "balthazaar",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "gullian",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "lunia",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "novius",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "phillipus",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "goodgirl",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "kortho",
+        "corpus_freq": 4.56267770322637e-07
+      },
+      {
+        "word": "leoduhvinci",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "stormclouds",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "monologued",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "despairo",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "placatingly",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "erhm",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "o'course",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "cienne",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "beezlebub",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "souffl",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "supervillians",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "hellbeast",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "throneroom",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "tarrasque",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "alazar",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "rewinded",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "laughtrack",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "amenset",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "clopped",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "overlarge",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "shyna",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "elor",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "meowser",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "congrad",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "aurelios",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "errupted",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "grabthar",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "benly",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "thornroot",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "ivrish",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "laaaaa",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "thalos",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "diedrick",
+        "corpus_freq": 4.3725661322586047e-07
+      },
+      {
+        "word": "perilousplatypus",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "superguy",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "thegoshfather",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "magitech",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "houseblendmedium",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "clbhos",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "majorparadox",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "archmages",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "lichdom",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "blabbered",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "yuliette",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "unaging",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "illithid",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "supervillainy",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "micahcastle",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "zazzy",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "harkon",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "lennin",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "archwizard",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "wispered",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "archmagus",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "dragonkind",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "dragonling",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "cyka",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "quirking",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "centaurian",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "mancer",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "galatra",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "morganna",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "elrin",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "galfrey",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "lordmalifico",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "azazael",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "teryn",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "erinen",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "ilina",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "torval",
+        "corpus_freq": 4.182454561290839e-07
+      },
+      {
+        "word": "fatdragon",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "apparating",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "hopebringer",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "niedski",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "weirdemokidstories",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "warboss",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "gontrand",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "grax",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "lordling",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "xenobiologist",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "lithely",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "lunelle",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "lizardfolk",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "toothily",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "tfsu",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "intergalatic",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "gawped",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "levelly",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "balgruuf",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "yarro",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "elmery",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "eyehole",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "dregsfromlake",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "seriousaboutnachos",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "shakingly",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "wholesomememes",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "liosa",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "njal",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "wizengamot",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "torac",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "madhowse",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "tyon",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "grimwald",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "kleinsman",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "xqefwu",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "feya",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "bellbottom",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "aquilus",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "zerl",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "kelai",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "skooma",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "delan",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "daymon",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "jarn",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "rabal",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "garrin",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "elderich",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "camael",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "samkiel",
+        "corpus_freq": 3.992342990323074e-07
+      },
+      {
+        "word": "chokingvictimwrites",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "jmoorestories",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "jacksonwrites",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "beastial",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "alexurwin",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "sorcerors",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "lothrak",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "samarawrites",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "quintillions",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "deathworld",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "jasonholloway",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "jophiel",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "candlemaker",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "azreal",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "yarnstotell",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "chrononauts",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "centaurians",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "karmanaut",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "professorcynical",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "alhazred",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "chainsword",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "immaterium",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "nestl",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "boredly",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "zondar",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "mindstorm",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "sudge",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "vlommik",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "zomb",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "ka'rhot",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "rimush",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "bajji",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "jarrik",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "glorb",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "kendric",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "surov",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "deathmark",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "mikaal",
+        "corpus_freq": 3.8022314193553085e-07
+      },
+      {
+        "word": "fringly",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "faceplanted",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "bluestarsshatter",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "thewordsofxacktar",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "randallcooper",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "scoobs",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "s'not",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "arterius",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "plasteel",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "golbur",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "samgalimore",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "longear",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "wretching",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "wooshing",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "squeeled",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "shrilled",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "akatosh",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "bonebreaker",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "raspier",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "owlishly",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "uncurling",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "battlemaster",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "xenobiologists",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "beelined",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "jormungandr",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "janx",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "gornak",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "vrill",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "lilted",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "gambeson",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "blork",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "galacto",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "automoderator",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "cheemsworth",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "moooom",
+        "corpus_freq": 3.612119848387543e-07
+      },
+      {
+        "word": "ubel",
+        "corpus_freq": 3.612119848387543e-07
+      }
+    ]
+  }
+}

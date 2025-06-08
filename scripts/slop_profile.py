@@ -18,39 +18,39 @@ from slop_forensics.utils import (
 )
 
 def log_top_patterns(logger, analysis_results, top_n=5):
-    """Log the top words, bigrams, and trigrams from analysis results concisely."""
-    model_name = analysis_results.get('model_name', 'Unknown Model')
-    
-    logger.info(f"MODEL: {model_name}")
-    
-    # Log top repetitive words
-    top_words = analysis_results.get('top_repetitive_words', [])
-    if top_words:
-        words_list = [f"'{w.get('word', 'unknown')}'" for w in top_words[:top_n]]
-        words_str = ", ".join(words_list)
-        logger.info(f"WORDS: {words_str}")
+    """Concise console preview of each model’s most interesting patterns."""
+    model = analysis_results.get("model_name", "Unknown")
+    logger.info(f"MODEL: {model}")
+
+    # ---------- non-zero over-rep ----------
+    words = analysis_results.get("top_repetitive_words", [])
+    if words:
+        wlist = [f"'{w['word']}'" for w in words[:top_n]]
+        logger.info("WORDS: " + ", ".join(wlist))
     else:
-        logger.info("WORDS: None found")
-        
-    # Log top bigrams
-    top_bigrams = analysis_results.get('top_bigrams', [])
-    if top_bigrams:
-        bigrams_list = [f"'{b.get('ngram', 'unknown')}'" for b in top_bigrams[:top_n]]
-        bigrams_str = ", ".join(bigrams_list)
-        logger.info(f"BIGRAMS: {bigrams_str}")
+        logger.info("WORDS: None")
+
+    # ---------- bigrams ----------
+    bigrams = analysis_results.get("top_bigrams", [])
+    if bigrams:
+        blist = [f"'{b['ngram']}'" for b in bigrams[:top_n]]
+        logger.info("BIGRAMS: " + ", ".join(blist))
     else:
-        logger.info("BIGRAMS: None found")
-    
-    # Log top trigrams
-    top_trigrams = analysis_results.get('top_trigrams', [])
-    if top_trigrams:
-        trigrams_list = [f"'{t.get('ngram', 'unknown')}'" for t in top_trigrams[:top_n]]
-        trigrams_str = ", ".join(trigrams_list)
-        logger.info(f"TRIGRAMS: {trigrams_str}")
+        logger.info("BIGRAMS: None")
+
+    # ---------- trigrams ----------
+    trigrams = analysis_results.get("top_trigrams", [])
+    if trigrams:
+        tlist = [f"'{t['ngram']}'" for t in trigrams[:top_n]]
+        logger.info("TRIGRAMS: " + ", ".join(tlist))
     else:
-        logger.info("TRIGRAMS: None found")
-    
+        logger.info("TRIGRAMS: None")
+
+    # ---------- zero-freq count summary ----------
+    zf_count = len(analysis_results.get("zero_frequency_words", []))
+    logger.info(f"ZERO-FREQ WORDS: {zf_count}")
     logger.info("---")
+
 
 def main():
     setup_logging()
