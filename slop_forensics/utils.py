@@ -3,10 +3,7 @@ import logging
 import os
 import re
 import unicodedata
-from typing import List, Dict, Any, Set, Tuple, Union, Counter as TypingCounter
-from collections import Counter
-
-from .constants import WORD_PATTERN
+from typing import List, Dict, Any, Union
 
 logger = logging.getLogger(__name__)
 
@@ -93,36 +90,79 @@ def save_list_one_item_per_line(data: List[Any], filename: str):
 
 # --- Text Processing ---
 
-def normalize_text(text: str) -> str:
-    """Normalizes text: lowercase, unicode normalization, apostrophe standardization."""
+
+# --- Text Processing ---------------------------------------------------
+#
+#  All tokenisation / normalisation across Auto-Antislop now funnels
+#  through the helpers below.  They keep every Unicode Letter and Mark
+#  (Lu, Ll, Lt, Lm, Lo, Mn, Mc, Me) and drop everything else.
+
+# ------------------------------------------------------------------ #
+# Internal helper – not exported
+# ------------------------------------------------------------------ #
+_SPACES_RE = re.compile(r"\s+")
+
+def _normalise_keep_marks(text: str) -> str:
+    """
+    Lower-case *text*, keep Letters + Marks, map every other code-point
+    to a single space, then collapse runs of spaces.
+
+    Apostrophes, hyphens, digits, punctuation – all removed.
+    """
+    buf: list[str] = []
+    for ch in text:
+        # first char of Unicode category string, e.g. "Lu" → "L"
+        cat0 = unicodedata.category(ch)[0]
+        if cat0 in ("L", "M"):
+            buf.append(ch.lower())
+        else:
+            buf.append(" ")
+    text = text.replace("’", "'")
+    text = text.replace("‘", "'")
+    text = text.replace("ʼ", "'")
+    return _SPACES_RE.sub(" ", "".join(buf)).strip()
+
+# ------------------------------------------------------------------ #
+# Public, back-compat functions
+# ------------------------------------------------------------------ #
+
+def normalize_text(text: str) -> str:               # unchanged signature
+    """
+    Original signature retained.  Implementation now delegates to the
+    letter-and-mark normaliser and **no longer** standardises apostrophes.
+    """
     if not isinstance(text, str):
         return ""
     try:
-        # Unicode normalization (NFKC recommended for compatibility)
-        text = unicodedata.normalize('NFKC', text)
-        # Lowercase
-        text = text.lower()
-        # Standardize apostrophes
-        text = text.replace("’", "'")
-        text = text.replace("‘", "'")
-        text = text.replace("ʼ", "'")
-        # Optional: Remove extra whitespace
-        text = re.sub(r'\s+', ' ', text).strip()
+        # NFC / NFKC keeps composed + decomposed chars comparable
+        text = unicodedata.normalize("NFKC", text)
+        return _normalise_keep_marks(text)
+    except Exception as exc:
+        logger.warning("Error during text normalization: %s. "
+                       "Returning raw snippet '%s…'",
+                       exc, text[:50])
         return text
-    except Exception as e:
-        logger.warning(f"Error during text normalization: {e}. Returning original text snippet: '{text[:50]}...'")
-        return text # Return original on error
 
 
-def extract_words(normalized_text: str, min_length: int = 4) -> List[str]:
-    """Extracts words meeting criteria from normalized text using precompiled pattern."""
+def extract_words(normalized_text: str,
+                  min_length: int = 4) -> List[str]:   # same signature
+    """
+    Split a string already passed through `normalize_text` into tokens,
+    keeping only those whose length ≥ *min_length*.
+    """
     if not isinstance(normalized_text, str):
         return []
-    words = WORD_PATTERN.findall(normalized_text)
     return [
-        word for word in words
-        if len(word) >= min_length or "'" in word
+        token
+        for token in normalized_text.split(" ")
+        if len(token) >= min_length
     ]
+
+# ------------------------------------------------------------------ #
+# End TEXT-PROCESSING section                                        #
+# ------------------------------------------------------------------ #
+
+
 
 # --- Misc ---
 
