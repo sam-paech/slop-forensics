@@ -1,0 +1,7641 @@
+{
+  "model_name": "openai/gpt-4o-mini",
+  "num_texts_analyzed": 1999,
+  "num_unique_prompts": 1999,
+  "avg_length": 6686.4,
+  "vocab_complexity": 100.0,
+  "slop_score": 1.2573,
+  "total_unique_words_after_filters": 10834,
+  "avg_corpus_rarity": 4.5347,
+  "avg_wordfreq_rarity": 5.0923,
+  "rarity_correlation": 0.4785,
+  "top_repetitive_words": [
+    {
+      "word": "adec",
+      "score": 2440.0562181444798,
+      "corpus_freq": 3.4404792675837164e-05,
+      "wordfreq_freq": 1.41e-08
+    },
+    {
+      "word": "athenahealth",
+      "score": 1404.2772520749863,
+      "corpus_freq": 3.4404792675837164e-05,
+      "wordfreq_freq": 2.45e-08
+    },
+    {
+      "word": "lmx",
+      "score": 1378.3971424614247,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 2.24e-08
+    },
+    {
+      "word": "apns",
+      "score": 1078.6409079872808,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 2.29e-08
+    },
+    {
+      "word": "multifaceted",
+      "score": 973.047897207634,
+      "corpus_freq": 0.000613993223138017,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "fostering",
+      "score": 737.2455573393677,
+      "corpus_freq": 0.0016514300484401837,
+      "wordfreq_freq": 2.24e-06
+    },
+    {
+      "word": "oligopolistic",
+      "score": 711.8408297668223,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "interconnectedness",
+      "score": 687.5769275336988,
+      "corpus_freq": 0.00014026569321687457,
+      "wordfreq_freq": 2.04e-07
+    },
+    {
+      "word": "rodolpho",
+      "score": 625.6554405498665,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 1.41e-08
+    },
+    {
+      "word": "complexities",
+      "score": 599.5089393641648,
+      "corpus_freq": 0.0011450620741855547,
+      "wordfreq_freq": 1.91e-06
+    },
+    {
+      "word": "inclusivity",
+      "score": 590.8388739044526,
+      "corpus_freq": 0.00019143179514504265,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "prioritizes",
+      "score": 578.3790923599727,
+      "corpus_freq": 0.00017467048589271173,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "delves",
+      "score": 570.919736511118,
+      "corpus_freq": 0.00029288182483020353,
+      "wordfreq_freq": 5.13e-07
+    },
+    {
+      "word": "turkle",
+      "score": 560.9199932328572,
+      "corpus_freq": 3.881566353171372e-05,
+      "wordfreq_freq": 6.92e-08
+    },
+    {
+      "word": "accor",
+      "score": 559.7243017112323,
+      "corpus_freq": 8.116002374812868e-05,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "futtaim",
+      "score": 549.2134917822954,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 2.57e-08
+    },
+    {
+      "word": "sukuk",
+      "score": 544.6466622038882,
+      "corpus_freq": 6.263436615344715e-05,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "sbar",
+      "score": 534.6510128335223,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.32e-08
+    },
+    {
+      "word": "bronfenbrenner",
+      "score": 531.8071244673865,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 2.82e-08
+    },
+    {
+      "word": "iacocca",
+      "score": 495.0472341051133,
+      "corpus_freq": 4.4108708558765594e-05,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "fosters",
+      "score": 494.4278494261632,
+      "corpus_freq": 0.0006378119257597505,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "underscores",
+      "score": 484.5596108499008,
+      "corpus_freq": 0.0004031535962271175,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "aacn",
+      "score": 480.56180530950843,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 2.57e-08
+    },
+    {
+      "word": "safaricom",
+      "score": 445.32830756446026,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "advancements",
+      "score": 427.05249650077593,
+      "corpus_freq": 0.0005637092953810242,
+      "wordfreq_freq": 1.32e-06
+    },
+    {
+      "word": "hris",
+      "score": 423.33435458877193,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "reevaluation",
+      "score": 396.97837702889035,
+      "corpus_freq": 7.939567540577807e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "adaptability",
+      "score": 394.7851263270732,
+      "corpus_freq": 0.000285824431460801,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "rbv",
+      "score": 385.52598740309264,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 3.89e-08
+    },
+    {
+      "word": "prioritize",
+      "score": 376.65377602632185,
+      "corpus_freq": 0.0007683737030936966,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "ehrs",
+      "score": 368.2118279688258,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "aligns",
+      "score": 356.82143682585075,
+      "corpus_freq": 0.0002708274705508207,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "tqm",
+      "score": 352.4550155107004,
+      "corpus_freq": 2.9993921819960604e-05,
+      "wordfreq_freq": 8.51e-08
+    },
+    {
+      "word": "emiratis",
+      "score": 351.216883137712,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 4.27e-08
+    },
+    {
+      "word": "prioritizing",
+      "score": 351.0100127733125,
+      "corpus_freq": 0.00026641659969494415,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "downturns",
+      "score": 348.4587976142482,
+      "corpus_freq": 6.969175952284964e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "daoism",
+      "score": 348.2266465165705,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "psychoeducation",
+      "score": 339.2977581443507,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 2.34e-08
+    },
+    {
+      "word": "interplay",
+      "score": 331.59738349142924,
+      "corpus_freq": 0.00046755231072291526,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "baldrige",
+      "score": 329.50478380062583,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 5.89e-08
+    },
+    {
+      "word": "enhances",
+      "score": 316.5448496570237,
+      "corpus_freq": 0.0006457514933003283,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "posits",
+      "score": 312.37128125246807,
+      "corpus_freq": 0.00017555266006388705,
+      "wordfreq_freq": 5.62e-07
+    },
+    {
+      "word": "grapples",
+      "score": 309.6611376370483,
+      "corpus_freq": 7.586697872107682e-05,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "enriches",
+      "score": 309.37358086356426,
+      "corpus_freq": 8.90995912887065e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "necessitates",
+      "score": 301.5431712381066,
+      "corpus_freq": 0.00016584874418095863,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "intertwines",
+      "score": 299.5498034551144,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 5.89e-08
+    },
+    {
+      "word": "leveraging",
+      "score": 295.73838881305693,
+      "corpus_freq": 0.00031052530825370975,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "ideational",
+      "score": 291.62782518192125,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 3.63e-08
+    },
+    {
+      "word": "upskilling",
+      "score": 285.49325928003617,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "generalizability",
+      "score": 279.2730150834321,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 5.37e-08
+    },
+    {
+      "word": "kpis",
+      "score": 273.77819105440716,
+      "corpus_freq": 3.969783770288903e-05,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "navigates",
+      "score": 272.0037027790545,
+      "corpus_freq": 6.528088866697307e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "psychographics",
+      "score": 269.6602269968202,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 2.29e-08
+    },
+    {
+      "word": "societal",
+      "score": 259.66309151561234,
+      "corpus_freq": 0.001010089425995732,
+      "wordfreq_freq": 3.89e-06
+    },
+    {
+      "word": "resonate",
+      "score": 255.54593732755808,
+      "corpus_freq": 0.000396096202857715,
+      "wordfreq_freq": 1.55e-06
+    },
+    {
+      "word": "bpr",
+      "score": 249.41049865689445,
+      "corpus_freq": 2.381870262173342e-05,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "rcts",
+      "score": 240.59295577508507,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "navigate",
+      "score": 239.05262509093,
+      "corpus_freq": 0.0011450620741855547,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "entrenching",
+      "score": 233.90981811466602,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "overstated",
+      "score": 230.13239248051613,
+      "corpus_freq": 0.00019584266600091924,
+      "wordfreq_freq": 8.51e-07
+    },
+    {
+      "word": "adeptly",
+      "score": 230.13239248051613,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "ebp",
+      "score": 217.6928036977855,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 8.51e-08
+    },
+    {
+      "word": "underscoring",
+      "score": 214.67356256737625,
+      "corpus_freq": 5.6459146955219955e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "correlational",
+      "score": 214.29332093327415,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "globalized",
+      "score": 213.429234961769,
+      "corpus_freq": 7.939567540577807e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "deontological",
+      "score": 209.2112658913783,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "frameworks",
+      "score": 209.00741901692004,
+      "corpus_freq": 0.00040756446708299404,
+      "wordfreq_freq": 1.95e-06
+    },
+    {
+      "word": "stakeholders",
+      "score": 205.1115703779513,
+      "corpus_freq": 0.0007445550004719632,
+      "wordfreq_freq": 3.63e-06
+    },
+    {
+      "word": "pestel",
+      "score": 204.47745689493985,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 3.02e-08
+    },
+    {
+      "word": "franchisors",
+      "score": 204.06164101920027,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "enhancing",
+      "score": 202.67800179863,
+      "corpus_freq": 0.0008857028678600131,
+      "wordfreq_freq": 4.37e-06
+    },
+    {
+      "word": "predispositions",
+      "score": 200.2097409759573,
+      "corpus_freq": 2.8229573477609977e-05,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "democratized",
+      "score": 198.5601028368869,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "equips",
+      "score": 194.54791607668471,
+      "corpus_freq": 5.1166101928168086e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "constructivism",
+      "score": 192.97559994459945,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "inefficiencies",
+      "score": 192.59942918447354,
+      "corpus_freq": 9.880350717163493e-05,
+      "wordfreq_freq": 5.13e-07
+    },
+    {
+      "word": "emphasizing",
+      "score": 191.84399006345208,
+      "corpus_freq": 0.0004393227372453053,
+      "wordfreq_freq": 2.29e-06
+    },
+    {
+      "word": "touchpoints",
+      "score": 190.39730313136226,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 4.17e-08
+    },
+    {
+      "word": "emphasizes",
+      "score": 189.871924259587,
+      "corpus_freq": 0.0005734132112639527,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "exemplifies",
+      "score": 187.67407247359398,
+      "corpus_freq": 0.0001561448282980302,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "durkheim",
+      "score": 187.12785449173282,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "resonates",
+      "score": 186.72686623210768,
+      "corpus_freq": 0.0002240722394785292,
+      "wordfreq_freq": 1.2e-06
+    },
+    {
+      "word": "pivotal",
+      "score": 186.48491972946468,
+      "corpus_freq": 0.0005892923463451083,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "foundational",
+      "score": 186.40723790921805,
+      "corpus_freq": 0.00021436832359560077,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "underscored",
+      "score": 185.79787684786834,
+      "corpus_freq": 0.0001120361197392646,
+      "wordfreq_freq": 6.03e-07
+    },
+    {
+      "word": "mncs",
+      "score": 184.77972504347747,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "bowlby",
+      "score": 181.62409406550537,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "exacerbating",
+      "score": 181.4048295656275,
+      "corpus_freq": 6.439871449579776e-05,
+      "wordfreq_freq": 3.55e-07
+    },
+    {
+      "word": "enhance",
+      "score": 181.32689100248908,
+      "corpus_freq": 0.00199459580102738,
+      "wordfreq_freq": 1.1e-05
+    },
+    {
+      "word": "offeree",
+      "score": 177.96020744170556,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "lombroso",
+      "score": 177.96020744170556,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "readmission",
+      "score": 175.06180050560664,
+      "corpus_freq": 4.49908827299409e-05,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "necessitating",
+      "score": 172.56101551932247,
+      "corpus_freq": 8.645306877518056e-05,
+      "wordfreq_freq": 5.01e-07
+    },
+    {
+      "word": "disparities",
+      "score": 166.75937558346217,
+      "corpus_freq": 0.00025847703215436637,
+      "wordfreq_freq": 1.55e-06
+    },
+    {
+      "word": "misinterpretations",
+      "score": 165.87890398168256,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 1.17e-07
+    },
+    {
+      "word": "empowers",
+      "score": 165.34577619110783,
+      "corpus_freq": 0.0001473230865862771,
+      "wordfreq_freq": 8.91e-07
+    },
+    {
+      "word": "exacerbate",
+      "score": 164.34735160116986,
+      "corpus_freq": 0.00013673699653217334,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "methodologies",
+      "score": 162.71212490566862,
+      "corpus_freq": 0.00021966136862265265,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "eitc",
+      "score": 162.6704145429653,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "summative",
+      "score": 160.3953038500567,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "unconditioned",
+      "score": 158.79135081155613,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "alibaba",
+      "score": 157.6692871727805,
+      "corpus_freq": 0.00014379438990157583,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "mentorship",
+      "score": 155.52781630547406,
+      "corpus_freq": 0.00010762524888338805,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "aligning",
+      "score": 155.43068730231687,
+      "corpus_freq": 0.0001632022216674327,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "incentivizing",
+      "score": 153.42159498701076,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "arra",
+      "score": 151.8975394076696,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 1.51e-07
+    },
+    {
+      "word": "emh",
+      "score": 151.28388787572337,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "intricacies",
+      "score": 150.56338017655563,
+      "corpus_freq": 0.0001252687323068943,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "sustainability",
+      "score": 149.77490172755716,
+      "corpus_freq": 0.0008821741711753118,
+      "wordfreq_freq": 5.89e-06
+    },
+    {
+      "word": "utilitarianism",
+      "score": 149.75178831679676,
+      "corpus_freq": 4.851957941464215e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "stakeholder",
+      "score": 149.62365844444014,
+      "corpus_freq": 0.00015261613161332894,
+      "wordfreq_freq": 1.02e-06
+    },
+    {
+      "word": "orem",
+      "score": 149.29101358351429,
+      "corpus_freq": 2.911174764878529e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "policymakers",
+      "score": 149.015907293127,
+      "corpus_freq": 0.00022054354279382794,
+      "wordfreq_freq": 1.48e-06
+    },
+    {
+      "word": "encapsulates",
+      "score": 148.91401607446502,
+      "corpus_freq": 6.969175952284964e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "resilience",
+      "score": 148.344551416059,
+      "corpus_freq": 0.0005637092953810242,
+      "wordfreq_freq": 3.8e-06
+    },
+    {
+      "word": "navigating",
+      "score": 147.93382255093692,
+      "corpus_freq": 0.000288470953974327,
+      "wordfreq_freq": 1.95e-06
+    },
+    {
+      "word": "deontology",
+      "score": 147.85041975005228,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 5.37e-08
+    },
+    {
+      "word": "workflows",
+      "score": 147.02902852921864,
+      "corpus_freq": 4.1462186045239656e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "carrefour",
+      "score": 147.02902852921864,
+      "corpus_freq": 4.1462186045239656e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "transformative",
+      "score": 146.38977188343944,
+      "corpus_freq": 0.0002020178851991464,
+      "wordfreq_freq": 1.38e-06
+    },
+    {
+      "word": "innovate",
+      "score": 145.0686414821624,
+      "corpus_freq": 0.00019584266600091924,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "nuanced",
+      "score": 144.44390275288072,
+      "corpus_freq": 0.0002628879030102429,
+      "wordfreq_freq": 1.82e-06
+    },
+    {
+      "word": "yimou",
+      "score": 144.35577346505102,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 5.5e-08
+    },
+    {
+      "word": "cultivates",
+      "score": 143.90075132646928,
+      "corpus_freq": 4.058001187406434e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "encompasses",
+      "score": 143.82528316048857,
+      "corpus_freq": 0.00036963097772245565,
+      "wordfreq_freq": 2.57e-06
+    },
+    {
+      "word": "readmissions",
+      "score": 143.25905343872586,
+      "corpus_freq": 1.6761309252330925e-05,
+      "wordfreq_freq": 1.17e-07
+    },
+    {
+      "word": "oligopoly",
+      "score": 141.1478673880499,
+      "corpus_freq": 2.8229573477609977e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "vygotsky",
+      "score": 141.0610605815382,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "reputational",
+      "score": 140.98673968555212,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "popham",
+      "score": 139.93107542780808,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "cohesively",
+      "score": 139.80573235741866,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 6.31e-08
+    },
+    {
+      "word": "ieps",
+      "score": 137.5710208460525,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 5.13e-08
+    },
+    {
+      "word": "americanization",
+      "score": 137.09463470967682,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "proteomic",
+      "score": 137.06095879842414,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 7.08e-08
+    },
+    {
+      "word": "alzheimer",
+      "score": 137.0555058062301,
+      "corpus_freq": 6.263436615344715e-05,
+      "wordfreq_freq": 4.57e-07
+    },
+    {
+      "word": "ensuring",
+      "score": 136.56056169793825,
+      "corpus_freq": 0.0013656056169793827,
+      "wordfreq_freq": 1e-05
+    },
+    {
+      "word": "extraversion",
+      "score": 136.33600827254818,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "dilemmas",
+      "score": 136.0362039662864,
+      "corpus_freq": 0.00014555873824392644,
+      "wordfreq_freq": 1.07e-06
+    },
+    {
+      "word": "elucidates",
+      "score": 134.76221181291484,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 8.51e-08
+    },
+    {
+      "word": "antipsychotics",
+      "score": 134.17097660461016,
+      "corpus_freq": 3.528696684701247e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "insights",
+      "score": 134.0319873332656,
+      "corpus_freq": 0.000970391588292843,
+      "wordfreq_freq": 7.24e-06
+    },
+    {
+      "word": "exacerbates",
+      "score": 134.0011399253638,
+      "corpus_freq": 4.2344360216414964e-05,
+      "wordfreq_freq": 3.16e-07
+    },
+    {
+      "word": "positivist",
+      "score": 134.0011399253638,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "solidifying",
+      "score": 132.32612567629675,
+      "corpus_freq": 5.028392775699277e-05,
+      "wordfreq_freq": 3.8e-07
+    },
+    {
+      "word": "intranets",
+      "score": 131.66778674258384,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 6.03e-08
+    },
+    {
+      "word": "npv",
+      "score": 131.19513314914892,
+      "corpus_freq": 2.5583050964084043e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "grapple",
+      "score": 130.98949814421297,
+      "corpus_freq": 0.00017290613755036112,
+      "wordfreq_freq": 1.32e-06
+    },
+    {
+      "word": "reallocating",
+      "score": 130.9570294592231,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "collaboratively",
+      "score": 130.76068090490008,
+      "corpus_freq": 6.263436615344715e-05,
+      "wordfreq_freq": 4.79e-07
+    },
+    {
+      "word": "swot",
+      "score": 130.0641406220011,
+      "corpus_freq": 6.0870017811096515e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "relatability",
+      "score": 128.91898117384517,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "equitable",
+      "score": 128.28122227134446,
+      "corpus_freq": 0.00029376399900137885,
+      "wordfreq_freq": 2.29e-06
+    },
+    {
+      "word": "interprofessional",
+      "score": 127.23665930413149,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "prioritized",
+      "score": 126.68904434533464,
+      "corpus_freq": 9.615698465810899e-05,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "maladaptive",
+      "score": 126.62787146057107,
+      "corpus_freq": 2.6465225135259354e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "commodification",
+      "score": 126.62787146057107,
+      "corpus_freq": 2.6465225135259354e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "mitigate",
+      "score": 125.58906068028936,
+      "corpus_freq": 0.00043579404056060407,
+      "wordfreq_freq": 3.47e-06
+    },
+    {
+      "word": "ncb",
+      "score": 124.54223593063226,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "revolutionized",
+      "score": 124.28420643630083,
+      "corpus_freq": 8.99817654598818e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "ethical",
+      "score": 123.35358496092395,
+      "corpus_freq": 0.0014432369440428102,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "transcends",
+      "score": 121.94760601541076,
+      "corpus_freq": 0.00012438655813571897,
+      "wordfreq_freq": 1.02e-06
+    },
+    {
+      "word": "holistic",
+      "score": 120.78365988521794,
+      "corpus_freq": 0.00025847703215436637,
+      "wordfreq_freq": 2.14e-06
+    },
+    {
+      "word": "proactive",
+      "score": 120.48370975974102,
+      "corpus_freq": 0.0003096431340825344,
+      "wordfreq_freq": 2.57e-06
+    },
+    {
+      "word": "marginalizes",
+      "score": 120.37464324029595,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 5.13e-08
+    },
+    {
+      "word": "diversifying",
+      "score": 120.29647788754252,
+      "corpus_freq": 6.616306283814839e-05,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "encapsulating",
+      "score": 119.80143065343741,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 1.62e-07
+    },
+    {
+      "word": "stratification",
+      "score": 119.6688440898684,
+      "corpus_freq": 6.880958535167433e-05,
+      "wordfreq_freq": 5.75e-07
+    },
+    {
+      "word": "debriefing",
+      "score": 119.08136194928451,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 3.63e-07
+    },
+    {
+      "word": "personalization",
+      "score": 118.57179720098279,
+      "corpus_freq": 4.4108708558765594e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "csr",
+      "score": 118.38208232546121,
+      "corpus_freq": 0.00018349222760446487,
+      "wordfreq_freq": 1.55e-06
+    },
+    {
+      "word": "underscore",
+      "score": 118.19053740290886,
+      "corpus_freq": 0.00011027177139691397,
+      "wordfreq_freq": 9.33e-07
+    },
+    {
+      "word": "shaping",
+      "score": 117.95928917429883,
+      "corpus_freq": 0.0006192862681650689,
+      "wordfreq_freq": 5.25e-06
+    },
+    {
+      "word": "inferential",
+      "score": 117.6232228233749,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 1.35e-07
+    },
+    {
+      "word": "wbs",
+      "score": 117.25099743469333,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "necessitate",
+      "score": 116.00845314588638,
+      "corpus_freq": 8.027784957695337e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "inequities",
+      "score": 115.69497326889335,
+      "corpus_freq": 4.940175358581746e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "telehealth",
+      "score": 115.42465791078845,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "agreeableness",
+      "score": 115.42465791078845,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "broader",
+      "score": 114.5096669251091,
+      "corpus_freq": 0.0011679986026361128,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "cultivate",
+      "score": 114.38075755543016,
+      "corpus_freq": 0.0003008213923707813,
+      "wordfreq_freq": 2.63e-06
+    },
+    {
+      "word": "interdependencies",
+      "score": 114.02956384169717,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 8.51e-08
+    },
+    {
+      "word": "groundwork",
+      "score": 113.82892531294347,
+      "corpus_freq": 0.00017643483423506238,
+      "wordfreq_freq": 1.55e-06
+    },
+    {
+      "word": "hinder",
+      "score": 113.78246452710145,
+      "corpus_freq": 0.00027876703809139855,
+      "wordfreq_freq": 2.45e-06
+    },
+    {
+      "word": "reengineering",
+      "score": 113.46291590679252,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "evolving",
+      "score": 112.78050100085056,
+      "corpus_freq": 0.0006642771508950098,
+      "wordfreq_freq": 5.89e-06
+    },
+    {
+      "word": "strategies",
+      "score": 112.69209540501035,
+      "corpus_freq": 0.0021974958603977017,
+      "wordfreq_freq": 1.95e-05
+    },
+    {
+      "word": "qms",
+      "score": 111.84458588593493,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 6.31e-08
+    },
+    {
+      "word": "pylori",
+      "score": 111.62203798544762,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "organizational",
+      "score": 111.05476622340095,
+      "corpus_freq": 0.0007507302196701904,
+      "wordfreq_freq": 6.76e-06
+    },
+    {
+      "word": "streamline",
+      "score": 111.00204802868163,
+      "corpus_freq": 0.00016761309252330924,
+      "wordfreq_freq": 1.51e-06
+    },
+    {
+      "word": "onboarding",
+      "score": 110.8491105141753,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "moreover",
+      "score": 110.4847099899563,
+      "corpus_freq": 0.0016020282948543663,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "marginalized",
+      "score": 110.37247621097508,
+      "corpus_freq": 0.00024171572290203545,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "dvt",
+      "score": 109.03276272953292,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "implications",
+      "score": 108.87149493473095,
+      "corpus_freq": 0.00137178083617761,
+      "wordfreq_freq": 1.26e-05
+    },
+    {
+      "word": "challenges",
+      "score": 108.23049459306172,
+      "corpus_freq": 0.0033443222829256073,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "reshaped",
+      "score": 107.43104660682955,
+      "corpus_freq": 4.587305690111622e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "omnichannel",
+      "score": 107.39511649090753,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "cratchit",
+      "score": 107.39511649090753,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "grappled",
+      "score": 106.69363132208787,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "crucial",
+      "score": 106.553707481751,
+      "corpus_freq": 0.0020351758129014443,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "underrepresentation",
+      "score": 106.0305494201096,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "nurtures",
+      "score": 105.86090054103741,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "nuances",
+      "score": 105.2525045609165,
+      "corpus_freq": 0.00015261613161332894,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "interconnected",
+      "score": 104.57233152696114,
+      "corpus_freq": 0.0001861387501179908,
+      "wordfreq_freq": 1.78e-06
+    },
+    {
+      "word": "constructivist",
+      "score": 104.14556187486322,
+      "corpus_freq": 2.9993921819960604e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "mitigates",
+      "score": 104.01180184163066,
+      "corpus_freq": 2.381870262173342e-05,
+      "wordfreq_freq": 2.29e-07
+    },
+    {
+      "word": "optimizing",
+      "score": 103.78519660886022,
+      "corpus_freq": 0.00010586090054103742,
+      "wordfreq_freq": 1.02e-06
+    },
+    {
+      "word": "exemplify",
+      "score": 103.49529382503658,
+      "corpus_freq": 5.557697278404465e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "inadequacy",
+      "score": 101.51436977868258,
+      "corpus_freq": 6.263436615344715e-05,
+      "wordfreq_freq": 6.17e-07
+    },
+    {
+      "word": "delve",
+      "score": 101.00255003311543,
+      "corpus_freq": 0.00013938351904569927,
+      "wordfreq_freq": 1.38e-06
+    },
+    {
+      "word": "tmall",
+      "score": 100.81990527717849,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "briseis",
+      "score": 100.81990527717849,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "learners",
+      "score": 99.6097325731064,
+      "corpus_freq": 0.0003008213923707813,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "elucidating",
+      "score": 99.60030964882553,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "resonated",
+      "score": 99.00944682102265,
+      "corpus_freq": 8.821741711753119e-05,
+      "wordfreq_freq": 8.91e-07
+    },
+    {
+      "word": "fostered",
+      "score": 98.94656244263632,
+      "corpus_freq": 0.00014644091241510177,
+      "wordfreq_freq": 1.48e-06
+    },
+    {
+      "word": "intricately",
+      "score": 98.56694650003485,
+      "corpus_freq": 5.293045027051871e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "excipients",
+      "score": 98.56694650003483,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 5.37e-08
+    },
+    {
+      "word": "foodborne",
+      "score": 98.45693874724464,
+      "corpus_freq": 2.2054354279382797e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "align",
+      "score": 98.34072727855936,
+      "corpus_freq": 0.00041991490547944844,
+      "wordfreq_freq": 4.27e-06
+    },
+    {
+      "word": "qualitative",
+      "score": 97.9150764460541,
+      "corpus_freq": 0.0002761205155778726,
+      "wordfreq_freq": 2.82e-06
+    },
+    {
+      "word": "hofstede",
+      "score": 97.86401265019308,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 6.31e-08
+    },
+    {
+      "word": "consequentialist",
+      "score": 97.65765732568029,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "dukkha",
+      "score": 97.47780896964771,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "behaviorism",
+      "score": 97.34335681934476,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "absenteeism",
+      "score": 97.22887370480588,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "navigated",
+      "score": 97.22503021056922,
+      "corpus_freq": 5.998784363992121e-05,
+      "wordfreq_freq": 6.17e-07
+    },
+    {
+      "word": "comorbid",
+      "score": 96.99297169990339,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "marginalization",
+      "score": 96.70365634807668,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "hcm",
+      "score": 96.6766214986643,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "evolve",
+      "score": 96.32614959426148,
+      "corpus_freq": 0.0006078180039397899,
+      "wordfreq_freq": 6.31e-06
+    },
+    {
+      "word": "conversely",
+      "score": 96.02426818987907,
+      "corpus_freq": 0.00032552226916369005,
+      "wordfreq_freq": 3.39e-06
+    },
+    {
+      "word": "incentivizes",
+      "score": 95.59162845552915,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "initiatives",
+      "score": 95.44284366239566,
+      "corpus_freq": 0.0010021498584551543,
+      "wordfreq_freq": 1.05e-05
+    },
+    {
+      "word": "perpetuates",
+      "score": 95.41883892304394,
+      "corpus_freq": 4.6755231072291525e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "instills",
+      "score": 95.37018066760128,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "preferences",
+      "score": 95.19112598057713,
+      "corpus_freq": 0.0007225006461925804,
+      "wordfreq_freq": 7.59e-06
+    },
+    {
+      "word": "reinforcing",
+      "score": 94.91248895234381,
+      "corpus_freq": 0.00021260397525325016,
+      "wordfreq_freq": 2.24e-06
+    },
+    {
+      "word": "stigmatization",
+      "score": 94.85743776078621,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "proactively",
+      "score": 94.75698359069159,
+      "corpus_freq": 6.263436615344715e-05,
+      "wordfreq_freq": 6.61e-07
+    },
+    {
+      "word": "diversification",
+      "score": 94.06314957712662,
+      "corpus_freq": 0.0001561448282980302,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "misalignment",
+      "score": 93.91968362322712,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "contexts",
+      "score": 93.5568923641186,
+      "corpus_freq": 0.00035551619098365066,
+      "wordfreq_freq": 3.8e-06
+    },
+    {
+      "word": "cbt",
+      "score": 93.51046214458306,
+      "corpus_freq": 9.351046214458305e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "narratives",
+      "score": 93.41942697212761,
+      "corpus_freq": 0.0003802170677765594,
+      "wordfreq_freq": 4.07e-06
+    },
+    {
+      "word": "ehr",
+      "score": 93.28125677080337,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 3.31e-07
+    },
+    {
+      "word": "empower",
+      "score": 92.84610875641398,
+      "corpus_freq": 0.0003008213923707813,
+      "wordfreq_freq": 3.24e-06
+    },
+    {
+      "word": "multifactorial",
+      "score": 92.41824650408029,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "ryanair",
+      "score": 91.99581673336586,
+      "corpus_freq": 4.940175358581746e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "tiktok",
+      "score": 91.89314283076165,
+      "corpus_freq": 2.6465225135259354e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "explores",
+      "score": 91.64921595276697,
+      "corpus_freq": 0.0004005070737135916,
+      "wordfreq_freq": 4.37e-06
+    },
+    {
+      "word": "responsiveness",
+      "score": 91.42532319453231,
+      "corpus_freq": 0.00010056785551398554,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "lieder",
+      "score": 91.06314025035476,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "disengagement",
+      "score": 90.73791474946066,
+      "corpus_freq": 4.763740524346684e-05,
+      "wordfreq_freq": 5.25e-07
+    },
+    {
+      "word": "recognizing",
+      "score": 89.86494103653432,
+      "corpus_freq": 0.0005293045027051871,
+      "wordfreq_freq": 5.89e-06
+    },
+    {
+      "word": "heliocentric",
+      "score": 89.4095443758762,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "hrm",
+      "score": 88.82302867669043,
+      "corpus_freq": 3.881566353171372e-05,
+      "wordfreq_freq": 4.37e-07
+    },
+    {
+      "word": "bolivar",
+      "score": 88.76365499441992,
+      "corpus_freq": 5.734132112639527e-05,
+      "wordfreq_freq": 6.46e-07
+    },
+    {
+      "word": "franchisees",
+      "score": 88.71025185003136,
+      "corpus_freq": 4.763740524346684e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "neuroticism",
+      "score": 88.2174171175312,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "centricity",
+      "score": 87.77852449505589,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 6.03e-08
+    },
+    {
+      "word": "reintegrating",
+      "score": 87.22061014445174,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 7.08e-08
+    },
+    {
+      "word": "scorecard",
+      "score": 87.10330507586318,
+      "corpus_freq": 7.586697872107682e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "malala",
+      "score": 86.77122995167001,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "smallholder",
+      "score": 85.9554320632355,
+      "corpus_freq": 1.6761309252330925e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "actualizing",
+      "score": 85.78679136226694,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 6.17e-08
+    },
+    {
+      "word": "profound",
+      "score": 85.68534429555841,
+      "corpus_freq": 0.0007463193488143138,
+      "wordfreq_freq": 8.71e-06
+    },
+    {
+      "word": "dysregulation",
+      "score": 85.37169398470759,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "acth",
+      "score": 85.17543721692667,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "rheological",
+      "score": 85.0971869300944,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "pharmacodynamics",
+      "score": 85.0971869300944,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "perpetuating",
+      "score": 84.87653233416512,
+      "corpus_freq": 8.292437209047931e-05,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "fraught",
+      "score": 84.87584828732166,
+      "corpus_freq": 0.0001120361197392646,
+      "wordfreq_freq": 1.32e-06
+    },
+    {
+      "word": "peptic",
+      "score": 83.75071245335238,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "biases",
+      "score": 83.57439516397692,
+      "corpus_freq": 0.00017467048589271173,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "determinants",
+      "score": 83.55155126752645,
+      "corpus_freq": 6.792741118049901e-05,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "conscientiousness",
+      "score": 83.13683288563148,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "actualization",
+      "score": 82.70382854768549,
+      "corpus_freq": 2.381870262173342e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "addressing",
+      "score": 82.00384252055724,
+      "corpus_freq": 0.0009430441889864083,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "iterative",
+      "score": 81.63766501207996,
+      "corpus_freq": 5.910566946874589e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "poignantly",
+      "score": 81.43146195464416,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "delineates",
+      "score": 81.33520727148264,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "sourcing",
+      "score": 81.10310928547221,
+      "corpus_freq": 0.00015085178327097832,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "criminological",
+      "score": 81.02633030312852,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 8.71e-08
+    },
+    {
+      "word": "landscape",
+      "score": 80.89806809904606,
+      "corpus_freq": 0.0018525657594681548,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "globalization",
+      "score": 80.86596569107024,
+      "corpus_freq": 0.0002328939811902823,
+      "wordfreq_freq": 2.88e-06
+    },
+    {
+      "word": "outcomes",
+      "score": 80.72593804485196,
+      "corpus_freq": 0.0010171468193651346,
+      "wordfreq_freq": 1.26e-05
+    },
+    {
+      "word": "inequalities",
+      "score": 80.61246736601986,
+      "corpus_freq": 0.00014026569321687457,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "telemedicine",
+      "score": 80.38997243324185,
+      "corpus_freq": 3.352261850466185e-05,
+      "wordfreq_freq": 4.17e-07
+    },
+    {
+      "word": "competencies",
+      "score": 80.36182316745422,
+      "corpus_freq": 7.851350123460276e-05,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "disenfranchisement",
+      "score": 79.93811259841014,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 3.09e-07
+    },
+    {
+      "word": "humanizes",
+      "score": 79.5775669874637,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "interdependence",
+      "score": 79.21563986064025,
+      "corpus_freq": 3.881566353171372e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "underpin",
+      "score": 79.1694769003485,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "embodying",
+      "score": 79.1694769003485,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "encourages",
+      "score": 79.16620813581918,
+      "corpus_freq": 0.0005478301602998687,
+      "wordfreq_freq": 6.92e-06
+    },
+    {
+      "word": "psychopharmacology",
+      "score": 78.89362506445877,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 1.23e-07
+    },
+    {
+      "word": "internalize",
+      "score": 78.81094900989817,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 3.47e-07
+    },
+    {
+      "word": "intersectionality",
+      "score": 78.20693006873331,
+      "corpus_freq": 2.2054354279382797e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "equipping",
+      "score": 77.83889745664517,
+      "corpus_freq": 7.939567540577807e-05,
+      "wordfreq_freq": 1.02e-06
+    },
+    {
+      "word": "characterized",
+      "score": 77.83889745664516,
+      "corpus_freq": 0.0007939567540577807,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "oversimplify",
+      "score": 77.83889745664516,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "situating",
+      "score": 77.83889745664516,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "adhering",
+      "score": 77.7620195332312,
+      "corpus_freq": 0.00010497872636986211,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "tapestry",
+      "score": 77.57048746541535,
+      "corpus_freq": 0.00013497264818982272,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "captivates",
+      "score": 77.48827179242605,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "differentiator",
+      "score": 77.48827179242605,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "immerses",
+      "score": 77.38369922590455,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "additionally",
+      "score": 77.27399069029313,
+      "corpus_freq": 0.0012209290529066315,
+      "wordfreq_freq": 1.58e-05
+    },
+    {
+      "word": "whistleblowing",
+      "score": 77.1902399778398,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "maximization",
+      "score": 77.14831154765083,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "intertwining",
+      "score": 77.04577914194863,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 2.29e-07
+    },
+    {
+      "word": "highlighting",
+      "score": 76.90749184605282,
+      "corpus_freq": 0.0003599270618395272,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "lockdowns",
+      "score": 76.71079749350538,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 1.38e-07
+    },
+    {
+      "word": "facilitating",
+      "score": 76.08342294151387,
+      "corpus_freq": 0.00020466440771267234,
+      "wordfreq_freq": 2.69e-06
+    },
+    {
+      "word": "neurobiological",
+      "score": 75.9487697038348,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 1.51e-07
+    },
+    {
+      "word": "furthermore",
+      "score": 75.60751572955466,
+      "corpus_freq": 0.0012853277674024293,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "npm",
+      "score": 75.5168551200656,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "mitigating",
+      "score": 75.43228420194696,
+      "corpus_freq": 0.0001040965521986868,
+      "wordfreq_freq": 1.38e-06
+    },
+    {
+      "word": "cornerstone",
+      "score": 75.25485786760824,
+      "corpus_freq": 0.00018437440177564016,
+      "wordfreq_freq": 2.45e-06
+    },
+    {
+      "word": "conclusion",
+      "score": 75.24840240981445,
+      "corpus_freq": 0.0018887349004863426,
+      "wordfreq_freq": 2.51e-05
+    },
+    {
+      "word": "misunderstandings",
+      "score": 75.22415413122815,
+      "corpus_freq": 9.70391588292843e-05,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "stressors",
+      "score": 75.2142718198604,
+      "corpus_freq": 5.20482760993434e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "illustrating",
+      "score": 75.13253706660551,
+      "corpus_freq": 0.00015702700246920552,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "demystify",
+      "score": 75.07865286598398,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "deviance",
+      "score": 75.07865286598398,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "esg",
+      "score": 74.98480454990151,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "maslow",
+      "score": 74.76052298095864,
+      "corpus_freq": 2.2054354279382797e-05,
+      "wordfreq_freq": 2.95e-07
+    },
+    {
+      "word": "offerings",
+      "score": 74.60444201013604,
+      "corpus_freq": 0.0004931353616869993,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "influencing",
+      "score": 74.53813408348363,
+      "corpus_freq": 0.00023554050370380825,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "reinforces",
+      "score": 74.52850756481082,
+      "corpus_freq": 0.00012967960316277084,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "behaviors",
+      "score": 74.23450177544828,
+      "corpus_freq": 0.0005760597337774786,
+      "wordfreq_freq": 7.76e-06
+    },
+    {
+      "word": "encapsulate",
+      "score": 73.51451426460932,
+      "corpus_freq": 2.381870262173342e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "articulates",
+      "score": 73.51451426460932,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "reevaluating",
+      "score": 73.51451426460932,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "embodies",
+      "score": 73.41965682684854,
+      "corpus_freq": 0.00011380046808161523,
+      "wordfreq_freq": 1.55e-06
+    },
+    {
+      "word": "disconnection",
+      "score": 73.35365099488371,
+      "corpus_freq": 3.352261850466185e-05,
+      "wordfreq_freq": 4.57e-07
+    },
+    {
+      "word": "superficiality",
+      "score": 73.00751761450857,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "disruptions",
+      "score": 72.8752576188301,
+      "corpus_freq": 8.380654626165462e-05,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "tailored",
+      "score": 72.42090992017711,
+      "corpus_freq": 0.0002628879030102429,
+      "wordfreq_freq": 3.63e-06
+    },
+    {
+      "word": "underserved",
+      "score": 72.37651868775778,
+      "corpus_freq": 4.6755231072291525e-05,
+      "wordfreq_freq": 6.46e-07
+    },
+    {
+      "word": "permeate",
+      "score": 72.30935829305834,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "integrating",
+      "score": 72.2263445282506,
+      "corpus_freq": 0.0002390692003885095,
+      "wordfreq_freq": 3.31e-06
+    },
+    {
+      "word": "functionalities",
+      "score": 72.14807347902179,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 2.69e-07
+    },
+    {
+      "word": "encompass",
+      "score": 72.09165269819752,
+      "corpus_freq": 0.0001340904740186474,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "permeates",
+      "score": 72.0142180551275,
+      "corpus_freq": 3.528696684701247e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "socioeconomic",
+      "score": 71.70182761150936,
+      "corpus_freq": 0.00015702700246920552,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "collaborative",
+      "score": 71.68579500429566,
+      "corpus_freq": 0.0004322653438759028,
+      "wordfreq_freq": 6.03e-06
+    },
+    {
+      "word": "geopolitical",
+      "score": 71.32472022268477,
+      "corpus_freq": 0.00010056785551398554,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "neurodevelopmental",
+      "score": 71.14307832058967,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "cohesion",
+      "score": 71.12817924659582,
+      "corpus_freq": 0.00013585482236099801,
+      "wordfreq_freq": 1.91e-06
+    },
+    {
+      "word": "essay",
+      "score": 71.04096707876482,
+      "corpus_freq": 0.0012076964403390019,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "generalizable",
+      "score": 70.89803901523746,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 8.71e-08
+    },
+    {
+      "word": "possessiveness",
+      "score": 70.88899589801613,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "vulnerabilities",
+      "score": 70.57393369402494,
+      "corpus_freq": 0.00011997568727984241,
+      "wordfreq_freq": 1.7e-06
+    },
+    {
+      "word": "thrive",
+      "score": 70.4753667475249,
+      "corpus_freq": 0.00037845271943420875,
+      "wordfreq_freq": 5.37e-06
+    },
+    {
+      "word": "injustices",
+      "score": 69.83878855137885,
+      "corpus_freq": 8.380654626165462e-05,
+      "wordfreq_freq": 1.2e-06
+    },
+    {
+      "word": "systemic",
+      "score": 69.77195717477466,
+      "corpus_freq": 0.00038374576446126063,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "diverse",
+      "score": 69.6613397238436,
+      "corpus_freq": 0.0012121073111948785,
+      "wordfreq_freq": 1.74e-05
+    },
+    {
+      "word": "perpetuate",
+      "score": 69.43564444089552,
+      "corpus_freq": 0.00010762524888338805,
+      "wordfreq_freq": 1.55e-06
+    },
+    {
+      "word": "impulsivity",
+      "score": 69.34120122775377,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 2.29e-07
+    },
+    {
+      "word": "oversimplifying",
+      "score": 69.30661277471586,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "dispossession",
+      "score": 69.19013107257348,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 2.04e-07
+    },
+    {
+      "word": "dynamics",
+      "score": 69.17715792299737,
+      "corpus_freq": 0.0008301258950759684,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "interventions",
+      "score": 68.96998065552438,
+      "corpus_freq": 0.0003793348936053841,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "complicating",
+      "score": 68.87238075765924,
+      "corpus_freq": 5.998784363992121e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "educators",
+      "score": 68.59871769804997,
+      "corpus_freq": 0.0004534375239841103,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "ipm",
+      "score": 68.4792735615539,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "complicates",
+      "score": 68.2344662787534,
+      "corpus_freq": 4.940175358581746e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "intertwined",
+      "score": 68.11724612872662,
+      "corpus_freq": 0.00010762524888338805,
+      "wordfreq_freq": 1.58e-06
+    },
+    {
+      "word": "optimize",
+      "score": 68.0181019831432,
+      "corpus_freq": 0.00014555873824392644,
+      "wordfreq_freq": 2.14e-06
+    },
+    {
+      "word": "reshaping",
+      "score": 67.85955162887014,
+      "corpus_freq": 5.028392775699277e-05,
+      "wordfreq_freq": 7.41e-07
+    },
+    {
+      "word": "shamanistic",
+      "score": 67.71073682266648,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "adherence",
+      "score": 67.67363504906501,
+      "corpus_freq": 0.00014820526075745238,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "caregiving",
+      "score": 67.5625732847613,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 4.57e-07
+    },
+    {
+      "word": "temporality",
+      "score": 67.21327018478566,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "underpinnings",
+      "score": 67.06587266245062,
+      "corpus_freq": 3.4404792675837164e-05,
+      "wordfreq_freq": 5.13e-07
+    },
+    {
+      "word": "poignant",
+      "score": 66.87449362135429,
+      "corpus_freq": 0.00012438655813571897,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "sensationalized",
+      "score": 66.8313766041903,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "ensures",
+      "score": 66.49554054085266,
+      "corpus_freq": 0.00026465225135259356,
+      "wordfreq_freq": 3.98e-06
+    },
+    {
+      "word": "motivations",
+      "score": 66.41463341928203,
+      "corpus_freq": 0.00017467048589271173,
+      "wordfreq_freq": 2.63e-06
+    },
+    {
+      "word": "behaviorist",
+      "score": 66.40020643255035,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "kshatriya",
+      "score": 66.18670094562897,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "metrics",
+      "score": 66.16306283814839,
+      "corpus_freq": 0.00021436832359560077,
+      "wordfreq_freq": 3.24e-06
+    },
+    {
+      "word": "adolescents",
+      "score": 66.09800574587882,
+      "corpus_freq": 0.0002240722394785292,
+      "wordfreq_freq": 3.39e-06
+    },
+    {
+      "word": "hypermarkets",
+      "score": 65.95694737759341,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "adapt",
+      "score": 65.9552207559343,
+      "corpus_freq": 0.0006298723582191726,
+      "wordfreq_freq": 9.55e-06
+    },
+    {
+      "word": "transcended",
+      "score": 65.76207457852324,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "decisiveness",
+      "score": 65.56699920897587,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "erp",
+      "score": 65.53293843016603,
+      "corpus_freq": 6.880958535167433e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "capitalizes",
+      "score": 65.34623490187495,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 1.62e-07
+    },
+    {
+      "word": "urbanization",
+      "score": 64.96009805927295,
+      "corpus_freq": 7.145610786520025e-05,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "embracing",
+      "score": 64.46657404742663,
+      "corpus_freq": 0.00030170356654195664,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "effectiveness",
+      "score": 63.957627410210115,
+      "corpus_freq": 0.0007163254269943533,
+      "wordfreq_freq": 1.12e-05
+    },
+    {
+      "word": "contextualization",
+      "score": 63.618329652065746,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "nutritionists",
+      "score": 63.55721694346627,
+      "corpus_freq": 2.2054354279382797e-05,
+      "wordfreq_freq": 3.47e-07
+    },
+    {
+      "word": "profitability",
+      "score": 63.37137242303665,
+      "corpus_freq": 0.0002002535368567958,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "streamlining",
+      "score": 63.36057583027102,
+      "corpus_freq": 4.587305690111622e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "dehumanization",
+      "score": 63.313935730285536,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "minimizing",
+      "score": 63.080196110922834,
+      "corpus_freq": 0.00011732916476631648,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "collectivization",
+      "score": 63.01244079823657,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 1.82e-07
+    },
+    {
+      "word": "underdevelopment",
+      "score": 62.27111796531613,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "advocating",
+      "score": 61.97944996547859,
+      "corpus_freq": 0.00026465225135259356,
+      "wordfreq_freq": 4.27e-06
+    },
+    {
+      "word": "overshadow",
+      "score": 61.90695938072364,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 5.13e-07
+    },
+    {
+      "word": "groupthink",
+      "score": 61.83463816649382,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "bacteriophages",
+      "score": 61.75219198227183,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "individualism",
+      "score": 61.752191982271825,
+      "corpus_freq": 6.175219198227182e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "externalities",
+      "score": 61.657334544511045,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "familial",
+      "score": 61.64590593755191,
+      "corpus_freq": 0.00010233220385633617,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "epitomizes",
+      "score": 61.6366233135589,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 2.29e-07
+    },
+    {
+      "word": "socio",
+      "score": 61.52004088459411,
+      "corpus_freq": 0.00023377615536145763,
+      "wordfreq_freq": 3.8e-06
+    },
+    {
+      "word": "microeconomic",
+      "score": 61.3686379948043,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "collectivist",
+      "score": 61.26209522050777,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "smes",
+      "score": 61.07359646598312,
+      "corpus_freq": 7.145610786520025e-05,
+      "wordfreq_freq": 1.17e-06
+    },
+    {
+      "word": "practices",
+      "score": 61.03154265933988,
+      "corpus_freq": 0.0021666197644065657,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "intranet",
+      "score": 61.01492826572761,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 3.47e-07
+    },
+    {
+      "word": "essential",
+      "score": 60.95021546302154,
+      "corpus_freq": 0.0024806737693449767,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "engagement",
+      "score": 60.88731534386465,
+      "corpus_freq": 0.001242101233014839,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "formalization",
+      "score": 60.83959801209048,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "emblematic",
+      "score": 60.71644093109434,
+      "corpus_freq": 4.49908827299409e-05,
+      "wordfreq_freq": 7.41e-07
+    },
+    {
+      "word": "workforce",
+      "score": 60.567181901588576,
+      "corpus_freq": 0.0005275401543628365,
+      "wordfreq_freq": 8.71e-06
+    },
+    {
+      "word": "diverges",
+      "score": 60.319601447884565,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "intertwine",
+      "score": 60.04326819517829,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "leverages",
+      "score": 59.953584448807604,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 3.09e-07
+    },
+    {
+      "word": "alleviating",
+      "score": 59.909960691022874,
+      "corpus_freq": 3.528696684701247e-05,
+      "wordfreq_freq": 5.89e-07
+    },
+    {
+      "word": "norms",
+      "score": 59.681000449947184,
+      "corpus_freq": 0.0003431657525871963,
+      "wordfreq_freq": 5.75e-06
+    },
+    {
+      "word": "brin",
+      "score": 58.52261086420988,
+      "corpus_freq": 2.381870262173342e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "homogenization",
+      "score": 58.4573245959544,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "collectivism",
+      "score": 58.422130541411384,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "cohesive",
+      "score": 58.37917309248387,
+      "corpus_freq": 0.00011909351310866709,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "influencers",
+      "score": 58.11147318059594,
+      "corpus_freq": 7.322045620755088e-05,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "arrhenius",
+      "score": 58.03777441942841,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "intricate",
+      "score": 57.90044560108385,
+      "corpus_freq": 0.00020554658188384767,
+      "wordfreq_freq": 3.55e-06
+    },
+    {
+      "word": "perspectives",
+      "score": 57.750577185187936,
+      "corpus_freq": 0.0004481444789570584,
+      "wordfreq_freq": 7.76e-06
+    },
+    {
+      "word": "fluctuations",
+      "score": 57.71512374130006,
+      "corpus_freq": 0.00017025961503683518,
+      "wordfreq_freq": 2.95e-06
+    },
+    {
+      "word": "positing",
+      "score": 57.71232895539423,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "technological",
+      "score": 57.68651971511604,
+      "corpus_freq": 0.0006633949767238345,
+      "wordfreq_freq": 1.15e-05
+    },
+    {
+      "word": "paramount",
+      "score": 57.66166370252037,
+      "corpus_freq": 0.0003096431340825344,
+      "wordfreq_freq": 5.37e-06
+    },
+    {
+      "word": "realities",
+      "score": 57.49212013001498,
+      "corpus_freq": 0.0002690631222084701,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "utilizing",
+      "score": 57.434290301343495,
+      "corpus_freq": 0.0002452444195867367,
+      "wordfreq_freq": 4.27e-06
+    },
+    {
+      "word": "exacerbated",
+      "score": 57.394464148755226,
+      "corpus_freq": 9.527481048693368e-05,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "reallocation",
+      "score": 57.34132112639527,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "portrayals",
+      "score": 57.32035026654166,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "implementing",
+      "score": 57.29249229773242,
+      "corpus_freq": 0.0004657879623805646,
+      "wordfreq_freq": 8.13e-06
+    },
+    {
+      "word": "imperative",
+      "score": 57.138633406540976,
+      "corpus_freq": 0.0002611235546678923,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "minimizes",
+      "score": 56.951955714875204,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "burgeoning",
+      "score": 56.80667011356174,
+      "corpus_freq": 7.49848045499015e-05,
+      "wordfreq_freq": 1.32e-06
+    },
+    {
+      "word": "conducive",
+      "score": 56.78362481128444,
+      "corpus_freq": 9.880350717163493e-05,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "misclassification",
+      "score": 56.73145795339626,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "healthcare",
+      "score": 56.668476419566645,
+      "corpus_freq": 0.0016717200543772159,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "grappling",
+      "score": 56.331603701556055,
+      "corpus_freq": 9.351046214458305e-05,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "disillusionment",
+      "score": 56.053426912803474,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 6.61e-07
+    },
+    {
+      "word": "partnerships",
+      "score": 55.78650583226631,
+      "corpus_freq": 0.0003687488035512803,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "accountability",
+      "score": 55.66486467563776,
+      "corpus_freq": 0.00045255534981293496,
+      "wordfreq_freq": 8.13e-06
+    },
+    {
+      "word": "categorizes",
+      "score": 55.42455525708765,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "environments",
+      "score": 55.11488155152425,
+      "corpus_freq": 0.0005787062562910046,
+      "wordfreq_freq": 1.05e-05
+    },
+    {
+      "word": "mrsa",
+      "score": 55.02840833842101,
+      "corpus_freq": 2.8229573477609977e-05,
+      "wordfreq_freq": 5.13e-07
+    },
+    {
+      "word": "safeguarding",
+      "score": 55.00615420269591,
+      "corpus_freq": 9.351046214458305e-05,
+      "wordfreq_freq": 1.7e-06
+    },
+    {
+      "word": "personalized",
+      "score": 54.90818587551351,
+      "corpus_freq": 0.0001861387501179908,
+      "wordfreq_freq": 3.39e-06
+    },
+    {
+      "word": "streamlines",
+      "score": 54.872077632914134,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "transformational",
+      "score": 54.694798612869334,
+      "corpus_freq": 5.469479861286933e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "robust",
+      "score": 54.692772954611755,
+      "corpus_freq": 0.00047637405243466837,
+      "wordfreq_freq": 8.71e-06
+    },
+    {
+      "word": "attuned",
+      "score": 54.62738609385989,
+      "corpus_freq": 4.1462186045239656e-05,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "ibd",
+      "score": 54.58562735815302,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 5.01e-07
+    },
+    {
+      "word": "misdiagnosis",
+      "score": 54.51638136476646,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "organizations",
+      "score": 54.51383980852568,
+      "corpus_freq": 0.002551247703039002,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "reverberate",
+      "score": 54.2876413030961,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "underpins",
+      "score": 54.243719263206884,
+      "corpus_freq": 1.6761309252330925e-05,
+      "wordfreq_freq": 3.09e-07
+    },
+    {
+      "word": "consumers",
+      "score": 54.22670619551101,
+      "corpus_freq": 0.0013285543017900196,
+      "wordfreq_freq": 2.45e-05
+    },
+    {
+      "word": "scalability",
+      "score": 54.01066354134562,
+      "corpus_freq": 2.6465225135259354e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "randomization",
+      "score": 53.82757654629022,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 2.95e-07
+    },
+    {
+      "word": "engage",
+      "score": 53.77795384108014,
+      "corpus_freq": 0.0012315151429607353,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "importance",
+      "score": 53.70812447100383,
+      "corpus_freq": 0.0019496049182974391,
+      "wordfreq_freq": 3.63e-05
+    },
+    {
+      "word": "juxtaposes",
+      "score": 53.46510128335223,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "individuals",
+      "score": 53.230881102807516,
+      "corpus_freq": 0.0034387149192413656,
+      "wordfreq_freq": 6.46e-05
+    },
+    {
+      "word": "cater",
+      "score": 53.178950037046974,
+      "corpus_freq": 0.00018878527263151674,
+      "wordfreq_freq": 3.55e-06
+    },
+    {
+      "word": "nurturing",
+      "score": 53.14302235995855,
+      "corpus_freq": 8.821741711753119e-05,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "stifles",
+      "score": 52.719571982588356,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 2.51e-07
+    },
+    {
+      "word": "delving",
+      "score": 52.66711469703355,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 6.03e-07
+    },
+    {
+      "word": "romanticized",
+      "score": 52.579917487270244,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "amplifying",
+      "score": 52.56903813335191,
+      "corpus_freq": 2.8229573477609977e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "innovation",
+      "score": 52.46614807516328,
+      "corpus_freq": 0.0010965424947709127,
+      "wordfreq_freq": 2.09e-05
+    },
+    {
+      "word": "cybercriminals",
+      "score": 52.27698792149996,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.35e-07
+    },
+    {
+      "word": "agile",
+      "score": 52.17528171931806,
+      "corpus_freq": 0.0001340904740186474,
+      "wordfreq_freq": 2.57e-06
+    },
+    {
+      "word": "transcending",
+      "score": 52.17159076843242,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "chatbots",
+      "score": 52.17159076843242,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "indelible",
+      "score": 52.04961070474609,
+      "corpus_freq": 3.4404792675837164e-05,
+      "wordfreq_freq": 6.61e-07
+    },
+    {
+      "word": "hermia",
+      "score": 51.8925983044301,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "overshadowing",
+      "score": 51.460159985226525,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "empathy",
+      "score": 51.41815169136104,
+      "corpus_freq": 0.00026994529637964544,
+      "wordfreq_freq": 5.25e-06
+    },
+    {
+      "word": "radiographic",
+      "score": 51.32649723201814,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "understanding",
+      "score": 51.30223167924204,
+      "corpus_freq": 0.0033910775139978987,
+      "wordfreq_freq": 6.61e-05
+    },
+    {
+      "word": "frac",
+      "score": 51.197608148567205,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "satisfaction",
+      "score": 51.16610192816809,
+      "corpus_freq": 0.0007419084779584373,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "hierarchies",
+      "score": 50.8946637216526,
+      "corpus_freq": 4.2344360216414964e-05,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "refine",
+      "score": 50.805842318997016,
+      "corpus_freq": 9.70391588292843e-05,
+      "wordfreq_freq": 1.91e-06
+    },
+    {
+      "word": "adaptable",
+      "score": 50.79184621918462,
+      "corpus_freq": 6.70452370093237e-05,
+      "wordfreq_freq": 1.32e-06
+    },
+    {
+      "word": "strengths",
+      "score": 50.76416458390479,
+      "corpus_freq": 0.0003431657525871963,
+      "wordfreq_freq": 6.76e-06
+    },
+    {
+      "word": "accessibility",
+      "score": 50.64333204895309,
+      "corpus_freq": 0.000164084395838608,
+      "wordfreq_freq": 3.24e-06
+    },
+    {
+      "word": "backgrounds",
+      "score": 50.614206903737504,
+      "corpus_freq": 0.0003122896565960604,
+      "wordfreq_freq": 6.17e-06
+    },
+    {
+      "word": "considerations",
+      "score": 50.52452071276786,
+      "corpus_freq": 0.0002778848639202232,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "enriching",
+      "score": 50.52452071276786,
+      "corpus_freq": 5.557697278404465e-05,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "transcend",
+      "score": 50.409952638589246,
+      "corpus_freq": 6.351654032462245e-05,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "beneficence",
+      "score": 50.409952638589246,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "showcasing",
+      "score": 50.35240703055432,
+      "corpus_freq": 0.00011027177139691397,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "impactful",
+      "score": 50.29940449683796,
+      "corpus_freq": 4.587305690111622e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "galilei",
+      "score": 50.25042747201143,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "emirate",
+      "score": 50.230557789341596,
+      "corpus_freq": 2.8229573477609977e-05,
+      "wordfreq_freq": 5.62e-07
+    },
+    {
+      "word": "digitalization",
+      "score": 50.205034131928315,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.23e-07
+    },
+    {
+      "word": "impacting",
+      "score": 50.19266835997463,
+      "corpus_freq": 8.733524294635587e-05,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "marginalizing",
+      "score": 50.05243524398932,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "harnessing",
+      "score": 49.97824685182927,
+      "corpus_freq": 3.793348936053841e-05,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "tumultuous",
+      "score": 49.86201837077849,
+      "corpus_freq": 5.734132112639527e-05,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "comprehending",
+      "score": 49.85259443988249,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "expressionism",
+      "score": 49.800154824412765,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "mortification",
+      "score": 49.76367119450477,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "cortisol",
+      "score": 49.46771053319506,
+      "corpus_freq": 5.293045027051871e-05,
+      "wordfreq_freq": 1.07e-06
+    },
+    {
+      "word": "commodified",
+      "score": 49.46771053319505,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "harmonious",
+      "score": 49.42677980343946,
+      "corpus_freq": 6.969175952284964e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "contributes",
+      "score": 49.40175358581746,
+      "corpus_freq": 0.00027170964472199603,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "equitably",
+      "score": 49.2049338504158,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 2.51e-07
+    },
+    {
+      "word": "illustrates",
+      "score": 49.17036363927968,
+      "corpus_freq": 0.00020995745273972422,
+      "wordfreq_freq": 4.27e-06
+    },
+    {
+      "word": "collaboration",
+      "score": 49.00454427314167,
+      "corpus_freq": 0.0009359867956170059,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "commitment",
+      "score": 48.962306229172505,
+      "corpus_freq": 0.0013170860375647405,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "innovative",
+      "score": 48.86964853018791,
+      "corpus_freq": 0.0006157575714803677,
+      "wordfreq_freq": 1.26e-05
+    },
+    {
+      "word": "caf",
+      "score": 48.77405273325041,
+      "corpus_freq": 4.058001187406434e-05,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "delineate",
+      "score": 48.60463753032021,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 3.63e-07
+    },
+    {
+      "word": "prompting",
+      "score": 48.48829664261466,
+      "corpus_freq": 0.00013673699653217334,
+      "wordfreq_freq": 2.82e-06
+    },
+    {
+      "word": "increasingly",
+      "score": 48.446064900377536,
+      "corpus_freq": 0.001162705557609061,
+      "wordfreq_freq": 2.4e-05
+    },
+    {
+      "word": "sustainable",
+      "score": 48.37729325800097,
+      "corpus_freq": 0.000749848045499015,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "maximizing",
+      "score": 48.35621382738746,
+      "corpus_freq": 6.528088866697307e-05,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "caregivers",
+      "score": 48.16468175957162,
+      "corpus_freq": 8.380654626165462e-05,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "strategic",
+      "score": 48.07685260011179,
+      "corpus_freq": 0.0012932673349430072,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "emphasize",
+      "score": 48.06949055179761,
+      "corpus_freq": 0.00023554050370380825,
+      "wordfreq_freq": 4.9e-06
+    },
+    {
+      "word": "sarbanes",
+      "score": 48.05618053095084,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "facilitates",
+      "score": 47.90300606919704,
+      "corpus_freq": 8.90995912887065e-05,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "thrombus",
+      "score": 47.869916265327,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.29e-07
+    },
+    {
+      "word": "delineating",
+      "score": 47.82872012396269,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "marginalize",
+      "score": 47.78443427199606,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "bolstering",
+      "score": 47.62379844391143,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "empathetic",
+      "score": 47.60296905308801,
+      "corpus_freq": 4.1462186045239656e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "solidified",
+      "score": 47.56069444597333,
+      "corpus_freq": 5.469479861286933e-05,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "overarching",
+      "score": 47.549813481789855,
+      "corpus_freq": 6.70452370093237e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "transparency",
+      "score": 47.219650220340995,
+      "corpus_freq": 0.0003749240227495075,
+      "wordfreq_freq": 7.94e-06
+    },
+    {
+      "word": "foster",
+      "score": 47.159217374979285,
+      "corpus_freq": 0.0010092072518245567,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "vigilant",
+      "score": 47.12985298059885,
+      "corpus_freq": 0.00010321437802751148,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "exemplified",
+      "score": 47.049289129349965,
+      "corpus_freq": 6.351654032462245e-05,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "framework",
+      "score": 46.91357002609222,
+      "corpus_freq": 0.0009148146155087983,
+      "wordfreq_freq": 1.95e-05
+    },
+    {
+      "word": "gdpr",
+      "score": 46.84110643408735,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "perpetuation",
+      "score": 46.80924173583288,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "participative",
+      "score": 46.7377044331291,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.51e-07
+    },
+    {
+      "word": "analyzing",
+      "score": 46.60218331160029,
+      "corpus_freq": 0.0002390692003885095,
+      "wordfreq_freq": 5.13e-06
+    },
+    {
+      "word": "bpm",
+      "score": 46.430219535542726,
+      "corpus_freq": 4.2344360216414964e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "predispose",
+      "score": 46.18712938090638,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "incentivized",
+      "score": 46.18712938090638,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "victimless",
+      "score": 46.18712938090638,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "relational",
+      "score": 46.1844124909428,
+      "corpus_freq": 7.851350123460276e-05,
+      "wordfreq_freq": 1.7e-06
+    },
+    {
+      "word": "engaging",
+      "score": 46.13444184072372,
+      "corpus_freq": 0.0006228149648497701,
+      "wordfreq_freq": 1.35e-05
+    },
+    {
+      "word": "regimens",
+      "score": 46.02647849610322,
+      "corpus_freq": 2.6465225135259354e-05,
+      "wordfreq_freq": 5.75e-07
+    },
+    {
+      "word": "incentivize",
+      "score": 45.946571415380824,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "miscommunication",
+      "score": 45.78149391328963,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 5.01e-07
+    },
+    {
+      "word": "complicate",
+      "score": 45.56284180795567,
+      "corpus_freq": 8.292437209047931e-05,
+      "wordfreq_freq": 1.82e-06
+    },
+    {
+      "word": "environmentally",
+      "score": 45.5522662934161,
+      "corpus_freq": 0.0001252687323068943,
+      "wordfreq_freq": 2.75e-06
+    },
+    {
+      "word": "worthlessness",
+      "score": 45.53157012517738,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "facilitate",
+      "score": 45.417974217111755,
+      "corpus_freq": 0.00044373360810118185,
+      "wordfreq_freq": 9.77e-06
+    },
+    {
+      "word": "strides",
+      "score": 45.406023516376344,
+      "corpus_freq": 9.262828797340774e-05,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "redundancies",
+      "score": 45.39151216338293,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "starbucks",
+      "score": 45.38179522344982,
+      "corpus_freq": 0.0002672987738661195,
+      "wordfreq_freq": 5.89e-06
+    },
+    {
+      "word": "entrench",
+      "score": 45.34540132209546,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "embody",
+      "score": 45.30083581711061,
+      "corpus_freq": 6.70452370093237e-05,
+      "wordfreq_freq": 1.48e-06
+    },
+    {
+      "word": "consumerism",
+      "score": 45.263386793288255,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "operational",
+      "score": 45.19781247379684,
+      "corpus_freq": 0.0007322045620755088,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "perceptions",
+      "score": 45.121643410845806,
+      "corpus_freq": 0.0002161326719379514,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "resonating",
+      "score": 45.057282936373454,
+      "corpus_freq": 1.6761309252330925e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "inclusive",
+      "score": 45.0069566430277,
+      "corpus_freq": 0.00041991490547944844,
+      "wordfreq_freq": 9.33e-06
+    },
+    {
+      "word": "posited",
+      "score": 44.93247051826715,
+      "corpus_freq": 2.6465225135259354e-05,
+      "wordfreq_freq": 5.89e-07
+    },
+    {
+      "word": "monopolistic",
+      "score": 44.667046641787934,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 3.16e-07
+    },
+    {
+      "word": "avoidant",
+      "score": 44.667046641787934,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "comorbidities",
+      "score": 44.667046641787934,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "pbl",
+      "score": 44.667046641787934,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 3.16e-07
+    },
+    {
+      "word": "enabling",
+      "score": 44.63886130586614,
+      "corpus_freq": 0.0003713953260648063,
+      "wordfreq_freq": 8.32e-06
+    },
+    {
+      "word": "epitomized",
+      "score": 44.6235962073115,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "expatriates",
+      "score": 44.61863582534091,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "evoke",
+      "score": 44.58299574756953,
+      "corpus_freq": 8.292437209047931e-05,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "pharmacological",
+      "score": 44.532830756446025,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "adapting",
+      "score": 44.38787760027677,
+      "corpus_freq": 0.00014026569321687457,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "pandemics",
+      "score": 44.310118186887806,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "misinterpretation",
+      "score": 44.200793545318334,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 4.79e-07
+    },
+    {
+      "word": "comprehensive",
+      "score": 44.18575433790754,
+      "corpus_freq": 0.0010118537743380826,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "interactions",
+      "score": 44.16954815677768,
+      "corpus_freq": 0.0006404584482732764,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "attributions",
+      "score": 44.10870855876559,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "inequitable",
+      "score": 44.10870855876559,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "snowboards",
+      "score": 44.10870855876559,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "impairments",
+      "score": 44.108708558765585,
+      "corpus_freq": 4.851957941464215e-05,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "dhabi",
+      "score": 43.94099483800983,
+      "corpus_freq": 0.00011556481642396585,
+      "wordfreq_freq": 2.63e-06
+    },
+    {
+      "word": "contextualized",
+      "score": 43.79588083849066,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "assessments",
+      "score": 43.751263594756146,
+      "corpus_freq": 0.00026994529637964544,
+      "wordfreq_freq": 6.17e-06
+    },
+    {
+      "word": "seamless",
+      "score": 43.67627023956201,
+      "corpus_freq": 8.90995912887065e-05,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "contribute",
+      "score": 43.42391582315005,
+      "corpus_freq": 0.0009509837565269861,
+      "wordfreq_freq": 2.19e-05
+    },
+    {
+      "word": "crm",
+      "score": 43.32105304878763,
+      "corpus_freq": 4.851957941464215e-05,
+      "wordfreq_freq": 1.12e-06
+    },
+    {
+      "word": "aspirations",
+      "score": 43.24004690224723,
+      "corpus_freq": 0.00019760701434326985,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "actionable",
+      "score": 43.226534387590284,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "stifle",
+      "score": 43.226534387590284,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "underpinned",
+      "score": 43.208530833076495,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "oversimplification",
+      "score": 43.208530833076495,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "interpersonal",
+      "score": 42.97771603161775,
+      "corpus_freq": 0.00010056785551398554,
+      "wordfreq_freq": 2.34e-06
+    },
+    {
+      "word": "meaningfully",
+      "score": 42.85866418665483,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 7.41e-07
+    },
+    {
+      "word": "manifests",
+      "score": 42.83019526720717,
+      "corpus_freq": 5.910566946874589e-05,
+      "wordfreq_freq": 1.38e-06
+    },
+    {
+      "word": "experiences",
+      "score": 42.791659796165824,
+      "corpus_freq": 0.001519103922763887,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "teamwork",
+      "score": 42.64815529523031,
+      "corpus_freq": 0.00012879742899159552,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "reassessing",
+      "score": 42.587718608463334,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "descartes",
+      "score": 42.5610345742475,
+      "corpus_freq": 3.881566353171372e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "holistically",
+      "score": 42.51441788796683,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "permeated",
+      "score": 42.3590938142634,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 4.79e-07
+    },
+    {
+      "word": "structured",
+      "score": 42.306991265139764,
+      "corpus_freq": 0.00027964921226257387,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "impermanence",
+      "score": 42.20929048685702,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "desensitization",
+      "score": 42.20929048685702,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "schumann",
+      "score": 42.06899949246429,
+      "corpus_freq": 2.911174764878529e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "ahimsa",
+      "score": 42.00829386549104,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.26e-07
+    },
+    {
+      "word": "rooted",
+      "score": 41.906609644334026,
+      "corpus_freq": 0.0002770026897490479,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "vital",
+      "score": 41.90327313082731,
+      "corpus_freq": 0.0010056785551398554,
+      "wordfreq_freq": 2.4e-05
+    },
+    {
+      "word": "collaborations",
+      "score": 41.78719758198846,
+      "corpus_freq": 8.733524294635587e-05,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "dissatisfaction",
+      "score": 41.78719758198846,
+      "corpus_freq": 8.733524294635587e-05,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "leveraged",
+      "score": 41.715212745499244,
+      "corpus_freq": 5.3812624441694024e-05,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "curricula",
+      "score": 41.70277900101474,
+      "corpus_freq": 4.587305690111622e-05,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "revitalizing",
+      "score": 41.63653905252209,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "customer",
+      "score": 41.616078836771464,
+      "corpus_freq": 0.0016937744086565987,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "redefine",
+      "score": 41.59845685216917,
+      "corpus_freq": 5.1166101928168086e-05,
+      "wordfreq_freq": 1.23e-06
+    },
+    {
+      "word": "faceted",
+      "score": 41.52599428035337,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "piaget",
+      "score": 41.46972599542064,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "instilling",
+      "score": 41.46972599542064,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "industrialization",
+      "score": 41.46972599542064,
+      "corpus_freq": 4.851957941464215e-05,
+      "wordfreq_freq": 1.17e-06
+    },
+    {
+      "word": "serves",
+      "score": 41.30015405461562,
+      "corpus_freq": 0.0010118537743380826,
+      "wordfreq_freq": 2.45e-05
+    },
+    {
+      "word": "unaddressed",
+      "score": 41.22309211099588,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "socialization",
+      "score": 41.16812798818122,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "handwashing",
+      "score": 41.03135679885171,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.29e-07
+    },
+    {
+      "word": "idealization",
+      "score": 41.03135679885171,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.29e-07
+    },
+    {
+      "word": "uae",
+      "score": 40.96929869693174,
+      "corpus_freq": 0.0002302474586767564,
+      "wordfreq_freq": 5.62e-06
+    },
+    {
+      "word": "incorporating",
+      "score": 40.868068746284855,
+      "corpus_freq": 0.0002002535368567958,
+      "wordfreq_freq": 4.9e-06
+    },
+    {
+      "word": "franchising",
+      "score": 40.81232820384005,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 5.62e-07
+    },
+    {
+      "word": "exemplifying",
+      "score": 40.71573097732208,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "humanize",
+      "score": 40.66760363574132,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "radiologists",
+      "score": 40.66760363574132,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "necessitated",
+      "score": 40.626442093599884,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "contextualize",
+      "score": 40.559732008060315,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.74e-07
+    },
+    {
+      "word": "socratic",
+      "score": 40.314411048334144,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "apn",
+      "score": 40.28192562444347,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "heightened",
+      "score": 40.07164031779382,
+      "corpus_freq": 0.00011821133893749179,
+      "wordfreq_freq": 2.95e-06
+    },
+    {
+      "word": "bolstered",
+      "score": 39.99782136311237,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "captivate",
+      "score": 39.97768147320144,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 3.31e-07
+    },
+    {
+      "word": "repercussions",
+      "score": 39.967891020595765,
+      "corpus_freq": 9.792133300045962e-05,
+      "wordfreq_freq": 2.45e-06
+    },
+    {
+      "word": "thereby",
+      "score": 39.903953163444015,
+      "corpus_freq": 0.0004269722988488509,
+      "wordfreq_freq": 1.07e-05
+    },
+    {
+      "word": "pharmacokinetics",
+      "score": 39.82036189333005,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "facilitated",
+      "score": 39.72704876815974,
+      "corpus_freq": 0.00011997568727984241,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "fluctuating",
+      "score": 39.69783770288903,
+      "corpus_freq": 3.969783770288903e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "scrooge",
+      "score": 39.65914585327608,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "geocentric",
+      "score": 39.64827735619379,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "cautionary",
+      "score": 39.60377872840906,
+      "corpus_freq": 3.528696684701247e-05,
+      "wordfreq_freq": 8.91e-07
+    },
+    {
+      "word": "quantitative",
+      "score": 39.59105684418066,
+      "corpus_freq": 0.00021260397525325016,
+      "wordfreq_freq": 5.37e-06
+    },
+    {
+      "word": "evolves",
+      "score": 39.5457387078588,
+      "corpus_freq": 5.734132112639527e-05,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "empowerment",
+      "score": 39.40547450494909,
+      "corpus_freq": 0.00013673699653217334,
+      "wordfreq_freq": 3.47e-06
+    },
+    {
+      "word": "leverage",
+      "score": 39.40145507620958,
+      "corpus_freq": 0.00029905704402843073,
+      "wordfreq_freq": 7.59e-06
+    },
+    {
+      "word": "myriad",
+      "score": 39.398069780644995,
+      "corpus_freq": 0.00012174003562219303,
+      "wordfreq_freq": 3.09e-06
+    },
+    {
+      "word": "semiconductors",
+      "score": 39.392031145313574,
+      "corpus_freq": 3.352261850466185e-05,
+      "wordfreq_freq": 8.51e-07
+    },
+    {
+      "word": "individualized",
+      "score": 39.38277549889785,
+      "corpus_freq": 4.4108708558765594e-05,
+      "wordfreq_freq": 1.12e-06
+    },
+    {
+      "word": "cultivating",
+      "score": 39.358539944744685,
+      "corpus_freq": 7.674915289225213e-05,
+      "wordfreq_freq": 1.95e-06
+    },
+    {
+      "word": "reshape",
+      "score": 39.28710883776692,
+      "corpus_freq": 2.911174764878529e-05,
+      "wordfreq_freq": 7.41e-07
+    },
+    {
+      "word": "vying",
+      "score": 39.231303285440546,
+      "corpus_freq": 3.2640444333486535e-05,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "democratize",
+      "score": 39.20774094112497,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.35e-07
+    },
+    {
+      "word": "invaluable",
+      "score": 39.15124563717522,
+      "corpus_freq": 0.00013585482236099801,
+      "wordfreq_freq": 3.47e-06
+    },
+    {
+      "word": "reassess",
+      "score": 39.14560506007723,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "jeopardizes",
+      "score": 39.083665811564444,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "fdi",
+      "score": 39.06306293027211,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "diversify",
+      "score": 38.9373427277379,
+      "corpus_freq": 5.6459146955219955e-05,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "galvanize",
+      "score": 38.91944872832258,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 2.04e-07
+    },
+    {
+      "word": "redefined",
+      "score": 38.826498833713835,
+      "corpus_freq": 3.793348936053841e-05,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "instill",
+      "score": 38.81566353171372,
+      "corpus_freq": 3.881566353171372e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "governance",
+      "score": 38.80131923624745,
+      "corpus_freq": 0.0004772562266058437,
+      "wordfreq_freq": 1.23e-05
+    },
+    {
+      "word": "stewardship",
+      "score": 38.79440632276974,
+      "corpus_freq": 6.439871449579776e-05,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "thoughtfully",
+      "score": 38.766496268154114,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 9.33e-07
+    },
+    {
+      "word": "gilgamesh",
+      "score": 38.67569435215354,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 4.79e-07
+    },
+    {
+      "word": "authenticity",
+      "score": 38.56741351369454,
+      "corpus_freq": 0.00015349830578450426,
+      "wordfreq_freq": 3.98e-06
+    },
+    {
+      "word": "missteps",
+      "score": 38.55259874030926,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "pervasive",
+      "score": 38.527606659493216,
+      "corpus_freq": 9.439263631575837e-05,
+      "wordfreq_freq": 2.45e-06
+    },
+    {
+      "word": "fulfillment",
+      "score": 38.494872924013606,
+      "corpus_freq": 0.00010586090054103742,
+      "wordfreq_freq": 2.75e-06
+    },
+    {
+      "word": "allocate",
+      "score": 38.487010409119,
+      "corpus_freq": 7.851350123460276e-05,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "lifestyles",
+      "score": 38.410454343039895,
+      "corpus_freq": 8.027784957695337e-05,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "discourse",
+      "score": 38.3667464978612,
+      "corpus_freq": 0.0002593592063255417,
+      "wordfreq_freq": 6.76e-06
+    },
+    {
+      "word": "loyalty",
+      "score": 38.26728499287501,
+      "corpus_freq": 0.0005663558178945502,
+      "wordfreq_freq": 1.48e-05
+    },
+    {
+      "word": "reliance",
+      "score": 38.236651382211654,
+      "corpus_freq": 0.0002470087679290873,
+      "wordfreq_freq": 6.46e-06
+    },
+    {
+      "word": "paradigms",
+      "score": 38.17099779123945,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "lifecycle",
+      "score": 38.09659038813762,
+      "corpus_freq": 2.8229573477609977e-05,
+      "wordfreq_freq": 7.41e-07
+    },
+    {
+      "word": "extrinsic",
+      "score": 38.07946062627246,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 4.17e-07
+    },
+    {
+      "word": "barriers",
+      "score": 38.05457208991541,
+      "corpus_freq": 0.0003881566353171372,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "cognitive",
+      "score": 38.02239063360259,
+      "corpus_freq": 0.0004904888391734734,
+      "wordfreq_freq": 1.29e-05
+    },
+    {
+      "word": "emirati",
+      "score": 37.9743848519174,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "promoting",
+      "score": 37.965820351105044,
+      "corpus_freq": 0.0007251471687061064,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "masterfully",
+      "score": 37.942975104314485,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "bcr",
+      "score": 37.942975104314485,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "camaraderie",
+      "score": 37.923557000371645,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "consumer",
+      "score": 37.814407998589125,
+      "corpus_freq": 0.0013726630103487853,
+      "wordfreq_freq": 3.63e-05
+    },
+    {
+      "word": "queuing",
+      "score": 37.80746447894193,
+      "corpus_freq": 4.2344360216414964e-05,
+      "wordfreq_freq": 1.12e-06
+    },
+    {
+      "word": "catalyzed",
+      "score": 37.78399615834669,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "scm",
+      "score": 37.69975090492785,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "ultimately",
+      "score": 37.634688431591925,
+      "corpus_freq": 0.0014000104096552198,
+      "wordfreq_freq": 3.72e-05
+    },
+    {
+      "word": "examining",
+      "score": 37.620383008285906,
+      "corpus_freq": 0.00027876703809139855,
+      "wordfreq_freq": 7.41e-06
+    },
+    {
+      "word": "identities",
+      "score": 37.598467992048946,
+      "corpus_freq": 0.00022671876199205514,
+      "wordfreq_freq": 6.03e-06
+    },
+    {
+      "word": "sumerians",
+      "score": 37.53932643299199,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "imperatives",
+      "score": 37.49733613496851,
+      "corpus_freq": 1.6761309252330925e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "efl",
+      "score": 37.47467776519694,
+      "corpus_freq": 3.2640444333486535e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "instance",
+      "score": 37.41869877735898,
+      "corpus_freq": 0.0014555873824392644,
+      "wordfreq_freq": 3.89e-05
+    },
+    {
+      "word": "aimed",
+      "score": 37.26938071482216,
+      "corpus_freq": 0.0006633949767238345,
+      "wordfreq_freq": 1.78e-05
+    },
+    {
+      "word": "significance",
+      "score": 37.21489715487905,
+      "corpus_freq": 0.0005619449470386736,
+      "wordfreq_freq": 1.51e-05
+    },
+    {
+      "word": "practitioners",
+      "score": 37.18832480707337,
+      "corpus_freq": 0.00023465832953263295,
+      "wordfreq_freq": 6.31e-06
+    },
+    {
+      "word": "prioritization",
+      "score": 37.144175628434176,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 3.8e-07
+    },
+    {
+      "word": "microfinance",
+      "score": 37.144175628434176,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 3.8e-07
+    },
+    {
+      "word": "vibrant",
+      "score": 37.13425464135394,
+      "corpus_freq": 0.00017378831172153644,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "capitalize",
+      "score": 37.05937157448798,
+      "corpus_freq": 8.116002374812868e-05,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "interrelated",
+      "score": 36.97736046842624,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 5.01e-07
+    },
+    {
+      "word": "endometriosis",
+      "score": 36.967298601632116,
+      "corpus_freq": 1.940783176585686e-05,
+      "wordfreq_freq": 5.25e-07
+    },
+    {
+      "word": "reimagine",
+      "score": 36.9497035047251,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "benchmarking",
+      "score": 36.890919885513036,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "unpredictability",
+      "score": 36.890919885513036,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "abolitionist",
+      "score": 36.890919885513036,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "confucianism",
+      "score": 36.84756980339141,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "explore",
+      "score": 36.84374479614537,
+      "corpus_freq": 0.0007516123938413657,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "transparently",
+      "score": 36.83399462109862,
+      "corpus_freq": 1.7643483423506236e-05,
+      "wordfreq_freq": 4.79e-07
+    },
+    {
+      "word": "overproduction",
+      "score": 36.75725713230466,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "disproportionately",
+      "score": 36.61022810377544,
+      "corpus_freq": 7.322045620755088e-05,
+      "wordfreq_freq": 2e-06
+    },
+    {
+      "word": "healthier",
+      "score": 36.597937751545444,
+      "corpus_freq": 0.00023642267787498357,
+      "wordfreq_freq": 6.46e-06
+    },
+    {
+      "word": "devalues",
+      "score": 36.503758807254286,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "dismantle",
+      "score": 36.50375880725428,
+      "corpus_freq": 6.351654032462245e-05,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "strengthens",
+      "score": 36.48783221091604,
+      "corpus_freq": 6.969175952284964e-05,
+      "wordfreq_freq": 1.91e-06
+    },
+    {
+      "word": "collaborate",
+      "score": 36.48498115354685,
+      "corpus_freq": 0.00011821133893749179,
+      "wordfreq_freq": 3.24e-06
+    },
+    {
+      "word": "relevance",
+      "score": 36.417154397272654,
+      "corpus_freq": 0.00020466440771267234,
+      "wordfreq_freq": 5.62e-06
+    },
+    {
+      "word": "bottlenecks",
+      "score": 36.34949041292886,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "microcosm",
+      "score": 36.34949041292886,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "cultural",
+      "score": 36.338669150726815,
+      "corpus_freq": 0.002042233206270847,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "categorized",
+      "score": 36.324818813101075,
+      "corpus_freq": 7.410263037872619e-05,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "unwavering",
+      "score": 36.324818813101075,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 1.02e-06
+    },
+    {
+      "word": "examines",
+      "score": 36.28479881440871,
+      "corpus_freq": 0.0001411478673880499,
+      "wordfreq_freq": 3.89e-06
+    },
+    {
+      "word": "revolutionizing",
+      "score": 36.28479881440871,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "thematic",
+      "score": 36.27632105767638,
+      "corpus_freq": 7.763132706342744e-05,
+      "wordfreq_freq": 2.14e-06
+    },
+    {
+      "word": "workplace",
+      "score": 36.16914101818779,
+      "corpus_freq": 0.0003978605512000656,
+      "wordfreq_freq": 1.1e-05
+    },
+    {
+      "word": "effectively",
+      "score": 36.14344662485259,
+      "corpus_freq": 0.0011168325007079448,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "skyscrapers",
+      "score": 36.088943366262754,
+      "corpus_freq": 4.763740524346684e-05,
+      "wordfreq_freq": 1.32e-06
+    },
+    {
+      "word": "integrates",
+      "score": 36.088943366262754,
+      "corpus_freq": 3.969783770288903e-05,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "positioned",
+      "score": 36.03045237215212,
+      "corpus_freq": 0.0002223078911361786,
+      "wordfreq_freq": 6.17e-06
+    },
+    {
+      "word": "communication",
+      "score": 35.9315617528817,
+      "corpus_freq": 0.0017211218079630334,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "standardization",
+      "score": 35.860738665663085,
+      "corpus_freq": 4.4108708558765594e-05,
+      "wordfreq_freq": 1.23e-06
+    },
+    {
+      "word": "quantifies",
+      "score": 35.763817750350476,
+      "corpus_freq": 5.2930450270518705e-06,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "schizophrenia",
+      "score": 35.72440858478536,
+      "corpus_freq": 0.00012967960316277084,
+      "wordfreq_freq": 3.63e-06
+    },
+    {
+      "word": "differentiation",
+      "score": 35.68665741000452,
+      "corpus_freq": 0.00011027177139691397,
+      "wordfreq_freq": 3.09e-06
+    },
+    {
+      "word": "unfolds",
+      "score": 35.66236011134239,
+      "corpus_freq": 5.028392775699277e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "emphasized",
+      "score": 35.59650164391609,
+      "corpus_freq": 0.00018261005343328955,
+      "wordfreq_freq": 5.13e-06
+    },
+    {
+      "word": "misinformation",
+      "score": 35.57153916029483,
+      "corpus_freq": 6.616306283814839e-05,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "synthesizing",
+      "score": 35.57153916029483,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "antipsychotic",
+      "score": 35.57153916029483,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "acknowledgment",
+      "score": 35.56050922567149,
+      "corpus_freq": 4.587305690111622e-05,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "modalities",
+      "score": 35.55361898943322,
+      "corpus_freq": 2.8229573477609977e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "variances",
+      "score": 35.52379212786491,
+      "corpus_freq": 1.5879135081155613e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "platforms",
+      "score": 35.51462469763836,
+      "corpus_freq": 0.0005504766828133946,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "adopting",
+      "score": 35.40400487967255,
+      "corpus_freq": 0.00021348614942442545,
+      "wordfreq_freq": 6.03e-06
+    },
+    {
+      "word": "solidifies",
+      "score": 35.3958772385156,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "hierarchical",
+      "score": 35.38390906362515,
+      "corpus_freq": 6.439871449579776e-05,
+      "wordfreq_freq": 1.82e-06
+    },
+    {
+      "word": "sociological",
+      "score": 35.38390906362515,
+      "corpus_freq": 6.439871449579776e-05,
+      "wordfreq_freq": 1.82e-06
+    },
+    {
+      "word": "meticulously",
+      "score": 35.28696684701247,
+      "corpus_freq": 4.2344360216414964e-05,
+      "wordfreq_freq": 1.2e-06
+    },
+    {
+      "word": "innovating",
+      "score": 35.28696684701247,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 5.25e-07
+    },
+    {
+      "word": "copernicus",
+      "score": 35.28696684701247,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 5.25e-07
+    },
+    {
+      "word": "reductionist",
+      "score": 35.28696684701247,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "immediacy",
+      "score": 35.28696684701247,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 5.75e-07
+    },
+    {
+      "word": "contextually",
+      "score": 35.28696684701247,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "updike",
+      "score": 35.28696684701247,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "commercialism",
+      "score": 35.28696684701247,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "ais",
+      "score": 35.28696684701247,
+      "corpus_freq": 4.058001187406434e-05,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "forefront",
+      "score": 35.18035969641727,
+      "corpus_freq": 0.00011644699059514116,
+      "wordfreq_freq": 3.31e-06
+    },
+    {
+      "word": "alleviate",
+      "score": 35.18035969641727,
+      "corpus_freq": 0.00011644699059514116,
+      "wordfreq_freq": 3.31e-06
+    },
+    {
+      "word": "dsm",
+      "score": 35.159115517856634,
+      "corpus_freq": 4.851957941464215e-05,
+      "wordfreq_freq": 1.38e-06
+    },
+    {
+      "word": "skepticism",
+      "score": 35.14638132172557,
+      "corpus_freq": 8.821741711753119e-05,
+      "wordfreq_freq": 2.51e-06
+    },
+    {
+      "word": "epochs",
+      "score": 35.14638132172557,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2.51e-07
+    },
+    {
+      "word": "objectives",
+      "score": 35.139937818483254,
+      "corpus_freq": 0.00042167925382179903,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "perpetuated",
+      "score": 35.10221832948885,
+      "corpus_freq": 3.352261850466185e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "introspection",
+      "score": 35.10221832948885,
+      "corpus_freq": 3.352261850466185e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "empowering",
+      "score": 35.05327832484683,
+      "corpus_freq": 0.00010586090054103742,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "richness",
+      "score": 34.89919798056179,
+      "corpus_freq": 6.351654032462245e-05,
+      "wordfreq_freq": 1.82e-06
+    },
+    {
+      "word": "collaborating",
+      "score": 34.88445391719865,
+      "corpus_freq": 9.174611380223243e-05,
+      "wordfreq_freq": 2.63e-06
+    },
+    {
+      "word": "enduring",
+      "score": 34.87226958705826,
+      "corpus_freq": 0.0001632022216674327,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "empowered",
+      "score": 34.697338866278336,
+      "corpus_freq": 0.00013497264818982272,
+      "wordfreq_freq": 3.89e-06
+    },
+    {
+      "word": "immersive",
+      "score": 34.692242686669566,
+      "corpus_freq": 6.175219198227182e-05,
+      "wordfreq_freq": 1.78e-06
+    },
+    {
+      "word": "reflects",
+      "score": 34.67149649502969,
+      "corpus_freq": 0.0004472623047858831,
+      "wordfreq_freq": 1.29e-05
+    },
+    {
+      "word": "influencer",
+      "score": 34.65330638735792,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 8.91e-07
+    },
+    {
+      "word": "evaluating",
+      "score": 34.51220310386449,
+      "corpus_freq": 0.00017290613755036112,
+      "wordfreq_freq": 5.01e-06
+    },
+    {
+      "word": "demographics",
+      "score": 34.509292646527356,
+      "corpus_freq": 0.0001252687323068943,
+      "wordfreq_freq": 3.63e-06
+    },
+    {
+      "word": "discerning",
+      "score": 34.44680096970266,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "interfaith",
+      "score": 34.44256839601343,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "ulcers",
+      "score": 34.42630911903655,
+      "corpus_freq": 4.2344360216414964e-05,
+      "wordfreq_freq": 1.23e-06
+    },
+    {
+      "word": "cyberattacks",
+      "score": 34.411049230242654,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "motivators",
+      "score": 34.32584323639346,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "solidify",
+      "score": 34.31178966700292,
+      "corpus_freq": 3.352261850466185e-05,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "cornerstones",
+      "score": 34.259191113604345,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 3.09e-07
+    },
+    {
+      "word": "undermines",
+      "score": 33.980042148974974,
+      "corpus_freq": 4.587305690111622e-05,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "critiques",
+      "score": 33.968775556750515,
+      "corpus_freq": 5.910566946874589e-05,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "necessity",
+      "score": 33.963163047708804,
+      "corpus_freq": 0.0002761205155778726,
+      "wordfreq_freq": 8.13e-06
+    },
+    {
+      "word": "exacerbation",
+      "score": 33.929775814435075,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.82e-07
+    },
+    {
+      "word": "sociability",
+      "score": 33.929775814435075,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.82e-07
+    },
+    {
+      "word": "contextual",
+      "score": 33.88060222629821,
+      "corpus_freq": 4.6755231072291525e-05,
+      "wordfreq_freq": 1.38e-06
+    },
+    {
+      "word": "propels",
+      "score": 33.8296879801742,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "tailor",
+      "score": 33.81306405487682,
+      "corpus_freq": 0.00013761917070334866,
+      "wordfreq_freq": 4.07e-06
+    },
+    {
+      "word": "preparedness",
+      "score": 33.76743238948562,
+      "corpus_freq": 7.057393369402495e-05,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "detracts",
+      "score": 33.69415237127927,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "fema",
+      "score": 33.6830138085119,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "revolutionize",
+      "score": 33.64223534143138,
+      "corpus_freq": 2.381870262173342e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "undervalued",
+      "score": 33.637637523289875,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "applicability",
+      "score": 33.637637523289875,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "hpa",
+      "score": 33.55337576578048,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "symbolizing",
+      "score": 33.5502481207613,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "emergence",
+      "score": 33.52261850466185,
+      "corpus_freq": 0.00018437440177564016,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "maintaining",
+      "score": 33.50279436598375,
+      "corpus_freq": 0.0005963497397145108,
+      "wordfreq_freq": 1.78e-05
+    },
+    {
+      "word": "ramifications",
+      "score": 33.47737880357593,
+      "corpus_freq": 6.528088866697307e-05,
+      "wordfreq_freq": 1.95e-06
+    },
+    {
+      "word": "reinsurance",
+      "score": 33.36513506714493,
+      "corpus_freq": 2.2054354279382797e-05,
+      "wordfreq_freq": 6.61e-07
+    },
+    {
+      "word": "duality",
+      "score": 33.32657979995622,
+      "corpus_freq": 4.49908827299409e-05,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "invests",
+      "score": 33.32657979995622,
+      "corpus_freq": 4.49908827299409e-05,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "posed",
+      "score": 33.32051049021302,
+      "corpus_freq": 0.0002152504977667761,
+      "wordfreq_freq": 6.46e-06
+    },
+    {
+      "word": "regulatory",
+      "score": 33.2631555131397,
+      "corpus_freq": 0.0005654736437233749,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "experiential",
+      "score": 33.2547331542526,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "automating",
+      "score": 33.24777027042632,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 3.98e-07
+    },
+    {
+      "word": "instructional",
+      "score": 33.217669408453105,
+      "corpus_freq": 0.00010762524888338805,
+      "wordfreq_freq": 3.24e-06
+    },
+    {
+      "word": "employability",
+      "score": 33.200103216275174,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "reintegrate",
+      "score": 33.200103216275174,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "intentionality",
+      "score": 33.200103216275174,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "snowboarding",
+      "score": 33.15973834914293,
+      "corpus_freq": 4.6755231072291525e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "reintegration",
+      "score": 33.055706648255246,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "immersing",
+      "score": 33.049752810602456,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 3.47e-07
+    },
+    {
+      "word": "advancement",
+      "score": 33.04739155176865,
+      "corpus_freq": 0.00021348614942442545,
+      "wordfreq_freq": 6.46e-06
+    },
+    {
+      "word": "factors",
+      "score": 32.98564292220731,
+      "corpus_freq": 0.0014414725957004595,
+      "wordfreq_freq": 4.37e-05
+    },
+    {
+      "word": "standardizing",
+      "score": 32.978473688796704,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "resilient",
+      "score": 32.94194689831861,
+      "corpus_freq": 0.0001040965521986868,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "sociocultural",
+      "score": 32.894630111621794,
+      "corpus_freq": 9.70391588292843e-06,
+      "wordfreq_freq": 2.95e-07
+    },
+    {
+      "word": "analyze",
+      "score": 32.76282687746462,
+      "corpus_freq": 0.00022671876199205514,
+      "wordfreq_freq": 6.92e-06
+    },
+    {
+      "word": "integration",
+      "score": 32.73610177373446,
+      "corpus_freq": 0.0005434192894439921,
+      "wordfreq_freq": 1.66e-05
+    },
+    {
+      "word": "marketplace",
+      "score": 32.69783236580202,
+      "corpus_freq": 0.0002161326719379514,
+      "wordfreq_freq": 6.61e-06
+    },
+    {
+      "word": "injunctions",
+      "score": 32.673117450937475,
+      "corpus_freq": 1.6761309252330925e-05,
+      "wordfreq_freq": 5.13e-07
+    },
+    {
+      "word": "diverge",
+      "score": 32.6247844369568,
+      "corpus_freq": 2.2054354279382797e-05,
+      "wordfreq_freq": 6.76e-07
+    },
+    {
+      "word": "stigma",
+      "score": 32.586433669945194,
+      "corpus_freq": 0.00015967352498273143,
+      "wordfreq_freq": 4.9e-06
+    },
+    {
+      "word": "harnessed",
+      "score": 32.552552441893425,
+      "corpus_freq": 2.6465225135259354e-05,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "unilever",
+      "score": 32.543974694214405,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "significant",
+      "score": 32.52497651003427,
+      "corpus_freq": 0.003106135256708273,
+      "wordfreq_freq": 9.55e-05
+    },
+    {
+      "word": "facilitators",
+      "score": 32.51256159122771,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "amplifies",
+      "score": 32.51256159122771,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "analytics",
+      "score": 32.50115367487991,
+      "corpus_freq": 0.00019143179514504265,
+      "wordfreq_freq": 5.89e-06
+    },
+    {
+      "word": "inadvertently",
+      "score": 32.39985137771146,
+      "corpus_freq": 8.90995912887065e-05,
+      "wordfreq_freq": 2.75e-06
+    },
+    {
+      "word": "portrayal",
+      "score": 32.30496964867339,
+      "corpus_freq": 0.00011468264225279054,
+      "wordfreq_freq": 3.55e-06
+    },
+    {
+      "word": "tailoring",
+      "score": 32.293875909096236,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 1.12e-06
+    },
+    {
+      "word": "tenets",
+      "score": 32.274664799096776,
+      "corpus_freq": 3.969783770288903e-05,
+      "wordfreq_freq": 1.23e-06
+    },
+    {
+      "word": "oversimplified",
+      "score": 32.22554049955477,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "processes",
+      "score": 32.223862085987086,
+      "corpus_freq": 0.0009280472280764281,
+      "wordfreq_freq": 2.88e-05
+    },
+    {
+      "word": "categorization",
+      "score": 32.030529664459124,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 6.61e-07
+    },
+    {
+      "word": "upheaval",
+      "score": 32.01965510191872,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 1.35e-06
+    },
+    {
+      "word": "establishing",
+      "score": 32.004458303104336,
+      "corpus_freq": 0.0004128575121100459,
+      "wordfreq_freq": 1.29e-05
+    },
+    {
+      "word": "ecosystems",
+      "score": 31.982145178561154,
+      "corpus_freq": 0.00010586090054103742,
+      "wordfreq_freq": 3.31e-06
+    },
+    {
+      "word": "precedents",
+      "score": 31.920775930685622,
+      "corpus_freq": 2.911174764878529e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "hinges",
+      "score": 31.822721243310333,
+      "corpus_freq": 6.969175952284964e-05,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "surged",
+      "score": 31.758270162311227,
+      "corpus_freq": 3.175827016231123e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "memorization",
+      "score": 31.749198962607625,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "maltreatment",
+      "score": 31.749198962607625,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "risks",
+      "score": 31.74251705211167,
+      "corpus_freq": 0.0007110323819673013,
+      "wordfreq_freq": 2.24e-05
+    },
+    {
+      "word": "dualistic",
+      "score": 31.667790760139397,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "promotes",
+      "score": 31.598134818434993,
+      "corpus_freq": 0.00019496049182974391,
+      "wordfreq_freq": 6.17e-06
+    },
+    {
+      "word": "positioning",
+      "score": 31.541422880011144,
+      "corpus_freq": 0.00016937744086565986,
+      "wordfreq_freq": 5.37e-06
+    },
+    {
+      "word": "livelihoods",
+      "score": 31.506220399118277,
+      "corpus_freq": 3.528696684701247e-05,
+      "wordfreq_freq": 1.12e-06
+    },
+    {
+      "word": "efficacy",
+      "score": 31.493065401039317,
+      "corpus_freq": 0.00015085178327097832,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "encapsulated",
+      "score": 31.46746736049698,
+      "corpus_freq": 2.5583050964084043e-05,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "underrepresented",
+      "score": 31.46746736049698,
+      "corpus_freq": 2.5583050964084043e-05,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "participatory",
+      "score": 31.457373545786314,
+      "corpus_freq": 4.058001187406434e-05,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "emerged",
+      "score": 31.454072172250772,
+      "corpus_freq": 0.0004560840464976362,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "democratization",
+      "score": 31.452729362787007,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 5.89e-07
+    },
+    {
+      "word": "strive",
+      "score": 31.4222038113873,
+      "corpus_freq": 0.0001649665700097833,
+      "wordfreq_freq": 5.25e-06
+    },
+    {
+      "word": "idealized",
+      "score": 31.397702992462303,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "communicative",
+      "score": 31.397702992462303,
+      "corpus_freq": 2.7347399306434666e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "humanistic",
+      "score": 31.38168988370675,
+      "corpus_freq": 2.381870262173342e-05,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "exploration",
+      "score": 31.359868923715922,
+      "corpus_freq": 0.0004860779683175968,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "significantly",
+      "score": 31.320996509740173,
+      "corpus_freq": 0.0010868385788879841,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "inherent",
+      "score": 31.319793059478528,
+      "corpus_freq": 0.00021172180108207484,
+      "wordfreq_freq": 6.76e-06
+    },
+    {
+      "word": "burnout",
+      "score": 31.282772027493326,
+      "corpus_freq": 4.4108708558765594e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "allure",
+      "score": 31.282772027493326,
+      "corpus_freq": 4.4108708558765594e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "individuality",
+      "score": 31.26693264925156,
+      "corpus_freq": 4.940175358581746e-05,
+      "wordfreq_freq": 1.58e-06
+    },
+    {
+      "word": "coffeehouse",
+      "score": 31.227404289391565,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "testimonials",
+      "score": 31.109416615754068,
+      "corpus_freq": 2.470087679290873e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "reflecting",
+      "score": 31.098971956826507,
+      "corpus_freq": 0.00026465225135259356,
+      "wordfreq_freq": 8.51e-06
+    },
+    {
+      "word": "synaptic",
+      "score": 31.08613746046337,
+      "corpus_freq": 3.2640444333486535e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "garnered",
+      "score": 31.01708273082146,
+      "corpus_freq": 6.792741118049901e-05,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "preventive",
+      "score": 30.987763607740387,
+      "corpus_freq": 9.792133300045962e-05,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "approach",
+      "score": 30.9745760689992,
+      "corpus_freq": 0.0026359364234718316,
+      "wordfreq_freq": 8.51e-05
+    },
+    {
+      "word": "bureaucratic",
+      "score": 30.928815563118498,
+      "corpus_freq": 7.763132706342744e-05,
+      "wordfreq_freq": 2.51e-06
+    },
+    {
+      "word": "positivism",
+      "score": 30.893258912754114,
+      "corpus_freq": 7.939567540577807e-06,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "morale",
+      "score": 30.88574778731945,
+      "corpus_freq": 0.0001411478673880499,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "criminology",
+      "score": 30.876095991135912,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "critical",
+      "score": 30.745596853388086,
+      "corpus_freq": 0.002078402347289035,
+      "wordfreq_freq": 6.76e-05
+    },
+    {
+      "word": "psychological",
+      "score": 30.73380983449473,
+      "corpus_freq": 0.000571648862921602,
+      "wordfreq_freq": 1.86e-05
+    },
+    {
+      "word": "encompassing",
+      "score": 30.718564889140325,
+      "corpus_freq": 6.880958535167433e-05,
+      "wordfreq_freq": 2.24e-06
+    },
+    {
+      "word": "contentious",
+      "score": 30.703120663454484,
+      "corpus_freq": 6.263436615344715e-05,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "predisposition",
+      "score": 30.695924261773328,
+      "corpus_freq": 2.029000593703217e-05,
+      "wordfreq_freq": 6.61e-07
+    },
+    {
+      "word": "contributing",
+      "score": 30.65555244834209,
+      "corpus_freq": 0.00036786662938010506,
+      "wordfreq_freq": 1.2e-05
+    },
+    {
+      "word": "therapeutic",
+      "score": 30.651814422193038,
+      "corpus_freq": 0.0002170148461091267,
+      "wordfreq_freq": 7.08e-06
+    },
+    {
+      "word": "preoperative",
+      "score": 30.631047610253884,
+      "corpus_freq": 8.821741711753118e-06,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "sharjah",
+      "score": 30.60604267342919,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "agamemnon",
+      "score": 30.60604267342919,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "wellness",
+      "score": 30.59152367785356,
+      "corpus_freq": 0.00011380046808161523,
+      "wordfreq_freq": 3.72e-06
+    },
+    {
+      "word": "pandemic",
+      "score": 30.57221553551185,
+      "corpus_freq": 0.00014644091241510177,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "dissemination",
+      "score": 30.536798232991565,
+      "corpus_freq": 5.557697278404465e-05,
+      "wordfreq_freq": 1.82e-06
+    },
+    {
+      "word": "demographic",
+      "score": 30.536798232991565,
+      "corpus_freq": 0.0002540661612984898,
+      "wordfreq_freq": 8.32e-06
+    },
+    {
+      "word": "productivity",
+      "score": 30.53198549883349,
+      "corpus_freq": 0.0004305009955335522,
+      "wordfreq_freq": 1.41e-05
+    },
+    {
+      "word": "prevalence",
+      "score": 30.49967593997796,
+      "corpus_freq": 0.00013938351904569927,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "drawbacks",
+      "score": 30.494909620874978,
+      "corpus_freq": 4.940175358581746e-05,
+      "wordfreq_freq": 1.62e-06
+    },
+    {
+      "word": "fragility",
+      "score": 30.48350539139821,
+      "corpus_freq": 2.911174764878529e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "commercialization",
+      "score": 30.48350539139821,
+      "corpus_freq": 2.911174764878529e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "preconceived",
+      "score": 30.461815303014916,
+      "corpus_freq": 2.2054354279382797e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "retention",
+      "score": 30.45276163654714,
+      "corpus_freq": 0.00019672484017209453,
+      "wordfreq_freq": 6.46e-06
+    },
+    {
+      "word": "illuminate",
+      "score": 30.43500890554826,
+      "corpus_freq": 6.0870017811096515e-05,
+      "wordfreq_freq": 2e-06
+    },
+    {
+      "word": "alienation",
+      "score": 30.419799006045235,
+      "corpus_freq": 4.4108708558765594e-05,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "ethos",
+      "score": 30.39068915053706,
+      "corpus_freq": 6.351654032462245e-05,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "sociologists",
+      "score": 30.384873863673196,
+      "corpus_freq": 2.6465225135259354e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "adhere",
+      "score": 30.354380083451588,
+      "corpus_freq": 0.00011291829391043991,
+      "wordfreq_freq": 3.72e-06
+    },
+    {
+      "word": "concerted",
+      "score": 30.354380083451588,
+      "corpus_freq": 5.6459146955219955e-05,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "maximizes",
+      "score": 30.345057485145862,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "interdependent",
+      "score": 30.28057795796265,
+      "corpus_freq": 1.3232612567629677e-05,
+      "wordfreq_freq": 4.37e-07
+    },
+    {
+      "word": "imperialistic",
+      "score": 30.270682344250897,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 2.04e-07
+    },
+    {
+      "word": "diminishes",
+      "score": 30.270682344250893,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 1.02e-06
+    },
+    {
+      "word": "mechanisms",
+      "score": 30.25774960947098,
+      "corpus_freq": 0.00032375792082133946,
+      "wordfreq_freq": 1.07e-05
+    },
+    {
+      "word": "rigor",
+      "score": 30.159800723942283,
+      "corpus_freq": 3.528696684701247e-05,
+      "wordfreq_freq": 1.17e-06
+    },
+    {
+      "word": "trustworthiness",
+      "score": 30.159800723942283,
+      "corpus_freq": 1.4114786738804989e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "reframing",
+      "score": 30.159800723942283,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "providers",
+      "score": 30.124614289764356,
+      "corpus_freq": 0.0004066822929118188,
+      "wordfreq_freq": 1.35e-05
+    },
+    {
+      "word": "footprint",
+      "score": 30.116520043145083,
+      "corpus_freq": 9.968568134281023e-05,
+      "wordfreq_freq": 3.31e-06
+    },
+    {
+      "word": "championed",
+      "score": 30.089661652491255,
+      "corpus_freq": 3.881566353171372e-05,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "burberry",
+      "score": 30.089661652491255,
+      "corpus_freq": 3.881566353171372e-05,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "assessing",
+      "score": 29.9939218199606,
+      "corpus_freq": 0.0001649665700097833,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "endeavors",
+      "score": 29.968596245668493,
+      "corpus_freq": 6.263436615344715e-05,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "efficiency",
+      "score": 29.957164562828297,
+      "corpus_freq": 0.0007189719495078791,
+      "wordfreq_freq": 2.4e-05
+    },
+    {
+      "word": "competitive",
+      "score": 29.951235972968245,
+      "corpus_freq": 0.0011141859781944189,
+      "wordfreq_freq": 3.72e-05
+    },
+    {
+      "word": "elucidate",
+      "score": 29.93405371253553,
+      "corpus_freq": 1.4996960909980302e-05,
+      "wordfreq_freq": 5.01e-07
+    },
+    {
+      "word": "guiding",
+      "score": 29.921697034016425,
+      "corpus_freq": 0.00015349830578450426,
+      "wordfreq_freq": 5.13e-06
+    },
+    {
+      "word": "articulating",
+      "score": 29.904209192383448,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "involves",
+      "score": 29.88918881333705,
+      "corpus_freq": 0.0006545732350120814,
+      "wordfreq_freq": 2.19e-05
+    },
+    {
+      "word": "articulated",
+      "score": 29.885900492877912,
+      "corpus_freq": 7.322045620755088e-05,
+      "wordfreq_freq": 2.45e-06
+    },
+    {
+      "word": "stringent",
+      "score": 29.843066757231735,
+      "corpus_freq": 8.027784957695337e-05,
+      "wordfreq_freq": 2.69e-06
+    },
+    {
+      "word": "affordability",
+      "score": 29.811403025924328,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "foresight",
+      "score": 29.811403025924328,
+      "corpus_freq": 4.322653438759028e-05,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "normalization",
+      "score": 29.797080500292008,
+      "corpus_freq": 2.911174764878529e-05,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "adversity",
+      "score": 29.773378277166774,
+      "corpus_freq": 7.145610786520025e-05,
+      "wordfreq_freq": 2.4e-06
+    },
+    {
+      "word": "oedipus",
+      "score": 29.76296124073252,
+      "corpus_freq": 2.2054354279382797e-05,
+      "wordfreq_freq": 7.41e-07
+    },
+    {
+      "word": "interpretations",
+      "score": 29.750135983429722,
+      "corpus_freq": 0.0001270330806492449,
+      "wordfreq_freq": 4.27e-06
+    },
+    {
+      "word": "alignment",
+      "score": 29.698400787493917,
+      "corpus_freq": 0.00017908135674858831,
+      "wordfreq_freq": 6.03e-06
+    },
+    {
+      "word": "agility",
+      "score": 29.680626319917035,
+      "corpus_freq": 6.351654032462245e-05,
+      "wordfreq_freq": 2.14e-06
+    },
+    {
+      "word": "stereotypes",
+      "score": 29.651365669984386,
+      "corpus_freq": 0.0001420300415592252,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "capabilities",
+      "score": 29.610962489837988,
+      "corpus_freq": 0.00038198141611891004,
+      "wordfreq_freq": 1.29e-05
+    },
+    {
+      "word": "kantian",
+      "score": 29.546503340799916,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "fibroids",
+      "score": 29.546503340799916,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "storytelling",
+      "score": 29.534496321624225,
+      "corpus_freq": 0.00013497264818982272,
+      "wordfreq_freq": 4.57e-06
+    },
+    {
+      "word": "centric",
+      "score": 29.51512096869073,
+      "corpus_freq": 7.939567540577807e-05,
+      "wordfreq_freq": 2.69e-06
+    },
+    {
+      "word": "recognizes",
+      "score": 29.51273590841043,
+      "corpus_freq": 0.00016232004749625737,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "hospitalizations",
+      "score": 29.48139903670708,
+      "corpus_freq": 1.1468264225279054e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "unethical",
+      "score": 29.40580570584373,
+      "corpus_freq": 5.998784363992121e-05,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "gcc",
+      "score": 29.40580570584373,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "dichotomy",
+      "score": 29.40580570584373,
+      "corpus_freq": 3.616914101818779e-05,
+      "wordfreq_freq": 1.23e-06
+    },
+    {
+      "word": "dissonance",
+      "score": 29.40580570584373,
+      "corpus_freq": 3.087609599113591e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "formative",
+      "score": 29.405805705843726,
+      "corpus_freq": 5.469479861286933e-05,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "bce",
+      "score": 29.405805705843726,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "seamlessly",
+      "score": 29.405805705843726,
+      "corpus_freq": 3.7051315189363095e-05,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "scrutinized",
+      "score": 29.372044734884092,
+      "corpus_freq": 2.5583050964084043e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "inequality",
+      "score": 29.370462189370357,
+      "corpus_freq": 0.0002443622454155614,
+      "wordfreq_freq": 8.32e-06
+    },
+    {
+      "word": "autonomy",
+      "score": 29.365189952106373,
+      "corpus_freq": 0.00021260397525325016,
+      "wordfreq_freq": 7.24e-06
+    },
+    {
+      "word": "capitalizing",
+      "score": 29.359203795057923,
+      "corpus_freq": 1.8525657594681548e-05,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "supportive",
+      "score": 29.300784971180004,
+      "corpus_freq": 0.000328168791677216,
+      "wordfreq_freq": 1.12e-05
+    },
+    {
+      "word": "relatable",
+      "score": 29.26839539880708,
+      "corpus_freq": 6.263436615344715e-05,
+      "wordfreq_freq": 2.14e-06
+    },
+    {
+      "word": "imac",
+      "score": 29.243342690894313,
+      "corpus_freq": 2.1172180108207482e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "clientele",
+      "score": 29.2286622979772,
+      "corpus_freq": 4.851957941464215e-05,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "weaknesses",
+      "score": 29.219398062700503,
+      "corpus_freq": 0.00018437440177564016,
+      "wordfreq_freq": 6.31e-06
+    },
+    {
+      "word": "internationalization",
+      "score": 29.162782518192124,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 3.63e-07
+    },
+    {
+      "word": "starkly",
+      "score": 29.162782518192124,
+      "corpus_freq": 1.0586090054103741e-05,
+      "wordfreq_freq": 3.63e-07
+    },
+    {
+      "word": "reinforce",
+      "score": 29.09885575066791,
+      "corpus_freq": 0.00013938351904569927,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "kodak",
+      "score": 29.08266498380149,
+      "corpus_freq": 5.293045027051871e-05,
+      "wordfreq_freq": 1.82e-06
+    },
+    {
+      "word": "creativity",
+      "score": 29.05985505048086,
+      "corpus_freq": 0.00029641052151490476,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "stoicism",
+      "score": 28.923743317223337,
+      "corpus_freq": 1.2350438396454366e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "fluidity",
+      "score": 28.887315428914494,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "coexistence",
+      "score": 28.887315428914494,
+      "corpus_freq": 2.293652845055811e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "pricing",
+      "score": 28.871154693010208,
+      "corpus_freq": 0.00031758270162311227,
+      "wordfreq_freq": 1.1e-05
+    },
+    {
+      "word": "yousafzai",
+      "score": 28.856164477697114,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "constitutionalism",
+      "score": 28.856164477697114,
+      "corpus_freq": 6.175219198227183e-06,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "complexity",
+      "score": 28.817689591726854,
+      "corpus_freq": 0.00030258574071313196,
+      "wordfreq_freq": 1.05e-05
+    },
+    {
+      "word": "marketability",
+      "score": 28.805687222051,
+      "corpus_freq": 7.057393369402494e-06,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "pitfalls",
+      "score": 28.78015026529386,
+      "corpus_freq": 4.058001187406434e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "environment",
+      "score": 28.7748309275402,
+      "corpus_freq": 0.0021322149717307288,
+      "wordfreq_freq": 7.41e-05
+    },
+    {
+      "word": "budgeting",
+      "score": 28.7450010832405,
+      "corpus_freq": 5.1166101928168086e-05,
+      "wordfreq_freq": 1.78e-06
+    },
+    {
+      "word": "manifest",
+      "score": 28.730515804456925,
+      "corpus_freq": 0.00013761917070334866,
+      "wordfreq_freq": 4.79e-06
+    },
+    {
+      "word": "utilize",
+      "score": 28.725600235779726,
+      "corpus_freq": 0.00016143787332508207,
+      "wordfreq_freq": 5.62e-06
+    },
+    {
+      "word": "instability",
+      "score": 28.717950601613467,
+      "corpus_freq": 0.0001473230865862771,
+      "wordfreq_freq": 5.13e-06
+    },
+    {
+      "word": "extends",
+      "score": 28.713550300281387,
+      "corpus_freq": 0.00028053138643374914,
+      "wordfreq_freq": 9.77e-06
+    },
+    {
+      "word": "emphasis",
+      "score": 28.684889178861752,
+      "corpus_freq": 0.0004446157822723572,
+      "wordfreq_freq": 1.55e-05
+    }
+  ],
+  "zero_frequency_words": [
+    {
+      "word": "fdoh",
+      "corpus_freq": 2.2054354279382797e-05
+    },
+    {
+      "word": "emiratisation",
+      "corpus_freq": 1.1468264225279054e-05
+    },
+    {
+      "word": "stockouts",
+      "corpus_freq": 1.0586090054103741e-05
+    },
+    {
+      "word": "ewom",
+      "corpus_freq": 8.821741711753118e-06
+    },
+    {
+      "word": "dramatistic",
+      "corpus_freq": 8.821741711753118e-06
+    }
+  ],
+  "repetition_score": 2.103,
+  "top_bigrams": [
+    {
+      "ngram": "decision making",
+      "frequency": 884
+    },
+    {
+      "ngram": "long term",
+      "frequency": 750
+    },
+    {
+      "ngram": "united states",
+      "frequency": 724
+    },
+    {
+      "ngram": "social media",
+      "frequency": 723
+    },
+    {
+      "ngram": "mental health",
+      "frequency": 723
+    },
+    {
+      "ngram": "crucial role",
+      "frequency": 566
+    },
+    {
+      "ngram": "public health",
+      "frequency": 479
+    },
+    {
+      "ngram": "navigate complexities",
+      "frequency": 408
+    },
+    {
+      "ngram": "continues evolve",
+      "frequency": 408
+    },
+    {
+      "ngram": "essay explores",
+      "frequency": 381
+    },
+    {
+      "ngram": "technological advancements",
+      "frequency": 354
+    },
+    {
+      "ngram": "th century",
+      "frequency": 346
+    },
+    {
+      "ngram": "consumer preferences",
+      "frequency": 341
+    },
+    {
+      "ngram": "customer satisfaction",
+      "frequency": 340
+    },
+    {
+      "ngram": "economic growth",
+      "frequency": 324
+    },
+    {
+      "ngram": "supply chain",
+      "frequency": 323
+    },
+    {
+      "ngram": "healthcare providers",
+      "frequency": 323
+    },
+    {
+      "ngram": "high quality",
+      "frequency": 313
+    },
+    {
+      "ngram": "role shaping",
+      "frequency": 308
+    },
+    {
+      "ngram": "one significant",
+      "frequency": 306
+    },
+    {
+      "ngram": "marketing strategies",
+      "frequency": 300
+    },
+    {
+      "ngram": "climate change",
+      "frequency": 298
+    },
+    {
+      "ngram": "pivotal role",
+      "frequency": 293
+    },
+    {
+      "ngram": "fostering culture",
+      "frequency": 287
+    },
+    {
+      "ngram": "essay explore",
+      "frequency": 281
+    },
+    {
+      "ngram": "make informed",
+      "frequency": 276
+    },
+    {
+      "ngram": "effective communication",
+      "frequency": 270
+    },
+    {
+      "ngram": "valuable insights",
+      "frequency": 269
+    },
+    {
+      "ngram": "organizations must",
+      "frequency": 267
+    },
+    {
+      "ngram": "another critical",
+      "frequency": 264
+    },
+    {
+      "ngram": "recent years",
+      "frequency": 260
+    },
+    {
+      "ngram": "operational efficiency",
+      "frequency": 254
+    },
+    {
+      "ngram": "one primary",
+      "frequency": 252
+    },
+    {
+      "ngram": "consumer behavior",
+      "frequency": 250
+    },
+    {
+      "ngram": "plays crucial",
+      "frequency": 249
+    },
+    {
+      "ngram": "real time",
+      "frequency": 242
+    },
+    {
+      "ngram": "customer service",
+      "frequency": 242
+    },
+    {
+      "ngram": "community engagement",
+      "frequency": 238
+    },
+    {
+      "ngram": "extends beyond",
+      "frequency": 236
+    },
+    {
+      "ngram": "social responsibility",
+      "frequency": 227
+    },
+    {
+      "ngram": "quality life",
+      "frequency": 227
+    },
+    {
+      "ngram": "informed decisions",
+      "frequency": 226
+    },
+    {
+      "ngram": "play crucial",
+      "frequency": 225
+    },
+    {
+      "ngram": "significant role",
+      "frequency": 224
+    },
+    {
+      "ngram": "essay delves",
+      "frequency": 224
+    },
+    {
+      "ngram": "cannot overstated",
+      "frequency": 222
+    },
+    {
+      "ngram": "critical role",
+      "frequency": 222
+    },
+    {
+      "ngram": "health outcomes",
+      "frequency": 216
+    },
+    {
+      "ngram": "challenges faced",
+      "frequency": 211
+    },
+    {
+      "ngram": "emphasizes importance",
+      "frequency": 208
+    },
+    {
+      "ngram": "law enforcement",
+      "frequency": 207
+    },
+    {
+      "ngram": "case study",
+      "frequency": 206
+    },
+    {
+      "ngram": "ultimately leading",
+      "frequency": 205
+    },
+    {
+      "ngram": "team members",
+      "frequency": 202
+    },
+    {
+      "ngram": "vital role",
+      "frequency": 201
+    },
+    {
+      "ngram": "health issues",
+      "frequency": 201
+    },
+    {
+      "ngram": "social justice",
+      "frequency": 200
+    },
+    {
+      "ngram": "significant challenges",
+      "frequency": 200
+    },
+    {
+      "ngram": "training programs",
+      "frequency": 196
+    },
+    {
+      "ngram": "across various",
+      "frequency": 193
+    },
+    {
+      "ngram": "market share",
+      "frequency": 191
+    },
+    {
+      "ngram": "competitive landscape",
+      "frequency": 191
+    },
+    {
+      "ngram": "e commerce",
+      "frequency": 190
+    },
+    {
+      "ngram": "making processes",
+      "frequency": 190
+    },
+    {
+      "ngram": "factors including",
+      "frequency": 187
+    },
+    {
+      "ngram": "risks associated",
+      "frequency": 186
+    },
+    {
+      "ngram": "within organization",
+      "frequency": 182
+    },
+    {
+      "ngram": "professional development",
+      "frequency": 181
+    },
+    {
+      "ngram": "extend beyond",
+      "frequency": 180
+    },
+    {
+      "ngram": "problem solving",
+      "frequency": 179
+    },
+    {
+      "ngram": "patient care",
+      "frequency": 178
+    },
+    {
+      "ngram": "also fosters",
+      "frequency": 176
+    },
+    {
+      "ngram": "socio economic",
+      "frequency": 174
+    },
+    {
+      "ngram": "fostering sense",
+      "frequency": 174
+    },
+    {
+      "ngram": "health care",
+      "frequency": 174
+    },
+    {
+      "ngram": "continuous improvement",
+      "frequency": 174
+    },
+    {
+      "ngram": "one another",
+      "frequency": 173
+    },
+    {
+      "ngram": "conclusion conclusion",
+      "frequency": 172
+    },
+    {
+      "ngram": "sense belonging",
+      "frequency": 172
+    },
+    {
+      "ngram": "navigate challenges",
+      "frequency": 171
+    },
+    {
+      "ngram": "customer base",
+      "frequency": 171
+    },
+    {
+      "ngram": "sense community",
+      "frequency": 171
+    },
+    {
+      "ngram": "may feel",
+      "frequency": 169
+    },
+    {
+      "ngram": "product offerings",
+      "frequency": 168
+    },
+    {
+      "ngram": "best practices",
+      "frequency": 167
+    },
+    {
+      "ngram": "sustainable practices",
+      "frequency": 166
+    },
+    {
+      "ngram": "ever evolving",
+      "frequency": 165
+    },
+    {
+      "ngram": "critical thinking",
+      "frequency": 165
+    },
+    {
+      "ngram": "deeper understanding",
+      "frequency": 165
+    },
+    {
+      "ngram": "without challenges",
+      "frequency": 163
+    },
+    {
+      "ngram": "various forms",
+      "frequency": 162
+    },
+    {
+      "ngram": "human experience",
+      "frequency": 161
+    },
+    {
+      "ngram": "underscores importance",
+      "frequency": 160
+    },
+    {
+      "ngram": "products services",
+      "frequency": 160
+    },
+    {
+      "ngram": "management practices",
+      "frequency": 159
+    },
+    {
+      "ngram": "risk management",
+      "frequency": 159
+    },
+    {
+      "ngram": "data analytics",
+      "frequency": 158
+    },
+    {
+      "ngram": "strategic planning",
+      "frequency": 158
+    },
+    {
+      "ngram": "real world",
+      "frequency": 158
+    },
+    {
+      "ngram": "organizational culture",
+      "frequency": 157
+    },
+    {
+      "ngram": "significantly impact",
+      "frequency": 157
+    },
+    {
+      "ngram": "social workers",
+      "frequency": 157
+    },
+    {
+      "ngram": "may find",
+      "frequency": 156
+    },
+    {
+      "ngram": "social interactions",
+      "frequency": 155
+    },
+    {
+      "ngram": "quality care",
+      "frequency": 154
+    },
+    {
+      "ngram": "must navigate",
+      "frequency": 153
+    },
+    {
+      "ngram": "term success",
+      "frequency": 153
+    },
+    {
+      "ngram": "foster sense",
+      "frequency": 150
+    },
+    {
+      "ngram": "fosters sense",
+      "frequency": 150
+    },
+    {
+      "ngram": "broader societal",
+      "frequency": 150
+    },
+    {
+      "ngram": "business environment",
+      "frequency": 150
+    },
+    {
+      "ngram": "open communication",
+      "frequency": 149
+    },
+    {
+      "ngram": "customer experience",
+      "frequency": 149
+    },
+    {
+      "ngram": "critical aspect",
+      "frequency": 148
+    },
+    {
+      "ngram": "become increasingly",
+      "frequency": 148
+    },
+    {
+      "ngram": "provide valuable",
+      "frequency": 148
+    },
+    {
+      "ngram": "wide range",
+      "frequency": 147
+    },
+    {
+      "ngram": "ethical considerations",
+      "frequency": 146
+    },
+    {
+      "ngram": "african americans",
+      "frequency": 146
+    },
+    {
+      "ngram": "employees feel",
+      "frequency": 145
+    },
+    {
+      "ngram": "among employees",
+      "frequency": 145
+    },
+    {
+      "ngram": "customer loyalty",
+      "frequency": 145
+    },
+    {
+      "ngram": "individuals may",
+      "frequency": 145
+    },
+    {
+      "ngram": "essential recognize",
+      "frequency": 145
+    },
+    {
+      "ngram": "short term",
+      "frequency": 145
+    },
+    {
+      "ngram": "comprehensive understanding",
+      "frequency": 144
+    },
+    {
+      "ngram": "work environment",
+      "frequency": 143
+    },
+    {
+      "ngram": "competitive edge",
+      "frequency": 143
+    },
+    {
+      "ngram": "challenges posed",
+      "frequency": 143
+    },
+    {
+      "ngram": "evolving landscape",
+      "frequency": 143
+    },
+    {
+      "ngram": "marked significant",
+      "frequency": 143
+    },
+    {
+      "ngram": "rapidly changing",
+      "frequency": 142
+    },
+    {
+      "ngram": "business landscape",
+      "frequency": 142
+    },
+    {
+      "ngram": "historical context",
+      "frequency": 141
+    },
+    {
+      "ngram": "societal norms",
+      "frequency": 141
+    },
+    {
+      "ngram": "civil rights",
+      "frequency": 141
+    },
+    {
+      "ngram": "challenges opportunities",
+      "frequency": 140
+    },
+    {
+      "ngram": "competitive advantage",
+      "frequency": 140
+    },
+    {
+      "ngram": "nuanced understanding",
+      "frequency": 139
+    },
+    {
+      "ngram": "change management",
+      "frequency": 138
+    },
+    {
+      "ngram": "media platforms",
+      "frequency": 138
+    },
+    {
+      "ngram": "adapt changing",
+      "frequency": 138
+    },
+    {
+      "ngram": "african american",
+      "frequency": 137
+    },
+    {
+      "ngram": "collaboration among",
+      "frequency": 134
+    },
+    {
+      "ngram": "also play",
+      "frequency": 134
+    },
+    {
+      "ngram": "proactive approach",
+      "frequency": 134
+    },
+    {
+      "ngram": "another significant",
+      "frequency": 134
+    },
+    {
+      "ngram": "employee engagement",
+      "frequency": 134
+    },
+    {
+      "ngram": "human behavior",
+      "frequency": 134
+    },
+    {
+      "ngram": "healthcare professionals",
+      "frequency": 134
+    },
+    {
+      "ngram": "research development",
+      "frequency": 133
+    },
+    {
+      "ngram": "must also",
+      "frequency": 133
+    },
+    {
+      "ngram": "brand loyalty",
+      "frequency": 133
+    },
+    {
+      "ngram": "across different",
+      "frequency": 132
+    },
+    {
+      "ngram": "various factors",
+      "frequency": 132
+    },
+    {
+      "ngram": "laid groundwork",
+      "frequency": 131
+    },
+    {
+      "ngram": "stakeholders including",
+      "frequency": 130
+    },
+    {
+      "ngram": "holistic approach",
+      "frequency": 130
+    },
+    {
+      "ngram": "may struggle",
+      "frequency": 130
+    },
+    {
+      "ngram": "evidence based",
+      "frequency": 130
+    },
+    {
+      "ngram": "saudi arabia",
+      "frequency": 130
+    },
+    {
+      "ngram": "market conditions",
+      "frequency": 130
+    },
+    {
+      "ngram": "lead increased",
+      "frequency": 130
+    },
+    {
+      "ngram": "initiatives aimed",
+      "frequency": 128
+    },
+    {
+      "ngram": "play pivotal",
+      "frequency": 127
+    },
+    {
+      "ngram": "one key",
+      "frequency": 124
+    },
+    {
+      "ngram": "artificial intelligence",
+      "frequency": 123
+    },
+    {
+      "ngram": "supportive environment",
+      "frequency": 122
+    },
+    {
+      "ngram": "service delivery",
+      "frequency": 122
+    },
+    {
+      "ngram": "ethical behavior",
+      "frequency": 122
+    },
+    {
+      "ngram": "several key",
+      "frequency": 122
+    },
+    {
+      "ngram": "management strategies",
+      "frequency": 122
+    },
+    {
+      "ngram": "abu dhabi",
+      "frequency": 122
+    },
+    {
+      "ngram": "many individuals",
+      "frequency": 121
+    },
+    {
+      "ngram": "foster culture",
+      "frequency": 121
+    },
+    {
+      "ngram": "market dynamics",
+      "frequency": 121
+    },
+    {
+      "ngram": "significantly influence",
+      "frequency": 121
+    },
+    {
+      "ngram": "enhance overall",
+      "frequency": 121
+    },
+    {
+      "ngram": "could lead",
+      "frequency": 121
+    },
+    {
+      "ngram": "work towards",
+      "frequency": 120
+    },
+    {
+      "ngram": "broader implications",
+      "frequency": 120
+    },
+    {
+      "ngram": "child abuse",
+      "frequency": 120
+    },
+    {
+      "ngram": "complex interplay",
+      "frequency": 119
+    },
+    {
+      "ngram": "critical component",
+      "frequency": 118
+    },
+    {
+      "ngram": "job satisfaction",
+      "frequency": 118
+    },
+    {
+      "ngram": "patient outcomes",
+      "frequency": 118
+    },
+    {
+      "ngram": "business model",
+      "frequency": 118
+    },
+    {
+      "ngram": "strengths weaknesses",
+      "frequency": 118
+    },
+    {
+      "ngram": "world war",
+      "frequency": 118
+    },
+    {
+      "ngram": "renewable energy",
+      "frequency": 117
+    },
+    {
+      "ngram": "also contribute",
+      "frequency": 117
+    },
+    {
+      "ngram": "emphasizing importance",
+      "frequency": 117
+    },
+    {
+      "ngram": "beyond mere",
+      "frequency": 116
+    },
+    {
+      "ngram": "mitigate risks",
+      "frequency": 116
+    },
+    {
+      "ngram": "digital age",
+      "frequency": 115
+    },
+    {
+      "ngram": "factors contribute",
+      "frequency": 115
+    },
+    {
+      "ngram": "may experience",
+      "frequency": 115
+    },
+    {
+      "ngram": "data driven",
+      "frequency": 114
+    },
+    {
+      "ngram": "unique challenges",
+      "frequency": 114
+    },
+    {
+      "ngram": "create environment",
+      "frequency": 114
+    }
+  ],
+  "top_trigrams": [
+    {
+      "ngram": "plays crucial role",
+      "frequency": 248
+    },
+    {
+      "ngram": "play crucial role",
+      "frequency": 210
+    },
+    {
+      "ngram": "make informed decisions",
+      "frequency": 197
+    },
+    {
+      "ngram": "decision making processes",
+      "frequency": 187
+    },
+    {
+      "ngram": "long term success",
+      "frequency": 153
+    },
+    {
+      "ngram": "social media platforms",
+      "frequency": 137
+    },
+    {
+      "ngram": "play pivotal role",
+      "frequency": 119
+    },
+    {
+      "ngram": "plays pivotal role",
+      "frequency": 112
+    },
+    {
+      "ngram": "provide valuable insights",
+      "frequency": 107
+    },
+    {
+      "ngram": "mental health issues",
+      "frequency": 97
+    },
+    {
+      "ngram": "another critical aspect",
+      "frequency": 97
+    },
+    {
+      "ngram": "played crucial role",
+      "frequency": 94
+    },
+    {
+      "ngram": "decision making process",
+      "frequency": 91
+    },
+    {
+      "ngram": "play significant role",
+      "frequency": 91
+    },
+    {
+      "ngram": "crucial role shaping",
+      "frequency": 90
+    },
+    {
+      "ngram": "corporate social responsibility",
+      "frequency": 88
+    },
+    {
+      "ngram": "play vital role",
+      "frequency": 87
+    },
+    {
+      "ngram": "landscape continues evolve",
+      "frequency": 83
+    },
+    {
+      "ngram": "plays significant role",
+      "frequency": 82
+    },
+    {
+      "ngram": "supply chain management",
+      "frequency": 80
+    },
+    {
+      "ngram": "ethical decision making",
+      "frequency": 79
+    },
+    {
+      "ngram": "plays critical role",
+      "frequency": 79
+    },
+    {
+      "ngram": "world war ii",
+      "frequency": 74
+    },
+    {
+      "ngram": "loyal customer base",
+      "frequency": 73
+    },
+    {
+      "ngram": "plays vital role",
+      "frequency": 72
+    },
+    {
+      "ngram": "pivotal role shaping",
+      "frequency": 72
+    },
+    {
+      "ngram": "early th century",
+      "frequency": 71
+    },
+    {
+      "ngram": "late th century",
+      "frequency": 70
+    },
+    {
+      "ngram": "play critical role",
+      "frequency": 69
+    },
+    {
+      "ngram": "increasingly interconnected world",
+      "frequency": 68
+    },
+    {
+      "ngram": "various factors including",
+      "frequency": 65
+    },
+    {
+      "ngram": "changing consumer preferences",
+      "frequency": 64
+    },
+    {
+      "ngram": "among team members",
+      "frequency": 61
+    },
+    {
+      "ngram": "work life balance",
+      "frequency": 60
+    },
+    {
+      "ngram": "identify areas improvement",
+      "frequency": 60
+    },
+    {
+      "ngram": "navigate complexities modern",
+      "frequency": 58
+    },
+    {
+      "ngram": "mental health disorders",
+      "frequency": 58
+    },
+    {
+      "ngram": "various forms including",
+      "frequency": 57
+    },
+    {
+      "ngram": "significant role shaping",
+      "frequency": 57
+    },
+    {
+      "ngram": "culture continuous improvement",
+      "frequency": 57
+    },
+    {
+      "ngram": "long term sustainability",
+      "frequency": 55
+    },
+    {
+      "ngram": "environment employees feel",
+      "frequency": 55
+    },
+    {
+      "ngram": "maintain competitive edge",
+      "frequency": 54
+    },
+    {
+      "ngram": "ever evolving landscape",
+      "frequency": 54
+    },
+    {
+      "ngram": "extends beyond mere",
+      "frequency": 53
+    },
+    {
+      "ngram": "significant turning point",
+      "frequency": 52
+    },
+    {
+      "ngram": "mental health professionals",
+      "frequency": 52
+    },
+    {
+      "ngram": "mitigate risks associated",
+      "frequency": 51
+    },
+    {
+      "ngram": "essay aims explore",
+      "frequency": 50
+    },
+    {
+      "ngram": "human resource management",
+      "frequency": 50
+    },
+    {
+      "ngram": "continue navigate complexities",
+      "frequency": 49
+    },
+    {
+      "ngram": "played pivotal role",
+      "frequency": 49
+    },
+    {
+      "ngram": "changing market conditions",
+      "frequency": 48
+    },
+    {
+      "ngram": "various stakeholders including",
+      "frequency": 47
+    },
+    {
+      "ngram": "requires multifaceted approach",
+      "frequency": 47
+    },
+    {
+      "ngram": "must remain vigilant",
+      "frequency": 46
+    },
+    {
+      "ngram": "marked significant turning",
+      "frequency": 46
+    },
+    {
+      "ngram": "informed decision making",
+      "frequency": 46
+    },
+    {
+      "ngram": "rapid technological advancements",
+      "frequency": 45
+    },
+    {
+      "ngram": "across various sectors",
+      "frequency": 45
+    },
+    {
+      "ngram": "industry continues evolve",
+      "frequency": 45
+    },
+    {
+      "ngram": "also fosters sense",
+      "frequency": 45
+    },
+    {
+      "ngram": "civil rights movement",
+      "frequency": 45
+    },
+    {
+      "ngram": "cognitive behavioral therapy",
+      "frequency": 44
+    },
+    {
+      "ngram": "overall quality life",
+      "frequency": 44
+    },
+    {
+      "ngram": "extend beyond individual",
+      "frequency": 44
+    },
+    {
+      "ngram": "employees feel valued",
+      "frequency": 44
+    },
+    {
+      "ngram": "environmentally conscious consumers",
+      "frequency": 44
+    },
+    {
+      "ngram": "mental health services",
+      "frequency": 43
+    },
+    {
+      "ngram": "take various forms",
+      "frequency": 43
+    },
+    {
+      "ngram": "played significant role",
+      "frequency": 43
+    },
+    {
+      "ngram": "far reaching implications",
+      "frequency": 43
+    },
+    {
+      "ngram": "fostering sense community",
+      "frequency": 43
+    },
+    {
+      "ngram": "made significant strides",
+      "frequency": 42
+    },
+    {
+      "ngram": "social determinants health",
+      "frequency": 42
+    },
+    {
+      "ngram": "make informed choices",
+      "frequency": 41
+    },
+    {
+      "ngram": "adapt changing market",
+      "frequency": 41
+    },
+    {
+      "ngram": "world health organization",
+      "frequency": 40
+    },
+    {
+      "ngram": "key performance indicators",
+      "frequency": 40
+    },
+    {
+      "ngram": "public health initiatives",
+      "frequency": 39
+    },
+    {
+      "ngram": "united arab emirates",
+      "frequency": 39
+    },
+    {
+      "ngram": "mid th century",
+      "frequency": 39
+    },
+    {
+      "ngram": "criminal justice system",
+      "frequency": 39
+    },
+    {
+      "ngram": "law enforcement agencies",
+      "frequency": 39
+    },
+    {
+      "ngram": "also play crucial",
+      "frequency": 38
+    },
+    {
+      "ngram": "extends beyond individual",
+      "frequency": 38
+    },
+    {
+      "ngram": "also fosters culture",
+      "frequency": 38
+    },
+    {
+      "ngram": "rapidly evolving landscape",
+      "frequency": 38
+    },
+    {
+      "ngram": "faced significant challenges",
+      "frequency": 38
+    },
+    {
+      "ngram": "rise social media",
+      "frequency": 37
+    },
+    {
+      "ngram": "culture continuous learning",
+      "frequency": 37
+    },
+    {
+      "ngram": "critical role shaping",
+      "frequency": 37
+    },
+    {
+      "ngram": "renewable energy sources",
+      "frequency": 37
+    },
+    {
+      "ngram": "social responsibility csr",
+      "frequency": 36
+    },
+    {
+      "ngram": "address root causes",
+      "frequency": 36
+    },
+    {
+      "ngram": "across united states",
+      "frequency": 35
+    },
+    {
+      "ngram": "also play significant",
+      "frequency": 35
+    },
+    {
+      "ngram": "real time data",
+      "frequency": 35
+    },
+    {
+      "ngram": "provides valuable insights",
+      "frequency": 35
+    },
+    {
+      "ngram": "greenhouse gas emissions",
+      "frequency": 35
+    },
+    {
+      "ngram": "artificial intelligence ai",
+      "frequency": 35
+    },
+    {
+      "ngram": "access quality education",
+      "frequency": 34
+    },
+    {
+      "ngram": "manifest various forms",
+      "frequency": 34
+    },
+    {
+      "ngram": "high quality care",
+      "frequency": 34
+    },
+    {
+      "ngram": "one size fits",
+      "frequency": 34
+    },
+    {
+      "ngram": "performance indicators kpis",
+      "frequency": 34
+    },
+    {
+      "ngram": "positive work environment",
+      "frequency": 33
+    },
+    {
+      "ngram": "data driven approach",
+      "frequency": 33
+    },
+    {
+      "ngram": "enhance operational efficiency",
+      "frequency": 33
+    },
+    {
+      "ngram": "foster sense community",
+      "frequency": 32
+    },
+    {
+      "ngram": "fostering culture continuous",
+      "frequency": 32
+    },
+    {
+      "ngram": "fosters sense ownership",
+      "frequency": 32
+    },
+    {
+      "ngram": "another significant aspect",
+      "frequency": 32
+    },
+    {
+      "ngram": "gain valuable insights",
+      "frequency": 32
+    },
+    {
+      "ngram": "ethical business practices",
+      "frequency": 32
+    },
+    {
+      "ngram": "take active role",
+      "frequency": 32
+    },
+    {
+      "ngram": "also plays crucial",
+      "frequency": 32
+    },
+    {
+      "ngram": "professional development opportunities",
+      "frequency": 32
+    },
+    {
+      "ngram": "encompasses wide range",
+      "frequency": 32
+    },
+    {
+      "ngram": "adapt changing consumer",
+      "frequency": 32
+    },
+    {
+      "ngram": "social media marketing",
+      "frequency": 32
+    },
+    {
+      "ngram": "organizations must prioritize",
+      "frequency": 31
+    },
+    {
+      "ngram": "behavioral therapy cbt",
+      "frequency": 31
+    },
+    {
+      "ngram": "ultimately leading improved",
+      "frequency": 31
+    },
+    {
+      "ngram": "also contributes overall",
+      "frequency": 31
+    },
+    {
+      "ngram": "evidence based practices",
+      "frequency": 31
+    },
+    {
+      "ngram": "patient centered care",
+      "frequency": 31
+    },
+    {
+      "ngram": "characterized rapid technological",
+      "frequency": 30
+    },
+    {
+      "ngram": "sense community among",
+      "frequency": 30
+    },
+    {
+      "ngram": "mental health resources",
+      "frequency": 30
+    },
+    {
+      "ngram": "foster sense belonging",
+      "frequency": 30
+    },
+    {
+      "ngram": "mental health care",
+      "frequency": 30
+    },
+    {
+      "ngram": "evolving consumer preferences",
+      "frequency": 30
+    },
+    {
+      "ngram": "several factors including",
+      "frequency": 30
+    },
+    {
+      "ngram": "meet specific needs",
+      "frequency": 30
+    },
+    {
+      "ngram": "fostering sense belonging",
+      "frequency": 30
+    },
+    {
+      "ngram": "today fast paced",
+      "frequency": 30
+    },
+    {
+      "ngram": "must navigate complexities",
+      "frequency": 30
+    },
+    {
+      "ngram": "raises critical questions",
+      "frequency": 30
+    },
+    {
+      "ngram": "driven decision making",
+      "frequency": 29
+    },
+    {
+      "ngram": "another critical factor",
+      "frequency": 29
+    },
+    {
+      "ngram": "evidence based practice",
+      "frequency": 29
+    },
+    {
+      "ngram": "contribute positively society",
+      "frequency": 29
+    },
+    {
+      "ngram": "rapidly changing world",
+      "frequency": 29
+    },
+    {
+      "ngram": "maintaining competitive edge",
+      "frequency": 29
+    },
+    {
+      "ngram": "high quality products",
+      "frequency": 29
+    },
+    {
+      "ngram": "informed decisions regarding",
+      "frequency": 29
+    },
+    {
+      "ngram": "laid groundwork future",
+      "frequency": 29
+    },
+    {
+      "ngram": "raises important questions",
+      "frequency": 29
+    },
+    {
+      "ngram": "ability adapt changing",
+      "frequency": 29
+    },
+    {
+      "ngram": "strong brand identity",
+      "frequency": 29
+    },
+    {
+      "ngram": "public awareness campaigns",
+      "frequency": 28
+    },
+    {
+      "ngram": "cutting edge technology",
+      "frequency": 28
+    },
+    {
+      "ngram": "data collection analysis",
+      "frequency": 28
+    },
+    {
+      "ngram": "surveys focus groups",
+      "frequency": 28
+    },
+    {
+      "ngram": "manifest various ways",
+      "frequency": 28
+    },
+    {
+      "ngram": "another crucial aspect",
+      "frequency": 28
+    },
+    {
+      "ngram": "late th early",
+      "frequency": 28
+    },
+    {
+      "ngram": "multi faceted approach",
+      "frequency": 28
+    },
+    {
+      "ngram": "increasingly digital world",
+      "frequency": 27
+    },
+    {
+      "ngram": "marked pivotal moment",
+      "frequency": 27
+    },
+    {
+      "ngram": "addressing root causes",
+      "frequency": 27
+    },
+    {
+      "ngram": "fosters sense community",
+      "frequency": 27
+    },
+    {
+      "ngram": "one primary reasons",
+      "frequency": 27
+    },
+    {
+      "ngram": "navigate complex landscape",
+      "frequency": 27
+    },
+    {
+      "ngram": "another critical component",
+      "frequency": 27
+    },
+    {
+      "ngram": "stakeholders including employees",
+      "frequency": 27
+    },
+    {
+      "ngram": "th century marked",
+      "frequency": 27
+    },
+    {
+      "ngram": "customer satisfaction also",
+      "frequency": 27
+    },
+    {
+      "ngram": "various sectors including",
+      "frequency": 27
+    },
+    {
+      "ngram": "fostering culture collaboration",
+      "frequency": 27
+    },
+    {
+      "ngram": "user generated content",
+      "frequency": 27
+    },
+    {
+      "ngram": "exceptional customer service",
+      "frequency": 27
+    },
+    {
+      "ngram": "one primary challenges",
+      "frequency": 27
+    },
+    {
+      "ngram": "socio economic factors",
+      "frequency": 27
+    },
+    {
+      "ngram": "better health outcomes",
+      "frequency": 27
+    },
+    {
+      "ngram": "extend beyond immediate",
+      "frequency": 27
+    },
+    {
+      "ngram": "post traumatic stress",
+      "frequency": 27
+    },
+    {
+      "ngram": "advanced practice nurses",
+      "frequency": 27
+    },
+    {
+      "ngram": "quality care provided",
+      "frequency": 27
+    },
+    {
+      "ngram": "data driven decision",
+      "frequency": 26
+    },
+    {
+      "ngram": "evolving business landscape",
+      "frequency": 26
+    },
+    {
+      "ngram": "serves poignant reminder",
+      "frequency": 26
+    },
+    {
+      "ngram": "long term viability",
+      "frequency": 26
+    },
+    {
+      "ngram": "critical thinking skills",
+      "frequency": 26
+    },
+    {
+      "ngram": "employees may feel",
+      "frequency": 26
+    },
+    {
+      "ngram": "sense belonging among",
+      "frequency": 26
+    },
+    {
+      "ngram": "organizations navigate complexities",
+      "frequency": 26
+    },
+    {
+      "ngram": "far reaching consequences",
+      "frequency": 26
+    },
+    {
+      "ngram": "serves cautionary tale",
+      "frequency": 26
+    },
+    {
+      "ngram": "essay explores multifaceted",
+      "frequency": 26
+    },
+    {
+      "ngram": "socio economic status",
+      "frequency": 26
+    },
+    {
+      "ngram": "one significant advantages",
+      "frequency": 25
+    },
+    {
+      "ngram": "commitment ethical practices",
+      "frequency": 25
+    },
+    {
+      "ngram": "requires careful consideration",
+      "frequency": 25
+    },
+    {
+      "ngram": "non governmental organizations",
+      "frequency": 25
+    },
+    {
+      "ngram": "sense ownership among",
+      "frequency": 25
+    },
+    {
+      "ngram": "pose significant challenges",
+      "frequency": 25
+    },
+    {
+      "ngram": "changing market dynamics",
+      "frequency": 25
+    },
+    {
+      "ngram": "public health campaigns",
+      "frequency": 25
+    }
+  ]
+}

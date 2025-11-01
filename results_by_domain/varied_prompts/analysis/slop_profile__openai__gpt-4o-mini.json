@@ -1,0 +1,2102 @@
+{
+  "model_name": "openai/gpt-4o-mini",
+  "num_texts_analyzed": 74,
+  "num_unique_prompts": 74,
+  "avg_length": 1157.57,
+  "vocab_complexity": 100.0,
+  "slop_score": 2.108,
+  "total_unique_words_after_filters": 217,
+  "avg_corpus_rarity": 2.3788,
+  "avg_wordfreq_rarity": 3.8771,
+  "rarity_correlation": 0.3721,
+  "top_repetitive_words": [
+    {
+      "word": "coronavirus",
+      "score": 1690.5789669435458,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "enhancing",
+      "score": 1177.3444674442849,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 4.37e-06
+    },
+    {
+      "word": "illnesses",
+      "score": 799.5330726855516,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "resilience",
+      "score": 738.5160750332332,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 3.8e-06
+    },
+    {
+      "word": "additionally",
+      "score": 592.059300659554,
+      "corpus_freq": 0.009354536950420954,
+      "wordfreq_freq": 1.58e-05
+    },
+    {
+      "word": "emphasized",
+      "score": 547.0489444690617,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 5.13e-06
+    },
+    {
+      "word": "paragraph",
+      "score": 480.8406843674323,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 1.07e-05
+    },
+    {
+      "word": "broader",
+      "score": 458.5557328637722,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "clarity",
+      "score": 412.3536439102436,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 7.94e-06
+    },
+    {
+      "word": "notable",
+      "score": 399.7665363427758,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 1.17e-05
+    },
+    {
+      "word": "insights",
+      "score": 387.618934409708,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 7.24e-06
+    },
+    {
+      "word": "reflecting",
+      "score": 384.734187150098,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 8.51e-06
+    },
+    {
+      "word": "characterized",
+      "score": 366.8445862910178,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "themes",
+      "score": 301.75925646519204,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 1.55e-05
+    },
+    {
+      "word": "diverse",
+      "score": 295.68938636388077,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 1.74e-05
+    },
+    {
+      "word": "th",
+      "score": 266.42668529679935,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 1.58e-05
+    },
+    {
+      "word": "enhance",
+      "score": 255.12373501148056,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 1.1e-05
+    },
+    {
+      "word": "clinic",
+      "score": 230.97622099804823,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 1.62e-05
+    },
+    {
+      "word": "indicating",
+      "score": 228.1594378151452,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 1.23e-05
+    },
+    {
+      "word": "furthermore",
+      "score": 220.1067517746107,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "revised",
+      "score": 203.35949892219463,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 1.38e-05
+    },
+    {
+      "word": "discussions",
+      "score": 195.90653299310898,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "virus",
+      "score": 195.62719858294773,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 2.63e-05
+    },
+    {
+      "word": "moreover",
+      "score": 193.54214380181284,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 1.45e-05
+    },
+    {
+      "word": "highlights",
+      "score": 171.41821636897038,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 1.91e-05
+    },
+    {
+      "word": "challenges",
+      "score": 166.50470300102023,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "updates",
+      "score": 160.4945065023203,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 2.04e-05
+    },
+    {
+      "word": "experiences",
+      "score": 131.7540415552247,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "context",
+      "score": 131.4454840808565,
+      "corpus_freq": 0.005612722170252572,
+      "wordfreq_freq": 4.27e-05
+    },
+    {
+      "word": "prominent",
+      "score": 131.13836846384515,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 2.14e-05
+    },
+    {
+      "word": "regarding",
+      "score": 129.92412431140215,
+      "corpus_freq": 0.00608044901777362,
+      "wordfreq_freq": 4.68e-05
+    },
+    {
+      "word": "juice",
+      "score": 122.54851900114785,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 2.29e-05
+    },
+    {
+      "word": "surrounding",
+      "score": 121.09432945528744,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "serves",
+      "score": 114.5453504133178,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 2.45e-05
+    },
+    {
+      "word": "reflect",
+      "score": 114.5453504133178,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 2.45e-05
+    },
+    {
+      "word": "fishing",
+      "score": 110.98603161516387,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 2.95e-05
+    },
+    {
+      "word": "dedicated",
+      "score": 110.77741125498498,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 3.8e-05
+    },
+    {
+      "word": "specific",
+      "score": 109.28197371987096,
+      "corpus_freq": 0.011693171188026192,
+      "wordfreq_freq": 0.000107
+    },
+    {
+      "word": "primarily",
+      "score": 108.41350770355412,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 3.02e-05
+    },
+    {
+      "word": "joy",
+      "score": 105.40323324417976,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 3.55e-05
+    },
+    {
+      "word": "commitment",
+      "score": 104.32569089688796,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 2.69e-05
+    },
+    {
+      "word": "individuals",
+      "score": 101.36495147514967,
+      "corpus_freq": 0.006548175865294668,
+      "wordfreq_freq": 6.46e-05
+    },
+    {
+      "word": "overall",
+      "score": 100.14302780677343,
+      "corpus_freq": 0.007951356407857811,
+      "wordfreq_freq": 7.94e-05
+    },
+    {
+      "word": "significant",
+      "score": 97.95326649655449,
+      "corpus_freq": 0.009354536950420954,
+      "wordfreq_freq": 9.55e-05
+    },
+    {
+      "word": "mental",
+      "score": 96.86650688305721,
+      "corpus_freq": 0.006548175865294668,
+      "wordfreq_freq": 6.76e-05
+    },
+    {
+      "word": "emotional",
+      "score": 92.11250826453895,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 4.57e-05
+    },
+    {
+      "word": "faced",
+      "score": 90.82074709146558,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 3.09e-05
+    },
+    {
+      "word": "recognized",
+      "score": 84.78432281348297,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 3.31e-05
+    },
+    {
+      "word": "claim",
+      "score": 83.99135309019937,
+      "corpus_freq": 0.007483629560336763,
+      "wordfreq_freq": 8.91e-05
+    },
+    {
+      "word": "significantly",
+      "score": 80.87495922554137,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 3.47e-05
+    },
+    {
+      "word": "various",
+      "score": 77.95447458684129,
+      "corpus_freq": 0.01028999064546305,
+      "wordfreq_freq": 0.000132
+    },
+    {
+      "word": "importance",
+      "score": 77.31022273075168,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 3.63e-05
+    },
+    {
+      "word": "unique",
+      "score": 74.90287593753435,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "bright",
+      "score": 68.95236081391366,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 4.07e-05
+    },
+    {
+      "word": "email",
+      "score": 68.35256644357692,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "spending",
+      "score": 63.82237685472386,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 5.13e-05
+    },
+    {
+      "word": "particularly",
+      "score": 61.54300625276944,
+      "corpus_freq": 0.005612722170252572,
+      "wordfreq_freq": 9.12e-05
+    },
+    {
+      "word": "communication",
+      "score": 58.587914094494494,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 4.79e-05
+    },
+    {
+      "word": "located",
+      "score": 58.14284016145621,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "details",
+      "score": 57.530977554864414,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "impact",
+      "score": 56.21716917320285,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 8.32e-05
+    },
+    {
+      "word": "leadership",
+      "score": 55.58723145411433,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 5.89e-05
+    },
+    {
+      "word": "articles",
+      "score": 54.70489444690616,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 5.13e-05
+    },
+    {
+      "word": "providing",
+      "score": 53.45449685954831,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 5.25e-05
+    },
+    {
+      "word": "disease",
+      "score": 53.016897074174175,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 7.94e-05
+    },
+    {
+      "word": "experience",
+      "score": 52.807869881408614,
+      "corpus_freq": 0.009822263797942002,
+      "wordfreq_freq": 0.000186
+    },
+    {
+      "word": "opportunity",
+      "score": 52.494595681374605,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 8.91e-05
+    },
+    {
+      "word": "application",
+      "score": 51.682524587961076,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "cultural",
+      "score": 49.93525062502289,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 5.62e-05
+    },
+    {
+      "word": "features",
+      "score": 48.32998424442514,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 8.71e-05
+    },
+    {
+      "word": "efforts",
+      "score": 47.64619838924085,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 5.89e-05
+    },
+    {
+      "word": "health",
+      "score": 47.623097202143036,
+      "corpus_freq": 0.013096351730589336,
+      "wordfreq_freq": 0.000275
+    },
+    {
+      "word": "activities",
+      "score": 46.024782043891534,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "obama",
+      "score": 45.22220901446594,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 7.24e-05
+    },
+    {
+      "word": "rich",
+      "score": 40.2716842884051,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "often",
+      "score": 40.03887410686011,
+      "corpus_freq": 0.01028999064546305,
+      "wordfreq_freq": 0.000257
+    },
+    {
+      "word": "species",
+      "score": 39.637868433987094,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 7.08e-05
+    },
+    {
+      "word": "response",
+      "score": 39.341510539153546,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.000107
+    },
+    {
+      "word": "staff",
+      "score": 38.97723729342064,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.00012
+    },
+    {
+      "word": "positive",
+      "score": 38.2990253855515,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 9.77e-05
+    },
+    {
+      "word": "comments",
+      "score": 37.8726192324735,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 7.41e-05
+    },
+    {
+      "word": "reported",
+      "score": 37.418147801683816,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "responsible",
+      "score": 36.97445434948993,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 7.59e-05
+    },
+    {
+      "word": "potential",
+      "score": 36.68445862910178,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000102
+    },
+    {
+      "word": "community",
+      "score": 36.30756350620005,
+      "corpus_freq": 0.007951356407857811,
+      "wordfreq_freq": 0.000219
+    },
+    {
+      "word": "known",
+      "score": 36.272694297550636,
+      "corpus_freq": 0.008886810102899906,
+      "wordfreq_freq": 0.000245
+    },
+    {
+      "word": "film",
+      "score": 35.523558039573246,
+      "corpus_freq": 0.005612722170252572,
+      "wordfreq_freq": 0.000158
+    },
+    {
+      "word": "address",
+      "score": 34.51858653291865,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 8.13e-05
+    },
+    {
+      "word": "nature",
+      "score": 34.28364327379407,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 9.55e-05
+    },
+    {
+      "word": "ship",
+      "score": 32.97721604143697,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 8.51e-05
+    },
+    {
+      "word": "dance",
+      "score": 32.97721604143697,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 8.51e-05
+    },
+    {
+      "word": "u",
+      "score": 32.632105641003335,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.000129
+    },
+    {
+      "word": "share",
+      "score": 32.563261536275476,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.000158
+    },
+    {
+      "word": "rules",
+      "score": 32.537519827551144,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000115
+    },
+    {
+      "word": "treatment",
+      "score": 32.09890130046406,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000102
+    },
+    {
+      "word": "friends",
+      "score": 31.297707269066393,
+      "corpus_freq": 0.00841908325537886,
+      "wordfreq_freq": 0.000269
+    },
+    {
+      "word": "situation",
+      "score": 30.421258375352696,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000123
+    },
+    {
+      "word": "cases",
+      "score": 29.7644357513394,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.00011
+    },
+    {
+      "word": "related",
+      "score": 29.696942699749062,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000126
+    },
+    {
+      "word": "key",
+      "score": 28.347081667942284,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000132
+    },
+    {
+      "word": "forward",
+      "score": 28.347081667942284,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000132
+    },
+    {
+      "word": "region",
+      "score": 28.063610851262858,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "version",
+      "score": 27.98365754399431,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "issues",
+      "score": 27.158333081867287,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.000155
+    },
+    {
+      "word": "official",
+      "score": 27.11459985629262,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000138
+    },
+    {
+      "word": "personal",
+      "score": 26.642668529679938,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.000158
+    },
+    {
+      "word": "areas",
+      "score": 26.537693476371498,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000141
+    },
+    {
+      "word": "meeting",
+      "score": 26.537693476371498,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000141
+    },
+    {
+      "word": "media",
+      "score": 25.724976613657624,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.0002
+    },
+    {
+      "word": "making",
+      "score": 25.610403754754774,
+      "corpus_freq": 0.008886810102899906,
+      "wordfreq_freq": 0.000347
+    },
+    {
+      "word": "attention",
+      "score": 25.380526609669257,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000129
+    },
+    {
+      "word": "led",
+      "score": 25.380526609669257,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000129
+    },
+    {
+      "word": "released",
+      "score": 25.05679540291327,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000112
+    },
+    {
+      "word": "points",
+      "score": 24.762009574643702,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.00017
+    },
+    {
+      "word": "information",
+      "score": 24.34266120927386,
+      "corpus_freq": 0.006548175865294668,
+      "wordfreq_freq": 0.000269
+    },
+    {
+      "word": "writing",
+      "score": 23.985992180566548,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000117
+    },
+    {
+      "word": "public",
+      "score": 23.889274470161038,
+      "corpus_freq": 0.008886810102899906,
+      "wordfreq_freq": 0.000372
+    },
+    {
+      "word": "social",
+      "score": 23.119578014348367,
+      "corpus_freq": 0.00608044901777362,
+      "wordfreq_freq": 0.000263
+    },
+    {
+      "word": "several",
+      "score": 22.90907008266356,
+      "corpus_freq": 0.005612722170252572,
+      "wordfreq_freq": 0.000245
+    },
+    {
+      "word": "enjoy",
+      "score": 22.81594378151452,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000123
+    },
+    {
+      "word": "release",
+      "score": 22.81594378151452,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000123
+    },
+    {
+      "word": "including",
+      "score": 22.609152750262123,
+      "corpus_freq": 0.007483629560336763,
+      "wordfreq_freq": 0.000331
+    },
+    {
+      "word": "role",
+      "score": 22.579916776878164,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "hot",
+      "score": 22.579916776878164,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "performance",
+      "score": 22.579916776878164,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "strong",
+      "score": 22.541052892580613,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000166
+    },
+    {
+      "word": "within",
+      "score": 22.11072370099498,
+      "corpus_freq": 0.00608044901777362,
+      "wordfreq_freq": 0.000275
+    },
+    {
+      "word": "quality",
+      "score": 21.75473709400222,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000129
+    },
+    {
+      "word": "moment",
+      "score": 21.50468264464587,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000174
+    },
+    {
+      "word": "due",
+      "score": 20.880662835761058,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000224
+    },
+    {
+      "word": "green",
+      "score": 20.78785988982434,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000135
+    },
+    {
+      "word": "provide",
+      "score": 19.903270107278622,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000141
+    },
+    {
+      "word": "original",
+      "score": 19.354214380181283,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "medical",
+      "score": 19.354214380181283,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000145
+    },
+    {
+      "word": "local",
+      "score": 19.12637666442946,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.000269
+    },
+    {
+      "word": "feel",
+      "score": 18.988910476281852,
+      "corpus_freq": 0.008886810102899906,
+      "wordfreq_freq": 0.000468
+    },
+    {
+      "word": "interest",
+      "score": 18.961899223826258,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000148
+    },
+    {
+      "word": "students",
+      "score": 18.393752430603,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000178
+    },
+    {
+      "word": "music",
+      "score": 18.369936609587974,
+      "corpus_freq": 0.00608044901777362,
+      "wordfreq_freq": 0.000331
+    },
+    {
+      "word": "sense",
+      "score": 18.105555387911522,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000155
+    },
+    {
+      "word": "industry",
+      "score": 18.105555387911522,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000155
+    },
+    {
+      "word": "center",
+      "score": 18.105555387911522,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000155
+    },
+    {
+      "word": "lead",
+      "score": 17.761779019786623,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000158
+    },
+    {
+      "word": "players",
+      "score": 16.37043966323667,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.0002
+    },
+    {
+      "word": "area",
+      "score": 16.240515538925266,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000288
+    },
+    {
+      "word": "friend",
+      "score": 15.990661453711033,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000234
+    },
+    {
+      "word": "life",
+      "score": 15.67126035508665,
+      "corpus_freq": 0.01216089803554724,
+      "wordfreq_freq": 0.000776
+    },
+    {
+      "word": "future",
+      "score": 15.299476320781935,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000214
+    },
+    {
+      "word": "ask",
+      "score": 14.950173208435315,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000219
+    },
+    {
+      "word": "play",
+      "score": 14.939678176347961,
+      "corpus_freq": 0.00608044901777362,
+      "wordfreq_freq": 0.000407
+    },
+    {
+      "word": "name",
+      "score": 14.939678176347961,
+      "corpus_freq": 0.00608044901777362,
+      "wordfreq_freq": 0.000407
+    },
+    {
+      "word": "food",
+      "score": 14.907628606248535,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000251
+    },
+    {
+      "word": "happy",
+      "score": 14.616463985032741,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000224
+    },
+    {
+      "word": "political",
+      "score": 14.391595308339928,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000195
+    },
+    {
+      "word": "around",
+      "score": 14.293859516772256,
+      "corpus_freq": 0.00841908325537886,
+      "wordfreq_freq": 0.000589
+    },
+    {
+      "word": "major",
+      "score": 14.031805425631429,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.0002
+    },
+    {
+      "word": "support",
+      "score": 13.797252139263943,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000339
+    },
+    {
+      "word": "service",
+      "score": 13.623112063719839,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.000309
+    },
+    {
+      "word": "important",
+      "score": 13.606599200612296,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000275
+    },
+    {
+      "word": "news",
+      "score": 13.606599200612296,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000275
+    },
+    {
+      "word": "love",
+      "score": 13.444493347806212,
+      "corpus_freq": 0.008886810102899906,
+      "wordfreq_freq": 0.000661
+    },
+    {
+      "word": "rather",
+      "score": 13.427565000604238,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000209
+    },
+    {
+      "word": "room",
+      "score": 13.363624214887079,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000245
+    },
+    {
+      "word": "may",
+      "score": 13.223690977034856,
+      "corpus_freq": 0.012628624883068288,
+      "wordfreq_freq": 0.000955
+    },
+    {
+      "word": "part",
+      "score": 13.186329034590068,
+      "corpus_freq": 0.007951356407857811,
+      "wordfreq_freq": 0.000603
+    },
+    {
+      "word": "children",
+      "score": 12.68411789887587,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000295
+    },
+    {
+      "word": "family",
+      "score": 12.28166776860519,
+      "corpus_freq": 0.005612722170252572,
+      "wordfreq_freq": 0.000457
+    },
+    {
+      "word": "free",
+      "score": 12.049169374078511,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.000427
+    },
+    {
+      "word": "company",
+      "score": 11.751930842237378,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000398
+    },
+    {
+      "word": "along",
+      "score": 11.693171188026191,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.00024
+    },
+    {
+      "word": "together",
+      "score": 11.368360877247687,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000288
+    },
+    {
+      "word": "court",
+      "score": 10.919692938234576,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000257
+    },
+    {
+      "word": "show",
+      "score": 10.741117583990658,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.000479
+    },
+    {
+      "word": "american",
+      "score": 10.595753827337651,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000309
+    },
+    {
+      "word": "also",
+      "score": 10.561573976281723,
+      "corpus_freq": 0.01637043966323667,
+      "wordfreq_freq": 0.00155
+    },
+    {
+      "word": "today",
+      "score": 10.540323324417976,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000355
+    },
+    {
+      "word": "based",
+      "score": 10.10520966866461,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000324
+    },
+    {
+      "word": "team",
+      "score": 9.994163408569396,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000468
+    },
+    {
+      "word": "game",
+      "score": 9.79999109091719,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.000525
+    },
+    {
+      "word": "different",
+      "score": 9.619061131538256,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000389
+    },
+    {
+      "word": "season",
+      "score": 9.29258637459035,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000302
+    },
+    {
+      "word": "country",
+      "score": 9.29258637459035,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000302
+    },
+    {
+      "word": "like",
+      "score": 8.917749232891572,
+      "corpus_freq": 0.022918615528531337,
+      "wordfreq_freq": 0.00257
+    },
+    {
+      "word": "believe",
+      "score": 8.661608287426809,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000324
+    },
+    {
+      "word": "however",
+      "score": 8.61602087538772,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.00038
+    },
+    {
+      "word": "city",
+      "score": 8.044442094956594,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000407
+    },
+    {
+      "word": "big",
+      "score": 7.995330726855516,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000468
+    },
+    {
+      "word": "second",
+      "score": 7.6676532380499625,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000427
+    },
+    {
+      "word": "every",
+      "score": 7.580662034376785,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000617
+    },
+    {
+      "word": "government",
+      "score": 7.543981411629802,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000372
+    },
+    {
+      "word": "best",
+      "score": 7.434964339207406,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.000692
+    },
+    {
+      "word": "always",
+      "score": 7.320941961199009,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.000575
+    },
+    {
+      "word": "find",
+      "score": 7.320941961199009,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.000575
+    },
+    {
+      "word": "world",
+      "score": 7.232889394655376,
+      "corpus_freq": 0.005612722170252572,
+      "wordfreq_freq": 0.000776
+    },
+    {
+      "word": "another",
+      "score": 6.803299600306148,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.00055
+    },
+    {
+      "word": "little",
+      "score": 6.658033416669718,
+      "corpus_freq": 0.0037418147801683817,
+      "wordfreq_freq": 0.000562
+    },
+    {
+      "word": "well",
+      "score": 6.556918423192258,
+      "corpus_freq": 0.007015902712815715,
+      "wordfreq_freq": 0.00107
+    },
+    {
+      "word": "need",
+      "score": 6.517094338449754,
+      "corpus_freq": 0.00608044901777362,
+      "wordfreq_freq": 0.000933
+    },
+    {
+      "word": "place",
+      "score": 6.382237685472386,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000513
+    },
+    {
+      "word": "years",
+      "score": 6.154300625276943,
+      "corpus_freq": 0.005612722170252572,
+      "wordfreq_freq": 0.000912
+    },
+    {
+      "word": "please",
+      "score": 6.140833884302595,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000457
+    },
+    {
+      "word": "high",
+      "score": 5.825779239586004,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000562
+    },
+    {
+      "word": "day",
+      "score": 5.774405524951207,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.000891
+    },
+    {
+      "word": "many",
+      "score": 5.753097755486441,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000813
+    },
+    {
+      "word": "better",
+      "score": 5.694065969821451,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000575
+    },
+    {
+      "word": "work",
+      "score": 5.128583854397452,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000912
+    },
+    {
+      "word": "look",
+      "score": 5.068247573757484,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.000646
+    },
+    {
+      "word": "would",
+      "score": 5.029320941086534,
+      "corpus_freq": 0.009354536950420954,
+      "wordfreq_freq": 0.00186
+    },
+    {
+      "word": "even",
+      "score": 4.787378173193938,
+      "corpus_freq": 0.004677268475210477,
+      "wordfreq_freq": 0.000977
+    },
+    {
+      "word": "first",
+      "score": 4.7135263703671475,
+      "corpus_freq": 0.00608044901777362,
+      "wordfreq_freq": 0.00129
+    },
+    {
+      "word": "make",
+      "score": 4.287496102276271,
+      "corpus_freq": 0.005144995322731525,
+      "wordfreq_freq": 0.0012
+    },
+    {
+      "word": "new",
+      "score": 4.204286269852115,
+      "corpus_freq": 0.007483629560336763,
+      "wordfreq_freq": 0.00178
+    },
+    {
+      "word": "time",
+      "score": 3.3580389052793174,
+      "corpus_freq": 0.006548175865294668,
+      "wordfreq_freq": 0.00195
+    },
+    {
+      "word": "one",
+      "score": 3.329580948454916,
+      "corpus_freq": 0.009822263797942002,
+      "wordfreq_freq": 0.00295
+    },
+    {
+      "word": "year",
+      "score": 3.0771503126384716,
+      "corpus_freq": 0.002806361085126286,
+      "wordfreq_freq": 0.000912
+    },
+    {
+      "word": "us",
+      "score": 2.9764435751339398,
+      "corpus_freq": 0.003274087932647334,
+      "wordfreq_freq": 0.0011
+    },
+    {
+      "word": "people",
+      "score": 2.3649110267918148,
+      "corpus_freq": 0.00420954162768943,
+      "wordfreq_freq": 0.00178
+    }
+  ],
+  "zero_frequency_words": [],
+  "repetition_score": 44.3873,
+  "top_bigrams": [
+    {
+      "ngram": "feel free",
+      "frequency": 8
+    },
+    {
+      "ngram": "revised version",
+      "frequency": 6
+    },
+    {
+      "ngram": "would like",
+      "frequency": 6
+    },
+    {
+      "ngram": "social media",
+      "frequency": 6
+    },
+    {
+      "ngram": "free ask",
+      "frequency": 6
+    },
+    {
+      "ngram": "version document",
+      "frequency": 5
+    },
+    {
+      "ngram": "enhancing clarity",
+      "frequency": 4
+    },
+    {
+      "ngram": "clarity coherence",
+      "frequency": 4
+    },
+    {
+      "ngram": "specific details",
+      "frequency": 4
+    },
+    {
+      "ngram": "look forward",
+      "frequency": 4
+    },
+    {
+      "ngram": "best friend",
+      "frequency": 3
+    },
+    {
+      "ngram": "part larger",
+      "frequency": 3
+    },
+    {
+      "ngram": "cultural heritage",
+      "frequency": 3
+    },
+    {
+      "ngram": "may also",
+      "frequency": 3
+    },
+    {
+      "ngram": "forums social",
+      "frequency": 3
+    },
+    {
+      "ngram": "media groups",
+      "frequency": 3
+    },
+    {
+      "ngram": "little sister",
+      "frequency": 3
+    },
+    {
+      "ngram": "every day",
+      "frequency": 3
+    },
+    {
+      "ngram": "well received",
+      "frequency": 3
+    },
+    {
+      "ngram": "emotional depth",
+      "frequency": 3
+    },
+    {
+      "ngram": "warm regards",
+      "frequency": 3
+    },
+    {
+      "ngram": "regards name",
+      "frequency": 3
+    },
+    {
+      "ngram": "referring specific",
+      "frequency": 3
+    },
+    {
+      "ngram": "please provide",
+      "frequency": 3
+    },
+    {
+      "ngram": "three years",
+      "frequency": 3
+    },
+    {
+      "ngram": "important note",
+      "frequency": 3
+    },
+    {
+      "ngram": "challenges faced",
+      "frequency": 3
+    },
+    {
+      "ngram": "substantiated several",
+      "frequency": 3
+    },
+    {
+      "ngram": "several key",
+      "frequency": 3
+    },
+    {
+      "ngram": "key points",
+      "frequency": 3
+    },
+    {
+      "ngram": "provided paragraph",
+      "frequency": 3
+    },
+    {
+      "ngram": "hong kong",
+      "frequency": 3
+    },
+    {
+      "ngram": "collectively points",
+      "frequency": 3
+    },
+    {
+      "ngram": "claim regarding",
+      "frequency": 3
+    },
+    {
+      "ngram": "recipient's name",
+      "frequency": 3
+    },
+    {
+      "ngram": "public health",
+      "frequency": 3
+    },
+    {
+      "ngram": "tested positive",
+      "frequency": 3
+    },
+    {
+      "ngram": "broader context",
+      "frequency": 3
+    },
+    {
+      "ngram": "application look",
+      "frequency": 3
+    },
+    {
+      "ngram": "address city",
+      "frequency": 3
+    },
+    {
+      "ngram": "also feeling",
+      "frequency": 2
+    },
+    {
+      "ngram": "version maintains",
+      "frequency": 2
+    },
+    {
+      "ngram": "maintains original",
+      "frequency": 2
+    },
+    {
+      "ngram": "small city",
+      "frequency": 2
+    },
+    {
+      "ngram": "city located",
+      "frequency": 2
+    },
+    {
+      "ngram": "part state",
+      "frequency": 2
+    },
+    {
+      "ngram": "united states",
+      "frequency": 2
+    },
+    {
+      "ngram": "agricultural activities",
+      "frequency": 2
+    },
+    {
+      "ngram": "tight knit",
+      "frequency": 2
+    },
+    {
+      "ngram": "knit community",
+      "frequency": 2
+    },
+    {
+      "ngram": "ability connect",
+      "frequency": 2
+    },
+    {
+      "ngram": "characterized rugged",
+      "frequency": 2
+    },
+    {
+      "ngram": "wildlife making",
+      "frequency": 2
+    },
+    {
+      "ngram": "notable vessel",
+      "frequency": 2
+    },
+    {
+      "ngram": "late th",
+      "frequency": 2
+    },
+    {
+      "ngram": "th century",
+      "frequency": 2
+    },
+    {
+      "ngram": "showcasing versatility",
+      "frequency": 2
+    },
+    {
+      "ngram": "groups dedicated",
+      "frequency": 2
+    },
+    {
+      "ngram": "document correcting",
+      "frequency": 2
+    },
+    {
+      "ngram": "correcting grammar",
+      "frequency": 2
+    },
+    {
+      "ngram": "grammar spelling",
+      "frequency": 2
+    },
+    {
+      "ngram": "schools may",
+      "frequency": 2
+    },
+    {
+      "ngram": "original message",
+      "frequency": 2
+    },
+    {
+      "ngram": "need adjustments",
+      "frequency": 2
+    },
+    {
+      "ngram": "adventure filled",
+      "frequency": 2
+    },
+    {
+      "ngram": "dance like",
+      "frequency": 2
+    },
+    {
+      "ngram": "like candy",
+      "frequency": 2
+    },
+    {
+      "ngram": "feel like",
+      "frequency": 2
+    },
+    {
+      "ngram": "always wise",
+      "frequency": 2
+    },
+    {
+      "ngram": "wise check",
+      "frequency": 2
+    },
+    {
+      "ngram": "information regarding",
+      "frequency": 2
+    },
+    {
+      "ngram": "holiday season",
+      "frequency": 2
+    },
+    {
+      "ngram": "critical moments",
+      "frequency": 2
+    },
+    {
+      "ngram": "surrounding areas",
+      "frequency": 2
+    },
+    {
+      "ngram": "reflecting rich",
+      "frequency": 2
+    },
+    {
+      "ngram": "rich cultural",
+      "frequency": 2
+    },
+    {
+      "ngram": "well would",
+      "frequency": 2
+    },
+    {
+      "ngram": "health benefits",
+      "frequency": 2
+    },
+    {
+      "ngram": "experience unique",
+      "frequency": 2
+    },
+    {
+      "ngram": "unique blend",
+      "frequency": 2
+    },
+    {
+      "ngram": "additionally may",
+      "frequency": 2
+    },
+    {
+      "ngram": "directed renowned",
+      "frequency": 2
+    },
+    {
+      "ngram": "revolves around",
+      "frequency": 2
+    },
+    {
+      "ngram": "around themes",
+      "frequency": 2
+    },
+    {
+      "ngram": "better life",
+      "frequency": 2
+    },
+    {
+      "ngram": "lead actress",
+      "frequency": 2
+    },
+    {
+      "ngram": "commonly known",
+      "frequency": 2
+    },
+    {
+      "ngram": "diverse array",
+      "frequency": 2
+    },
+    {
+      "ngram": "notable figures",
+      "frequency": 2
+    },
+    {
+      "ngram": "music also",
+      "frequency": 2
+    },
+    {
+      "ngram": "resilience human",
+      "frequency": 2
+    },
+    {
+      "ngram": "human spirit",
+      "frequency": 2
+    },
+    {
+      "ngram": "individuals like",
+      "frequency": 2
+    },
+    {
+      "ngram": "reflect diverse",
+      "frequency": 2
+    },
+    {
+      "ngram": "things like",
+      "frequency": 2
+    },
+    {
+      "ngram": "day feel",
+      "frequency": 2
+    },
+    {
+      "ngram": "ice cream",
+      "frequency": 2
+    },
+    {
+      "ngram": "feels like",
+      "frequency": 2
+    },
+    {
+      "ngram": "sparkles joy",
+      "frequency": 2
+    },
+    {
+      "ngram": "like hug",
+      "frequency": 2
+    },
+    {
+      "ngram": "like leaves",
+      "frequency": 2
+    },
+    {
+      "ngram": "year old",
+      "frequency": 2
+    },
+    {
+      "ngram": "took place",
+      "frequency": 2
+    },
+    {
+      "ngram": "medical center",
+      "frequency": 2
+    },
+    {
+      "ngram": "fly like",
+      "frequency": 2
+    },
+    {
+      "ngram": "every moment",
+      "frequency": 2
+    },
+    {
+      "ngram": "young people",
+      "frequency": 2
+    },
+    {
+      "ngram": "would love",
+      "frequency": 2
+    },
+    {
+      "ngram": "last knowledge",
+      "frequency": 2
+    },
+    {
+      "ngram": "knowledge update",
+      "frequency": 2
+    },
+    {
+      "ngram": "update october",
+      "frequency": 2
+    },
+    {
+      "ngram": "recommend checking",
+      "frequency": 2
+    },
+    {
+      "ngram": "media platforms",
+      "frequency": 2
+    },
+    {
+      "ngram": "current information",
+      "frequency": 2
+    },
+    {
+      "ngram": "launched late",
+      "frequency": 2
+    },
+    {
+      "ngram": "known proximity",
+      "frequency": 2
+    },
+    {
+      "ngram": "solely responsible",
+      "frequency": 2
+    },
+    {
+      "ngram": "supported information",
+      "frequency": 2
+    },
+    {
+      "ngram": "presented paragraph",
+      "frequency": 2
+    },
+    {
+      "ngram": "additionally paragraph",
+      "frequency": 2
+    },
+    {
+      "ngram": "revolve around",
+      "frequency": 2
+    },
+    {
+      "ngram": "discussions treatment",
+      "frequency": 2
+    },
+    {
+      "ngram": "years old",
+      "frequency": 2
+    },
+    {
+      "ngram": "friends today",
+      "frequency": 2
+    },
+    {
+      "ngram": "new friends",
+      "frequency": 2
+    },
+    {
+      "ngram": "themes love",
+      "frequency": 2
+    },
+    {
+      "ngram": "provide details",
+      "frequency": 2
+    },
+    {
+      "ngram": "points provided",
+      "frequency": 2
+    },
+    {
+      "ngram": "additionally mention",
+      "frequency": 2
+    },
+    {
+      "ngram": "south korea",
+      "frequency": 2
+    },
+    {
+      "ngram": "measures taken",
+      "frequency": 2
+    },
+    {
+      "ngram": "disease control",
+      "frequency": 2
+    },
+    {
+      "ngram": "regarding potential",
+      "frequency": 2
+    },
+    {
+      "ngram": "dear recipient's",
+      "frequency": 2
+    },
+    {
+      "ngram": "finds well",
+      "frequency": 2
+    },
+    {
+      "ngram": "saturday night",
+      "frequency": 2
+    },
+    {
+      "ngram": "one greatest",
+      "frequency": 2
+    },
+    {
+      "ngram": "enhancing overall",
+      "frequency": 2
+    },
+    {
+      "ngram": "quality life",
+      "frequency": 2
+    },
+    {
+      "ngram": "season show",
+      "frequency": 2
+    },
+    {
+      "ngram": "certainly revised",
+      "frequency": 2
+    },
+    {
+      "ngram": "first foremost",
+      "frequency": 2
+    },
+    {
+      "ngram": "many people",
+      "frequency": 2
+    },
+    {
+      "ngram": "highlights challenges",
+      "frequency": 2
+    },
+    {
+      "ngram": "gain insights",
+      "frequency": 2
+    },
+    {
+      "ngram": "emphasized need",
+      "frequency": 2
+    },
+    {
+      "ngram": "articles centers",
+      "frequency": 2
+    },
+    {
+      "ngram": "centers around",
+      "frequency": 2
+    },
+    {
+      "ngram": "express interest",
+      "frequency": 2
+    },
+    {
+      "ngram": "th year",
+      "frequency": 2
+    },
+    {
+      "ngram": "believe would",
+      "frequency": 2
+    },
+    {
+      "ngram": "strong candidate",
+      "frequency": 2
+    },
+    {
+      "ngram": "part team",
+      "frequency": 2
+    },
+    {
+      "ngram": "continue resonate",
+      "frequency": 2
+    },
+    {
+      "ngram": "phone number",
+      "frequency": 2
+    },
+    {
+      "ngram": "number date",
+      "frequency": 2
+    },
+    {
+      "ngram": "writing express",
+      "frequency": 2
+    },
+    {
+      "ngram": "thank considering",
+      "frequency": 2
+    },
+    {
+      "ngram": "considering application",
+      "frequency": 2
+    },
+    {
+      "ngram": "forward possibility",
+      "frequency": 2
+    }
+  ],
+  "top_trigrams": [
+    {
+      "ngram": "feel free ask",
+      "frequency": 6
+    },
+    {
+      "ngram": "revised version document",
+      "frequency": 4
+    },
+    {
+      "ngram": "enhancing clarity coherence",
+      "frequency": 3
+    },
+    {
+      "ngram": "forums social media",
+      "frequency": 3
+    },
+    {
+      "ngram": "social media groups",
+      "frequency": 3
+    },
+    {
+      "ngram": "several key points",
+      "frequency": 3
+    },
+    {
+      "ngram": "application look forward",
+      "frequency": 3
+    },
+    {
+      "ngram": "revised version maintains",
+      "frequency": 2
+    },
+    {
+      "ngram": "version maintains original",
+      "frequency": 2
+    },
+    {
+      "ngram": "small city located",
+      "frequency": 2
+    },
+    {
+      "ngram": "tight knit community",
+      "frequency": 2
+    },
+    {
+      "ngram": "late th century",
+      "frequency": 2
+    },
+    {
+      "ngram": "media groups dedicated",
+      "frequency": 2
+    },
+    {
+      "ngram": "version document correcting",
+      "frequency": 2
+    },
+    {
+      "ngram": "document correcting grammar",
+      "frequency": 2
+    },
+    {
+      "ngram": "always wise check",
+      "frequency": 2
+    },
+    {
+      "ngram": "reflecting rich cultural",
+      "frequency": 2
+    },
+    {
+      "ngram": "rich cultural heritage",
+      "frequency": 2
+    },
+    {
+      "ngram": "well would like",
+      "frequency": 2
+    },
+    {
+      "ngram": "resilience human spirit",
+      "frequency": 2
+    },
+    {
+      "ngram": "warm regards name",
+      "frequency": 2
+    },
+    {
+      "ngram": "last knowledge update",
+      "frequency": 2
+    },
+    {
+      "ngram": "knowledge update october",
+      "frequency": 2
+    },
+    {
+      "ngram": "social media platforms",
+      "frequency": 2
+    },
+    {
+      "ngram": "please provide details",
+      "frequency": 2
+    },
+    {
+      "ngram": "substantiated several key",
+      "frequency": 2
+    },
+    {
+      "ngram": "key points provided",
+      "frequency": 2
+    },
+    {
+      "ngram": "points provided paragraph",
+      "frequency": 2
+    },
+    {
+      "ngram": "dear recipient's name",
+      "frequency": 2
+    },
+    {
+      "ngram": "certainly revised version",
+      "frequency": 2
+    },
+    {
+      "ngram": "articles centers around",
+      "frequency": 2
+    },
+    {
+      "ngram": "phone number date",
+      "frequency": 2
+    },
+    {
+      "ngram": "thank considering application",
+      "frequency": 2
+    },
+    {
+      "ngram": "considering application look",
+      "frequency": 2
+    },
+    {
+      "ngram": "look forward possibility",
+      "frequency": 2
+    }
+  ]
+}

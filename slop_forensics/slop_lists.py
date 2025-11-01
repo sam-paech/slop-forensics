@@ -86,11 +86,13 @@ def save_list_jsonl(items, filename: str):
 def extract_ngrams_cleaned(texts_list: List[str], n: int, top_k: int) -> List[Tuple[Tuple[str, ...], int]]:
     """
     Extract the top_k most frequent n-grams from a corpus after a "cleaning" step:
-       - Tokenize
-       - Keep alpha tokens only
+       - Normalize text (NFKC, quote normalization, lowercase)
+       - Tokenize with regex [a-zA-Z']+
+       - Strip leading/trailing apostrophes
        - Exclude stopwords
-       - Lowercase
     Returns a list of (ngram_tuple, frequency).
+
+    Aligns with other repo's preprocessing.
     """
     ngram_counts = Counter()
     logger.info(f"Extracting cleaned {n}-grams from {len(texts_list)} combined texts...")
@@ -99,10 +101,12 @@ def extract_ngrams_cleaned(texts_list: List[str], n: int, top_k: int) -> List[Tu
         if not isinstance(text, str) or not text.strip():
             continue
 
+        # Normalize: NFKC, quote normalization, lowercase
+        normalized_text = normalize_text(text)
+        # Tokenize using extract_words (regex [a-zA-Z']+, strip apostrophes)
         tokens = [
-            w.lower()
-            for w in word_tokenize(text)
-            if w.isalpha() and w.lower() not in stop_words_nltk
+            word for word in extract_words(normalized_text, min_length=1)
+            if word not in stop_words_nltk
         ]
         if len(tokens) >= n:
             ngram_counts.update(ngrams(tokens, n))
@@ -123,13 +127,19 @@ def process_one_text_for_substrings(
       3) For each n-length window in cleaned_tokens, if it matches something
          in top_ngrams_set, retrieve the exact substring from the original text.
       4) Return a Counter of substring -> frequency for this single text.
+
+    Uses aligned preprocessing (quote normalization, regex tokenization).
     """
     local_counter = Counter()
 
     if not isinstance(text, str) or not text.strip():
         return local_counter
 
-    # Naive tokenization with offsets:
+    # First, normalize the text for comparison (quote normalization, lowercase)
+    normalized_text = normalize_text(text)
+
+    # Naive tokenization with offsets on ORIGINAL text:
+    # We need to find tokens in the original text to preserve casing/formatting
     tokens_with_spans = []
     offset = 0
     raw_tokens = word_tokenize(text)
@@ -143,14 +153,19 @@ def process_one_text_for_substrings(
         tokens_with_spans.append((tk, start_idx, end_idx))
         offset = end_idx
 
-    # Build cleaned_tokens + offset map
+    # Build cleaned_tokens + offset map using aligned tokenization
     cleaned_tokens = []
     char_index_map = []
     for (tk, st, en) in tokens_with_spans:
-        lower_tk = tk.lower()
-        if lower_tk.isalpha() and (lower_tk not in stop_words_nltk):
-            cleaned_tokens.append(lower_tk)
-            char_index_map.append((st, en))
+        # Normalize this token the same way (lowercase, strip apostrophes)
+        normalized_tk = normalize_text(tk)
+        # Extract using same regex pattern
+        extracted = extract_words(normalized_tk, min_length=1)
+        if extracted:
+            word = extracted[0]  # Should only be one token from a single word
+            if word not in stop_words_nltk:
+                cleaned_tokens.append(word)
+                char_index_map.append((st, en))
 
     if len(cleaned_tokens) < n:
         return local_counter
@@ -249,143 +264,27 @@ def create_slop_lists(
     max_items_per_model: int = config.ANALYSIS_MAX_ITEMS_PER_MODEL
 ):
     """
-    Combines analysis results from multiple models to create final slop lists.
-    Also extracts and saves top slop phrases (multi-word substrings) in JSONL.
+    Creates slop lists by aggregating pre-computed analysis results.
+
+    This approach:
+    - Loads analysis JSON files (which already have top_repetitive_words, bigrams, trigrams)
+    - Aggregates bigrams/trigrams by summing frequencies
+    - Aggregates repetitive words by averaging corpus_freq, then recomputing score
+    - Stays consistent with how individual model profiles compute their lists
     """
-    logger.info("Starting combined slop list generation...")
-    all_model_data = []
+    logger.info("Starting combined slop list generation from analysis files...")
     analysis_files = [f for f in os.listdir(analysis_files_dir) if f.endswith('.json')]
 
     if not analysis_files:
         logger.error(f"No analysis JSON files found in {analysis_files_dir}. Cannot create slop lists.")
         return
 
-    logger.info(f"Found {len(analysis_files)} analysis files. Loading data...")
-    for filename in tqdm(analysis_files, desc="Loading analysis files"):
-        filepath = os.path.join(analysis_files_dir, filename)
-        data = load_json_file(filepath)
-        if data and isinstance(data, dict) and "model_name" in data:
-            model_name = data["model_name"]
-            sanitized_name = sanitize_filename(model_name)
-            dataset_filename = os.path.join(
-                config.DATASET_OUTPUT_DIR,
-                f"generated_{sanitized_name}.jsonl"
-            )
-            if os.path.exists(dataset_filename):
-                logger.debug(f"Reloading dataset for {model_name} from {dataset_filename}")
-                model_dataset = load_jsonl_file(dataset_filename, max_items=max_items_per_model)
-                texts = [
-                    item['output']
-                    for item in model_dataset
-                    if 'output' in item and isinstance(item['output'], str)
-                ]
-                if texts:
-                    all_model_data.append({"model_name": model_name, "texts": texts})
-                else:
-                    logger.warning(f"No text found in dataset file for {model_name}")
-            else:
-                logger.warning(f"Dataset file not found for {model_name}: {dataset_filename}")
-        else:
-            logger.warning(f"Skipping invalid analysis file: {filename}")
-
-    if not all_model_data:
-        logger.error("No valid model data loaded. Cannot create slop lists.")
-        return
-
-    logger.info(f"Processing combined text data from {len(all_model_data)} models...")
-
-    # Aggregate text from all models
-    all_texts_flat = []
-    for model_data in all_model_data:
-        all_texts_flat.extend(model_data.get("texts", []))
-
-    if not all_texts_flat:
-        logger.error("No text data available after combining models.")
-        return
+    logger.info(f"Found {len(analysis_files)} analysis files.")
 
     # =======================
-    # 1) WORD-BASED SLOP LIST
+    # 1) AGGREGATE BIGRAMS & TRIGRAMS
     # =======================
-
-    logger.info("Counting combined words...")
-    raw_combined_counts = Counter()
-    for text in tqdm(all_texts_flat, desc="Counting words"):
-        normalized = normalize_text(text)
-        words = extract_words(normalized, config.WORD_MIN_LENGTH)
-        raw_combined_counts.update(words)
-
-    logger.info("Filtering combined counts...")
-    filtered_numeric = filter_mostly_numeric(raw_combined_counts)
-    merged_counts = merge_plural_possessive_s(filtered_numeric)
-    filtered_stopwords = filter_stopwords(merged_counts)
-
-    if not filtered_stopwords:
-        logger.warning("No words remaining after numeric/stopword filtering. Cannot proceed.")
-        return
-
-    # Analyze rarity (for correlation, etc.) – not strictly needed for final lists, but included
-    logger.info("Analyzing combined word rarity...")
-    corpus_freqs, wordfreq_freqs, avg_corp, avg_wf, corr = analyze_word_rarity(filtered_stopwords)
-
-    if not corpus_freqs:
-        logger.error("Could not calculate corpus frequencies for combined data.")
-        return
-
-    # Filter out "common words" based on wordfreq
-    logger.info(f"Filtering common words (wordfreq > {config.COMMON_WORD_THRESHOLD})...")
-    final_counts_for_slop = filter_common_words(
-        filtered_stopwords,
-        wordfreq_freqs,
-        config.COMMON_WORD_THRESHOLD
-    )
-
-    if not final_counts_for_slop:
-        logger.warning("No words remaining after filtering common words. Slop lists will be empty.")
-        over_represented_words = []
-        zero_freq_words = []
-    else:
-        final_total_words = sum(final_counts_for_slop.values())
-        final_corpus_freqs = {
-            w: c / final_total_words for w, c in final_counts_for_slop.items()
-        } if final_total_words > 0 else {}
-
-        logger.info("Finding over-represented and zero-frequency words...")
-        over_represented_words = find_over_represented_words(
-            final_corpus_freqs,
-            wordfreq_freqs,
-            top_n=config.SLOP_LIST_TOP_N_OVERREP * 2
-        )
-        zero_freq_words = find_zero_frequency_words(
-            final_counts_for_slop,
-            wordfreq_freqs,
-            top_n=config.SLOP_LIST_TOP_N_ZERO_FREQ
-        )
-
-    # Create & save final word-based slop lists
-    logger.info("Creating final word slop lists...")
-    top_over_rep_words = [item[0] for item in over_represented_words[:config.SLOP_LIST_TOP_N_OVERREP]]
-    top_zero_freq_words = [item[0] for item in zero_freq_words[:config.SLOP_LIST_TOP_N_ZERO_FREQ]]
-    combined_slop_word_set = set(top_over_rep_words + top_zero_freq_words)
-    sorted_slop_words = sorted(list(combined_slop_word_set))
-    formatted_slop_list = [[word] for word in sorted_slop_words]
-    slop_list_filename = os.path.join(output_dir, 'slop_list.json')
-    save_list_one_item_per_line(formatted_slop_list, slop_list_filename)
-    logger.info(f"Saved standard word slop list ({len(formatted_slop_list)} words).")
-
-    # Frequency-sorted slop list
-    slop_word_frequencies = {word: final_counts_for_slop.get(word, 0) for word in combined_slop_word_set}
-    sorted_by_freq = sorted(slop_word_frequencies.items(), key=lambda x: x[1], reverse=True)
-    formatted_freq_slop_list = [[word, count] for word, count in sorted_by_freq]
-    freq_slop_list_filename = os.path.join(output_dir, 'slop_list_by_freq.json')
-    save_json_file(formatted_freq_slop_list, freq_slop_list_filename, indent=None)
-    logger.info(f"Saved frequency-sorted word slop list ({len(formatted_freq_slop_list)} words).")
-
-    # =======================
-    # 2) N-GRAM (PHRASES) SLOP LIST
-    # =======================
-
-    # First, aggregate bigrams/trigrams from analysis files (as in your original approach).
-    logger.info("Aggregating N-gram data for slop lists...")
+    logger.info("Aggregating N-gram data from analysis files...")
     combined_bigrams = defaultdict(lambda: {'total_freq': 0, 'models': set()})
     combined_trigrams = defaultdict(lambda: {'total_freq': 0, 'models': set()})
 
@@ -394,12 +293,16 @@ def create_slop_lists(
         data = load_json_file(filepath)
         if data and isinstance(data, dict):
             model_name = data.get("model_name", "unknown")
+
+            # Aggregate bigrams
             for bg_data in data.get("top_bigrams", []):
                 ngram = bg_data.get("ngram")
                 freq = bg_data.get("frequency", 0)
                 if ngram and freq > 0:
                     combined_bigrams[ngram]['total_freq'] += freq
                     combined_bigrams[ngram]['models'].add(model_name)
+
+            # Aggregate trigrams
             for tg_data in data.get("top_trigrams", []):
                 ngram = tg_data.get("ngram")
                 freq = tg_data.get("frequency", 0)
@@ -407,45 +310,152 @@ def create_slop_lists(
                     combined_trigrams[ngram]['total_freq'] += freq
                     combined_trigrams[ngram]['models'].add(model_name)
 
+    # Filter to ngrams appearing in at least N models
     min_models_for_ngram_slop = 2
     filtered_bigrams = {
-        ng: data
-        for ng, data in combined_bigrams.items()
+        ng: data for ng, data in combined_bigrams.items()
         if len(data['models']) >= min_models_for_ngram_slop
     }
     filtered_trigrams = {
-        ng: data
-        for ng, data in combined_trigrams.items()
+        ng: data for ng, data in combined_trigrams.items()
         if len(data['models']) >= min_models_for_ngram_slop
     }
 
+    # Sort by frequency
     sorted_bigrams = sorted(filtered_bigrams.items(), key=lambda item: item[1]['total_freq'], reverse=True)
     sorted_trigrams = sorted(filtered_trigrams.items(), key=lambda item: item[1]['total_freq'], reverse=True)
 
-    # Save bigram/trigram slop lists
+    # Save bigram slop list
     top_bigrams_list = [[bg[0]] for bg in sorted_bigrams[:config.SLOP_LIST_TOP_N_BIGRAMS]]
     bigram_slop_filename = os.path.join(output_dir, 'slop_list_bigrams.json')
     save_list_one_item_per_line(top_bigrams_list, bigram_slop_filename)
     logger.info(f"Saved bigram slop list ({len(top_bigrams_list)} bigrams).")
 
+    # Save trigram slop list
     top_trigrams_list = [[tg[0]] for tg in sorted_trigrams[:config.SLOP_LIST_TOP_N_TRIGRAMS]]
     trigram_slop_filename = os.path.join(output_dir, 'slop_list_trigrams.json')
     save_list_one_item_per_line(top_trigrams_list, trigram_slop_filename)
     logger.info(f"Saved trigram slop list ({len(top_trigrams_list)} trigrams).")
 
     # =======================
-    # 3) EXACT PHRASE EXTRACTION
+    # 2) AGGREGATE REPETITIVE WORDS
     # =======================
-    # Uses multi-processing and substring matching for the top n-grams in the *combined* data.
-    # This step is not reliant on the analysis JSON files; it re-processes all_texts_flat.
-    logger.info("Extracting and saving slop phrases from combined data...")
-    extract_and_save_slop_phrases(
-        texts=all_texts_flat,
-        output_dir=output_dir,
-        n=config.SLOP_PHRASES_NGRAM_SIZE,
-        top_k_ngrams=config.SLOP_PHRASES_TOP_NGRAMS,
-        top_phrases_to_save=config.SLOP_PHRASES_TOP_PHRASES_TO_SAVE,
-        chunksize=config.SLOP_PHRASES_CHUNKSIZE
-    )
+    logger.info("Aggregating repetitive words from analysis files...")
 
-    logger.info("Slop list + phrase generation finished.")
+    # Collect all word data across models
+    # word -> list of (corpus_freq, wordfreq_freq) from each model
+    word_data = defaultdict(lambda: {'corpus_freqs': [], 'wordfreq_freq': None, 'models': set()})
+
+    for filename in tqdm(analysis_files, desc="Aggregating words"):
+        filepath = os.path.join(analysis_files_dir, filename)
+        data = load_json_file(filepath)
+        if data and isinstance(data, dict):
+            model_name = data.get("model_name", "unknown")
+
+            for word_entry in data.get("top_repetitive_words", []):
+                word = word_entry.get("word")
+                corpus_freq = word_entry.get("corpus_freq")
+                wordfreq_freq = word_entry.get("wordfreq_freq")
+
+                if word and corpus_freq is not None:
+                    word_data[word]['corpus_freqs'].append(corpus_freq)
+                    word_data[word]['models'].add(model_name)
+                    # Store wordfreq_freq (should be same across models, just take the value)
+                    if wordfreq_freq is not None:
+                        word_data[word]['wordfreq_freq'] = wordfreq_freq
+
+    # Compute average corpus_freq and recompute score
+    logger.info("Computing averaged corpus frequencies and scores...")
+    word_scores = []
+    epsilon = 1e-12
+
+    for word, data in word_data.items():
+        if not data['corpus_freqs']:
+            continue
+
+        # Average corpus frequency across models
+        avg_corpus_freq = np.mean(data['corpus_freqs'])
+        wordfreq_freq = data['wordfreq_freq'] if data['wordfreq_freq'] is not None else 0.0
+
+        # Recompute score: corpus_freq / wordfreq_freq
+        score = avg_corpus_freq / max(wordfreq_freq, epsilon)
+
+        word_scores.append({
+            'word': word,
+            'score': score,
+            'avg_corpus_freq': avg_corpus_freq,
+            'wordfreq_freq': wordfreq_freq,
+            'num_models': len(data['models'])
+        })
+
+    # Sort by score (descending)
+    word_scores.sort(key=lambda x: x['score'], reverse=True)
+
+    # Also get zero-frequency words from analysis files
+    logger.info("Aggregating zero-frequency words from analysis files...")
+    zero_freq_word_data = defaultdict(lambda: {'corpus_freqs': [], 'models': set()})
+
+    for filename in tqdm(analysis_files, desc="Aggregating zero-freq words"):
+        filepath = os.path.join(analysis_files_dir, filename)
+        data = load_json_file(filepath)
+        if data and isinstance(data, dict):
+            model_name = data.get("model_name", "unknown")
+
+            for word_entry in data.get("zero_frequency_words", []):
+                word = word_entry.get("word")
+                corpus_freq = word_entry.get("corpus_freq")
+
+                if word and corpus_freq is not None:
+                    zero_freq_word_data[word]['corpus_freqs'].append(corpus_freq)
+                    zero_freq_word_data[word]['models'].add(model_name)
+
+    # Average zero-freq words
+    zero_freq_scores = []
+    for word, data in zero_freq_word_data.items():
+        if not data['corpus_freqs']:
+            continue
+        avg_corpus_freq = np.mean(data['corpus_freqs'])
+        zero_freq_scores.append({
+            'word': word,
+            'avg_corpus_freq': avg_corpus_freq,
+            'num_models': len(data['models'])
+        })
+
+    # Sort by average corpus frequency
+    zero_freq_scores.sort(key=lambda x: x['avg_corpus_freq'], reverse=True)
+
+    # =======================
+    # 3) CREATE FINAL WORD SLOP LISTS
+    # =======================
+    logger.info("Creating final word slop lists...")
+
+    # Take top N from each category
+    top_over_rep_words = [item['word'] for item in word_scores[:config.SLOP_LIST_TOP_N_OVERREP]]
+    top_zero_freq_words = [item['word'] for item in zero_freq_scores[:config.SLOP_LIST_TOP_N_ZERO_FREQ]]
+
+    # Combine and deduplicate
+    combined_slop_word_set = set(top_over_rep_words + top_zero_freq_words)
+    sorted_slop_words = sorted(list(combined_slop_word_set))
+
+    # Save alphabetically sorted list
+    formatted_slop_list = [[word] for word in sorted_slop_words]
+    slop_list_filename = os.path.join(output_dir, 'slop_list.json')
+    save_list_one_item_per_line(formatted_slop_list, slop_list_filename)
+    logger.info(f"Saved standard word slop list ({len(formatted_slop_list)} words).")
+
+    # Create frequency-sorted list (by average corpus freq)
+    word_avg_freqs = {}
+    for item in word_scores:
+        if item['word'] in combined_slop_word_set:
+            word_avg_freqs[item['word']] = item['avg_corpus_freq']
+    for item in zero_freq_scores:
+        if item['word'] in combined_slop_word_set and item['word'] not in word_avg_freqs:
+            word_avg_freqs[item['word']] = item['avg_corpus_freq']
+
+    sorted_by_freq = sorted(word_avg_freqs.items(), key=lambda x: x[1], reverse=True)
+    formatted_freq_slop_list = [[word, freq] for word, freq in sorted_by_freq]
+    freq_slop_list_filename = os.path.join(output_dir, 'slop_list_by_freq.json')
+    save_json_file(formatted_freq_slop_list, freq_slop_list_filename, indent=None)
+    logger.info(f"Saved frequency-sorted word slop list ({len(formatted_freq_slop_list)} words).")
+
+    logger.info("Slop list generation finished.")

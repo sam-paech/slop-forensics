@@ -18,6 +18,68 @@ logger = logging.getLogger(__name__)
 # Lock for thread-safe file writing
 file_lock = threading.Lock()
 
+def _extract_prompt_raw(row: Dict, column_name: str) -> Optional[str]:
+    """Extract prompt from a raw text column."""
+    prompt_text = row.get(column_name)
+    if prompt_text and isinstance(prompt_text, str):
+        return prompt_text.strip()
+    return None
+
+def _extract_prompt_conversations(row: Dict, column_name: str) -> Optional[str]:
+    """Extract prompt from conversations format (list of dicts with 'from' and 'value' keys)."""
+    conversations = row.get(column_name)
+    if isinstance(conversations, list):
+        for msg in conversations:
+            if isinstance(msg, dict) and msg.get('from') == 'human':
+                value = msg.get('value')
+                if value and isinstance(value, str):
+                    return value.strip()
+    elif isinstance(conversations, str):  # Handle stringified JSON
+        try:
+            conv_list = json.loads(conversations)
+            for msg in conv_list:
+                if isinstance(msg, dict) and msg.get('from') == 'human':
+                    value = msg.get('value')
+                    if value and isinstance(value, str):
+                        return value.strip()
+        except json.JSONDecodeError:
+            logger.warning(f"Could not parse stringified conversations: {conversations[:100]}")
+    return None
+
+def _extract_prompt_sharegpt(row: Dict, column_name: str) -> Optional[str]:
+    """Extract prompt from ShareGPT format (similar to conversations but may use 'human'/'gpt' roles)."""
+    # ShareGPT format is essentially the same as conversations format
+    return _extract_prompt_conversations(row, column_name)
+
+def _extract_prompt_openai_messages(row: Dict, column_name: str) -> Optional[str]:
+    """Extract prompt from OpenAI messages format (list of dicts with 'role' and 'content' keys)."""
+    messages = row.get(column_name)
+    if isinstance(messages, list):
+        for msg in messages:
+            if isinstance(msg, dict) and msg.get('role') == 'user':
+                content = msg.get('content')
+                if content and isinstance(content, str):
+                    return content.strip()
+    elif isinstance(messages, str):  # Handle stringified JSON
+        try:
+            msg_list = json.loads(messages)
+            for msg in msg_list:
+                if isinstance(msg, dict) and msg.get('role') == 'user':
+                    content = msg.get('content')
+                    if content and isinstance(content, str):
+                        return content.strip()
+        except json.JSONDecodeError:
+            logger.warning(f"Could not parse stringified OpenAI messages: {messages[:100]}")
+    return None
+
+# Map format names to extraction functions
+FORMAT_EXTRACTORS = {
+    "raw": _extract_prompt_raw,
+    "conversations": _extract_prompt_conversations,
+    "sharegpt": _extract_prompt_sharegpt,
+    "openai_messages": _extract_prompt_openai_messages,
+}
+
 def _load_processed_ids(output_filename: str) -> Set[Tuple[str, int]]:
     """Loads processed (source, id) tuples from an existing output file."""
     processed_ids = set()
@@ -40,11 +102,36 @@ def load_and_prepare_prompts(output_filename: str) -> Tuple[List[Dict], Set[Tupl
     processed_ids = _load_processed_ids(output_filename)
     total_loaded = 0
 
-    for source_name, dataset_id in config.DATASET_SOURCES.items():
-        logger.info(f"Loading dataset: {dataset_id} (Source: {source_name})")
+    for source_name, source_config in config.DATASET_SOURCES.items():
+        # Handle both old format (string) and new format (dict)
+        if isinstance(source_config, str):
+            # Legacy format - treat as raw dataset with "text" column
+            dataset_id = source_config
+            split = "train"
+            target_column = "text"
+            format_type = "raw"
+            system_prompt = None
+            user_prompt_template = None
+            logger.warning(f"Dataset '{source_name}' using legacy string format. Consider updating to dict format.")
+        else:
+            dataset_id = source_config["dataset_id"]
+            split = source_config.get("split", "train")
+            target_column = source_config["target_column"]
+            format_type = source_config["format"]
+            system_prompt = source_config.get("system_prompt")
+            user_prompt_template = source_config.get("user_prompt_template")
+
+        logger.info(f"Loading dataset: {dataset_id} (Source: {source_name}, Split: {split}, Column: {target_column}, Format: {format_type})")
+
+        # Get the appropriate extraction function
+        extractor = FORMAT_EXTRACTORS.get(format_type)
+        if not extractor:
+            logger.error(f"Unknown format type '{format_type}' for dataset '{source_name}'. Skipping.")
+            continue
+
         try:
             # Load non-streaming first for easier length check and iteration
-            ds = load_dataset(dataset_id, split='train', streaming=False)
+            ds = load_dataset(dataset_id, split=split, streaming=False)
             dataset_len = len(ds) # Get length if possible
             total_loaded += dataset_len
             logger.info(f"Loaded {dataset_len} rows from {source_name}.")
@@ -53,34 +140,17 @@ def load_and_prepare_prompts(output_filename: str) -> Tuple[List[Dict], Set[Tupl
                 if (source_name, i) in processed_ids:
                     continue
                 try:
-                    prompt_text = None
-                    # Adapt based on dataset structure
-                    if source_name == "Nitral-AI":
-                        conversations = row.get('conversations')
-                        if isinstance(conversations, list):
-                            for msg in conversations:
-                                if isinstance(msg, dict) and msg.get('from') == 'human':
-                                    prompt_text = msg.get('value')
-                                    break
-                        elif isinstance(conversations, str): # Handle potential stringified JSON
-                             try:
-                                 conv_list = json.loads(conversations)
-                                 for msg in conv_list:
-                                     if isinstance(msg, dict) and msg.get('from') == 'human':
-                                         prompt_text = msg.get('value')
-                                         break
-                             except json.JSONDecodeError:
-                                 logger.warning(f"Could not parse 'conversations' string in {source_name} row {i}.")
-
-                    elif source_name == "llm-aes":
-                        prompt_text = row.get('prompt')
+                    # Use the format-specific extractor
+                    prompt_text = extractor(row, target_column)
 
                     # Validate and add
-                    if prompt_text and isinstance(prompt_text, str) and prompt_text.strip():
+                    if prompt_text:
                         all_prompts.append({
                             "source": source_name,
                             "id": i,
-                            "prompt": prompt_text.strip()
+                            "prompt": prompt_text,
+                            "system_prompt": system_prompt,
+                            "user_prompt_template": user_prompt_template
                         })
                     else:
                         logger.debug(f"No valid prompt found in {source_name} row {i}. Content: {row}")
@@ -104,7 +174,17 @@ def _call_api(prompt_details: dict, model_name: str) -> Optional[Dict]:
     row_id = prompt_details['id']
     prompt_text = prompt_details['prompt']
 
-    user_prompt = f"{config.USER_PROMPT_TEMPLATE}\n\n[writing prompt]: {prompt_text}"
+    # Use per-dataset prompts if available, otherwise fall back to global defaults
+    system_prompt = prompt_details.get('system_prompt') or config.SYSTEM_PROMPT
+    user_prompt_template = prompt_details.get('user_prompt_template') or config.USER_PROMPT_TEMPLATE
+
+    # Format the user prompt template with the actual prompt text
+    # The template should contain {prompt} placeholder
+    if "{prompt}" in user_prompt_template:
+        user_prompt = user_prompt_template.format(prompt=prompt_text)
+    else:
+        # Fallback for old-style templates without placeholder
+        user_prompt = f"{user_prompt_template}\n\n[writing prompt]: {prompt_text}"
 
     headers = {
         "Authorization": f"Bearer {config.OPENAI_API_KEY}",
@@ -116,7 +196,7 @@ def _call_api(prompt_details: dict, model_name: str) -> Optional[Dict]:
     payload = {
         "model": model_name,
         "messages": [
-            {"role": "system", "content": config.SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
         ],
         "temperature": config.TEMPERATURE,

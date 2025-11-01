@@ -25,16 +25,63 @@ COMBINED_METRICS_FILE = os.path.join(RESULTS_DIR, "slop_profile_results.json") #
 
 # --- Dataset Generation ---
 # Hugging Face Datasets for prompts
+# Format: "name": {"dataset_id": "...", "split": "...", "target_column": "...", "format": "..."}
+# Supported formats: "raw", "conversations", "sharegpt", "openai_messages"
 DATASET_SOURCES = {
-    "Nitral-AI": "Nitral-AI/Reddit-SFW-Writing_Prompts_ShareGPT",
-    #"llm-aes": "llm-aes/writing-prompts"
+
+    #"Nitral-AI": { # creative writing
+    #    "dataset_id": "Nitral-AI/Reddit-SFW-Writing_Prompts_ShareGPT",
+    #    "split": "train",
+    #    "target_column": "conversations",
+    #    "format": "sharegpt",
+    #    "system_prompt": "You are a helpful writing assistant. Your goal is to write compelling story chapters based on user prompts.",
+    #    "user_prompt_template": "Write one chapter in a larger story, using this prompt as general inspiration. Approximately 1000 words. Only output the chapter text, with no extra commentary before or after.\n\n[writing prompt]: {prompt}"
+    #},
+    # "llm-aes": {
+    #     "dataset_id": "llm-aes/writing-prompts",
+    #     "split": "train",
+    #     "target_column": "prompt",
+    #     "format": "raw",
+    #     "system_prompt": "You are a helpful writing assistant. Your goal is to write compelling story chapters based on user prompts.",
+    #     "user_prompt_template": "Write one chapter in a larger story, using this prompt as general inspiration. Approximately 800 words. Only output the chapter text, with no extra commentary before or after.\n\n[writing prompt]: {prompt}"
+    # }
+    "ChristophSchuhmann/essays-with-instructions": { # essays
+        "dataset_id": "ChristophSchuhmann/essays-with-instructions",
+        "split": "train",
+        "target_column": "instructions",
+        "format": "raw",
+        "system_prompt": "You are an expert essay writer. Your goal is to write well-structured, informative essays on the topics provided.",
+        "user_prompt_template": "Write a detailed essay (approximately 1000 words) based on the following instructions. Only output the essay text, with no extra commentary before or after.\n\n[instructions]: {prompt}"
+    },
+    #"iamketan25/essay-instructions-dataset": { # essays
+    #    "dataset_id": "iamketan25/essay-instructions-dataset",
+    #    "split": "train",
+    #    "target_column": "prompt",
+    #    "format": "raw",
+    #    "system_prompt": "You are an expert essay writer. Your goal is to write well-structured, informative essays on the topics provided.",
+    #    "user_prompt_template": "Write a detailed essay (approximately 1000 words) based on the following prompt. Only output the essay text, with no extra commentary before or after.\n\n[prompt]: {prompt}"
+    #},
+    #"MohamedRashad/ChatGPT-prompts": { # diverse prompts
+    #    "dataset_id": "MohamedRashad/ChatGPT-prompts",
+    #    "split": "train",
+    #    "target_column": "human_prompt",
+    #    "format": "raw",
+    #    "system_prompt": "You are a helpful AI assistant. Respond to the user's requests thoroughly and accurately (1000 words).",
+    #    "user_prompt_template": "{prompt}"
+    #},
+    #"akoksal/LongForm": {
+    #    "dataset_id": "akoksal/LongForm",
+    #    "split": "train",
+    #    "target_column": "input",
+    #    "format": "raw",
+    #    "system_prompt": "You are a knowledgeable AI assistant. Provide comprehensive, well-reasoned responses to questions and requests. (ignore any response lengths directives in the prompt and respond in 1000 words)",
+    #    "user_prompt_template": "{prompt}"
+    #}
 }
 
 
 
 # Generation Parameters
-SYSTEM_PROMPT = "You are a helpful writing assistant. Your goal is to write compelling story chapters based on user prompts."
-USER_PROMPT_TEMPLATE = "write one chapter in a larger story, using this prompt as general inspiration. Approximately 800 words. Only output the chapter text, with no extra commentary before or after."
 TEMPERATURE = 0.7
 MAX_TOKENS = 4096 # Adjust based on expected word count and model limits
 MIN_OUTPUT_LENGTH = 500 # Minimum character length for generated output
@@ -49,7 +96,7 @@ TARGET_RECORDS_PER_MODEL = 1000 # Target number of records to generate per model
 # --- Analysis Settings ---
 # For slop list generation and repetition metrics
 ANALYSIS_MAX_ITEMS_PER_MODEL = 10000 # Max items to load from dataset for analysis
-WORD_MIN_LENGTH = 4 # Min length for word counting (unless it has an apostrophe)
+WORD_MIN_LENGTH = 1 # Min length for word counting (set to 1 to include all words)
 WORD_MIN_REPETITION_COUNT = 5 # Min times a word must appear overall to be considered repetitive
 WORD_MIN_PROMPT_IDS = 2 # Min unique prompts a word must appear in to be considered repetitive
 NGRAM_MIN_PROMPT_IDS = 2 # Min unique prompts an N-gram must appear in

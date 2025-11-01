@@ -34,21 +34,33 @@ except ImportError:
 # --- Core Word Counting and Filtering ---
 
 def get_word_counts(texts: List[str], min_length: int = config.WORD_MIN_LENGTH) -> TypingCounter[str]:
-    """Counts overall word frequencies in a list of texts."""
+    """
+    Counts overall word frequencies in a list of texts.
+
+    Applies stopword filtering to align with other repo's preprocessing.
+    """
     word_counts = Counter()
     for text in texts: # No tqdm here, usually called within another loop
         normalized_text = normalize_text(text) # Use utility function
         words = extract_words(normalized_text, min_length) # Use utility function
-        word_counts.update(words)
+        # Filter stopwords (aligns with other repo's preprocessing)
+        words_filtered = [w for w in words if w not in STOP_WORDS]
+        word_counts.update(words_filtered)
     return word_counts
 
 def get_word_prompt_map(texts_with_ids: List[Tuple[str, str]], min_length: int = config.WORD_MIN_LENGTH) -> Dict[str, Set[str]]:
-    """Creates a map of words to the set of prompt IDs they appear in."""
+    """
+    Creates a map of words to the set of prompt IDs they appear in.
+
+    Applies stopword filtering to align with other repo's preprocessing.
+    """
     word_prompts = defaultdict(set)
     for text, prompt_id in texts_with_ids: # No tqdm here
         normalized_text = normalize_text(text)
         words = extract_words(normalized_text, min_length)
-        for word in words:
+        # Filter stopwords (aligns with other repo's preprocessing)
+        words_filtered = [w for w in words if w not in STOP_WORDS]
+        for word in words_filtered:
             word_prompts[word].add(prompt_id)
     return dict(word_prompts)
 
@@ -212,6 +224,12 @@ def get_ngrams(
     """
     Extracts top_k N-grams appearing across min_prompt_ids unique prompts.
     Returns list of dicts: [{'ngram': 'word1 word2', 'frequency': count}, ...]
+
+    Tokenization aligns with other repo:
+    - Normalizes text (quotes, lowercase)
+    - Tokenizes with regex [a-zA-Z']+
+    - Strips leading/trailing apostrophes
+    - Filters stopwords
     """
     ngram_counts = Counter()
     ngram_prompt_map = defaultdict(set)
@@ -224,17 +242,13 @@ def get_ngrams(
     for prompt_id, texts in prompts_data.items():
         for text in texts:
             total_texts_processed += 1
-            normalized_text = normalize_text(text) # Normalize first
-            try:
-                # Tokenize, remove punctuation/stopwords
-                tokens = [
-                    word for word in nltk.word_tokenize(normalized_text)
-                    if word.isalpha() and word not in STOP_WORDS
-                ]
-            except LookupError:
-                 logger.warning("NLTK 'punkt' tokenizer not found. Using basic split for ngrams.")
-                 tokens = [w for w in normalized_text.split() if w.isalpha() and w not in STOP_WORDS]
-
+            # Normalize: NFKC, quote normalization, lowercase
+            normalized_text = normalize_text(text)
+            # Tokenize using extract_words (regex [a-zA-Z']+, strip apostrophes)
+            tokens = [
+                word for word in extract_words(normalized_text, min_length=1)
+                if word not in STOP_WORDS
+            ]
 
             if len(tokens) < n:
                 continue

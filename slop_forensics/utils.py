@@ -93,50 +93,60 @@ def save_list_one_item_per_line(data: List[Any], filename: str):
 
 # --- Text Processing ---------------------------------------------------
 #
-#  All tokenisation / normalisation across Auto-Antislop now funnels
-#  through the helpers below.  They keep every Unicode Letter and Mark
-#  (Lu, Ll, Lt, Lm, Lo, Mn, Mc, Me) and drop everything else.
+#  All tokenisation / normalisation now aligns with the other repo's
+#  preprocessing: quote normalization, regex tokenization with apostrophes
+#  preserved internally, then stripped from leading/trailing positions.
 
 # ------------------------------------------------------------------ #
-# Internal helper – not exported
+# Internal helpers
 # ------------------------------------------------------------------ #
 _SPACES_RE = re.compile(r"\s+")
+_TOKEN_RE = re.compile(r"[a-zA-Z']+")
 
-def _normalise_keep_marks(text: str) -> str:
-    """
-    Lower-case *text*, keep Letters + Marks, map every other code-point
-    to a single space, then collapse runs of spaces.
+# Quote normalization mappings (align with other repo)
+_QUOTE_MAP = {
+    # Single quotes
+    ''': "'", ''': "'", '‛': "'", '‚': "'",
+    '′': "'", 'ʼ': "'", '＇': "'", '`': "'",
+    # Double quotes
+    '"': '"', '"': '"', '„': '"', '‟': '"',
+    '″': '"', '«': '"', '»': '"', '＂': '"'
+}
 
-    Apostrophes, hyphens, digits, punctuation – all removed.
+def _normalize_quotes(text: str) -> str:
     """
-    buf: list[str] = []
-    for ch in text:
-        # first char of Unicode category string, e.g. "Lu" → "L"
-        cat0 = unicodedata.category(ch)[0]
-        if cat0 in ("L", "M"):
-            buf.append(ch.lower())
-        else:
-            buf.append(" ")
-    text = text.replace("’", "'")
-    text = text.replace("‘", "'")
-    text = text.replace("ʼ", "'")
-    return _SPACES_RE.sub(" ", "".join(buf)).strip()
+    Normalize exotic/curly quotes to ASCII quotes.
+    Maps all variants of single quotes to ' and double quotes to "
+    """
+    for exotic, ascii_char in _QUOTE_MAP.items():
+        text = text.replace(exotic, ascii_char)
+    return text
 
 # ------------------------------------------------------------------ #
-# Public, back-compat functions
+# Public functions
 # ------------------------------------------------------------------ #
 
-def normalize_text(text: str) -> str:               # unchanged signature
+def normalize_text(text: str) -> str:
     """
-    Original signature retained.  Implementation now delegates to the
-    letter-and-mark normaliser and **no longer** standardises apostrophes.
+    Normalize text for ngram extraction and word analysis.
+
+    Steps:
+    1. NFKC Unicode normalization
+    2. Quote normalization (curly → straight)
+    3. Lowercase conversion
+
+    Does NOT tokenize - use extract_words() or tokenize directly with TOKEN_RE.
     """
     if not isinstance(text, str):
         return ""
     try:
         # NFC / NFKC keeps composed + decomposed chars comparable
         text = unicodedata.normalize("NFKC", text)
-        return _normalise_keep_marks(text)
+        # Normalize quotes BEFORE tokenization
+        text = _normalize_quotes(text)
+        # Lowercase
+        text = text.lower()
+        return text
     except Exception as exc:
         logger.warning("Error during text normalization: %s. "
                        "Returning raw snippet '%s…'",
@@ -145,18 +155,33 @@ def normalize_text(text: str) -> str:               # unchanged signature
 
 
 def extract_words(normalized_text: str,
-                  min_length: int = 4) -> List[str]:   # same signature
+                  min_length: int = 1) -> List[str]:
     """
-    Split a string already passed through `normalize_text` into tokens,
-    keeping only those whose length ≥ *min_length*.
+    Tokenize normalized text using regex pattern [a-zA-Z']+
+
+    Steps:
+    1. Extract tokens matching [a-zA-Z']+ pattern
+    2. Strip leading/trailing apostrophes from each token
+    3. Filter by min_length (default 1 to keep all words)
+
+    Args:
+        normalized_text: Text already passed through normalize_text()
+        min_length: Minimum token length (default 1)
+
+    Returns:
+        List of tokens meeting the length requirement
     """
     if not isinstance(normalized_text, str):
         return []
-    return [
-        token
-        for token in normalized_text.split(" ")
-        if len(token) >= min_length
-    ]
+
+    tokens = []
+    for match in _TOKEN_RE.findall(normalized_text):
+        # Strip leading/trailing apostrophes
+        token = match.strip("'")
+        if len(token) >= min_length:
+            tokens.append(token)
+
+    return tokens
 
 # ------------------------------------------------------------------ #
 # End TEXT-PROCESSING section                                        #

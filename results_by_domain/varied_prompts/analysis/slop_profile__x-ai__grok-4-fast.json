@@ -1,0 +1,8293 @@
+{
+  "model_name": "x-ai/grok-4-fast",
+  "num_texts_analyzed": 1965,
+  "num_unique_prompts": 1965,
+  "avg_length": 8973.28,
+  "vocab_complexity": 90.8821,
+  "slop_score": 3.6623,
+  "total_unique_words_after_filters": 23725,
+  "avg_corpus_rarity": 4.779,
+  "avg_wordfreq_rarity": 5.4027,
+  "rarity_correlation": 0.6709,
+  "top_repetitive_words": [
+    {
+      "word": "fordney",
+      "score": 6613.441215973376,
+      "corpus_freq": 8.531339168605654e-05,
+      "wordfreq_freq": 1.29e-08
+    },
+    {
+      "word": "stackexchange",
+      "score": 5546.072962168883,
+      "corpus_freq": 9.206481117200346e-05,
+      "wordfreq_freq": 1.66e-08
+    },
+    {
+      "word": "elara",
+      "score": 2985.240310376247,
+      "corpus_freq": 7.672067597666955e-05,
+      "wordfreq_freq": 2.57e-08
+    },
+    {
+      "word": "conlangs",
+      "score": 2789.8427627879837,
+      "corpus_freq": 3.6825924468801384e-05,
+      "wordfreq_freq": 1.32e-08
+    },
+    {
+      "word": "xai",
+      "score": 2254.1929523326908,
+      "corpus_freq": 6.1990306189149e-05,
+      "wordfreq_freq": 2.75e-08
+    },
+    {
+      "word": "democratizes",
+      "score": 1994.7375753934084,
+      "corpus_freq": 2.39368509047209e-05,
+      "wordfreq_freq": 1.2e-08
+    },
+    {
+      "word": "ncia",
+      "score": 1921.3525809809416,
+      "corpus_freq": 2.209555468128083e-05,
+      "wordfreq_freq": 1.15e-08
+    },
+    {
+      "word": "conlang",
+      "score": 1794.083499762119,
+      "corpus_freq": 3.4984628245361315e-05,
+      "wordfreq_freq": 1.95e-08
+    },
+    {
+      "word": "contexto",
+      "score": 1169.076967263536,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1.05e-08
+    },
+    {
+      "word": "magisk",
+      "score": 1098.7158534930454,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 1.62e-08
+    },
+    {
+      "word": "searchability",
+      "score": 1022.9423463555939,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 1.26e-08
+    },
+    {
+      "word": "xtz",
+      "score": 1011.7012216703677,
+      "corpus_freq": 1.8412962234400692e-05,
+      "wordfreq_freq": 1.82e-08
+    },
+    {
+      "word": "plesk",
+      "score": 912.3539845874217,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 1.48e-08
+    },
+    {
+      "word": "neutro",
+      "score": 898.1932797268631,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 1.23e-08
+    },
+    {
+      "word": "meros",
+      "score": 892.7496840921549,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.1e-08
+    },
+    {
+      "word": "cakephp",
+      "score": 862.0300671535904,
+      "corpus_freq": 1.534413519533391e-05,
+      "wordfreq_freq": 1.78e-08
+    },
+    {
+      "word": "erdo",
+      "score": 857.9516453304982,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 1.86e-08
+    },
+    {
+      "word": "lowth",
+      "score": 855.8481782257958,
+      "corpus_freq": 2.1481789273467475e-05,
+      "wordfreq_freq": 2.51e-08
+    },
+    {
+      "word": "webhooks",
+      "score": 842.4231087634303,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.02e-08
+    },
+    {
+      "word": "torstar",
+      "score": 835.4921781752497,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 1.91e-08
+    },
+    {
+      "word": "cloudfront",
+      "score": 784.7228958344282,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 2.19e-08
+    },
+    {
+      "word": "ejemplo",
+      "score": 775.6376032806152,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 1.82e-08
+    },
+    {
+      "word": "palavras",
+      "score": 748.4943997723859,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.23e-08
+    },
+    {
+      "word": "teau",
+      "score": 734.420146101452,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.17e-08
+    },
+    {
+      "word": "gonz",
+      "score": 726.497829656626,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 2.45e-08
+    },
+    {
+      "word": "ricas",
+      "score": 669.5622630691162,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.1e-08
+    },
+    {
+      "word": "downvotes",
+      "score": 666.3006514884037,
+      "corpus_freq": 3.1915801206294535e-05,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "stronglifts",
+      "score": 661.9038711712667,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.02e-08
+    },
+    {
+      "word": "sitecore",
+      "score": 644.6551329330658,
+      "corpus_freq": 2.9460739575041107e-05,
+      "wordfreq_freq": 4.57e-08
+    },
+    {
+      "word": "lojban",
+      "score": 644.0748106683369,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.62e-08
+    },
+    {
+      "word": "underscoring",
+      "score": 630.1013692380465,
+      "corpus_freq": 0.00016571666010960621,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "caiso",
+      "score": 613.7654078133564,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.1e-08
+    },
+    {
+      "word": "haces",
+      "score": 610.5519763588363,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.91e-08
+    },
+    {
+      "word": "raro",
+      "score": 600.5333177609954,
+      "corpus_freq": 3.6212159060988025e-05,
+      "wordfreq_freq": 6.03e-08
+    },
+    {
+      "word": "userdata",
+      "score": 599.6558582084516,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.74e-08
+    },
+    {
+      "word": "inaturalist",
+      "score": 598.7955198179087,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.23e-08
+    },
+    {
+      "word": "conciseness",
+      "score": 575.695238796189,
+      "corpus_freq": 3.8053455284428095e-05,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "upvotes",
+      "score": 567.7330022273546,
+      "corpus_freq": 6.812796026728255e-05,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "nabla",
+      "score": 565.8830001116052,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.41e-08
+    },
+    {
+      "word": "webdriver",
+      "score": 552.3888670320207,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 2e-08
+    },
+    {
+      "word": "classifica",
+      "score": 548.0048284047825,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.12e-08
+    },
+    {
+      "word": "hbar",
+      "score": 526.0846352685912,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.05e-08
+    },
+    {
+      "word": "upvoting",
+      "score": 511.47117317779697,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.32e-08
+    },
+    {
+      "word": "answerers",
+      "score": 511.47117317779697,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.2e-08
+    },
+    {
+      "word": "tezos",
+      "score": 505.61910025814257,
+      "corpus_freq": 2.209555468128083e-05,
+      "wordfreq_freq": 4.37e-08
+    },
+    {
+      "word": "espa",
+      "score": 490.03226172723066,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "grok",
+      "score": 477.1035449405537,
+      "corpus_freq": 3.6212159060988025e-05,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "cbdc",
+      "score": 475.7871378398112,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.29e-08
+    },
+    {
+      "word": "nfts",
+      "score": 473.3409314755962,
+      "corpus_freq": 1.8412962234400692e-05,
+      "wordfreq_freq": 3.89e-08
+    },
+    {
+      "word": "magento",
+      "score": 473.11083518946225,
+      "corpus_freq": 0.00011354660044547093,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "wannacry",
+      "score": 466.7417549911455,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 2.63e-08
+    },
+    {
+      "word": "nicas",
+      "score": 460.3240558600173,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.2e-08
+    },
+    {
+      "word": "downvote",
+      "score": 449.5183268492188,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 3.55e-08
+    },
+    {
+      "word": "sogginess",
+      "score": 446.37484204607745,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1.1e-08
+    },
+    {
+      "word": "downvoted",
+      "score": 440.1504916589807,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 2.51e-08
+    },
+    {
+      "word": "overcomplicating",
+      "score": 438.403862723826,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.82e-08
+    },
+    {
+      "word": "puras",
+      "score": 438.403862723826,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1.12e-08
+    },
+    {
+      "word": "contextualize",
+      "score": 437.39603775204705,
+      "corpus_freq": 7.610691056885619e-05,
+      "wordfreq_freq": 1.74e-07
+    },
+    {
+      "word": "fastboot",
+      "score": 432.7833003812128,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "rephrased",
+      "score": 429.6357854693495,
+      "corpus_freq": 4.296357854693495e-05,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "gmina",
+      "score": 428.20842405583005,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.29e-08
+    },
+    {
+      "word": "zsh",
+      "score": 426.7905153669035,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 3.02e-08
+    },
+    {
+      "word": "textos",
+      "score": 420.38726562558656,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 2.19e-08
+    },
+    {
+      "word": "statista",
+      "score": 420.067579492031,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 2.63e-08
+    },
+    {
+      "word": "wget",
+      "score": 416.2930592125374,
+      "corpus_freq": 2.39368509047209e-05,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "vezes",
+      "score": 414.7063566306462,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.48e-08
+    },
+    {
+      "word": "stablecoins",
+      "score": 409.1769385422376,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 2.4e-08
+    },
+    {
+      "word": "formas",
+      "score": 404.2766159249653,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "synergizing",
+      "score": 401.52877146668175,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.07e-08
+    },
+    {
+      "word": "schr",
+      "score": 399.1970132119392,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1.23e-08
+    },
+    {
+      "word": "espec",
+      "score": 397.2591636332404,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "tcja",
+      "score": 397.14232270276005,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.7e-08
+    },
+    {
+      "word": "palavra",
+      "score": 391.76515392341895,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.41e-08
+    },
+    {
+      "word": "eslint",
+      "score": 389.6923224211787,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1.26e-08
+    },
+    {
+      "word": "params",
+      "score": 389.07474346330036,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 6.31e-08
+    },
+    {
+      "word": "bookscan",
+      "score": 387.88148449171223,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 2.69e-08
+    },
+    {
+      "word": "softmax",
+      "score": 385.6117745424229,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.91e-08
+    },
+    {
+      "word": "askers",
+      "score": 379.2932295475798,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.78e-08
+    },
+    {
+      "word": "producto",
+      "score": 379.2932295475798,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.78e-08
+    },
+    {
+      "word": "jsx",
+      "score": 378.86753568725703,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 3.24e-08
+    },
+    {
+      "word": "numbeo",
+      "score": 373.5963351907386,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.15e-08
+    },
+    {
+      "word": "ceratopsian",
+      "score": 373.5963351907386,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.15e-08
+    },
+    {
+      "word": "lazlow",
+      "score": 373.2357209675816,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.48e-08
+    },
+    {
+      "word": "cerca",
+      "score": 372.25416746076354,
+      "corpus_freq": 2.5164381720347614e-05,
+      "wordfreq_freq": 6.76e-08
+    },
+    {
+      "word": "pytorch",
+      "score": 370.95711461246816,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.82e-08
+    },
+    {
+      "word": "euphony",
+      "score": 367.210073050726,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "pfas",
+      "score": 365.1693501864363,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 4.37e-08
+    },
+    {
+      "word": "labas",
+      "score": 357.0998736368619,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 2.75e-08
+    },
+    {
+      "word": "humanizes",
+      "score": 355.9206617474361,
+      "corpus_freq": 2.7619443351601038e-05,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "mnist",
+      "score": 349.29738656044674,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.23e-08
+    },
+    {
+      "word": "spinae",
+      "score": 346.2266403049703,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.95e-08
+    },
+    {
+      "word": "deepfakes",
+      "score": 345.49708386844566,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 3.02e-08
+    },
+    {
+      "word": "acciones",
+      "score": 340.9807821185313,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.26e-08
+    },
+    {
+      "word": "berhalter",
+      "score": 337.570974297346,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 2e-08
+    },
+    {
+      "word": "grupos",
+      "score": 336.30981250046926,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 2.19e-08
+    },
+    {
+      "word": "matha",
+      "score": 334.781131534558,
+      "corpus_freq": 1.8412962234400692e-05,
+      "wordfreq_freq": 5.5e-08
+    },
+    {
+      "word": "onclick",
+      "score": 326.71922849380184,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 2.63e-08
+    },
+    {
+      "word": "underscores",
+      "score": 323.84977647844164,
+      "corpus_freq": 0.0002694430140300635,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "configs",
+      "score": 323.0344251649244,
+      "corpus_freq": 1.6571666010960623e-05,
+      "wordfreq_freq": 5.13e-08
+    },
+    {
+      "word": "grammarly",
+      "score": 322.3275664665329,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 4.57e-08
+    },
+    {
+      "word": "joomla",
+      "score": 322.0518109438904,
+      "corpus_freq": 8.469962627824318e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "feca",
+      "score": 322.03740533416845,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 3.24e-08
+    },
+    {
+      "word": "significado",
+      "score": 318.2487299772959,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.35e-08
+    },
+    {
+      "word": "chainlink",
+      "score": 317.77794783235913,
+      "corpus_freq": 2.1481789273467475e-05,
+      "wordfreq_freq": 6.76e-08
+    },
+    {
+      "word": "fianc",
+      "score": 316.2257370466942,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 4.27e-08
+    },
+    {
+      "word": "igpu",
+      "score": 314.7514911863366,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.17e-08
+    },
+    {
+      "word": "rde",
+      "score": 314.7514911863366,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "undeleted",
+      "score": 311.33027932561555,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.38e-08
+    },
+    {
+      "word": "htaccess",
+      "score": 310.76729509537034,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 3.16e-08
+    },
+    {
+      "word": "relu",
+      "score": 310.76729509537034,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 3.16e-08
+    },
+    {
+      "word": "tica",
+      "score": 308.6985778942917,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 6.76e-08
+    },
+    {
+      "word": "dyor",
+      "score": 306.8827039066782,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.2e-08
+    },
+    {
+      "word": "ricos",
+      "score": 304.85036811921674,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 3.02e-08
+    },
+    {
+      "word": "guez",
+      "score": 303.3821407442446,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 2.63e-08
+    },
+    {
+      "word": "comprehensiveness",
+      "score": 302.6067391148381,
+      "corpus_freq": 2.8233208759414393e-05,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "usmca",
+      "score": 299.7825899345443,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 3.89e-08
+    },
+    {
+      "word": "inclusivity",
+      "score": 297.4110155144968,
+      "corpus_freq": 9.636116902669696e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "nooksack",
+      "score": 293.6676592408404,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 2.09e-08
+    },
+    {
+      "word": "dlpfc",
+      "score": 293.43366110598714,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 2.51e-08
+    },
+    {
+      "word": "clich",
+      "score": 290.1436473299503,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 2.75e-08
+    },
+    {
+      "word": "apostille",
+      "score": 284.5270102446023,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.51e-08
+    },
+    {
+      "word": "stary",
+      "score": 281.6197552719854,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "aligns",
+      "score": 279.7929263549688,
+      "corpus_freq": 0.0002123628311034213,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "xsi",
+      "score": 278.08141454326824,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "csharp",
+      "score": 277.0468854713067,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 2.88e-08
+    },
+    {
+      "word": "integrations",
+      "score": 276.75240206856796,
+      "corpus_freq": 7.610691056885619e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "uikit",
+      "score": 275.84962148914894,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1.78e-08
+    },
+    {
+      "word": "bigquery",
+      "score": 275.5681422835478,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 2.45e-08
+    },
+    {
+      "word": "devtools",
+      "score": 274.00241420239126,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 2.24e-08
+    },
+    {
+      "word": "leq",
+      "score": 271.57761407670637,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 3.39e-08
+    },
+    {
+      "word": "personalizes",
+      "score": 267.8249052276464,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 2.75e-08
+    },
+    {
+      "word": "portugueses",
+      "score": 265.20727498107993,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.62e-08
+    },
+    {
+      "word": "ngram",
+      "score": 264.30089331675634,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 2.09e-08
+    },
+    {
+      "word": "ambas",
+      "score": 262.29290932194715,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 2.34e-08
+    },
+    {
+      "word": "defi",
+      "score": 261.5174346335171,
+      "corpus_freq": 3.0074504982854463e-05,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "scikit",
+      "score": 259.59866191501476,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 3.31e-08
+    },
+    {
+      "word": "outmigration",
+      "score": 258.81673823454787,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.66e-08
+    },
+    {
+      "word": "openai",
+      "score": 258.7301484927498,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 4.27e-08
+    },
+    {
+      "word": "demystifies",
+      "score": 258.2184563616063,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "discoverability",
+      "score": 256.2694813416937,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "ller",
+      "score": 251.8011929490693,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1.95e-08
+    },
+    {
+      "word": "concreto",
+      "score": 248.82381397838773,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.48e-08
+    },
+    {
+      "word": "plt",
+      "score": 247.94496607029632,
+      "corpus_freq": 3.743968987661474e-05,
+      "wordfreq_freq": 1.51e-07
+    },
+    {
+      "word": "egle",
+      "score": 247.6286947950141,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "codebases",
+      "score": 246.917118085833,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.74e-08
+    },
+    {
+      "word": "sideloading",
+      "score": 246.917118085833,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.74e-08
+    },
+    {
+      "word": "cardano",
+      "score": 245.50616312534254,
+      "corpus_freq": 3.8053455284428095e-05,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "andr",
+      "score": 244.2207905435345,
+      "corpus_freq": 2.3323085496907544e-05,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "prioritizes",
+      "score": 243.88029449537342,
+      "corpus_freq": 7.365184893760277e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "usando",
+      "score": 243.88029449537342,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.51e-08
+    },
+    {
+      "word": "pessoas",
+      "score": 243.88029449537342,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.51e-08
+    },
+    {
+      "word": "ficar",
+      "score": 243.88029449537342,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.51e-08
+    },
+    {
+      "word": "oura",
+      "score": 241.21784586551124,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 2.29e-08
+    },
+    {
+      "word": "gamify",
+      "score": 238.81922483009976,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 2.57e-08
+    },
+    {
+      "word": "quase",
+      "score": 237.58660947613797,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.55e-08
+    },
+    {
+      "word": "spolsky",
+      "score": 236.06361838975243,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 1.82e-08
+    },
+    {
+      "word": "pode",
+      "score": 234.3467920741906,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 5.5e-08
+    },
+    {
+      "word": "tailless",
+      "score": 234.10620861869313,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 6.03e-08
+    },
+    {
+      "word": "homestays",
+      "score": 233.07547132152777,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 3.16e-08
+    },
+    {
+      "word": "idiomatic",
+      "score": 230.16202793000866,
+      "corpus_freq": 6.628666404384249e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "counterarguments",
+      "score": 228.02430011641727,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "hardcode",
+      "score": 227.32052141235422,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.62e-08
+    },
+    {
+      "word": "ticos",
+      "score": 224.7591634246094,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 3.55e-08
+    },
+    {
+      "word": "replayability",
+      "score": 223.18742102303867,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 5.5e-08
+    },
+    {
+      "word": "anonymized",
+      "score": 222.08616730088556,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "nter",
+      "score": 221.84291848675534,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.66e-08
+    },
+    {
+      "word": "texto",
+      "score": 218.49253999828224,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "cpuc",
+      "score": 218.4218533143617,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "metaverse",
+      "score": 217.1609450363831,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 5.37e-08
+    },
+    {
+      "word": "neq",
+      "score": 216.62308511059638,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.7e-08
+    },
+    {
+      "word": "tdcs",
+      "score": 216.4412017477831,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 7.94e-08
+    },
+    {
+      "word": "scannable",
+      "score": 214.48791133262455,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 3.72e-08
+    },
+    {
+      "word": "hellebuyck",
+      "score": 214.48791133262455,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 3.72e-08
+    },
+    {
+      "word": "monero",
+      "score": 212.0864759983326,
+      "corpus_freq": 4.050851691568152e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "cdot",
+      "score": 210.24901980431184,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "niaaa",
+      "score": 209.83432745755775,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 2.34e-08
+    },
+    {
+      "word": "async",
+      "score": 206.8872161168617,
+      "corpus_freq": 3.6825924468801384e-05,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "direito",
+      "score": 206.8872161168617,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.78e-08
+    },
+    {
+      "word": "sentido",
+      "score": 206.0603287622779,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 4.17e-08
+    },
+    {
+      "word": "tiltrotor",
+      "score": 205.3490212014947,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 2.69e-08
+    },
+    {
+      "word": "symbolizing",
+      "score": 204.58846927111878,
+      "corpus_freq": 9.14510457641901e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "fromsoftware",
+      "score": 202.89765547548973,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 3.63e-08
+    },
+    {
+      "word": "amplifies",
+      "score": 202.07509741275126,
+      "corpus_freq": 8.224456464698976e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "stackoverflow",
+      "score": 200.86867892073482,
+      "corpus_freq": 2.209555468128083e-05,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "boardgamegeek",
+      "score": 200.86867892073482,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 2.75e-08
+    },
+    {
+      "word": "siloed",
+      "score": 198.74308443480112,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "mainnet",
+      "score": 198.74308443480112,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "classname",
+      "score": 197.98884123011496,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 1.86e-08
+    },
+    {
+      "word": "datos",
+      "score": 196.71968199146036,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "familysearch",
+      "score": 196.04300495266912,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 4.07e-08
+    },
+    {
+      "word": "aqu",
+      "score": 195.88257696170947,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 2.82e-08
+    },
+    {
+      "word": "mitigations",
+      "score": 195.12773080771447,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 6.92e-08
+    },
+    {
+      "word": "myheritage",
+      "score": 194.5654030532254,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "anonymization",
+      "score": 194.22955943460644,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 3.16e-08
+    },
+    {
+      "word": "neuromorphic",
+      "score": 192.2307764963532,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 4.47e-08
+    },
+    {
+      "word": "kingside",
+      "score": 191.80168994167389,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 2.88e-08
+    },
+    {
+      "word": "rhomboids",
+      "score": 191.05537986407984,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 2.57e-08
+    },
+    {
+      "word": "grego",
+      "score": 190.18083059005411,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 3.55e-08
+    },
+    {
+      "word": "voivodeship",
+      "score": 189.43376784362852,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 3.24e-08
+    },
+    {
+      "word": "pichai",
+      "score": 189.29213512000712,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "ainda",
+      "score": 187.25046340068502,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 2.95e-08
+    },
+    {
+      "word": "anonymize",
+      "score": 185.98951751919893,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 3.63e-08
+    },
+    {
+      "word": "odni",
+      "score": 183.605036525363,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "upvoted",
+      "score": 183.21355457115115,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 6.03e-08
+    },
+    {
+      "word": "aosp",
+      "score": 182.91022087153007,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.02e-08
+    },
+    {
+      "word": "bgg",
+      "score": 181.4610770926445,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "fintechs",
+      "score": 180.51923759216365,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.04e-08
+    },
+    {
+      "word": "diferente",
+      "score": 180.51923759216365,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.04e-08
+    },
+    {
+      "word": "sudo",
+      "score": 180.2508074990898,
+      "corpus_freq": 4.848746721725516e-05,
+      "wordfreq_freq": 2.69e-07
+    },
+    {
+      "word": "cnns",
+      "score": 179.38863693918557,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "isso",
+      "score": 179.10101687033972,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "kff",
+      "score": 178.7666236349582,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "submillimeter",
+      "score": 178.02587795691278,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "geth",
+      "score": 177.9030167574946,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "contextualizes",
+      "score": 177.66893384070843,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 3.8e-08
+    },
+    {
+      "word": "democratized",
+      "score": 177.61699904566584,
+      "corpus_freq": 1.6571666010960623e-05,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "pitfall",
+      "score": 177.43070786344816,
+      "corpus_freq": 6.0149009965708925e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "exemplifies",
+      "score": 176.31001498484636,
+      "corpus_freq": 0.00014668993246739218,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "frac",
+      "score": 175.3615450895304,
+      "corpus_freq": 3.928098610005481e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "icv",
+      "score": 175.3615450895304,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "upvote",
+      "score": 174.17666978487142,
+      "corpus_freq": 2.577814712816097e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "scalability",
+      "score": 174.1089626246052,
+      "corpus_freq": 8.531339168605654e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "influ",
+      "score": 172.08375920000648,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.14e-08
+    },
+    {
+      "word": "uint",
+      "score": 172.08375920000648,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.14e-08
+    },
+    {
+      "word": "mkdir",
+      "score": 172.08375920000648,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.14e-08
+    },
+    {
+      "word": "qgis",
+      "score": 171.51129160453073,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "multifaceted",
+      "score": 171.1928871238522,
+      "corpus_freq": 0.00010802271177515073,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "favicon",
+      "score": 170.49039105926568,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.24e-08
+    },
+    {
+      "word": "albigensian",
+      "score": 170.49039105926568,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 2.88e-08
+    },
+    {
+      "word": "opcode",
+      "score": 169.54845519705978,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "gost",
+      "score": 169.12020421952414,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 8.71e-08
+    },
+    {
+      "word": "ccpa",
+      "score": 169.1087833521403,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 6.17e-08
+    },
+    {
+      "word": "acsm",
+      "score": 169.1087833521403,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 6.17e-08
+    },
+    {
+      "word": "dollarization",
+      "score": 169.0813795629081,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 3.63e-08
+    },
+    {
+      "word": "khashoggi",
+      "score": 168.6168702783946,
+      "corpus_freq": 3.068827039066782e-05,
+      "wordfreq_freq": 1.82e-07
+    },
+    {
+      "word": "aligning",
+      "score": 168.3470832859492,
+      "corpus_freq": 0.00017676443745024664,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "wordiness",
+      "score": 167.17345738106982,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 2.57e-08
+    },
+    {
+      "word": "hern",
+      "score": 167.09843563504992,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "vandross",
+      "score": 167.03742111376152,
+      "corpus_freq": 2.6391912535974324e-05,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "netcode",
+      "score": 166.8848540882238,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.31e-08
+    },
+    {
+      "word": "segwit",
+      "score": 166.72744524641263,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 5.89e-08
+    },
+    {
+      "word": "sede",
+      "score": 166.09630881547017,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "soko",
+      "score": 165.32401557262125,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "reckonings",
+      "score": 164.9907010250958,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 3.72e-08
+    },
+    {
+      "word": "icos",
+      "score": 164.9907010250958,
+      "corpus_freq": 3.068827039066782e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "naturaleza",
+      "score": 164.9907010250958,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 3.72e-08
+    },
+    {
+      "word": "hsas",
+      "score": 164.7110557691211,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 7.08e-08
+    },
+    {
+      "word": "portuguesa",
+      "score": 163.81638998577128,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "kotlin",
+      "score": 163.67077541689505,
+      "corpus_freq": 1.9640493050027406e-05,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "wcag",
+      "score": 163.35961424690092,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 2.63e-08
+    },
+    {
+      "word": "factcheck",
+      "score": 162.94656844602383,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.39e-08
+    },
+    {
+      "word": "readonly",
+      "score": 162.94656844602383,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.39e-08
+    },
+    {
+      "word": "yourname",
+      "score": 162.5868629969156,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.02e-08
+    },
+    {
+      "word": "creaminess",
+      "score": 162.29373764295482,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "geopolitically",
+      "score": 161.730015234086,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "incentivizes",
+      "score": 161.5172125824622,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "democratizing",
+      "score": 161.05900772407225,
+      "corpus_freq": 2.2709320089094186e-05,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "testimonium",
+      "score": 160.81189724367417,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.29e-08
+    },
+    {
+      "word": "ynab",
+      "score": 160.81189724367417,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.29e-08
+    },
+    {
+      "word": "onde",
+      "score": 159.5790060314727,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "gdpr",
+      "score": 159.32553359166775,
+      "corpus_freq": 5.4011355887575366e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "owasp",
+      "score": 159.18987522536622,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "decarbonization",
+      "score": 159.18987522536622,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "democratize",
+      "score": 159.12436498864795,
+      "corpus_freq": 2.1481789273467475e-05,
+      "wordfreq_freq": 1.35e-07
+    },
+    {
+      "word": "timestamps",
+      "score": 158.98742491550797,
+      "corpus_freq": 2.6391912535974324e-05,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "emphasizing",
+      "score": 158.93575844249796,
+      "corpus_freq": 0.00036396288683332033,
+      "wordfreq_freq": 2.29e-06
+    },
+    {
+      "word": "significa",
+      "score": 158.90366545329618,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "shadowboxing",
+      "score": 158.90366545329618,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "standardizes",
+      "score": 157.7803104918654,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 3.89e-08
+    },
+    {
+      "word": "iihs",
+      "score": 157.00975548713768,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 1.29e-07
+    },
+    {
+      "word": "osf",
+      "score": 156.4500059132085,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "goldmines",
+      "score": 155.38364754768517,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.16e-08
+    },
+    {
+      "word": "ipv",
+      "score": 155.2900429407287,
+      "corpus_freq": 2.577814712816097e-05,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "domitian",
+      "score": 151.59266096594948,
+      "corpus_freq": 2.5164381720347614e-05,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "misremembered",
+      "score": 151.0384672471347,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 4.47e-08
+    },
+    {
+      "word": "rephrasing",
+      "score": 150.9878002000877,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "readability",
+      "score": 150.71107878690958,
+      "corpus_freq": 8.469962627824318e-05,
+      "wordfreq_freq": 5.62e-07
+    },
+    {
+      "word": "prioritizing",
+      "score": 150.4089141677,
+      "corpus_freq": 0.00011416036585328429,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "apenas",
+      "score": 150.30989579102607,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.45e-08
+    },
+    {
+      "word": "websockets",
+      "score": 148.3420925228656,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.31e-08
+    },
+    {
+      "word": "scipy",
+      "score": 148.3420925228656,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.31e-08
+    },
+    {
+      "word": "casos",
+      "score": 148.3420925228656,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.31e-08
+    },
+    {
+      "word": "pluralized",
+      "score": 147.1859491159128,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 4.17e-08
+    },
+    {
+      "word": "amplifying",
+      "score": 146.2978998139844,
+      "corpus_freq": 7.856197220010962e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "otm",
+      "score": 146.13462090794198,
+      "corpus_freq": 1.534413519533391e-05,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "hardcoded",
+      "score": 145.88651459061103,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 5.89e-08
+    },
+    {
+      "word": "homepod",
+      "score": 145.5570137106774,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "ftx",
+      "score": 145.36549132421598,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.8e-08
+    },
+    {
+      "word": "punchier",
+      "score": 145.36549132421598,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 3.8e-08
+    },
+    {
+      "word": "rewires",
+      "score": 144.84139417424342,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.39e-08
+    },
+    {
+      "word": "doxxing",
+      "score": 144.1161869175008,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "culo",
+      "score": 143.43841019008332,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "leverages",
+      "score": 143.01329890796654,
+      "corpus_freq": 4.419110936256166e-05,
+      "wordfreq_freq": 3.09e-07
+    },
+    {
+      "word": "overbooking",
+      "score": 140.94821473793155,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "underscored",
+      "score": 140.46372517121588,
+      "corpus_freq": 8.469962627824318e-05,
+      "wordfreq_freq": 6.03e-07
+    },
+    {
+      "word": "sidelining",
+      "score": 140.28923607162432,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "prioritize",
+      "score": 139.6015437379399,
+      "corpus_freq": 0.0002847871492253974,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "sharding",
+      "score": 139.04070727163412,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "upskilling",
+      "score": 139.04070727163412,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "portioning",
+      "score": 138.31333133822116,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.55e-08
+    },
+    {
+      "word": "asker",
+      "score": 138.0972167580052,
+      "corpus_freq": 1.6571666010960623e-05,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "saut",
+      "score": 137.7840711417739,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "contextualizing",
+      "score": 137.0334047996918,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 8.51e-08
+    },
+    {
+      "word": "exacerbating",
+      "score": 136.5844146964934,
+      "corpus_freq": 4.848746721725516e-05,
+      "wordfreq_freq": 3.55e-07
+    },
+    {
+      "word": "crispiness",
+      "score": 135.9606916042245,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.16e-08
+    },
+    {
+      "word": "digo",
+      "score": 135.46604926271024,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 5.89e-08
+    },
+    {
+      "word": "pluralization",
+      "score": 135.2651036503265,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.63e-08
+    },
+    {
+      "word": "tiktok",
+      "score": 134.26118295917172,
+      "corpus_freq": 3.866722069224145e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "namespaces",
+      "score": 133.9124526138232,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "evento",
+      "score": 133.9124526138232,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.75e-08
+    },
+    {
+      "word": "steamvr",
+      "score": 132.60363749053997,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.24e-08
+    },
+    {
+      "word": "aunque",
+      "score": 132.60363749053997,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.24e-08
+    },
+    {
+      "word": "bruen",
+      "score": 132.4673542043215,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 4.17e-08
+    },
+    {
+      "word": "sandboxing",
+      "score": 131.99256082007665,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.72e-08
+    },
+    {
+      "word": "workarounds",
+      "score": 131.93088205333828,
+      "corpus_freq": 2.8233208759414393e-05,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "gamified",
+      "score": 131.14645466097357,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "bytecode",
+      "score": 131.14645466097357,
+      "corpus_freq": 1.534413519533391e-05,
+      "wordfreq_freq": 1.17e-07
+    },
+    {
+      "word": "virality",
+      "score": 131.05311198861702,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "tente",
+      "score": 130.58838464113967,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.82e-08
+    },
+    {
+      "word": "nsca",
+      "score": 130.58838464113967,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.82e-08
+    },
+    {
+      "word": "evoking",
+      "score": 130.03504402825348,
+      "corpus_freq": 9.206481117200346e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "tokenized",
+      "score": 129.3650742463749,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 4.27e-08
+    },
+    {
+      "word": "xposed",
+      "score": 129.3650742463749,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 4.27e-08
+    },
+    {
+      "word": "coinmarketcap",
+      "score": 129.21377006596975,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.8e-08
+    },
+    {
+      "word": "sqrt",
+      "score": 128.09017206539613,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "junit",
+      "score": 127.86779329444926,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.88e-08
+    },
+    {
+      "word": "chiptune",
+      "score": 127.86779329444926,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "decouples",
+      "score": 127.86779329444926,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 2.88e-08
+    },
+    {
+      "word": "grapples",
+      "score": 127.76341142237216,
+      "corpus_freq": 3.1302035798481176e-05,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "testnet",
+      "score": 126.22424839349233,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 3.89e-08
+    },
+    {
+      "word": "frisch",
+      "score": 125.90059647453464,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "sdks",
+      "score": 125.72475765264285,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 5.37e-08
+    },
+    {
+      "word": "verbo",
+      "score": 125.72475765264285,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 5.37e-08
+    },
+    {
+      "word": "garba",
+      "score": 125.54292432545927,
+      "corpus_freq": 1.6571666010960623e-05,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "iterate",
+      "score": 125.02628677679483,
+      "corpus_freq": 4.050851691568152e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "json",
+      "score": 124.50045638918618,
+      "corpus_freq": 6.996925649072263e-05,
+      "wordfreq_freq": 5.62e-07
+    },
+    {
+      "word": "occitan",
+      "score": 123.99301167946594,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "moderators",
+      "score": 123.35481235464516,
+      "corpus_freq": 0.00012582190860173806,
+      "wordfreq_freq": 1.02e-06
+    },
+    {
+      "word": "diag",
+      "score": 122.75308156267128,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "evm",
+      "score": 122.75308156267128,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "problemas",
+      "score": 122.14236971410077,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 6.03e-08
+    },
+    {
+      "word": "placeholders",
+      "score": 121.88249233173033,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "blending",
+      "score": 121.86033187857912,
+      "corpus_freq": 0.0003351159126660926,
+      "wordfreq_freq": 2.75e-06
+    },
+    {
+      "word": "estudos",
+      "score": 121.0241649209435,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.55e-08
+    },
+    {
+      "word": "reducers",
+      "score": 119.36072413975202,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 9.77e-08
+    },
+    {
+      "word": "stouts",
+      "score": 119.36072413975202,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 9.77e-08
+    },
+    {
+      "word": "todoist",
+      "score": 119.17774908997212,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "solarwinds",
+      "score": 119.17774908997212,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.09e-08
+    },
+    {
+      "word": "fostering",
+      "score": 118.36904293543301,
+      "corpus_freq": 0.00026514665617536997,
+      "wordfreq_freq": 2.24e-06
+    },
+    {
+      "word": "lwc",
+      "score": 118.35696569403567,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.63e-08
+    },
+    {
+      "word": "cleanups",
+      "score": 117.63836983089331,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "subreddits",
+      "score": 117.10451103060672,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "dapps",
+      "score": 116.90769672635359,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "overreach",
+      "score": 116.57329255951619,
+      "corpus_freq": 5.094252884850858e-05,
+      "wordfreq_freq": 4.37e-07
+    },
+    {
+      "word": "overextension",
+      "score": 116.53773566076389,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.16e-08
+    },
+    {
+      "word": "xsd",
+      "score": 116.53773566076389,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.16e-08
+    },
+    {
+      "word": "rcv",
+      "score": 115.96107570022927,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "trackways",
+      "score": 115.49349071756706,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.72e-08
+    },
+    {
+      "word": "wadden",
+      "score": 115.32126660376217,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "nft",
+      "score": 115.30275002274038,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 6.92e-08
+    },
+    {
+      "word": "metas",
+      "score": 115.08101396500433,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "pitfalls",
+      "score": 114.48248386873243,
+      "corpus_freq": 0.00016142030225491273,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "circularity",
+      "score": 114.40802557924407,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "refine",
+      "score": 114.07681663546677,
+      "corpus_freq": 0.0002178867197737415,
+      "wordfreq_freq": 1.91e-06
+    },
+    {
+      "word": "gboard",
+      "score": 113.06204880772353,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.8e-08
+    },
+    {
+      "word": "opcodes",
+      "score": 112.73242184326953,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "shafi'i",
+      "score": 112.35980005736502,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 4.37e-08
+    },
+    {
+      "word": "localhost",
+      "score": 111.06231189003593,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "axios",
+      "score": 111.06231189003593,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "dropdown",
+      "score": 110.87375108886438,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "passthrough",
+      "score": 110.65482112019646,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "dlcs",
+      "score": 110.65482112019646,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "fixates",
+      "score": 110.44621734430578,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 3.89e-08
+    },
+    {
+      "word": "petabytes",
+      "score": 110.20649587808886,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "markdown",
+      "score": 110.03762291474517,
+      "corpus_freq": 2.7619443351601038e-05,
+      "wordfreq_freq": 2.51e-07
+    },
+    {
+      "word": "broader",
+      "score": 109.39465798085118,
+      "corpus_freq": 0.001115825511404682,
+      "wordfreq_freq": 1.02e-05
+    },
+    {
+      "word": "fnatic",
+      "score": 109.36183630128895,
+      "corpus_freq": 3.0074504982854463e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "subjunctive",
+      "score": 108.92174842884917,
+      "corpus_freq": 3.866722069224145e-05,
+      "wordfreq_freq": 3.55e-07
+    },
+    {
+      "word": "predating",
+      "score": 108.89386267656323,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "exacerbates",
+      "score": 108.7685532833796,
+      "corpus_freq": 3.4370862837547956e-05,
+      "wordfreq_freq": 3.16e-07
+    },
+    {
+      "word": "whitepapers",
+      "score": 108.63104563068255,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.39e-08
+    },
+    {
+      "word": "estar",
+      "score": 107.82365272396802,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "virtualbox",
+      "score": 107.40894636733738,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "endures",
+      "score": 107.32861058097437,
+      "corpus_freq": 0.00010249882310483052,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "mitigates",
+      "score": 107.20793149578277,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 2.29e-07
+    },
+    {
+      "word": "hyperloop",
+      "score": 107.01550700335444,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "ndas",
+      "score": 106.4333077132988,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 6.92e-08
+    },
+    {
+      "word": "phpbb",
+      "score": 106.12658348357748,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "prefiguring",
+      "score": 106.12658348357748,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "lifehacks",
+      "score": 106.12658348357748,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.47e-08
+    },
+    {
+      "word": "beeches",
+      "score": 105.82162203678558,
+      "corpus_freq": 1.534413519533391e-05,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "pseudocode",
+      "score": 105.69146014006138,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "numpy",
+      "score": 105.69146014006138,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "absurdism",
+      "score": 105.56161805143721,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 4.07e-08
+    },
+    {
+      "word": "drawdowns",
+      "score": 105.21692705371824,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "premia",
+      "score": 105.12450990215592,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "neurodiversity",
+      "score": 104.91716372877887,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "backpropagation",
+      "score": 103.73499850366586,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.55e-08
+    },
+    {
+      "word": "aerogels",
+      "score": 103.73499850366586,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.55e-08
+    },
+    {
+      "word": "prefigured",
+      "score": 103.27783304551669,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "kilimnik",
+      "score": 103.03016438113895,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 4.17e-08
+    },
+    {
+      "word": "xda",
+      "score": 102.8298065446461,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "brahmi",
+      "score": 102.82152450481487,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "relatability",
+      "score": 102.50779253667748,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "hardhat",
+      "score": 102.50779253667748,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "lockdowns",
+      "score": 102.2942346355594,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 1.38e-07
+    },
+    {
+      "word": "jcpoa",
+      "score": 102.13947785093677,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "evernote",
+      "score": 101.61678937307225,
+      "corpus_freq": 3.068827039066782e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "tweaks",
+      "score": 101.42364540461847,
+      "corpus_freq": 0.00014300734002051205,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "ferc",
+      "score": 101.38089325488475,
+      "corpus_freq": 2.2709320089094186e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "nginx",
+      "score": 100.99937090599536,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "troubleshooting",
+      "score": 100.94825786403888,
+      "corpus_freq": 9.206481117200346e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "flashpoints",
+      "score": 100.94825786403888,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "akademi",
+      "score": 100.94825786403888,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "lcms",
+      "score": 100.94825786403888,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "overexertion",
+      "score": 100.20659719401738,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "callused",
+      "score": 100.20659719401738,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "tokenization",
+      "score": 100.20659719401738,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "epirus",
+      "score": 100.11776155820706,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "lira",
+      "score": 99.8860796748451,
+      "corpus_freq": 9.758869984232366e-05,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "como",
+      "score": 99.44553443051852,
+      "corpus_freq": 0.00015712394440021925,
+      "wordfreq_freq": 1.58e-06
+    },
+    {
+      "word": "cathar",
+      "score": 99.39520774305367,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "resilience",
+      "score": 99.17156852563178,
+      "corpus_freq": 0.0003768519603974008,
+      "wordfreq_freq": 3.8e-06
+    },
+    {
+      "word": "mqtt",
+      "score": 98.99442061505748,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.72e-08
+    },
+    {
+      "word": "embodying",
+      "score": 98.3598409957302,
+      "corpus_freq": 4.603240558600173e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "overfitting",
+      "score": 98.28983399146277,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "storyboards",
+      "score": 98.09036197930354,
+      "corpus_freq": 2.1481789273467475e-05,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "initializes",
+      "score": 98.00645234544614,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "posso",
+      "score": 98.00645234544614,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "lez",
+      "score": 97.79778476146889,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 1.82e-07
+    },
+    {
+      "word": "estoy",
+      "score": 97.42308060529467,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1.26e-07
+    },
+    {
+      "word": "montenegrin",
+      "score": 97.35589227384274,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "wastebasket",
+      "score": 97.17952290378145,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "elevates",
+      "score": 97.13504714959205,
+      "corpus_freq": 5.5852652111015435e-05,
+      "wordfreq_freq": 5.75e-07
+    },
+    {
+      "word": "unyielding",
+      "score": 97.04837644912045,
+      "corpus_freq": 4.541864017818837e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "underscore",
+      "score": 96.70258836930695,
+      "corpus_freq": 9.022351494856338e-05,
+      "wordfreq_freq": 9.33e-07
+    },
+    {
+      "word": "incentivizing",
+      "score": 96.06762904904708,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "setups",
+      "score": 95.90084497083693,
+      "corpus_freq": 7.978950301573633e-05,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "personalization",
+      "score": 95.69460659455558,
+      "corpus_freq": 3.5598393653174674e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "grep",
+      "score": 95.15742756796223,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1.29e-07
+    },
+    {
+      "word": "innovates",
+      "score": 95.01012504850718,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "pathfinding",
+      "score": 95.01012504850718,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "adaptability",
+      "score": 94.94713491035347,
+      "corpus_freq": 6.874172567509591e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "phylogenetics",
+      "score": 94.0122068860721,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 4.57e-08
+    },
+    {
+      "word": "frase",
+      "score": 94.0122068860721,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 4.57e-08
+    },
+    {
+      "word": "structs",
+      "score": 94.0122068860721,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 4.57e-08
+    },
+    {
+      "word": "vim",
+      "score": 93.94368486939129,
+      "corpus_freq": 4.603240558600173e-05,
+      "wordfreq_freq": 4.9e-07
+    },
+    {
+      "word": "phrasing",
+      "score": 93.83219847198957,
+      "corpus_freq": 8.960974954075004e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "optogenetics",
+      "score": 93.52615738108288,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "snappier",
+      "score": 93.52615738108288,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "gitlab",
+      "score": 93.25165035838289,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "onboarding",
+      "score": 93.18951218108553,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "rcts",
+      "score": 92.99475875959946,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "flakiness",
+      "score": 92.52744841407383,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 3.98e-08
+    },
+    {
+      "word": "immutability",
+      "score": 92.06481117200346,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "rdna",
+      "score": 91.77800490667012,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "serialize",
+      "score": 91.60677728557557,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 6.03e-08
+    },
+    {
+      "word": "workflows",
+      "score": 91.41186924879776,
+      "corpus_freq": 2.577814712816097e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "crackdowns",
+      "score": 91.0531099503331,
+      "corpus_freq": 1.6571666010960623e-05,
+      "wordfreq_freq": 1.82e-07
+    },
+    {
+      "word": "modernizes",
+      "score": 90.4813869012319,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.07e-08
+    },
+    {
+      "word": "mesmo",
+      "score": 90.4813869012319,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.07e-08
+    },
+    {
+      "word": "amid",
+      "score": 89.55050843516985,
+      "corpus_freq": 0.0007978950301573633,
+      "wordfreq_freq": 8.91e-06
+    },
+    {
+      "word": "copyleft",
+      "score": 89.52817942172135,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 6.17e-08
+    },
+    {
+      "word": "critiqued",
+      "score": 89.4432001336047,
+      "corpus_freq": 3.5598393653174674e-05,
+      "wordfreq_freq": 3.98e-07
+    },
+    {
+      "word": "erodes",
+      "score": 89.23539617144543,
+      "corpus_freq": 2.5164381720347614e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "suboptimal",
+      "score": 89.03387088650541,
+      "corpus_freq": 2.8846974167227752e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "navigated",
+      "score": 88.53342187259112,
+      "corpus_freq": 5.462512129538872e-05,
+      "wordfreq_freq": 6.17e-07
+    },
+    {
+      "word": "pomodoro",
+      "score": 87.6807725447652,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "semele",
+      "score": 87.68077254476519,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "validations",
+      "score": 87.5418172792426,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 6.31e-08
+    },
+    {
+      "word": "endgames",
+      "score": 87.3687413257447,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "countable",
+      "score": 87.13953320806912,
+      "corpus_freq": 2.8233208759414393e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "synthwave",
+      "score": 87.00282842715104,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "tensorflow",
+      "score": 86.9500994402255,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "sohr",
+      "score": 86.69002935216898,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 7.08e-08
+    },
+    {
+      "word": "microcosm",
+      "score": 86.56913042058434,
+      "corpus_freq": 5.462512129538872e-05,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "deps",
+      "score": 86.24338283091659,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.27e-08
+    },
+    {
+      "word": "possessives",
+      "score": 86.24338283091659,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.27e-08
+    },
+    {
+      "word": "gerund",
+      "score": 86.04187960000323,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "npm",
+      "score": 85.97492093883592,
+      "corpus_freq": 2.209555468128083e-05,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "manera",
+      "score": 85.75564580226536,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "impeachments",
+      "score": 85.75564580226536,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "prioritized",
+      "score": 85.71690807406559,
+      "corpus_freq": 6.505913322821577e-05,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "canva",
+      "score": 85.50911254365647,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "humanized",
+      "score": 85.17560761491477,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "const",
+      "score": 85.14664617063904,
+      "corpus_freq": 5.8921479150082215e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "humanize",
+      "score": 84.88245001674078,
+      "corpus_freq": 2.39368509047209e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "uncountable",
+      "score": 84.8112199887547,
+      "corpus_freq": 2.3323085496907544e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "meta",
+      "score": 84.69962627824319,
+      "corpus_freq": 0.0004658479445303375,
+      "wordfreq_freq": 5.5e-06
+    },
+    {
+      "word": "kael",
+      "score": 84.65729762942847,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 1.74e-07
+    },
+    {
+      "word": "bootloader",
+      "score": 84.65729762942847,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 1.74e-07
+    },
+    {
+      "word": "atd",
+      "score": 84.50393295980994,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.38e-07
+    },
+    {
+      "word": "quipping",
+      "score": 84.26985004302377,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.37e-08
+    },
+    {
+      "word": "globalfoundries",
+      "score": 84.26985004302377,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.37e-08
+    },
+    {
+      "word": "estos",
+      "score": 84.26985004302377,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.37e-08
+    },
+    {
+      "word": "parsers",
+      "score": 84.24231087634303,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "ordinals",
+      "score": 83.74966578349891,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.13e-08
+    },
+    {
+      "word": "leasable",
+      "score": 83.74966578349891,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.13e-08
+    },
+    {
+      "word": "lookups",
+      "score": 83.6952828836395,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "hyphenation",
+      "score": 83.568663696221,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "garo",
+      "score": 83.15531331664829,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "bodhi",
+      "score": 82.94127132612925,
+      "corpus_freq": 3.3757097429734604e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "hargrove",
+      "score": 82.67044268506433,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 2.45e-07
+    },
+    {
+      "word": "trialed",
+      "score": 82.66200778631062,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "alibis",
+      "score": 82.4953505125479,
+      "corpus_freq": 1.534413519533391e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "polkadot",
+      "score": 82.38461849843709,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.47e-08
+    },
+    {
+      "word": "chmod",
+      "score": 82.38461849843709,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.47e-08
+    },
+    {
+      "word": "guangming",
+      "score": 82.38461849843709,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.47e-08
+    },
+    {
+      "word": "gradle",
+      "score": 81.83538770844751,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "wookiees",
+      "score": 81.83538770844751,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "eav",
+      "score": 81.71432944260663,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 6.76e-08
+    },
+    {
+      "word": "underreporting",
+      "score": 81.6678638850935,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 9.77e-08
+    },
+    {
+      "word": "reasoned",
+      "score": 81.53452231246058,
+      "corpus_freq": 0.00016633042551741957,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "encapsulates",
+      "score": 81.31080188980361,
+      "corpus_freq": 3.8053455284428095e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "regex",
+      "score": 81.2934314984578,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1.51e-07
+    },
+    {
+      "word": "nlp",
+      "score": 80.46795835085135,
+      "corpus_freq": 3.1302035798481176e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "escalations",
+      "score": 80.30575429333635,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "todos",
+      "score": 79.92522509608818,
+      "corpus_freq": 3.252956661410789e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "ensures",
+      "score": 79.8820304641504,
+      "corpus_freq": 0.0003179304812473186,
+      "wordfreq_freq": 3.98e-06
+    },
+    {
+      "word": "vividness",
+      "score": 79.83940264238782,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.23e-07
+    },
+    {
+      "word": "pivotal",
+      "score": 79.82834892762327,
+      "corpus_freq": 0.0002522575826112895,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "misspelling",
+      "score": 79.5949376126831,
+      "corpus_freq": 2.7619443351601038e-05,
+      "wordfreq_freq": 3.47e-07
+    },
+    {
+      "word": "leveraging",
+      "score": 79.49723377392046,
+      "corpus_freq": 8.347209546261647e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "wikis",
+      "score": 79.27803184255853,
+      "corpus_freq": 1.9026727642214047e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "rader",
+      "score": 79.27803184255853,
+      "corpus_freq": 1.9026727642214047e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "colloid",
+      "score": 79.19553649204599,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "seanad",
+      "score": 79.09348038831912,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "eroding",
+      "score": 78.88792671047378,
+      "corpus_freq": 5.5852652111015435e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "querying",
+      "score": 78.85180586491038,
+      "corpus_freq": 2.2709320089094186e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "hyphens",
+      "score": 78.79420775982278,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "duolingo",
+      "score": 78.79420775982278,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "olentangy",
+      "score": 78.68787279658414,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "selinux",
+      "score": 78.68787279658414,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "endif",
+      "score": 78.68787279658414,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.68e-08
+    },
+    {
+      "word": "config",
+      "score": 78.61390064824424,
+      "corpus_freq": 6.690042945165585e-05,
+      "wordfreq_freq": 8.51e-07
+    },
+    {
+      "word": "utg",
+      "score": 78.11559735806354,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.5e-08
+    },
+    {
+      "word": "lck",
+      "score": 78.11559735806354,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "comprehensively",
+      "score": 78.06665274819007,
+      "corpus_freq": 7.119678730634935e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "rng",
+      "score": 77.72575033444252,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 2.29e-07
+    },
+    {
+      "word": "rpc",
+      "score": 76.98074606472606,
+      "corpus_freq": 2.2709320089094186e-05,
+      "wordfreq_freq": 2.95e-07
+    },
+    {
+      "word": "laxer",
+      "score": 76.88084440250812,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "txs",
+      "score": 76.88084440250812,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.79e-08
+    },
+    {
+      "word": "disruptions",
+      "score": 76.85410323923767,
+      "corpus_freq": 8.838221872512332e-05,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "twrp",
+      "score": 76.72067597666955,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "rfcs",
+      "score": 76.44764866002659,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "hrsa",
+      "score": 76.44764866002659,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "cengiz",
+      "score": 76.44764866002659,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "barcoding",
+      "score": 76.2968048386769,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "quieres",
+      "score": 76.2968048386769,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "amplify",
+      "score": 76.19156786648561,
+      "corpus_freq": 0.00011047777340640415,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "desantis",
+      "score": 75.88372314783315,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "kaos",
+      "score": 75.88372314783315,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "bolstered",
+      "score": 75.75442061172409,
+      "corpus_freq": 6.0149009965708925e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "overtraining",
+      "score": 75.49390010004385,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "greenwashing",
+      "score": 75.15494789551303,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "svb",
+      "score": 75.15494789551303,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "irredentist",
+      "score": 75.15494789551303,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 4.9e-08
+    },
+    {
+      "word": "vulnerabilities",
+      "score": 74.73496436315575,
+      "corpus_freq": 0.00012704943941736478,
+      "wordfreq_freq": 1.7e-06
+    },
+    {
+      "word": "undelete",
+      "score": 74.71926703814773,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "preprints",
+      "score": 74.71926703814773,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "unlink",
+      "score": 74.71926703814773,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "fosters",
+      "score": 74.69858064085035,
+      "corpus_freq": 9.636116902669696e-05,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "evokes",
+      "score": 74.67479128395837,
+      "corpus_freq": 8.960974954075004e-05,
+      "wordfreq_freq": 1.2e-06
+    },
+    {
+      "word": "pedalboard",
+      "score": 74.54640580729026,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "overcooking",
+      "score": 74.2832566188631,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "embeds",
+      "score": 73.94763949558511,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "pela",
+      "score": 73.76988074679764,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "interpolate",
+      "score": 73.65184893760276,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "staleness",
+      "score": 73.5048392590846,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "vijayanagara",
+      "score": 73.5048392590846,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.01e-08
+    },
+    {
+      "word": "frontend",
+      "score": 73.16408834861203,
+      "corpus_freq": 2.209555468128083e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "ryzen",
+      "score": 73.16408834861203,
+      "corpus_freq": 2.209555468128083e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "oauth",
+      "score": 72.7785068553387,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "laner",
+      "score": 72.7785068553387,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "bsm",
+      "score": 72.53591183248757,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "multimodal",
+      "score": 72.51983204711128,
+      "corpus_freq": 2.5164381720347614e-05,
+      "wordfreq_freq": 3.47e-07
+    },
+    {
+      "word": "surged",
+      "score": 72.42431812197606,
+      "corpus_freq": 7.242431812197605e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "refines",
+      "score": 72.4105256409016,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "postgresql",
+      "score": 72.4105256409016,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "amplified",
+      "score": 72.30660968760088,
+      "corpus_freq": 0.00015835147521584594,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "aioli",
+      "score": 72.20769503686546,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 2.04e-07
+    },
+    {
+      "word": "pok",
+      "score": 71.82361155262682,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "handoffs",
+      "score": 71.78542781442765,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.13e-08
+    },
+    {
+      "word": "abruptness",
+      "score": 71.78542781442765,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.13e-08
+    },
+    {
+      "word": "foundational",
+      "score": 71.51701273651284,
+      "corpus_freq": 8.224456464698976e-05,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "cloudflare",
+      "score": 71.41997472737238,
+      "corpus_freq": 1.9640493050027406e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "microplastics",
+      "score": 71.24062769262173,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "ingalls",
+      "score": 71.00113972133943,
+      "corpus_freq": 2.7619443351601038e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "metoo",
+      "score": 70.98710232716755,
+      "corpus_freq": 3.9894751507868164e-05,
+      "wordfreq_freq": 5.62e-07
+    },
+    {
+      "word": "cooldown",
+      "score": 70.81908551692574,
+      "corpus_freq": 1.6571666010960623e-05,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "rippled",
+      "score": 70.73132952495929,
+      "corpus_freq": 1.9026727642214047e-05,
+      "wordfreq_freq": 2.69e-07
+    },
+    {
+      "word": "verbosity",
+      "score": 70.6954919994442,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "esg",
+      "score": 70.58302189853599,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "embodies",
+      "score": 70.48402747792093,
+      "corpus_freq": 0.00010925024259077744,
+      "wordfreq_freq": 1.55e-06
+    },
+    {
+      "word": "streamlines",
+      "score": 70.48023821780168,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "gensler",
+      "score": 70.46675175813506,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 8.71e-08
+    },
+    {
+      "word": "centos",
+      "score": 70.25025752080586,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "brevity",
+      "score": 70.21892377525687,
+      "corpus_freq": 4.971499803288187e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "figma",
+      "score": 70.14461803581216,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.25e-08
+    },
+    {
+      "word": "infuses",
+      "score": 69.92264139645832,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "diluting",
+      "score": 69.83763940108214,
+      "corpus_freq": 3.1915801206294535e-05,
+      "wordfreq_freq": 4.57e-07
+    },
+    {
+      "word": "versioning",
+      "score": 69.7460690696996,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "blacklists",
+      "score": 69.7460690696996,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "usas",
+      "score": 69.57038627607315,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 7.94e-08
+    },
+    {
+      "word": "optimizations",
+      "score": 69.42333661642078,
+      "corpus_freq": 2.7005677943787683e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "actionable",
+      "score": 69.35549108290927,
+      "corpus_freq": 6.935549108290927e-05,
+      "wordfreq_freq": 1e-06
+    },
+    {
+      "word": "cidade",
+      "score": 69.35202348173519,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 7.08e-08
+    },
+    {
+      "word": "tienes",
+      "score": 69.35202348173519,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 7.08e-08
+    },
+    {
+      "word": "mindfully",
+      "score": 68.83350368000258,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "pivoted",
+      "score": 68.79966223276561,
+      "corpus_freq": 2.3323085496907544e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "conyers",
+      "score": 68.65384874869757,
+      "corpus_freq": 3.068827039066782e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "humanizing",
+      "score": 68.50060355059782,
+      "corpus_freq": 1.534413519533391e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "convolutional",
+      "score": 68.19615642370627,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.26e-07
+    },
+    {
+      "word": "paywalls",
+      "score": 68.08808010607757,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 6.31e-08
+    },
+    {
+      "word": "emphasizes",
+      "score": 68.0832488799584,
+      "corpus_freq": 0.0002056114116174744,
+      "wordfreq_freq": 3.02e-06
+    },
+    {
+      "word": "bootcamps",
+      "score": 67.94451009003946,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "mods",
+      "score": 67.82247885426129,
+      "corpus_freq": 0.00014853122869083225,
+      "wordfreq_freq": 2.19e-06
+    },
+    {
+      "word": "omran",
+      "score": 67.72583810354278,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "esto",
+      "score": 67.54356162539328,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "downturns",
+      "score": 67.51419485946921,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "args",
+      "score": 67.31620601823909,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "podcasters",
+      "score": 67.31620601823909,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "seamlessly",
+      "score": 67.22192561765333,
+      "corpus_freq": 8.469962627824318e-05,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "urls",
+      "score": 67.17830334275543,
+      "corpus_freq": 4.050851691568152e-05,
+      "wordfreq_freq": 6.03e-07
+    },
+    {
+      "word": "etymology",
+      "score": 66.94341417022831,
+      "corpus_freq": 5.8307713742268856e-05,
+      "wordfreq_freq": 8.71e-07
+    },
+    {
+      "word": "navigates",
+      "score": 66.49125251311362,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "glute",
+      "score": 66.49125251311362,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "regolith",
+      "score": 66.3530170609034,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "roblox",
+      "score": 66.29123585321169,
+      "corpus_freq": 3.5598393653174674e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "mentees",
+      "score": 66.26347182870245,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "mirroring",
+      "score": 66.19038711712668,
+      "corpus_freq": 6.751419485946921e-05,
+      "wordfreq_freq": 1.02e-06
+    },
+    {
+      "word": "multipolar",
+      "score": 66.19038711712668,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "shinichi",
+      "score": 66.16801794270386,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 2.69e-07
+    },
+    {
+      "word": "ipas",
+      "score": 66.09781314913069,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "uis",
+      "score": 66.03805020776619,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "vlan",
+      "score": 66.0225737488471,
+      "corpus_freq": 1.6571666010960623e-05,
+      "wordfreq_freq": 2.51e-07
+    },
+    {
+      "word": "csv",
+      "score": 65.99628041003832,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "undercurrents",
+      "score": 65.99628041003832,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "linchpin",
+      "score": 65.96544102666914,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "aave",
+      "score": 65.7605794085739,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "verifications",
+      "score": 65.7605794085739,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "enhancements",
+      "score": 65.60940566280706,
+      "corpus_freq": 9.513363821107024e-05,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "radula",
+      "score": 65.52655599430851,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.62e-08
+    },
+    {
+      "word": "caching",
+      "score": 65.3487177421319,
+      "corpus_freq": 3.1302035798481176e-05,
+      "wordfreq_freq": 4.79e-07
+    },
+    {
+      "word": "bioluminescent",
+      "score": 65.29419232056983,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "hypotheticals",
+      "score": 65.29419232056983,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "skidmore",
+      "score": 65.29419232056983,
+      "corpus_freq": 1.8412962234400692e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "integrates",
+      "score": 65.28232064923881,
+      "corpus_freq": 7.181055271416269e-05,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "ahca",
+      "score": 65.03474519876625,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.51e-07
+    },
+    {
+      "word": "microclimates",
+      "score": 64.9978495415052,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "dilutes",
+      "score": 64.98692553317892,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "banat",
+      "score": 64.6920060936344,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "rivaling",
+      "score": 64.45938072925661,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "worldbuilding",
+      "score": 64.29923319949448,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "ehrs",
+      "score": 64.04508603269807,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "playtesting",
+      "score": 64.04508603269807,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.75e-08
+    },
+    {
+      "word": "upwork",
+      "score": 64.04508603269807,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "enriches",
+      "score": 63.93389664722463,
+      "corpus_freq": 1.8412962234400692e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "demographically",
+      "score": 63.93389664722463,
+      "corpus_freq": 1.534413519533391e-05,
+      "wordfreq_freq": 2.4e-07
+    },
+    {
+      "word": "estado",
+      "score": 63.93389664722463,
+      "corpus_freq": 1.8412962234400692e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "deindustrialization",
+      "score": 63.55558956647182,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 6.76e-08
+    },
+    {
+      "word": "bootstrapped",
+      "score": 63.55558956647182,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 6.76e-08
+    },
+    {
+      "word": "recaptures",
+      "score": 63.420076582321556,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 8.71e-08
+    },
+    {
+      "word": "duas",
+      "score": 63.420076582321556,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 8.71e-08
+    },
+    {
+      "word": "blared",
+      "score": 63.325002393441544,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.26e-07
+    },
+    {
+      "word": "extensibility",
+      "score": 63.325002393441544,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.26e-07
+    },
+    {
+      "word": "shimmered",
+      "score": 63.274784310655306,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "aoe",
+      "score": 63.18173315725728,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 2.04e-07
+    },
+    {
+      "word": "wipo",
+      "score": 63.020555266549984,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "betas",
+      "score": 63.0024094113048,
+      "corpus_freq": 1.9026727642214047e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "optimizes",
+      "score": 62.85549357124734,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "holistically",
+      "score": 62.85549357124734,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "brasileira",
+      "score": 62.82143375776422,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 9.77e-08
+    },
+    {
+      "word": "nerfs",
+      "score": 62.52279196740473,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.89e-08
+    },
+    {
+      "word": "intertwines",
+      "score": 62.52279196740473,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 5.89e-08
+    },
+    {
+      "word": "thematically",
+      "score": 62.49247788645083,
+      "corpus_freq": 3.4370862837547956e-05,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "mismatches",
+      "score": 62.49247788645083,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "expansions",
+      "score": 62.36648498748621,
+      "corpus_freq": 0.00011600166207672435,
+      "wordfreq_freq": 1.86e-06
+    },
+    {
+      "word": "kushner",
+      "score": 62.19321942018658,
+      "corpus_freq": 6.0762775373522284e-05,
+      "wordfreq_freq": 9.77e-07
+    },
+    {
+      "word": "vibrancy",
+      "score": 61.907173698753525,
+      "corpus_freq": 2.1481789273467475e-05,
+      "wordfreq_freq": 3.47e-07
+    },
+    {
+      "word": "kislyak",
+      "score": 61.85232791917545,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.29e-07
+    },
+    {
+      "word": "researchgate",
+      "score": 61.840343356509464,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 7.94e-08
+    },
+    {
+      "word": "wea",
+      "score": 61.81809862868338,
+      "corpus_freq": 2.577814712816097e-05,
+      "wordfreq_freq": 4.17e-07
+    },
+    {
+      "word": "anhalt",
+      "score": 61.37654078133564,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "hdds",
+      "score": 61.37654078133564,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "krw",
+      "score": 61.37654078133564,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "aggregators",
+      "score": 61.05519763588362,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "synthesizes",
+      "score": 60.94124616586517,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "wove",
+      "score": 60.869296642646916,
+      "corpus_freq": 2.209555468128083e-05,
+      "wordfreq_freq": 3.63e-07
+    },
+    {
+      "word": "backdoors",
+      "score": 60.70207330022207,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 1.82e-07
+    },
+    {
+      "word": "empowers",
+      "score": 60.61880570996113,
+      "corpus_freq": 5.4011355887575366e-05,
+      "wordfreq_freq": 8.91e-07
+    },
+    {
+      "word": "sahitya",
+      "score": 60.568954718423335,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "query",
+      "score": 60.533842280905404,
+      "corpus_freq": 0.0002645328907675566,
+      "wordfreq_freq": 4.37e-06
+    },
+    {
+      "word": "menos",
+      "score": 60.44659319373965,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "thrives",
+      "score": 60.40230997528269,
+      "corpus_freq": 7.610691056885619e-05,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "g",
+      "score": 60.36996551252173,
+      "corpus_freq": 0.0060369965512521735,
+      "wordfreq_freq": 0.0001
+    },
+    {
+      "word": "dashboards",
+      "score": 60.32736914404785,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "arma",
+      "score": 60.32092460082127,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "sentience",
+      "score": 60.22931572000226,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "uspto",
+      "score": 60.22931572000226,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "usdt",
+      "score": 60.17307919738788,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "reframed",
+      "score": 60.17307919738788,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.02e-07
+    },
+    {
+      "word": "customizations",
+      "score": 59.96558582084516,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.74e-07
+    },
+    {
+      "word": "backlogs",
+      "score": 59.96558582084516,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.74e-07
+    },
+    {
+      "word": "solidifying",
+      "score": 59.76136865551101,
+      "corpus_freq": 2.2709320089094186e-05,
+      "wordfreq_freq": 3.8e-07
+    },
+    {
+      "word": "interweaves",
+      "score": 59.685452947814234,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.17e-08
+    },
+    {
+      "word": "elasticsearch",
+      "score": 59.685452947814234,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.17e-08
+    },
+    {
+      "word": "everytown",
+      "score": 59.685452947814234,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.17e-08
+    },
+    {
+      "word": "yaml",
+      "score": 59.685452947814234,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.17e-08
+    },
+    {
+      "word": "thoroughness",
+      "score": 59.67163687074298,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "geopolitical",
+      "score": 59.635362319453776,
+      "corpus_freq": 8.408586087042982e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "subparagraph",
+      "score": 59.26010834059993,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "ethos",
+      "score": 59.027199507408916,
+      "corpus_freq": 0.00012336684697048463,
+      "wordfreq_freq": 2.09e-06
+    },
+    {
+      "word": "underrepresentation",
+      "score": 59.015904597438116,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "fatf",
+      "score": 59.015904597438116,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "ohtani",
+      "score": 59.015904597438116,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "esses",
+      "score": 59.015904597438116,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "reshaped",
+      "score": 58.932978267793004,
+      "corpus_freq": 2.5164381720347614e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "underserved",
+      "score": 58.90627753007445,
+      "corpus_freq": 3.8053455284428095e-05,
+      "wordfreq_freq": 6.46e-07
+    },
+    {
+      "word": "rationale",
+      "score": 58.84181638328638,
+      "corpus_freq": 0.00019947375753934083,
+      "wordfreq_freq": 3.39e-06
+    },
+    {
+      "word": "donde",
+      "score": 58.73353184816807,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "journaling",
+      "score": 58.724468031524836,
+      "corpus_freq": 1.9026727642214047e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "errs",
+      "score": 58.707995529973225,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "anglicized",
+      "score": 58.707995529973225,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "precedents",
+      "score": 58.54998956114255,
+      "corpus_freq": 5.339759047976201e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "macos",
+      "score": 58.4538483631768,
+      "corpus_freq": 6.137654078133564e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "knecht",
+      "score": 58.453848363176796,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "shader",
+      "score": 58.37871488199019,
+      "corpus_freq": 2.2709320089094186e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "influxes",
+      "score": 58.36121151949506,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.31e-08
+    },
+    {
+      "word": "spotlighted",
+      "score": 58.268867830381936,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "vpns",
+      "score": 58.25569972465755,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 2.95e-07
+    },
+    {
+      "word": "github",
+      "score": 58.124803521397325,
+      "corpus_freq": 8.776845331730996e-05,
+      "wordfreq_freq": 1.51e-06
+    },
+    {
+      "word": "xpath",
+      "score": 57.98053785011464,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "borers",
+      "score": 57.98053785011464,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "grappled",
+      "score": 57.936557669697365,
+      "corpus_freq": 1.9640493050027406e-05,
+      "wordfreq_freq": 3.39e-07
+    },
+    {
+      "word": "persist",
+      "score": 57.93655766969736,
+      "corpus_freq": 0.00019640493050027404,
+      "wordfreq_freq": 3.39e-06
+    },
+    {
+      "word": "graphene",
+      "score": 57.869309879545035,
+      "corpus_freq": 6.0762775373522284e-05,
+      "wordfreq_freq": 1.05e-06
+    },
+    {
+      "word": "birdwatchers",
+      "score": 57.84176618136343,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "flashier",
+      "score": 57.84176618136343,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "recapping",
+      "score": 57.76615602949237,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "congeners",
+      "score": 57.69827570513339,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.51e-08
+    },
+    {
+      "word": "imperatives",
+      "score": 57.66923294890597,
+      "corpus_freq": 2.577814712816097e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "datasets",
+      "score": 57.65137501137018,
+      "corpus_freq": 3.9894751507868164e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "trended",
+      "score": 57.48256085261042,
+      "corpus_freq": 1.9026727642214047e-05,
+      "wordfreq_freq": 3.31e-07
+    },
+    {
+      "word": "minimizes",
+      "score": 57.414155408100534,
+      "corpus_freq": 4.35773439547483e-05,
+      "wordfreq_freq": 7.59e-07
+    },
+    {
+      "word": "xss",
+      "score": 57.361253066668816,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "kitkat",
+      "score": 57.05424917701623,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 3.55e-07
+    },
+    {
+      "word": "validators",
+      "score": 57.006075029104316,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "freethought",
+      "score": 57.006075029104316,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "seus",
+      "score": 57.006075029104316,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.46e-08
+    },
+    {
+      "word": "mbs",
+      "score": 56.999772533247025,
+      "corpus_freq": 3.4370862837547956e-05,
+      "wordfreq_freq": 6.03e-07
+    },
+    {
+      "word": "encapsulating",
+      "score": 56.830130353088556,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.62e-07
+    },
+    {
+      "word": "boilerplate",
+      "score": 56.830130353088556,
+      "corpus_freq": 1.8412962234400692e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "iterative",
+      "score": 56.79873249101503,
+      "corpus_freq": 4.112228232349488e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "refactor",
+      "score": 56.605505331930104,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "retrospectives",
+      "score": 56.58830001116052,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "etymological",
+      "score": 56.58830001116052,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "overusing",
+      "score": 56.5392903819878,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 9.77e-08
+    },
+    {
+      "word": "th",
+      "score": 56.40426405980971,
+      "corpus_freq": 0.0008911873721449935,
+      "wordfreq_freq": 1.58e-05
+    },
+    {
+      "word": "quanto",
+      "score": 56.37340140650805,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.71e-08
+    },
+    {
+      "word": "interpretable",
+      "score": 56.37340140650805,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.71e-08
+    },
+    {
+      "word": "modding",
+      "score": 56.32657223603587,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 3.16e-07
+    },
+    {
+      "word": "obviousness",
+      "score": 56.261829049557676,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "nica",
+      "score": 56.09683834853257,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "nominative",
+      "score": 56.09683834853257,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "inequities",
+      "score": 56.058198840095784,
+      "corpus_freq": 2.39368509047209e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "newsom",
+      "score": 56.058198840095784,
+      "corpus_freq": 2.39368509047209e-05,
+      "wordfreq_freq": 4.27e-07
+    },
+    {
+      "word": "tailored",
+      "score": 55.96593663532258,
+      "corpus_freq": 0.00020315634998622096,
+      "wordfreq_freq": 3.63e-06
+    },
+    {
+      "word": "todo",
+      "score": 55.85803601810151,
+      "corpus_freq": 5.094252884850858e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "scrambles",
+      "score": 55.796855255759674,
+      "corpus_freq": 2.2709320089094186e-05,
+      "wordfreq_freq": 4.07e-07
+    },
+    {
+      "word": "marjory",
+      "score": 55.796855255759674,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "counterexamples",
+      "score": 55.79685525575967,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.1e-07
+    },
+    {
+      "word": "jwst",
+      "score": 55.71244246414732,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "offloads",
+      "score": 55.71244246414732,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "mni",
+      "score": 55.71244246414732,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "hotkeys",
+      "score": 55.71244246414732,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "sandboxes",
+      "score": 55.71244246414732,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.61e-08
+    },
+    {
+      "word": "tico",
+      "score": 55.46072962168883,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "burrs",
+      "score": 55.46072962168883,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "aggro",
+      "score": 55.40937709426135,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "accessibility",
+      "score": 55.31466021033953,
+      "corpus_freq": 0.00017921949908150008,
+      "wordfreq_freq": 3.24e-06
+    },
+    {
+      "word": "impossibilities",
+      "score": 55.23888670320208,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "cmas",
+      "score": 55.23888670320208,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "divergences",
+      "score": 55.16992429782979,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "playstyle",
+      "score": 55.108005190873754,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "alyx",
+      "score": 55.108005190873754,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "antonym",
+      "score": 55.108005190873754,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "hummed",
+      "score": 55.081510957608906,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "iterating",
+      "score": 55.02724345912851,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "trello",
+      "score": 54.800482840478246,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "influencing",
+      "score": 54.77273576055902,
+      "corpus_freq": 0.0001730818450033665,
+      "wordfreq_freq": 3.16e-06
+    },
+    {
+      "word": "headwinds",
+      "score": 54.628334726843235,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "rtx",
+      "score": 54.628334726843235,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "arxiv",
+      "score": 54.628334726843235,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "cch",
+      "score": 54.55692513896501,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.35e-07
+    },
+    {
+      "word": "telehealth",
+      "score": 54.493190413335384,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 2.14e-07
+    },
+    {
+      "word": "naba",
+      "score": 54.476219628404415,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.76e-08
+    },
+    {
+      "word": "weaponization",
+      "score": 54.476219628404415,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.76e-08
+    },
+    {
+      "word": "simmered",
+      "score": 54.411826933808186,
+      "corpus_freq": 1.534413519533391e-05,
+      "wordfreq_freq": 2.82e-07
+    },
+    {
+      "word": "teetered",
+      "score": 54.11030043694578,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 7.94e-08
+    },
+    {
+      "word": "importante",
+      "score": 54.11030043694578,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 7.94e-08
+    },
+    {
+      "word": "flavian",
+      "score": 54.11030043694578,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 7.94e-08
+    },
+    {
+      "word": "theropod",
+      "score": 54.11030043694578,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 7.94e-08
+    },
+    {
+      "word": "delving",
+      "score": 53.94621329039451,
+      "corpus_freq": 3.252956661410789e-05,
+      "wordfreq_freq": 6.03e-07
+    },
+    {
+      "word": "overflow",
+      "score": 53.86104599178434,
+      "corpus_freq": 0.00013195956267987162,
+      "wordfreq_freq": 2.45e-06
+    },
+    {
+      "word": "cors",
+      "score": 53.83907086082074,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 9.12e-08
+    },
+    {
+      "word": "bolsters",
+      "score": 53.774008539538784,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 3.31e-07
+    },
+    {
+      "word": "symbolized",
+      "score": 53.74781819834477,
+      "corpus_freq": 3.8053455284428095e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "purists",
+      "score": 53.721261077755486,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 4.57e-07
+    },
+    {
+      "word": "contexts",
+      "score": 53.62371457737745,
+      "corpus_freq": 0.00020377011539403432,
+      "wordfreq_freq": 3.8e-06
+    },
+    {
+      "word": "ssid",
+      "score": 53.58269433291208,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.26e-07
+    },
+    {
+      "word": "cfg",
+      "score": 53.58269433291208,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.26e-07
+    },
+    {
+      "word": "kyc",
+      "score": 53.50775350167722,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 1.95e-07
+    },
+    {
+      "word": "gleamed",
+      "score": 53.370905027248384,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "narratively",
+      "score": 53.370905027248384,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.15e-07
+    },
+    {
+      "word": "determiner",
+      "score": 53.370905027248384,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.38e-07
+    },
+    {
+      "word": "lingered",
+      "score": 53.33729614498941,
+      "corpus_freq": 4.234981313912159e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "permissions",
+      "score": 53.28815943805885,
+      "corpus_freq": 6.874172567509591e-05,
+      "wordfreq_freq": 1.29e-06
+    },
+    {
+      "word": "starlink",
+      "score": 53.2166538566494,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.92e-08
+    },
+    {
+      "word": "exportable",
+      "score": 53.2166538566494,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.92e-08
+    },
+    {
+      "word": "cli",
+      "score": 53.2166538566494,
+      "corpus_freq": 3.6825924468801384e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "uwb",
+      "score": 53.2166538566494,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 6.92e-08
+    },
+    {
+      "word": "debugging",
+      "score": 52.992631860173816,
+      "corpus_freq": 4.112228232349488e-05,
+      "wordfreq_freq": 7.76e-07
+    },
+    {
+      "word": "delve",
+      "score": 52.92614748535465,
+      "corpus_freq": 7.303808352978941e-05,
+      "wordfreq_freq": 1.38e-06
+    },
+    {
+      "word": "bdt",
+      "score": 52.84573007003069,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "sauropod",
+      "score": 52.84573007003069,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "iteratively",
+      "score": 52.84073047399758,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.51e-07
+    },
+    {
+      "word": "cryptos",
+      "score": 52.627258976493586,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 9.33e-08
+    },
+    {
+      "word": "syncretic",
+      "score": 52.60846352685912,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "jq",
+      "score": 52.60846352685912,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "berserker",
+      "score": 52.54022946262195,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 2.57e-07
+    },
+    {
+      "word": "menlo",
+      "score": 52.52509036754556,
+      "corpus_freq": 3.3143332021921246e-05,
+      "wordfreq_freq": 6.31e-07
+    },
+    {
+      "word": "critiquing",
+      "score": 52.45858186438943,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 4.68e-07
+    },
+    {
+      "word": "dialectal",
+      "score": 52.45858186438943,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.17e-07
+    },
+    {
+      "word": "vezina",
+      "score": 52.33658516237923,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.29e-07
+    },
+    {
+      "word": "navigating",
+      "score": 52.24874753693188,
+      "corpus_freq": 0.00010188505769701716,
+      "wordfreq_freq": 1.95e-06
+    },
+    {
+      "word": "vectoring",
+      "score": 52.23535385645586,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "coursera",
+      "score": 52.170059664135294,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "renderer",
+      "score": 52.170059664135294,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 2e-07
+    },
+    {
+      "word": "evolves",
+      "score": 52.0642380420985,
+      "corpus_freq": 7.549314516104283e-05,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "educationally",
+      "score": 52.06045869845434,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "coexists",
+      "score": 52.01401761130139,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.08e-08
+    },
+    {
+      "word": "otros",
+      "score": 52.01401761130139,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.08e-08
+    },
+    {
+      "word": "mismatched",
+      "score": 51.91050712849283,
+      "corpus_freq": 3.1302035798481176e-05,
+      "wordfreq_freq": 6.03e-07
+    },
+    {
+      "word": "php",
+      "score": 51.80833480401716,
+      "corpus_freq": 0.0001362559205345651,
+      "wordfreq_freq": 2.63e-06
+    },
+    {
+      "word": "plurals",
+      "score": 51.76334764690957,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "blanching",
+      "score": 51.63891652275834,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 8.32e-08
+    },
+    {
+      "word": "slowdowns",
+      "score": 51.4770987198299,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.55e-07
+    },
+    {
+      "word": "dooming",
+      "score": 51.41490327232305,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "gridded",
+      "score": 51.41490327232305,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "glossaries",
+      "score": 51.41490327232305,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "otomo",
+      "score": 51.41490327232305,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 9.55e-08
+    },
+    {
+      "word": "equips",
+      "score": 51.34159304902601,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "reignited",
+      "score": 51.34159304902601,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "adb",
+      "score": 51.33310683529889,
+      "corpus_freq": 2.8233208759414393e-05,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "ido",
+      "score": 51.29451535039578,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 3.47e-07
+    },
+    {
+      "word": "enhances",
+      "score": 51.1471173177797,
+      "corpus_freq": 0.00010434011932827059,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "reframe",
+      "score": 51.1471173177797,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "amas",
+      "score": 51.1471173177797,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "decriminalizing",
+      "score": 51.1471173177797,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "tuchel",
+      "score": 51.1471173177797,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "arduino",
+      "score": 51.0182832691203,
+      "corpus_freq": 4.050851691568152e-05,
+      "wordfreq_freq": 7.94e-07
+    },
+    {
+      "word": "tarn",
+      "score": 50.890096627740604,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 3.98e-07
+    },
+    {
+      "word": "performant",
+      "score": 50.86453655911794,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "xmr",
+      "score": 50.86453655911794,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.24e-08
+    },
+    {
+      "word": "moksha",
+      "score": 50.794378577657085,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "guid",
+      "score": 50.58506108351839,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.82e-07
+    },
+    {
+      "word": "flashpoint",
+      "score": 50.55582116381693,
+      "corpus_freq": 3.4984628245361315e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "excels",
+      "score": 50.48599124199172,
+      "corpus_freq": 4.296357854693495e-05,
+      "wordfreq_freq": 8.51e-07
+    },
+    {
+      "word": "pandemics",
+      "score": 50.446471875070394,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "highlighting",
+      "score": 50.36023858981386,
+      "corpus_freq": 0.00023568591660032886,
+      "wordfreq_freq": 4.68e-06
+    },
+    {
+      "word": "echoing",
+      "score": 50.36023858981386,
+      "corpus_freq": 0.00011784295830016443,
+      "wordfreq_freq": 2.34e-06
+    },
+    {
+      "word": "hovers",
+      "score": 50.28990306105714,
+      "corpus_freq": 2.7005677943787683e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "cautionary",
+      "score": 50.2860547366723,
+      "corpus_freq": 4.480487477037502e-05,
+      "wordfreq_freq": 8.91e-07
+    },
+    {
+      "word": "bridged",
+      "score": 50.237026262303196,
+      "corpus_freq": 2.8233208759414393e-05,
+      "wordfreq_freq": 5.62e-07
+    },
+    {
+      "word": "logins",
+      "score": 50.196427404809825,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 2.69e-07
+    },
+    {
+      "word": "mcu",
+      "score": 50.129530690514976,
+      "corpus_freq": 4.78737018094418e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "guesthouses",
+      "score": 50.01051471071793,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.35e-07
+    },
+    {
+      "word": "submersion",
+      "score": 50.01051471071793,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.35e-07
+    },
+    {
+      "word": "cada",
+      "score": 50.01051471071793,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.35e-07
+    },
+    {
+      "word": "outpacing",
+      "score": 49.92350207094286,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 2.09e-07
+    },
+    {
+      "word": "mais",
+      "score": 49.80114054625918,
+      "corpus_freq": 4.541864017818837e-05,
+      "wordfreq_freq": 9.12e-07
+    },
+    {
+      "word": "quantifies",
+      "score": 49.76476279567755,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "captivates",
+      "score": 49.76476279567755,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "theming",
+      "score": 49.76476279567755,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.48e-07
+    },
+    {
+      "word": "plantinga",
+      "score": 49.69760387152684,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.41e-08
+    },
+    {
+      "word": "fragility",
+      "score": 49.48684439961094,
+      "corpus_freq": 4.725993640162844e-05,
+      "wordfreq_freq": 9.55e-07
+    },
+    {
+      "word": "stack",
+      "score": 49.43003552211138,
+      "corpus_freq": 0.0005536163978476475,
+      "wordfreq_freq": 1.12e-05
+    },
+    {
+      "word": "exacerbate",
+      "score": 49.42582010035442,
+      "corpus_freq": 4.112228232349488e-05,
+      "wordfreq_freq": 8.32e-07
+    },
+    {
+      "word": "sdk",
+      "score": 49.41331673073632,
+      "corpus_freq": 3.4984628245361315e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "parses",
+      "score": 49.32043455643043,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "sqlite",
+      "score": 49.32043455643043,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.12e-07
+    },
+    {
+      "word": "rideau",
+      "score": 49.32043455643043,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 2.24e-07
+    },
+    {
+      "word": "ssds",
+      "score": 49.25277963934342,
+      "corpus_freq": 1.5957900603147268e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "backend",
+      "score": 49.16905200714734,
+      "corpus_freq": 3.5598393653174674e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "natively",
+      "score": 49.15741252509719,
+      "corpus_freq": 2.1481789273467475e-05,
+      "wordfreq_freq": 4.37e-07
+    },
+    {
+      "word": "ssb",
+      "score": 49.15741252509719,
+      "corpus_freq": 2.1481789273467475e-05,
+      "wordfreq_freq": 4.37e-07
+    },
+    {
+      "word": "rollovers",
+      "score": 49.10123262506852,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1e-07
+    },
+    {
+      "word": "verbose",
+      "score": 49.10123262506851,
+      "corpus_freq": 1.3502838971893841e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "critiques",
+      "score": 49.03068487704399,
+      "corpus_freq": 8.531339168605654e-05,
+      "wordfreq_freq": 1.74e-06
+    },
+    {
+      "word": "incentivize",
+      "score": 49.01598742953888,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 2.88e-07
+    },
+    {
+      "word": "hubspot",
+      "score": 48.92332960831102,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.38e-07
+    },
+    {
+      "word": "formalized",
+      "score": 48.78193270192862,
+      "corpus_freq": 3.3757097429734604e-05,
+      "wordfreq_freq": 6.92e-07
+    },
+    {
+      "word": "caveats",
+      "score": 48.743119907381626,
+      "corpus_freq": 3.0074504982854463e-05,
+      "wordfreq_freq": 6.17e-07
+    },
+    {
+      "word": "anos",
+      "score": 48.711540302647336,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.26e-07
+    },
+    {
+      "word": "peristalsis",
+      "score": 48.5190045702258,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "hybridize",
+      "score": 48.5190045702258,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "odot",
+      "score": 48.5190045702258,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "unpatched",
+      "score": 48.5190045702258,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.59e-08
+    },
+    {
+      "word": "ambiguities",
+      "score": 48.455163774738665,
+      "corpus_freq": 1.8412962234400692e-05,
+      "wordfreq_freq": 3.8e-07
+    },
+    {
+      "word": "mandating",
+      "score": 48.45516377473866,
+      "corpus_freq": 3.1302035798481176e-05,
+      "wordfreq_freq": 6.46e-07
+    },
+    {
+      "word": "burnout",
+      "score": 48.317702317221666,
+      "corpus_freq": 6.812796026728255e-05,
+      "wordfreq_freq": 1.41e-06
+    },
+    {
+      "word": "scoped",
+      "score": 48.24356917310225,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 2.29e-07
+    },
+    {
+      "word": "sidebars",
+      "score": 48.21950454201453,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "rollouts",
+      "score": 48.21950454201453,
+      "corpus_freq": 4.2963578546934945e-06,
+      "wordfreq_freq": 8.91e-08
+    },
+    {
+      "word": "lagers",
+      "score": 48.201471817802855,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "fueled",
+      "score": 48.17728469932798,
+      "corpus_freq": 0.00017921949908150008,
+      "wordfreq_freq": 3.72e-06
+    },
+    {
+      "word": "shareable",
+      "score": 48.065965672130325,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "phthalates",
+      "score": 48.065965672130325,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.66e-07
+    },
+    {
+      "word": "demystify",
+      "score": 47.88240770175121,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "abbasid",
+      "score": 47.88240770175121,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "whatcom",
+      "score": 47.88240770175121,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.41e-07
+    },
+    {
+      "word": "infinitive",
+      "score": 47.84730329727779,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 3.72e-07
+    },
+    {
+      "word": "decried",
+      "score": 47.75291502438013,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 4.37e-07
+    },
+    {
+      "word": "lhc",
+      "score": 47.75291502438013,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 4.37e-07
+    },
+    {
+      "word": "eth",
+      "score": 47.737309496594385,
+      "corpus_freq": 7.73344413844829e-05,
+      "wordfreq_freq": 1.62e-06
+    },
+    {
+      "word": "coindesk",
+      "score": 47.456088232991476,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "literatura",
+      "score": 47.456088232991476,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.76e-08
+    },
+    {
+      "word": "moderation",
+      "score": 47.43678406150686,
+      "corpus_freq": 0.00013993851298144526,
+      "wordfreq_freq": 2.95e-06
+    },
+    {
+      "word": "monsoons",
+      "score": 47.21272367795049,
+      "corpus_freq": 1.1047777340640415e-05,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "pcie",
+      "score": 47.099503717092105,
+      "corpus_freq": 1.9640493050027406e-05,
+      "wordfreq_freq": 4.17e-07
+    },
+    {
+      "word": "varia",
+      "score": 46.935001773962554,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "vez",
+      "score": 46.935001773962554,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.7e-07
+    },
+    {
+      "word": "scalable",
+      "score": 46.87984901042088,
+      "corpus_freq": 3.9894751507868164e-05,
+      "wordfreq_freq": 8.51e-07
+    },
+    {
+      "word": "syncs",
+      "score": 46.869358414838125,
+      "corpus_freq": 1.2889073564080484e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "deterring",
+      "score": 46.839991648914044,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 3.8e-07
+    },
+    {
+      "word": "workspace",
+      "score": 46.81261585017125,
+      "corpus_freq": 3.3143332021921246e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "palming",
+      "score": 46.76307869054144,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1.05e-07
+    },
+    {
+      "word": "interwar",
+      "score": 46.743723111613235,
+      "corpus_freq": 1.4116604379707197e-05,
+      "wordfreq_freq": 3.02e-07
+    },
+    {
+      "word": "crispr",
+      "score": 46.68461714911435,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "deletions",
+      "score": 46.68461714911435,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "recs",
+      "score": 46.68074932664965,
+      "corpus_freq": 1.6571666010960623e-05,
+      "wordfreq_freq": 3.55e-07
+    },
+    {
+      "word": "utf",
+      "score": 46.674175499114554,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "suffices",
+      "score": 46.674175499114554,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "oig",
+      "score": 46.674175499114554,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 2.63e-07
+    },
+    {
+      "word": "debug",
+      "score": 46.625825179191445,
+      "corpus_freq": 3.3757097429734604e-05,
+      "wordfreq_freq": 7.24e-07
+    },
+    {
+      "word": "fluidly",
+      "score": 46.61509426430555,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "trd",
+      "score": 46.61509426430555,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.58e-07
+    },
+    {
+      "word": "queries",
+      "score": 46.57652385533981,
+      "corpus_freq": 0.00013134579727205827,
+      "wordfreq_freq": 2.82e-06
+    },
+    {
+      "word": "willowbrook",
+      "score": 46.56151369618566,
+      "corpus_freq": 6.751419485946921e-06,
+      "wordfreq_freq": 1.45e-07
+    },
+    {
+      "word": "nuances",
+      "score": 46.561513696185656,
+      "corpus_freq": 6.751419485946921e-05,
+      "wordfreq_freq": 1.45e-06
+    },
+    {
+      "word": "snmp",
+      "score": 46.49737937979973,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.32e-07
+    },
+    {
+      "word": "unreliability",
+      "score": 46.46032967511463,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 2.51e-07
+    },
+    {
+      "word": "atacama",
+      "score": 46.46032967511463,
+      "corpus_freq": 1.1661542748453772e-05,
+      "wordfreq_freq": 2.51e-07
+    },
+    {
+      "word": "vrm",
+      "score": 46.3802575173821,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 7.94e-08
+    },
+    {
+      "word": "hobbyists",
+      "score": 46.348417523663066,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 4.37e-07
+    },
+    {
+      "word": "editable",
+      "score": 46.19739628702683,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.86e-07
+    },
+    {
+      "word": "underrepresented",
+      "score": 46.05127906102675,
+      "corpus_freq": 3.743968987661474e-05,
+      "wordfreq_freq": 8.13e-07
+    },
+    {
+      "word": "heatwaves",
+      "score": 46.03240558600174,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.2e-07
+    },
+    {
+      "word": "persists",
+      "score": 46.03240558600173,
+      "corpus_freq": 9.390610739544352e-05,
+      "wordfreq_freq": 2.04e-06
+    },
+    {
+      "word": "ai",
+      "score": 45.92409404344643,
+      "corpus_freq": 0.0007807095987385893,
+      "wordfreq_freq": 1.7e-05
+    },
+    {
+      "word": "retrofits",
+      "score": 45.88900245333506,
+      "corpus_freq": 4.9101232625068515e-06,
+      "wordfreq_freq": 1.07e-07
+    },
+    {
+      "word": "bolstering",
+      "score": 45.75629004264097,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "serialized",
+      "score": 45.75629004264097,
+      "corpus_freq": 1.7799196826587337e-05,
+      "wordfreq_freq": 3.89e-07
+    },
+    {
+      "word": "fema",
+      "score": 45.75342130972293,
+      "corpus_freq": 5.032876344069523e-05,
+      "wordfreq_freq": 1.1e-06
+    },
+    {
+      "word": "fallback",
+      "score": 45.663071916092164,
+      "corpus_freq": 2.0868023865654117e-05,
+      "wordfreq_freq": 4.57e-07
+    },
+    {
+      "word": "repos",
+      "score": 45.63311582255438,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 2.69e-07
+    },
+    {
+      "word": "preposition",
+      "score": 45.62764422593297,
+      "corpus_freq": 1.9026727642214047e-05,
+      "wordfreq_freq": 4.17e-07
+    },
+    {
+      "word": "anthemic",
+      "score": 45.46410428247085,
+      "corpus_freq": 7.365184893760277e-06,
+      "wordfreq_freq": 1.62e-07
+    },
+    {
+      "word": "ens",
+      "score": 45.46410428247085,
+      "corpus_freq": 1.4730369787520554e-05,
+      "wordfreq_freq": 3.24e-07
+    },
+    {
+      "word": "overlaps",
+      "score": 45.46410428247084,
+      "corpus_freq": 4.050851691568152e-05,
+      "wordfreq_freq": 8.91e-07
+    },
+    {
+      "word": "countering",
+      "score": 45.365269273161125,
+      "corpus_freq": 5.2170059664135296e-05,
+      "wordfreq_freq": 1.15e-06
+    },
+    {
+      "word": "dsa",
+      "score": 45.311540174140404,
+      "corpus_freq": 2.025425845784076e-05,
+      "wordfreq_freq": 4.47e-07
+    },
+    {
+      "word": "thrissur",
+      "score": 45.2963400600263,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "eip",
+      "score": 45.2963400600263,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "passo",
+      "score": 45.2963400600263,
+      "corpus_freq": 3.6825924468801384e-06,
+      "wordfreq_freq": 8.13e-08
+    },
+    {
+      "word": "prioritization",
+      "score": 45.224819523089415,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 3.8e-07
+    },
+    {
+      "word": "headspace",
+      "score": 45.224819523089415,
+      "corpus_freq": 1.7185431418773978e-05,
+      "wordfreq_freq": 3.8e-07
+    },
+    {
+      "word": "quatro",
+      "score": 45.12980939804091,
+      "corpus_freq": 9.206481117200346e-06,
+      "wordfreq_freq": 2.04e-07
+    },
+    {
+      "word": "devops",
+      "score": 45.07881526312787,
+      "corpus_freq": 3.1915801206294535e-05,
+      "wordfreq_freq": 7.08e-07
+    },
+    {
+      "word": "baselines",
+      "score": 44.988040363282664,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "refactoring",
+      "score": 44.988040363282664,
+      "corpus_freq": 8.592715709386989e-06,
+      "wordfreq_freq": 1.91e-07
+    },
+    {
+      "word": "neuroplasticity",
+      "score": 44.90966398634315,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.23e-07
+    },
+    {
+      "word": "tempests",
+      "score": 44.90966398634315,
+      "corpus_freq": 5.523888670320208e-06,
+      "wordfreq_freq": 1.23e-07
+    },
+    {
+      "word": "riverine",
+      "score": 44.84130833339591,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "reputational",
+      "score": 44.84130833339591,
+      "corpus_freq": 9.820246525013703e-06,
+      "wordfreq_freq": 2.19e-07
+    },
+    {
+      "word": "intersects",
+      "score": 44.83156022288864,
+      "corpus_freq": 2.577814712816097e-05,
+      "wordfreq_freq": 5.75e-07
+    },
+    {
+      "word": "centralizing",
+      "score": 44.825563491986706,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "indesign",
+      "score": 44.825563491986706,
+      "corpus_freq": 7.978950301573634e-06,
+      "wordfreq_freq": 1.78e-07
+    },
+    {
+      "word": "apis",
+      "score": 44.814617078435546,
+      "corpus_freq": 5.646641751882879e-05,
+      "wordfreq_freq": 1.26e-06
+    },
+    {
+      "word": "algorithmic",
+      "score": 44.80800090997339,
+      "corpus_freq": 2.6391912535974324e-05,
+      "wordfreq_freq": 5.89e-07
+    },
+    {
+      "word": "firmware",
+      "score": 44.76877092285658,
+      "corpus_freq": 7.610691056885619e-05,
+      "wordfreq_freq": 1.7e-06
+    },
+    {
+      "word": "exacerbated",
+      "score": 44.73832189482899,
+      "corpus_freq": 7.426561434541613e-05,
+      "wordfreq_freq": 1.66e-06
+    },
+    {
+      "word": "vue",
+      "score": 44.727843484374155,
+      "corpus_freq": 3.3143332021921246e-05,
+      "wordfreq_freq": 7.41e-07
+    },
+    {
+      "word": "proactive",
+      "score": 44.65919504322866,
+      "corpus_freq": 0.00011477413126109765,
+      "wordfreq_freq": 2.57e-06
+    },
+    {
+      "word": "underbelly",
+      "score": 44.63748420460773,
+      "corpus_freq": 2.4550616312534255e-05,
+      "wordfreq_freq": 5.5e-07
+    },
+    {
+      "word": "tabular",
+      "score": 44.63748420460773,
+      "corpus_freq": 1.2275308156267127e-05,
+      "wordfreq_freq": 2.75e-07
+    },
+    {
+      "word": "defensiveness",
+      "score": 44.58979458473102,
+      "corpus_freq": 1.0434011932827058e-05,
+      "wordfreq_freq": 2.34e-07
+    },
+    {
+      "word": "scepter",
+      "score": 44.57514134957337,
+      "corpus_freq": 2.39368509047209e-05,
+      "wordfreq_freq": 5.37e-07
+    },
+    {
+      "word": "fivethirtyeight",
+      "score": 44.47575418937365,
+      "corpus_freq": 6.137654078133564e-06,
+      "wordfreq_freq": 1.38e-07
+    }
+  ],
+  "zero_frequency_words": [
+    {
+      "word": "portugu",
+      "corpus_freq": 4.234981313912159e-05
+    },
+    {
+      "word": "eldoria",
+      "corpus_freq": 3.1302035798481176e-05
+    },
+    {
+      "word": "latim",
+      "corpus_freq": 1.9640493050027406e-05
+    },
+    {
+      "word": "contextos",
+      "corpus_freq": 1.9026727642214047e-05
+    },
+    {
+      "word": "elowen",
+      "corpus_freq": 1.8412962234400692e-05
+    },
+    {
+      "word": "ndez",
+      "corpus_freq": 1.8412962234400692e-05
+    },
+    {
+      "word": "rgen",
+      "corpus_freq": 1.7799196826587337e-05
+    },
+    {
+      "word": "lirael",
+      "corpus_freq": 1.7185431418773978e-05
+    },
+    {
+      "word": "lirra",
+      "corpus_freq": 1.6571666010960623e-05
+    },
+    {
+      "word": "comum",
+      "corpus_freq": 1.5957900603147268e-05
+    },
+    {
+      "word": "phtml",
+      "corpus_freq": 1.5957900603147268e-05
+    },
+    {
+      "word": "loginpage",
+      "corpus_freq": 1.534413519533391e-05
+    },
+    {
+      "word": "exemplos",
+      "corpus_freq": 1.4730369787520554e-05
+    },
+    {
+      "word": "nguez",
+      "corpus_freq": 1.4730369787520554e-05
+    },
+    {
+      "word": "cmdline",
+      "corpus_freq": 1.4116604379707197e-05
+    },
+    {
+      "word": "qcse",
+      "corpus_freq": 1.3502838971893841e-05
+    },
+    {
+      "word": "espanhol",
+      "corpus_freq": 1.3502838971893841e-05
+    },
+    {
+      "word": "usestate",
+      "corpus_freq": 1.3502838971893841e-05
+    },
+    {
+      "word": "mathbf",
+      "corpus_freq": 1.3502838971893841e-05
+    },
+    {
+      "word": "burnination",
+      "corpus_freq": 1.1661542748453772e-05
+    },
+    {
+      "word": "sofr",
+      "corpus_freq": 1.1661542748453772e-05
+    },
+    {
+      "word": "vasps",
+      "corpus_freq": 1.1047777340640415e-05
+    },
+    {
+      "word": "lingu",
+      "corpus_freq": 1.1047777340640415e-05
+    },
+    {
+      "word": "nguas",
+      "corpus_freq": 1.1047777340640415e-05
+    },
+    {
+      "word": "chainalysis",
+      "corpus_freq": 1.0434011932827058e-05
+    },
+    {
+      "word": "ngua",
+      "corpus_freq": 1.0434011932827058e-05
+    },
+    {
+      "word": "exemplo",
+      "corpus_freq": 1.0434011932827058e-05
+    },
+    {
+      "word": "gica",
+      "corpus_freq": 1.0434011932827058e-05
+    },
+    {
+      "word": "segner",
+      "corpus_freq": 9.820246525013703e-06
+    },
+    {
+      "word": "caatsa",
+      "corpus_freq": 9.820246525013703e-06
+    },
+    {
+      "word": "islamqa",
+      "corpus_freq": 9.820246525013703e-06
+    },
+    {
+      "word": "estranho",
+      "corpus_freq": 9.820246525013703e-06
+    },
+    {
+      "word": "hovander",
+      "corpus_freq": 9.820246525013703e-06
+    },
+    {
+      "word": "elandria",
+      "corpus_freq": 8.592715709386989e-06
+    },
+    {
+      "word": "stica",
+      "corpus_freq": 8.592715709386989e-06
+    },
+    {
+      "word": "dicion",
+      "corpus_freq": 8.592715709386989e-06
+    },
+    {
+      "word": "etimol",
+      "corpus_freq": 8.592715709386989e-06
+    },
+    {
+      "word": "setdata",
+      "corpus_freq": 8.592715709386989e-06
+    },
+    {
+      "word": "jalape",
+      "corpus_freq": 8.592715709386989e-06
+    },
+    {
+      "word": "expressionengine",
+      "corpus_freq": 8.592715709386989e-06
+    },
+    {
+      "word": "tabularize",
+      "corpus_freq": 8.592715709386989e-06
+    },
+    {
+      "word": "vespera",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "ticas",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "matem",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "funci",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "downvoting",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "mbapp",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "lumari",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "retagging",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "linguagem",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "vimrc",
+      "corpus_freq": 7.978950301573634e-06
+    },
+    {
+      "word": "pagefactory",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "rodr",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "ncias",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "especialmente",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "chatgpt",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "johndoe",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "incomum",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "origem",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "termos",
+      "corpus_freq": 7.365184893760277e-06
+    },
+    {
+      "word": "ortogr",
+      "corpus_freq": 6.751419485946921e-06
+    },
+    {
+      "word": "padr",
+      "corpus_freq": 6.751419485946921e-06
+    },
+    {
+      "word": "stico",
+      "corpus_freq": 6.751419485946921e-06
+    },
+    {
+      "word": "betterhelp",
+      "corpus_freq": 6.751419485946921e-06
+    },
+    {
+      "word": "entrypoint",
+      "corpus_freq": 6.751419485946921e-06
+    },
+    {
+      "word": "mathoverflow",
+      "corpus_freq": 6.751419485946921e-06
+    },
+    {
+      "word": "ficos",
+      "corpus_freq": 6.751419485946921e-06
+    },
+    {
+      "word": "mucarsel",
+      "corpus_freq": 6.751419485946921e-06
+    },
+    {
+      "word": "findby",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "dataprovider",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "voidweaver",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "tokenomics",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "evitar",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "topicness",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "undeletion",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "yourmodule",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "gico",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "culos",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "rgensen",
+      "corpus_freq": 6.137654078133564e-06
+    },
+    {
+      "word": "habitica",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "cbdcs",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "culta",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "sticos",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "aproximadamente",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "addtodo",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "objetos",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "pipewire",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "swiftui",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "aparece",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "ingl",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "mitrovi",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "comuns",
+      "corpus_freq": 5.523888670320208e-06
+    },
+    {
+      "word": "dashboardpage",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "sendkeys",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "rescuetime",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "etherscan",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "europeu",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "entanto",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "veis",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "tamb",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "rivermoor",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "yourtheme",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "adminhtml",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "reunifications",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "funcional",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "retag",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "ireann",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "ntica",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "diferen",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "quantidade",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "nimos",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "coiro",
+      "corpus_freq": 4.9101232625068515e-06
+    },
+    {
+      "word": "enterusername",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "clickloginbutton",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "testng",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "overtourism",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "uniswap",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "gicas",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "morfol",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "thornridge",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "getdata",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "lichess",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "loginbutton",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "enquanto",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "quiser",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "conlanging",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "gaslimit",
+      "corpus_freq": 4.2963578546934945e-06
+    },
+    {
+      "word": "scannability",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "webdriverwait",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "deprecations",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "communiqu",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "rnak",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "synonymize",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "overcommitting",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "deprioritize",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "cmip",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "ficas",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "sticas",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "xmlns",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "deprioritized",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "understories",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "ithkuil",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "myaccount",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "facilita",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "funciona",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "permite",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "podr",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "pkh",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "metaverses",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "ssico",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "significados",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "resposta",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "adjetivo",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "regionais",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "usado",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "reflete",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "raycast",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "indicam",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "derivados",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "extendscript",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "uncountables",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "appayya",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "propto",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "bioelectromagnetics",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "neovim",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "soluci",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "ipaws",
+      "corpus_freq": 3.6825924468801384e-06
+    },
+    {
+      "word": "unlockaccount",
+      "corpus_freq": 3.6825924468801384e-06
+    }
+  ],
+  "repetition_score": 0.226,
+  "top_bigrams": [
+    {
+      "ngram": "e g",
+      "frequency": 9132
+    },
+    {
+      "ngram": "word count",
+      "frequency": 1843
+    },
+    {
+      "ngram": "th century",
+      "frequency": 808
+    },
+    {
+      "ngram": "tools like",
+      "frequency": 609
+    },
+    {
+      "ngram": "long term",
+      "frequency": 557
+    },
+    {
+      "ngram": "step step",
+      "frequency": 533
+    },
+    {
+      "ngram": "stack exchange",
+      "frequency": 498
+    },
+    {
+      "ngram": "social media",
+      "frequency": 408
+    },
+    {
+      "ngram": "new york",
+      "frequency": 399
+    },
+    {
+      "ngram": "real world",
+      "frequency": 348
+    },
+    {
+      "ngram": "broader implications",
+      "frequency": 325
+    },
+    {
+      "ngram": "apps like",
+      "frequency": 306
+    },
+    {
+      "ngram": "platforms like",
+      "frequency": 302
+    },
+    {
+      "ngram": "real time",
+      "frequency": 299
+    },
+    {
+      "ngram": "sites like",
+      "frequency": 296
+    },
+    {
+      "ngram": "g via",
+      "frequency": 291
+    },
+    {
+      "ngram": "issues like",
+      "frequency": 268
+    },
+    {
+      "ngram": "best practices",
+      "frequency": 246
+    },
+    {
+      "ngram": "united states",
+      "frequency": 242
+    },
+    {
+      "ngram": "break step",
+      "frequency": 234
+    },
+    {
+      "ngram": "climate change",
+      "frequency": 231
+    },
+    {
+      "ngram": "sources like",
+      "frequency": 227
+    },
+    {
+      "ngram": "historical context",
+      "frequency": 226
+    },
+    {
+      "ngram": "mental health",
+      "frequency": 217
+    },
+    {
+      "ngram": "figures like",
+      "frequency": 212
+    },
+    {
+      "ngram": "events like",
+      "frequency": 211
+    },
+    {
+      "ngram": "world war",
+      "frequency": 203
+    },
+    {
+      "ngram": "broader context",
+      "frequency": 189
+    },
+    {
+      "ngram": "comprehensive overview",
+      "frequency": 179
+    },
+    {
+      "ngram": "provide comprehensive",
+      "frequency": 179
+    },
+    {
+      "ngram": "human rights",
+      "frequency": 176
+    },
+    {
+      "ngram": "let know",
+      "frequency": 175
+    },
+    {
+      "ngram": "stack overflow",
+      "frequency": 170
+    },
+    {
+      "ngram": "third party",
+      "frequency": 167
+    },
+    {
+      "ngram": "looking ahead",
+      "frequency": 166
+    },
+    {
+      "ngram": "organizations like",
+      "frequency": 155
+    },
+    {
+      "ngram": "high profile",
+      "frequency": 153
+    },
+    {
+      "ngram": "groups like",
+      "frequency": 153
+    },
+    {
+      "ngram": "resources like",
+      "frequency": 151
+    },
+    {
+      "ngram": "year old",
+      "frequency": 148
+    },
+    {
+      "ngram": "stackexchange com",
+      "frequency": 148
+    },
+    {
+      "ngram": "well reasoned",
+      "frequency": 145
+    },
+    {
+      "ngram": "open source",
+      "frequency": 144
+    },
+    {
+      "ngram": "supreme court",
+      "frequency": 144
+    },
+    {
+      "ngram": "supply chain",
+      "frequency": 142
+    },
+    {
+      "ngram": "war ii",
+      "frequency": 142
+    },
+    {
+      "ngram": "wi fi",
+      "frequency": 142
+    },
+    {
+      "ngram": "outlets like",
+      "frequency": 141
+    },
+    {
+      "ngram": "provide details",
+      "frequency": 136
+    },
+    {
+      "ngram": "high school",
+      "frequency": 134
+    },
+    {
+      "ngram": "initiatives like",
+      "frequency": 131
+    },
+    {
+      "ngram": "much like",
+      "frequency": 130
+    },
+    {
+      "ngram": "features like",
+      "frequency": 130
+    },
+    {
+      "ngram": "areas like",
+      "frequency": 126
+    },
+    {
+      "ngram": "short term",
+      "frequency": 125
+    },
+    {
+      "ngram": "evidence based",
+      "frequency": 122
+    },
+    {
+      "ngram": "like google",
+      "frequency": 120
+    },
+    {
+      "ngram": "public health",
+      "frequency": 119
+    },
+    {
+      "ngram": "feel free",
+      "frequency": 118
+    },
+    {
+      "ngram": "reddit's r",
+      "frequency": 117
+    },
+    {
+      "ngram": "high stakes",
+      "frequency": 117
+    },
+    {
+      "ngram": "high quality",
+      "frequency": 117
+    },
+    {
+      "ngram": "covid pandemic",
+      "frequency": 116
+    },
+    {
+      "ngram": "forums like",
+      "frequency": 116
+    },
+    {
+      "ngram": "early th",
+      "frequency": 115
+    },
+    {
+      "ngram": "b b",
+      "frequency": 111
+    },
+    {
+      "ngram": "pro tip",
+      "frequency": 108
+    },
+    {
+      "ngram": "help center",
+      "frequency": 108
+    },
+    {
+      "ngram": "stack exchange's",
+      "frequency": 108
+    },
+    {
+      "ngram": "law enforcement",
+      "frequency": 107
+    },
+    {
+      "ngram": "last knowledge",
+      "frequency": 107
+    },
+    {
+      "ngram": "knowledge update",
+      "frequency": 107
+    },
+    {
+      "ngram": "projects like",
+      "frequency": 107
+    },
+    {
+      "ngram": "machine learning",
+      "frequency": 105
+    },
+    {
+      "ngram": "mid th",
+      "frequency": 105
+    },
+    {
+      "ngram": "comprehensive guide",
+      "frequency": 104
+    },
+    {
+      "ngram": "low income",
+      "frequency": 103
+    },
+    {
+      "ngram": "ai assistant",
+      "frequency": 102
+    },
+    {
+      "ngram": "challenges like",
+      "frequency": 102
+    },
+    {
+      "ngram": "civil war",
+      "frequency": 102
+    },
+    {
+      "ngram": "national security",
+      "frequency": 102
+    },
+    {
+      "ngram": "critics including",
+      "frequency": 101
+    },
+    {
+      "ngram": "common pitfalls",
+      "frequency": 100
+    },
+    {
+      "ngram": "ai driven",
+      "frequency": 100
+    },
+    {
+      "ngram": "like new",
+      "frequency": 99
+    },
+    {
+      "ngram": "post war",
+      "frequency": 99
+    },
+    {
+      "ngram": "real estate",
+      "frequency": 98
+    },
+    {
+      "ngram": "years old",
+      "frequency": 97
+    },
+    {
+      "ngram": "world cup",
+      "frequency": 97
+    },
+    {
+      "ngram": "x x",
+      "frequency": 97
+    },
+    {
+      "ngram": "los angeles",
+      "frequency": 96
+    },
+    {
+      "ngram": "et al",
+      "frequency": 96
+    },
+    {
+      "ngram": "york times",
+      "frequency": 94
+    },
+    {
+      "ngram": "states like",
+      "frequency": 94
+    },
+    {
+      "ngram": "future outlook",
+      "frequency": 92
+    },
+    {
+      "ngram": "years ago",
+      "frequency": 92
+    },
+    {
+      "ngram": "reminds us",
+      "frequency": 90
+    },
+    {
+      "ngram": "deeper dives",
+      "frequency": 90
+    },
+    {
+      "ngram": "decision making",
+      "frequency": 89
+    },
+    {
+      "ngram": "books like",
+      "frequency": 89
+    },
+    {
+      "ngram": "challenges persist",
+      "frequency": 88
+    },
+    {
+      "ngram": "could lead",
+      "frequency": 88
+    },
+    {
+      "ngram": "factors like",
+      "frequency": 88
+    },
+    {
+      "ngram": "challenges include",
+      "frequency": 88
+    },
+    {
+      "ngram": "reminding us",
+      "frequency": 87
+    },
+    {
+      "ngram": "google com",
+      "frequency": 86
+    },
+    {
+      "ngram": "total word",
+      "frequency": 86
+    },
+    {
+      "ngram": "start small",
+      "frequency": 85
+    },
+    {
+      "ngram": "details e",
+      "frequency": 85
+    },
+    {
+      "ngram": "late th",
+      "frequency": 84
+    },
+    {
+      "ngram": "recent years",
+      "frequency": 83
+    },
+    {
+      "ngram": "topics like",
+      "frequency": 82
+    },
+    {
+      "ngram": "billion annually",
+      "frequency": 82
+    },
+    {
+      "ngram": "edge cases",
+      "frequency": 82
+    },
+    {
+      "ngram": "alternatives like",
+      "frequency": 81
+    },
+    {
+      "ngram": "publicly available",
+      "frequency": 80
+    },
+    {
+      "ngram": "tailored advice",
+      "frequency": 80
+    },
+    {
+      "ngram": "first time",
+      "frequency": 79
+    },
+    {
+      "ngram": "share details",
+      "frequency": 78
+    },
+    {
+      "ngram": "working class",
+      "frequency": 77
+    },
+    {
+      "ngram": "programs like",
+      "frequency": 77
+    },
+    {
+      "ngram": "models like",
+      "frequency": 77
+    },
+    {
+      "ngram": "eco friendly",
+      "frequency": 77
+    },
+    {
+      "ngram": "cultural impact",
+      "frequency": 77
+    },
+    {
+      "ngram": "details like",
+      "frequency": 76
+    },
+    {
+      "ngram": "community driven",
+      "frequency": 76
+    },
+    {
+      "ngram": "pop culture",
+      "frequency": 75
+    },
+    {
+      "ngram": "post pandemic",
+      "frequency": 75
+    },
+    {
+      "ngram": "critics argue",
+      "frequency": 75
+    },
+    {
+      "ngram": "works like",
+      "frequency": 74
+    },
+    {
+      "ngram": "sci fi",
+      "frequency": 74
+    },
+    {
+      "ngram": "services like",
+      "frequency": 73
+    },
+    {
+      "ngram": "historical records",
+      "frequency": 73
+    },
+    {
+      "ngram": "f c",
+      "frequency": 73
+    },
+    {
+      "ngram": "early life",
+      "frequency": 73
+    },
+    {
+      "ngram": "companies like",
+      "frequency": 73
+    },
+    {
+      "ngram": "th th",
+      "frequency": 73
+    },
+    {
+      "ngram": "like stack",
+      "frequency": 73
+    },
+    {
+      "ngram": "around words",
+      "frequency": 72
+    },
+    {
+      "ngram": "feels like",
+      "frequency": 72
+    },
+    {
+      "ngram": "let's break",
+      "frequency": 72
+    },
+    {
+      "ngram": "step guide",
+      "frequency": 72
+    },
+    {
+      "ngram": "options like",
+      "frequency": 71
+    },
+    {
+      "ngram": "context e",
+      "frequency": 71
+    },
+    {
+      "ngram": "middle east",
+      "frequency": 71
+    },
+    {
+      "ngram": "names like",
+      "frequency": 71
+    },
+    {
+      "ngram": "data driven",
+      "frequency": 71
+    },
+    {
+      "ngram": "pivotal moment",
+      "frequency": 71
+    },
+    {
+      "ngram": "civil rights",
+      "frequency": 71
+    },
+    {
+      "ngram": "e commerce",
+      "frequency": 71
+    },
+    {
+      "ngram": "daily life",
+      "frequency": 70
+    },
+    {
+      "ngram": "cases like",
+      "frequency": 70
+    },
+    {
+      "ngram": "something like",
+      "frequency": 70
+    },
+    {
+      "ngram": "experts like",
+      "frequency": 69
+    },
+    {
+      "ngram": "knowledgeable ai",
+      "frequency": 69
+    },
+    {
+      "ngram": "ones like",
+      "frequency": 69
+    },
+    {
+      "ngram": "due process",
+      "frequency": 69
+    },
+    {
+      "ngram": "cross border",
+      "frequency": 69
+    },
+    {
+      "ngram": "species like",
+      "frequency": 68
+    },
+    {
+      "ngram": "legacy endures",
+      "frequency": 68
+    },
+    {
+      "ngram": "use tools",
+      "frequency": 68
+    },
+    {
+      "ngram": "rural areas",
+      "frequency": 68
+    },
+    {
+      "ngram": "sea level",
+      "frequency": 68
+    },
+    {
+      "ngram": "training data",
+      "frequency": 67
+    },
+    {
+      "ngram": "around million",
+      "frequency": 67
+    },
+    {
+      "ngram": "san francisco",
+      "frequency": 67
+    },
+    {
+      "ngram": "step drawing",
+      "frequency": 66
+    },
+    {
+      "ngram": "white house",
+      "frequency": 66
+    },
+    {
+      "ngram": "u c",
+      "frequency": 66
+    },
+    {
+      "ngram": "next steps",
+      "frequency": 65
+    },
+    {
+      "ngram": "like national",
+      "frequency": 65
+    },
+    {
+      "ngram": "without overwhelming",
+      "frequency": 65
+    },
+    {
+      "ngram": "cities like",
+      "frequency": 65
+    },
+    {
+      "ngram": "news articles",
+      "frequency": 64
+    },
+    {
+      "ngram": "renewable energy",
+      "frequency": 63
+    },
+    {
+      "ngram": "free speech",
+      "frequency": 63
+    },
+    {
+      "ngram": "time minutes",
+      "frequency": 63
+    },
+    {
+      "ngram": "high end",
+      "frequency": 62
+    },
+    {
+      "ngram": "places like",
+      "frequency": 62
+    },
+    {
+      "ngram": "firms like",
+      "frequency": 61
+    },
+    {
+      "ngram": "north america",
+      "frequency": 61
+    },
+    {
+      "ngram": "revolves around",
+      "frequency": 61
+    },
+    {
+      "ngram": "high risk",
+      "frequency": 61
+    },
+    {
+      "ngram": "prime minister",
+      "frequency": 61
+    },
+    {
+      "ngram": "part broader",
+      "frequency": 61
+    },
+    {
+      "ngram": "pros cons",
+      "frequency": 61
+    },
+    {
+      "ngram": "public records",
+      "frequency": 61
+    },
+    {
+      "ngram": "cold war",
+      "frequency": 61
+    },
+    {
+      "ngram": "feel like",
+      "frequency": 61
+    },
+    {
+      "ngram": "p p",
+      "frequency": 61
+    },
+    {
+      "ngram": "subject verb",
+      "frequency": 60
+    },
+    {
+      "ngram": "phrases like",
+      "frequency": 60
+    },
+    {
+      "ngram": "artists like",
+      "frequency": 60
+    },
+    {
+      "ngram": "details tailored",
+      "frequency": 60
+    },
+    {
+      "ngram": "st century",
+      "frequency": 60
+    },
+    {
+      "ngram": "well rounded",
+      "frequency": 60
+    },
+    {
+      "ngram": "quantum computing",
+      "frequency": 60
+    },
+    {
+      "ngram": "fields like",
+      "frequency": 60
+    },
+    {
+      "ngram": "pivotal role",
+      "frequency": 59
+    },
+    {
+      "ngram": "bodies like",
+      "frequency": 59
+    }
+  ],
+  "top_trigrams": [
+    {
+      "ngram": "e g via",
+      "frequency": 290
+    },
+    {
+      "ngram": "break step step",
+      "frequency": 231
+    },
+    {
+      "ngram": "world war ii",
+      "frequency": 141
+    },
+    {
+      "ngram": "mid th century",
+      "frequency": 105
+    },
+    {
+      "ngram": "early th century",
+      "frequency": 104
+    },
+    {
+      "ngram": "last knowledge update",
+      "frequency": 98
+    },
+    {
+      "ngram": "new york times",
+      "frequency": 94
+    },
+    {
+      "ngram": "details e g",
+      "frequency": 85
+    },
+    {
+      "ngram": "total word count",
+      "frequency": 85
+    },
+    {
+      "ngram": "late th century",
+      "frequency": 72
+    },
+    {
+      "ngram": "context e g",
+      "frequency": 71
+    },
+    {
+      "ngram": "knowledgeable ai assistant",
+      "frequency": 66
+    },
+    {
+      "ngram": "step step drawing",
+      "frequency": 66
+    },
+    {
+      "ngram": "use tools like",
+      "frequency": 65
+    },
+    {
+      "ngram": "like new york",
+      "frequency": 61
+    },
+    {
+      "ngram": "like reddit's r",
+      "frequency": 57
+    },
+    {
+      "ngram": "step step guide",
+      "frequency": 57
+    },
+    {
+      "ngram": "stack exchange sites",
+      "frequency": 55
+    },
+    {
+      "ngram": "provide comprehensive overview",
+      "frequency": 48
+    },
+    {
+      "ngram": "post world war",
+      "frequency": 47
+    },
+    {
+      "ngram": "data e g",
+      "frequency": 47
+    },
+    {
+      "ngram": "subject verb agreement",
+      "frequency": 44
+    },
+    {
+      "ngram": "forums like reddit's",
+      "frequency": 44
+    },
+    {
+      "ngram": "new york city",
+      "frequency": 43
+    },
+    {
+      "ngram": "e g new",
+      "frequency": 43
+    },
+    {
+      "ngram": "e g using",
+      "frequency": 42
+    },
+    {
+      "ngram": "comprehensive well reasoned",
+      "frequency": 42
+    },
+    {
+      "ngram": "provide details tailored",
+      "frequency": 41
+    },
+    {
+      "ngram": "details tailored advice",
+      "frequency": 41
+    },
+    {
+      "ngram": "sites e g",
+      "frequency": 41
+    },
+    {
+      "ngram": "tools like google",
+      "frequency": 40
+    },
+    {
+      "ngram": "know word count",
+      "frequency": 40
+    },
+    {
+      "ngram": "refine word count",
+      "frequency": 40
+    },
+    {
+      "ngram": "let know word",
+      "frequency": 39
+    },
+    {
+      "ngram": "studies e g",
+      "frequency": 39
+    },
+    {
+      "ngram": "u supreme court",
+      "frequency": 39
+    },
+    {
+      "ngram": "th th centuries",
+      "frequency": 38
+    },
+    {
+      "ngram": "e g one",
+      "frequency": 37
+    },
+    {
+      "ngram": "word count approximately",
+      "frequency": 36
+    },
+    {
+      "ngram": "double edged sword",
+      "frequency": 36
+    },
+    {
+      "ngram": "issues e g",
+      "frequency": 35
+    },
+    {
+      "ngram": "real world examples",
+      "frequency": 35
+    },
+    {
+      "ngram": "share details e",
+      "frequency": 35
+    },
+    {
+      "ngram": "word count response",
+      "frequency": 34
+    },
+    {
+      "ngram": "like stack overflow",
+      "frequency": 34
+    },
+    {
+      "ngram": "using tools like",
+      "frequency": 33
+    },
+    {
+      "ngram": "feel free provide",
+      "frequency": 33
+    },
+    {
+      "ngram": "use apps like",
+      "frequency": 33
+    },
+    {
+      "ngram": "clocks around words",
+      "frequency": 32
+    },
+    {
+      "ngram": "world health organization",
+      "frequency": 32
+    },
+    {
+      "ngram": "e g x",
+      "frequency": 32
+    },
+    {
+      "ngram": "step step explaining",
+      "frequency": 32
+    },
+    {
+      "ngram": "via apps like",
+      "frequency": 32
+    },
+    {
+      "ngram": "ones e g",
+      "frequency": 32
+    },
+    {
+      "ngram": "like stack exchange",
+      "frequency": 32
+    },
+    {
+      "ngram": "provide comprehensive well",
+      "frequency": 31
+    },
+    {
+      "ngram": "human rights watch",
+      "frequency": 31
+    },
+    {
+      "ngram": "here's step step",
+      "frequency": 31
+    },
+    {
+      "ngram": "meta stackexchange com",
+      "frequency": 31
+    },
+    {
+      "ngram": "american psychological association",
+      "frequency": 30
+    },
+    {
+      "ngram": "models e g",
+      "frequency": 30
+    },
+    {
+      "ngram": "e g specific",
+      "frequency": 30
+    },
+    {
+      "ngram": "high rep users",
+      "frequency": 30
+    },
+    {
+      "ngram": "apps e g",
+      "frequency": 30
+    },
+    {
+      "ngram": "president donald trump",
+      "frequency": 29
+    },
+    {
+      "ngram": "specifics e g",
+      "frequency": 29
+    },
+    {
+      "ngram": "feel free clarify",
+      "frequency": 29
+    },
+    {
+      "ngram": "step step first",
+      "frequency": 29
+    },
+    {
+      "ngram": "million years ago",
+      "frequency": 29
+    },
+    {
+      "ngram": "errors e g",
+      "frequency": 29
+    },
+    {
+      "ngram": "stack exchange network",
+      "frequency": 29
+    },
+    {
+      "ngram": "questions e g",
+      "frequency": 29
+    },
+    {
+      "ngram": "last training data",
+      "frequency": 28
+    },
+    {
+      "ngram": "provide well reasoned",
+      "frequency": 28
+    },
+    {
+      "ngram": "advice word count",
+      "frequency": 28
+    },
+    {
+      "ngram": "based publicly available",
+      "frequency": 28
+    },
+    {
+      "ngram": "e g google",
+      "frequency": 28
+    },
+    {
+      "ngram": "step step instructions",
+      "frequency": 27
+    },
+    {
+      "ngram": "tools e g",
+      "frequency": 27
+    },
+    {
+      "ngram": "free provide details",
+      "frequency": 26
+    },
+    {
+      "ngram": "real world applications",
+      "frequency": 26
+    },
+    {
+      "ngram": "played pivotal role",
+      "frequency": 26
+    },
+    {
+      "ngram": "e g us",
+      "frequency": 26
+    },
+    {
+      "ngram": "publicly available information",
+      "frequency": 25
+    },
+    {
+      "ngram": "elements e g",
+      "frequency": 25
+    },
+    {
+      "ngram": "high profile cases",
+      "frequency": 24
+    },
+    {
+      "ngram": "via tools like",
+      "frequency": 24
+    },
+    {
+      "ngram": "cases e g",
+      "frequency": 24
+    },
+    {
+      "ngram": "centers disease control",
+      "frequency": 24
+    },
+    {
+      "ngram": "e g add",
+      "frequency": 24
+    },
+    {
+      "ngram": "sites like stack",
+      "frequency": 24
+    },
+    {
+      "ngram": "supply chain disruptions",
+      "frequency": 23
+    },
+    {
+      "ngram": "cognitive behavioral therapy",
+      "frequency": 23
+    },
+    {
+      "ngram": "hope email finds",
+      "frequency": 23
+    },
+    {
+      "ngram": "email finds well",
+      "frequency": 23
+    },
+    {
+      "ngram": "needed e g",
+      "frequency": 23
+    },
+    {
+      "ngram": "let's break step",
+      "frequency": 23
+    },
+    {
+      "ngram": "world word count",
+      "frequency": 23
+    },
+    {
+      "ngram": "e g due",
+      "frequency": 23
+    },
+    {
+      "ngram": "https example com",
+      "frequency": 23
+    },
+    {
+      "ngram": "disease control prevention",
+      "frequency": 23
+    },
+    {
+      "ngram": "well rounded understanding",
+      "frequency": 23
+    },
+    {
+      "ngram": "time e g",
+      "frequency": 22
+    },
+    {
+      "ngram": "drawing historical records",
+      "frequency": 22
+    },
+    {
+      "ngram": "contexts e g",
+      "frequency": 22
+    },
+    {
+      "ngram": "drawing publicly available",
+      "frequency": 22
+    },
+    {
+      "ngram": "essential contextualize within",
+      "frequency": 22
+    },
+    {
+      "ngram": "affordable care act",
+      "frequency": 22
+    },
+    {
+      "ngram": "give well rounded",
+      "frequency": 22
+    },
+    {
+      "ngram": "provide details e",
+      "frequency": 22
+    },
+    {
+      "ngram": "e g c",
+      "frequency": 22
+    },
+    {
+      "ngram": "e g post",
+      "frequency": 22
+    },
+    {
+      "ngram": "provide comprehensive analysis",
+      "frequency": 22
+    },
+    {
+      "ngram": "word count far",
+      "frequency": 22
+    },
+    {
+      "ngram": "like climate change",
+      "frequency": 21
+    },
+    {
+      "ngram": "real time updates",
+      "frequency": 21
+    },
+    {
+      "ngram": "harvard business review",
+      "frequency": 21
+    },
+    {
+      "ngram": "changes e g",
+      "frequency": 21
+    },
+    {
+      "ngram": "third party apps",
+      "frequency": 21
+    },
+    {
+      "ngram": "social media platforms",
+      "frequency": 21
+    },
+    {
+      "ngram": "e g u",
+      "frequency": 21
+    },
+    {
+      "ngram": "government accountability office",
+      "frequency": 21
+    },
+    {
+      "ngram": "platforms like stack",
+      "frequency": 21
+    },
+    {
+      "ngram": "stack exchange se",
+      "frequency": 21
+    },
+    {
+      "ngram": "via platforms like",
+      "frequency": 20
+    },
+    {
+      "ngram": "let break step",
+      "frequency": 20
+    },
+    {
+      "ngram": "deeper word count",
+      "frequency": 20
+    },
+    {
+      "ngram": "rising sea levels",
+      "frequency": 20
+    },
+    {
+      "ngram": "oxford english dictionary",
+      "frequency": 20
+    },
+    {
+      "ngram": "provide well rounded",
+      "frequency": 20
+    },
+    {
+      "ngram": "deeper dives resources",
+      "frequency": 20
+    },
+    {
+      "ngram": "dives resources like",
+      "frequency": 20
+    },
+    {
+      "ngram": "real time data",
+      "frequency": 20
+    },
+    {
+      "ngram": "act u c",
+      "frequency": 20
+    },
+    {
+      "ngram": "back th century",
+      "frequency": 20
+    },
+    {
+      "ngram": "control prevention cdc",
+      "frequency": 20
+    },
+    {
+      "ngram": "research e g",
+      "frequency": 20
+    },
+    {
+      "ngram": "code e g",
+      "frequency": 20
+    },
+    {
+      "ngram": "events e g",
+      "frequency": 20
+    },
+    {
+      "ngram": "c te d'ivoire",
+      "frequency": 20
+    },
+    {
+      "ngram": "advocacy groups like",
+      "frequency": 19
+    },
+    {
+      "ngram": "well reasoned overview",
+      "frequency": 19
+    },
+    {
+      "ngram": "outlets like new",
+      "frequency": 19
+    },
+    {
+      "ngram": "let break comprehensively",
+      "frequency": 19
+    },
+    {
+      "ngram": "feel free ask",
+      "frequency": 19
+    },
+    {
+      "ngram": "th th century",
+      "frequency": 19
+    },
+    {
+      "ngram": "discussions e g",
+      "frequency": 19
+    },
+    {
+      "ngram": "well reasoned analysis",
+      "frequency": 19
+    },
+    {
+      "ngram": "stackexchange com help",
+      "frequency": 19
+    },
+    {
+      "ngram": "laws e g",
+      "frequency": 19
+    },
+    {
+      "ngram": "meta stack overflow",
+      "frequency": 19
+    },
+    {
+      "ngram": "ai built xai",
+      "frequency": 18
+    },
+    {
+      "ngram": "time estimate minutes",
+      "frequency": 18
+    },
+    {
+      "ngram": "name e g",
+      "frequency": 18
+    },
+    {
+      "ngram": "systems e g",
+      "frequency": 18
+    },
+    {
+      "ngram": "e g million",
+      "frequency": 18
+    },
+    {
+      "ngram": "however challenges persist",
+      "frequency": 18
+    },
+    {
+      "ngram": "rules e g",
+      "frequency": 18
+    },
+    {
+      "ngram": "sources e g",
+      "frequency": 18
+    },
+    {
+      "ngram": "meta stack exchange",
+      "frequency": 18
+    },
+    {
+      "ngram": "pro tip use",
+      "frequency": 18
+    },
+    {
+      "ngram": "media e g",
+      "frequency": 18
+    },
+    {
+      "ngram": "inflation reduction act",
+      "frequency": 18
+    },
+    {
+      "ngram": "stackoverflow com help",
+      "frequency": 18
+    },
+    {
+      "ngram": "free tools like",
+      "frequency": 18
+    },
+    {
+      "ngram": "across united states",
+      "frequency": 17
+    },
+    {
+      "ngram": "time word count",
+      "frequency": 17
+    },
+    {
+      "ngram": "troubleshooting common issues",
+      "frequency": 17
+    },
+    {
+      "ngram": "early life education",
+      "frequency": 17
+    },
+    {
+      "ngram": "services e g",
+      "frequency": 17
+    },
+    {
+      "ngram": "ai assistant provide",
+      "frequency": 17
+    },
+    {
+      "ngram": "e g meta",
+      "frequency": 17
+    },
+    {
+      "ngram": "bureau labor statistics",
+      "frequency": 17
+    },
+    {
+      "ngram": "e g stack",
+      "frequency": 17
+    },
+    {
+      "ngram": "forums e g",
+      "frequency": 16
+    },
+    {
+      "ngram": "common pitfalls avoid",
+      "frequency": 16
+    },
+    {
+      "ngram": "events like annual",
+      "frequency": 16
+    },
+    {
+      "ngram": "features e g",
+      "frequency": 16
+    },
+    {
+      "ngram": "original words revised",
+      "frequency": 16
+    },
+    {
+      "ngram": "summary news articles",
+      "frequency": 16
+    },
+    {
+      "ngram": "clocks approximately words",
+      "frequency": 16
+    },
+    {
+      "ngram": "e g user",
+      "frequency": 16
+    },
+    {
+      "ngram": "feel free share",
+      "frequency": 16
+    },
+    {
+      "ngram": "tech e g",
+      "frequency": 16
+    },
+    {
+      "ngram": "dive deeper word",
+      "frequency": 16
+    },
+    {
+      "ngram": "black lives matter",
+      "frequency": 16
+    },
+    {
+      "ngram": "official sources like",
+      "frequency": 16
+    },
+    {
+      "ngram": "e g exact",
+      "frequency": 16
+    },
+    {
+      "ngram": "e g less",
+      "frequency": 16
+    },
+    {
+      "ngram": "users e g",
+      "frequency": 16
+    },
+    {
+      "ngram": "unesco world heritage",
+      "frequency": 16
+    },
+    {
+      "ngram": "th century brought",
+      "frequency": 16
+    },
+    {
+      "ngram": "word count comprehensive",
+      "frequency": 16
+    },
+    {
+      "ngram": "behavioral therapy cbt",
+      "frequency": 16
+    },
+    {
+      "ngram": "gender based violence",
+      "frequency": 16
+    },
+    {
+      "ngram": "e g per",
+      "frequency": 16
+    },
+    {
+      "ngram": "goals e g",
+      "frequency": 16
+    },
+    {
+      "ngram": "meta stackoverflow com",
+      "frequency": 16
+    },
+    {
+      "ngram": "ukrainian stackexchange com",
+      "frequency": 16
+    },
+    {
+      "ngram": "x x x",
+      "frequency": 16
+    }
+  ]
+}
